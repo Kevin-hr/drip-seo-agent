@@ -1,0 +1,75 @@
+{
+  "version": "4.4",
+  "status": "FINAL — CONSOLIDATED 2026-09-17",
+  "siteName": "Drip Sneakers",
+  "storeOrigin": "https://www.dripsneakers.org",
+  "titleIntentTerm": "Reps",
+  "standardDocument": "Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md",
+  "standardDocumentSha256": "5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8",
+
+  "seoTitleTemplateWithSku": "{productName} {sku} {intent} | {site}",
+  "seoTitleTemplateWithoutSku": "{productName} {intent} | {site}",
+
+  "metaTemplateWithSku": "Shop {productName} reps ({sku}) at Drip Sneakers with QC photos, 30-day returns and 7–20 day shipping.",
+  "metaTemplateWithoutSku": "Shop {productName} reps at Drip Sneakers with QC photos, 30-day returns and 7–20 day shipping.",
+
+  "metaApprovedAssurances": ["QC photos", "30-day returns", "7–20 day shipping"],
+  "metaForbiddenPhrases": [
+    "real QC photos",
+    "guaranteed QC photos",
+    "guaranteed delivery",
+    "7–20 day delivery",
+    "7-20 day delivery",
+    "authentic quality",
+    "1:1 guaranteed",
+    "best quality"
+  ],
+
+  "keywordCount": 5,
+
+  "slugPattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+  "canonicalTemplate": "{origin}/{slug}",
+
+  "productDetailsFieldCount": 5,
+
+  "forbiddenIdentityTerms": [
+    "Women",
+    "Women's",
+    "Womens",
+    "WMNS",
+    "Men",
+    "Men's",
+    "Mens",
+    "GS",
+    "PS",
+    "TD",
+    "Kids",
+    "Unisex"
+  ],
+
+  "forbiddenSupplierTerms": [
+    "pkgod",
+    "pk god",
+    "luckdog",
+    "batch name",
+    "top quality",
+    "best quality",
+    "1:1",
+    "aaa",
+    "replica",
+    "fake",
+    "counterfeit",
+    "authentic quality",
+    "factory",
+    "supplier code"
+  ],
+
+  "forbiddenDomains": ["luckdog.mrshopplus.com", "dripsneakers.net", "stockxshoes"],
+
+  "forbiddenMetaPhrases": [
+    "Not verified",
+    "Unknown",
+    "Pending",
+    "N/A"
+  ]
+}

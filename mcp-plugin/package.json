@@ -1,0 +1,33 @@
+{
+  "name": "drip-chatgpt-seo-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ChatGPT MCP plugin bridge for Drip Sneakers SEO-PDP V4.4 and the existing local MrShopPlus agent.",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "mock-agent": "tsx src/mock-agent.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "check-package": "node scripts/check-package.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "@types/node": "^22.10.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

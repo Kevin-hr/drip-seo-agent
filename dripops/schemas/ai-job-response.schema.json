@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dripsneakers.org/schemas/ai-job-response-3.2.json",
+  "title": "DripOps AI Job Response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["productId", "auditStatus", "failureCodes"],
+  "properties": {
+    "productId": { "type": "string", "pattern": "^[0-9]+$" },
+    "auditStatus": { "enum": ["Pass", "Fix", "Verify", "Hold"] },
+    "facts": {
+      "oneOf": [
+        { "$ref": "product-facts.schema.json" },
+        { "type": "null" }
+      ]
+    },
+    "failureCodes": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": ["string", "null"] },
+    "providerName": { "type": ["string", "null"] },
+    "modelName": { "type": ["string", "null"] }
+  }
+}

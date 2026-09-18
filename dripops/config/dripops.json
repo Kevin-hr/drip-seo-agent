@@ -1,0 +1,32 @@
+{
+  "storeOrigin": "https://www.dripsneakers.org",
+  "adminOrigin": "https://www.mrshopplus.com",
+  "chromeProfileDirectory": "data/chrome-profile",
+  "chromeExecutablePath": null,
+  "chromeDebugPort": 9333,
+  "stateDirectory": "data/runs",
+  "exchangeDirectory": "data/ai-exchange",
+  "standardPath": "standards/SEO-PDP-3.2.json",
+  "standardV44Path": "standards/SEO-PDP-V4.4.json",
+  "standardV44DocumentPath": "standards/Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md",
+  "bridgeDirectory": "data/bridge",
+  "bridgeHost": "127.0.0.1",
+  "bridgePort": 8787,
+  "executionMode": "live",
+  "headless": false,
+  "autoPublishPassOnly": true,
+  "trustClaims": {
+    "qcPhotosVerified": false,
+    "thirtyDayReturnsVerified": false,
+    "deliveryWindowVerified": false,
+    "deliveryWindow": "7-20 day delivery",
+    "verifiedAt": null
+  },
+  "aiProviders": [
+    {
+      "name": "manual-file",
+      "kind": "file",
+      "enabled": true
+    }
+  ]
+}

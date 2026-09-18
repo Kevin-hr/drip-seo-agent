@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "drip-seo-executor",
+  "version": "0.1.0",
+  "description": "Use ChatGPT research and reasoning to resolve exact product identity/SKU, then execute Drip Sneakers SEO-PDP V4.4 through the existing local MrShopPlus Agent.",
+  "author": {
+    "name": "Drip Sneakers"
+  },
+  "keywords": ["seo", "ecommerce", "pdp", "mcp", "mrshopplus", "sku"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Drip SEO Executor",
+        "shortDescription": "Research SKU/entity in ChatGPT, then execute V4.4 in MrShopPlus.",
+        "longDescription": "Connects ChatGPT to the existing local Drip Sneakers automation. ChatGPT resolves exact entity and SKU evidence; the plugin prepares an immutable V4.4 dry-run plan, executes it through the local Agent/MrShopPlus API, and verifies the storefront result.",
+        "developerName": "Drip Sneakers",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": [
+          "Find the requested products, resolve Exact Entity and SKU with evidence, and execute SEO-PDP V4.4.",
+          "Audit these Drip Sneakers PDPs, HOLD any unresolved SKU/entity, then fix and verify the rest.",
+          "Optimize this product category page without applying PDP-only SKU rules."
+        ],
+        "brandColor": "#111111"
+      }
+    }
+  }
+}

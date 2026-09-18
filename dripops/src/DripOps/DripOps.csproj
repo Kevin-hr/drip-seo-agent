@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>DripOps</AssemblyName>
+    <RootNamespace>DripOps</RootNamespace>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\config\*.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\standards\SEO-PDP-3.2.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\standards\SEO-PDP-3.2.yaml" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\standards\SEO-PDP-V4.4.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\standards\Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

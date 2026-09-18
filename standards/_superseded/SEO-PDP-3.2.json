@@ -1,0 +1,56 @@
+{
+  "version": "3.2",
+  "siteName": "Drip Sneakers",
+  "titleIntentTerm": "Reps",
+  "seoTitleTemplate": "{name} {sku} {intent} | {site}",
+  "productNameIncludesSku": true,
+  "metaMinLength": 120,
+  "metaMaxLength": 160,
+  "keywordsMin": 6,
+  "keywordsMax": 8,
+  "relatedProductsMin": 0,
+  "relatedProductsMax": 0,
+  "defaultInternalLinks": 1,
+  "slugPattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+  "requiredVerifiedFacts": [
+    "brand",
+    "modelName",
+    "primaryColorway",
+    "sku",
+    "productType",
+    "productIntro",
+    "imageMatchVerified",
+    "categoryPath"
+  ],
+  "forbiddenPlaceholders": [
+    "PASTE-VERIFIED",
+    "URL-HERE",
+    "RELATED-URL-HERE",
+    "PLACEHOLDER",
+    "TBD",
+    "href=\"#\""
+  ],
+  "forbiddenDomains": [
+    "luckdog.mrshopplus.com",
+    "dripsneakers.net",
+    "stockxshoes"
+  ],
+  "riskTerms": [
+    "1:1",
+    "AAA",
+    "Top Quality",
+    "Best Quality",
+    "factory",
+    "fake",
+    "counterfeit",
+    "replica",
+    "authentic",
+    "official",
+    "authorized",
+    "guaranteed"
+  ],
+  "officialEntityTermExceptions": [
+    "Vans Authentic",
+    "Maison Margiela Replica"
+  ]
+}

@@ -1,0 +1,88 @@
+version: 3.2
+status: active
+site_name: Drip Sneakers
+
+title_override:
+  template: "{name} {sku} Reps | Drip Sneakers"
+  name_definition: "Brand + verified model/product name + verified primary colorway; excludes SKU"
+  rendered_sku_count: 1
+
+product_name:
+  expression: "{name} {sku}"
+  invariants:
+    - product_name_equals_h1
+    - product_name_equals_pdp_h2
+    - verified_sku_appears_exactly_once
+
+facts:
+  verify_before_generation: true
+  required:
+    - brand
+    - model_name
+    - primary_colorway
+    - sku
+    - product_type
+    - product_intro
+    - image_match_verified
+    - category_path
+  sku:
+    supplier_code_is_official_sku: false
+    unresolved_action: HOLD
+  sticky_verified_facts:
+    - product_name
+    - sku
+    - colorway
+    - category_url
+
+seo:
+  meta_length: { min: 120, max: 160, enforcement: soft }
+  keywords: { min: 6, max: 8, delimiter: ", " }
+  slug_pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+  url_stability: keep_existing_slug_unless_explicit_migration
+
+pdp:
+  data_version: "3.2"
+  structure:
+    - exact_h2_with_sku
+    - fact_verified_product_intro
+    - product_details
+    - one_style_internal_link
+  style_link:
+    count: 1
+    location: Style
+    verified_relative_internal_path_only: true
+  sneakers_fields:
+    - Style
+    - Colorway
+    - Silhouette
+    - Upper Design
+    - Signature Details
+    - Midsole
+    - Reference Style Code
+  apparel_fields:
+    - Style
+    - Colorway
+    - Silhouette
+    - Material
+    - Design Details
+    - Reference Style Code
+  disabled_by_default:
+    - Explore More
+    - Related Products
+    - Key Description
+    - Size and Fit
+    - QC module
+    - Shipping and Returns module
+
+publication:
+  statuses: [PASS, FIX, VERIFY, HOLD]
+  fail_closed: true
+  only_validated_content_can_save: true
+  only_read_back_verified_content_can_publish: true
+  schema_name_equals_product_name: true
+  schema_sku_equals_verified_sku: true
+  schema_url_equals_canonical: true
+
+legacy:
+  SEO-PDP-3.1.1: inactive
+  SEO-PDP-V2: inactive

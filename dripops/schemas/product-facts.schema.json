@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dripsneakers.org/schemas/product-facts-3.2.json",
+  "title": "DripOps Product Facts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "brand",
+    "modelName",
+    "primaryColorway",
+    "sku",
+    "productType",
+    "categoryPath",
+    "productIntro",
+    "imageMatchVerified",
+    "skuVerified",
+    "evidence"
+  ],
+  "properties": {
+    "brand": { "type": "string", "minLength": 1 },
+    "modelName": { "type": "string", "minLength": 1 },
+    "primaryColorway": { "type": "string", "minLength": 1 },
+    "sku": { "type": "string", "minLength": 1 },
+    "productType": { "type": "string", "minLength": 1 },
+    "collection": { "type": ["string", "null"] },
+    "style": { "type": ["string", "null"] },
+    "material": { "type": ["string", "null"] },
+    "designDetails": { "type": ["string", "null"] },
+    "silhouette": { "type": ["string", "null"] },
+    "upperDesign": { "type": ["string", "null"] },
+    "signatureDetails": { "type": ["string", "null"] },
+    "midsole": { "type": ["string", "null"] },
+    "productIntro": { "type": "string", "minLength": 1 },
+    "brandCategoryPath": { "type": "string", "pattern": "^/" },
+    "categoryPath": { "type": "string", "pattern": "^/" },
+    "imageMatchVerified": { "type": "boolean" },
+    "skuVerified": { "type": "boolean" },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["field", "value", "sourceUrl", "sourceTier", "verifiedAt"],
+        "properties": {
+          "field": { "type": "string" },
+          "value": { "type": "string" },
+          "sourceUrl": { "type": "string", "format": "uri" },
+          "sourceTier": { "type": "string" },
+          "verifiedAt": { "type": "string", "format": "date-time" },
+          "notes": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

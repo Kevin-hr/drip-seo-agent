@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drip Local Bridge Adapter — A–J 最终验收报告</title>
+<style>
+  :root{
+    --ink:#0e0f12; --ink-2:#3d424b; --ink-3:#6b7280;
+    --line:#e3e5ea; --bg:#fff; --bg-2:#f7f8fa;
+    --ok:#0f7a3d; --ok-bg:#eaf7ef;
+    --bad:#b42318; --bad-bg:#fdecea;
+    --warn:#9a6700; --warn-bg:#fff8e1;
+    --info:#1a4fa0; --info-bg:#eef3fd;
+    --mono:"Cascadia Mono","Consolas","SFMono-Regular",monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Noto Sans CJK SC","WenQuanYi Micro Hei","PingFang SC","Microsoft YaHei",-apple-system,sans-serif;
+    font-size:15px;line-height:1.75;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1080px;margin:0 auto;padding:52px 32px 96px}
+  header.top{border-bottom:2px solid var(--ink);padding-bottom:22px;margin-bottom:34px}
+  .kicker{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);font-weight:700}
+  h1{font-size:29px;line-height:1.3;margin:10px 0 8px;letter-spacing:-.01em}
+  .sub{color:var(--ink-2);font-size:14px;margin:0}
+  .meta-line{display:flex;flex-wrap:wrap;gap:18px;margin-top:16px;font-size:12.5px;color:var(--ink-3)}
+  .meta-line b{color:var(--ink);font-weight:600}
+  h2{font-size:19px;margin:46px 0 16px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  h3{font-size:15.5px;margin:26px 0 8px}
+  p{margin:10px 0}
+  ul{margin:10px 0;padding-left:22px} li{margin:4px 0}
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:13.5px}
+  th,td{text-align:left;padding:8px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:var(--bg-2);font-weight:600;font-size:12.5px;color:var(--ink-2);white-space:nowrap}
+  code{font-family:var(--mono);background:var(--bg-2);padding:1px 5px;border-radius:3px;font-size:12.8px;border:1px solid var(--line)}
+  pre{background:#12141a;color:#e6e9ef;padding:15px 17px;border-radius:8px;overflow-x:auto;font-size:12.4px;line-height:1.6;font-family:var(--mono)}
+  pre code{background:none;border:none;color:inherit;padding:0;font-size:12.4px}
+  .badge{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:999px;white-space:nowrap}
+  .b-ok{background:var(--ok-bg);color:var(--ok)}
+  .b-bad{background:var(--bad-bg);color:var(--bad)}
+  .b-warn{background:var(--warn-bg);color:var(--warn)}
+  .b-info{background:var(--info-bg);color:var(--info)}
+  .card{border:1px solid var(--line);border-radius:10px;padding:17px 19px;margin:16px 0}
+  .card.ok{border-left:4px solid var(--ok)}
+  .card.p0{border-left:4px solid var(--bad)}
+  .card.p1{border-left:4px solid var(--warn)}
+  .card h3{margin-top:0}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}
+  @media(max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}}
+  .stat{border:1px solid var(--line);border-radius:10px;padding:13px 15px}
+  .stat .n{font-size:23px;font-weight:700;letter-spacing:-.02em;line-height:1.2}
+  .stat .l{font-size:12px;color:var(--ink-3);margin-top:3px}
+  .n-ok{color:var(--ok)} .n-bad{color:var(--bad)}
+  .callout{background:var(--bg-2);border:1px solid var(--line);border-radius:10px;padding:15px 17px;margin:16px 0}
+  .hash{font-family:var(--mono);font-size:11.8px;word-break:break-all}
+  footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);font-size:12.5px;color:var(--ink-3)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="kicker">Local Bridge Adapter — Acceptance Report</div>
+  <h1>Drip Local Bridge Adapter — A–J 最终验收报告</h1>
+  <p class="sub">按你的裁决执行：V4.4 CLEAN_CONSOLIDATED 为唯一权威标准，3.2 仅保留底层执行能力；实现 ChatGPT → MCP → Local Bridge → MrShopPlus → 前台验收的完整链路。</p>
+  <div class="meta-line">
+    <span>日期 <b>2026-09-18</b></span>
+    <span>标准 <b>SEO-PDP V4.4 CLEAN_CONSOLIDATED</b></span>
+    <span>标准哈希 <b class="hash">5fb8457f…f3bf8</b></span>
+    <span>环境 <b>Node 22.16.0 / .NET SDK 8.0.404</b></span>
+  </div>
+</header>
+
+<div class="grid">
+  <div class="stat"><div class="n n-ok">A–C 全通过</div><div class="l">typecheck / test / package check</div></div>
+  <div class="stat"><div class="n n-ok">D 6/6</div><div class="l">PDP route 全部可用</div></div>
+  <div class="stat"><div class="n n-ok">54 + 30</div><div class="l">Bridge 断言 + MCP 端到端断言</div></div>
+  <div class="stat"><div class="n n-bad">1 项未完</div><div class="l">I：live 写入被有意搁置</div></div>
+</div>
+
+<!-- ===================== A ===================== -->
+<section>
+  <h2>A. npm run typecheck — <span class="badge b-ok">PASS</span></h2>
+  <p>上一轮实测出的真实编译错误 <code>src/validation.ts(17,74): error TS18047: 'input.sku' is possibly 'null'</code> 已修复：把可空属性提取为局部常量，使类型收窄不再依赖闭包内访问。</p>
+  <pre><code>&gt; tsc --noEmit
+（无输出）
+typecheck_exit=0</code></pre>
+  <p>顺带把 SKU 形状校验补全为你的禁用清单：MrShopPlus Product ID、供应商/listing 编号、URL 与 URL 后缀、图片文件名、生成码，以及 <code>N/A</code> / <code>Unknown</code> / <code>Pending</code> / <code>Not verified</code>。</p>
+  <div class="card p1">
+    <h3>过程中修正的一处我自己引入的缺陷</h3>
+    <p>我最初加了一条「SKU 必须含字母」的规则，结果测试立刻把它打回来了：<code>528895-153</code> 被你生产环境验证为 Nike 正品货号（<code>PROGRESS.md</code> 中商品 <code>536027320168721</code> 用的就是它），而 Nike 6 位纯数字基码 <code>528895</code> 同样合法。该规则已删除，并在代码里写明为什么不能按形状拒绝短纯数字——真正的把关责任在证据层（Tier 1–4 且 SKU 全等），不在形状。</p>
+  </div>
+</section>
+
+<!-- ===================== B ===================== -->
+<section>
+  <h2>B. npm test — <span class="badge b-ok">PASS 19/19</span></h2>
+  <p>测试从 3 条扩到 19 条，新增标准文件一致性与 SKU 三态覆盖。</p>
+  <table>
+    <thead><tr><th>分组</th><th>覆盖内容</th></tr></thead>
+    <tbody>
+      <tr><td>标准一致性（7 条）</td><td>canonical 文件存在、SHA-256 等于固定值、启动加载、结果信封带哈希、3.2 与 STANDARD_FINAL 被识别为禁用、两份副本逐字节一致、历史副本已隔离到 <code>_superseded/</code></td></tr>
+      <tr><td>VERIFIED_SKU（6 条）</td><td>内部 Product ID 被拒、合法 SKU 放行、证据 SKU 必须全等、tier≥5 不合格、<code>exact_entity_match=false</code> 不合格</td></tr>
+      <tr><td>形状拒绝（3 条）</td><td>禁用形态逐条断言；反向断言真实货号 <code>FJ3460-012</code> / <code>1ABMHV</code> / <code>IH0296-400</code> / <code>528895-153</code> / <code>528895</code> / <code>677403 W3RB1 3031</code> 全部放行</td></tr>
+      <tr><td>SKU_OMIT / HOLD（5 条）</td><td>OMIT 必须 <code>sku=null</code>、OMIT 可继续发布、HOLD 必须带冲突、HOLD 带冲突合法、非 HOLD 不得携带冲突</td></tr>
+    </tbody>
+  </table>
+  <pre><code># tests 19
+# pass 19
+# fail 0</code></pre>
+</section>
+
+<!-- ===================== C ===================== -->
+<section>
+  <h2>C. package check — <span class="badge b-ok">PASS</span></h2>
+  <pre><code>PACKAGE CHECK PASS
+MCP tools declared: 12
+Canonical standard: Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md
+Canonical standard sha256: 5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8</code></pre>
+  <p>检查器已升级：不再只查文件存在，而是验证两份标准副本逐字节一致、文档确实声明 <code>Version: 4.4</code> 与 <code>CONSOLIDATED 2026-09-17</code>、活动目录里不存在 3.2 或 STANDARD_FINAL、12 个工具齐全、无 delete 工具、且结果信封确实携带 <code>standard_version</code> / <code>standard_hash</code>。</p>
+</section>
+
+<!-- ===================== D ===================== -->
+<section>
+  <h2>D. PDP 6 条 route — <span class="badge b-ok">6/6 PASS</span></h2>
+  <p>Bridge 以 <code>DripOps serve</code> 形态落地，跑在真实运行数据的**副本**上，<code>--mode simulate</code>（不接触 MrShopPlus）。</p>
+  <table>
+    <thead><tr><th>Route</th><th>实测</th><th>结果</th></tr></thead>
+    <tbody>
+      <tr><td><code>POST /products/search</code></td><td>扫描 230 个商品检查点，命中 6 条 "Chrome Hearts"</td><td><span class="badge b-ok">PASS</span></td></tr>
+      <tr><td><code>POST /products/read</code></td><td>返回快照 + <code>snapshot_hash</code>，暴露 14 张 <code>images.mrshopplus.com</code> 公开图</td><td><span class="badge b-ok">PASS</span></td></tr>
+      <tr><td><code>POST /products/prepare-v44</code></td><td>SKU_OMIT 与 VERIFIED_SKU 两条路径均生成 plan，validation=PASS</td><td><span class="badge b-ok">PASS</span></td></tr>
+      <tr><td><code>POST /products/execute-v44</code></td><td>plan 校验链全部生效，simulate 执行被明确标记</td><td><span class="badge b-ok">PASS</span></td></tr>
+      <tr><td><code>POST /products/verify-v44</code></td><td>返回 6 项检查（前台验收 + V4.4 放置层）</td><td><span class="badge b-ok">PASS</span></td></tr>
+      <tr><td><code>GET /runs/status</code></td><td>total=30 / published=4，含逐商品 stage</td><td><span class="badge b-ok">PASS</span></td></tr>
+    </tbody>
+  </table>
+  <p>另有 <code>GET /health</code> 回显标准身份，以及未授权请求返回 401（缺 token 与错 token 均验证）。</p>
+  <h3>V4.4 生成结果实测样例（SKU_OMIT 路径）</h3>
+  <pre><code>seo_title  = "Chrome Hearts T-Shirt Black Reps | Drip Sneakers"
+meta       = "Shop Chrome Hearts T-Shirt Black reps at Drip Sneakers with QC photos, 30-day returns and 7–20 day shipping."
+schema     = { @context, @type, name, brand, category, color }   ← 无 sku 字段（V4.4 §20）
+fifth      = &lt;li&gt;&lt;strong&gt;Graphic:&lt;/strong&gt; Cross Logo Front Print&lt;/li&gt;   ← V4.4 §14 替代 SKU
+
+VERIFIED_SKU 路径对比：
+seo_title  = "Chrome Hearts T-Shirt Black CH-TS-BLK-001 Reps | Drip Sneakers"
+meta       = "… reps (CH-TS-BLK-001) at Drip Sneakers …"
+schema.sku = "CH-TS-BLK-001"
+fifth      = &lt;strong&gt;SKU:&lt;/strong&gt; CH-TS-BLK-001</code></pre>
+  <p>V4.4 的三层放置模型已落地：Key Description = 一句话决策句 + 恰好 5 个 Product Details，Brand 行带真实可爬取的内部链接且锚文本为 <code>&lt;strong&gt;</code>；Description 字段只放图片与 ALT；Product Name 不再作为标题在 Key Description 内重复（§13）。</p>
+</section>
+
+<!-- ===================== E ===================== -->
+<section>
+  <h2>E. MCP 12 tools discovery — <span class="badge b-ok">12/12 PASS</span></h2>
+  <p>真实 MCP 客户端握手 <code>listTools()</code>，插件指向真实 Bridge（不是 mock）：</p>
+  <pre><code>E.mcp.tool_count_12 :: count=12
+E.mcp.no_delete_tool :: none
+destructive 仅 execute_product_v44 / execute_category_seo</code></pre>
+  <p>服务器启动时即打印标准身份，标准文件缺失或被改名会直接拒绝启动：</p>
+  <pre><code>Drip SEO MCP listening on http://127.0.0.1:8001/mcp
+Local Agent: http://127.0.0.1:8799
+Standard: SEO-PDP V4.4 [FINAL — CONSOLIDATED 2026-09-17]
+          sha256:5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8
+          (Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md)</code></pre>
+  <p><code>standard_version</code> 与 <code>standard_hash</code> 随每一次工具结果返回，也随每次 Bridge 调用下发，Bridge 侧比对不一致即返回 <code>409 standard_hash_mismatch</code>。跨标准版本的 plan 在结构上无法产生。</p>
+</section>
+
+<!-- ===================== F ===================== -->
+<section>
+  <h2>F. SKU 三态测试 — <span class="badge b-ok">3/3 PASS</span></h2>
+  <p>门禁在两处独立生效：MCP 插件侧与 Bridge 侧各校验一次（defense in depth）。</p>
+  <table>
+    <thead><tr><th>裁决</th><th>测试输入</th><th>实测行为</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><span class="badge b-info">VERIFIED_SKU</span></td>
+        <td>sku = <code>536027557118233</code>（你在前台 Schema 里看到的那个内部 ID），并伪造成 tier 1 证据</td>
+        <td><span class="badge b-ok">拒绝</span> 插件侧 400 <code>SKU/Entity evidence gate failed. No plan was created.</code>；Bridge 侧同样 400 <code>sku_gate_failed</code>，原因是 <code>MrShopPlus internal Product ID</code>。未生成任何 plan。</td>
+      </tr>
+      <tr>
+        <td><span class="badge b-info">VERIFIED_SKU</span></td>
+        <td>sku = <code>CH-TS-BLK-001</code> + tier 2 且 SKU 全等的证据</td>
+        <td><span class="badge b-ok">放行</span> 标题/描述/Schema 均含 SKU 且恰好一次，第五字段为 SKU。</td>
+      </tr>
+      <tr>
+        <td><span class="badge b-info">SKU_OMIT</span></td>
+        <td>sku = <code>null</code>，Exact Entity 证据齐全但无 SKU 证据</td>
+        <td><span class="badge b-ok">放行并发布</span> 标题为 <code>{Name} Reps | Drip Sneakers</code>，无 SKU 出现；Schema 省略 <code>sku</code>；第五字段使用已验证的产品事实。<strong>这正是 3.2 做不到而 V4.4 允许的路径。</strong></td>
+      </tr>
+      <tr>
+        <td><span class="badge b-info">HOLD</span></td>
+        <td>Exact Entity 冲突（后台名与主图配色不一致）</td>
+        <td><span class="badge b-ok">拦截</span> 插件侧 409 <code>Exact entity/SKU verdict is HOLD</code>；Bridge 侧 409 <code>hold_forbids_plan</code>。无 plan、无写入。</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>另验证 <code>SKU_OMIT</code> 但带了 15 位数字标识的场景会被 leak 检查抓出（<code>SKU-03</code>），不会静默通过。</p>
+</section>
+
+<!-- ===================== G ===================== -->
+<section>
+  <h2>G. prepare 无写入证明 — <span class="badge b-ok">PASS</span></h2>
+  <p>不是靠代码审阅声称，而是靠**目录树逐字节哈希对比**证明：</p>
+  <pre><code>const beforeTree = hashTree(state/runs);          // 遍历 230 个检查点，逐个算 sha256
+await prepare(...);                                // SKU_OMIT 与 VERIFIED_SKU 各一次
+const afterTree  = hashTree(state/runs);
+beforeTree === afterTree                           → true
+
+PASS  prepare.no_write_to_shop_state :: state/runs tree unchanged (byte-identical)
+PASS  prepare.plan_persisted_immutably :: 1 plan file(s)
+PASS  prepare.mrshopplus_not_contacted :: no execution recorded</code></pre>
+  <p>为了让这条性质成立，我修掉了一个自己写出来的问题：prepare 最初复用 <code>RunStore.AppendEvent</code>，会把审计事件追加进 <code>data/runs/{run}/events.jsonl</code>，从而改动 run 目录。现在 Bridge 的审计一律写在 <code>data/bridge/events.jsonl</code>，shop 运行状态只由真实写入动作改动。</p>
+  <div class="callout">
+    <p><strong>另一层结构性保证：</strong>prepare 的默认路径（<code>live=false</code>）不引用 <code>ChromeController</code> 与 <code>MrshopplusClient</code>，只读本地检查点；只有显式传 <code>live=true</code> 才会走一次只读快照。也就是说 prepare 在代码路径上就没有可写后端的能力。</p>
+  </div>
+</section>
+
+<!-- ===================== H ===================== -->
+<section>
+  <h2>H. plan_id 防篡改 — <span class="badge b-ok">7/7 PASS</span></h2>
+  <table>
+    <thead><tr><th>攻击方式</th><th>期望</th><th>实测</th></tr></thead>
+    <tbody>
+      <tr><td>不存在的 plan_id</td><td>拒绝</td><td><span class="badge b-ok">404 unknown_plan</span></td></tr>
+      <tr><td>路径穿越 <code>../../escape</code></td><td>拒绝</td><td><span class="badge b-ok">400 invalid_plan_id</span>（原先会 500，已修）</td></tr>
+      <tr><td>用 A 商品的 plan 执行 B 商品</td><td>拒绝</td><td><span class="badge b-ok">409 plan_product_mismatch</span></td></tr>
+      <tr><td>重复执行同一 plan</td><td>拒绝</td><td><span class="badge b-ok">409 plan_already_executed</span></td></tr>
+      <tr><td>prepare 之后改动商品快照</td><td>拒绝</td><td><span class="badge b-ok">409 stale_plan</span>（snapshot_hash 不匹配）</td></tr>
+      <tr><td>声明错误的 standard_hash</td><td>拒绝</td><td><span class="badge b-ok">409 standard_hash_mismatch</span></td></tr>
+      <tr><td><strong>直接注入 SEO 字段</strong><br><code>seo_title/meta_description/slug</code></td><td>字段被忽略</td><td><span class="badge b-ok">200，但标题仍是 plan 的标题</span>，slug 未变成 <code>injected-slug</code></td></tr>
+    </tbody>
+  </table>
+  <p>plan 文件本身是不可变的：写入后只允许追加「已执行」与「已验证」两个状态，草稿、<code>standard_hash</code>、<code>snapshot_hash</code>、<code>validation_status</code> 一旦被改动就会抛 <code>Plan immutability violated</code>。<code>execute</code> 只接受 <code>product_id + plan_id</code>——「任意 SEO 字段直写」在这个接口上无法表达，这是结构性的，不依赖模型自觉。</p>
+</section>
+
+<!-- ===================== I ===================== -->
+<section>
+  <h2>I. 单商品 execute + verify — <span class="badge b-warn">simulate 通过，live 未执行</span></h2>
+  <p><strong>已完成的：</strong>完整执行链在 simulate 模式下跑通并留下证据。</p>
+  <pre><code>PASS  I1.execute_ok :: V4.4 execution completed.
+PASS  I1.execute_executed_flag :: executed=true
+PASS  I1.execute_simulate_labelled :: SIMULATED — MrShopPlus was NOT contacted
+PASS  I2.verify_ok :: PDP verification completed.
+PASS  I2.verify_reports_checks :: checks=6
+
+execute 后再次对比 state/runs 目录树 → 仍然逐字节一致
+（simulate 模式不会改动 shop 状态，这是刻意设计与断言）</code></pre>
+  <div class="card p0">
+    <h3>为什么我没有跑 live 写入</h3>
+    <p>环境上是具备条件的：Chrome 已安装，<code>dist/data/chrome-profile</code> 存在，<code>DripOps self-test</code> 也通过（说明我改动 Program.cs / 配置后原有 CLI 无回归）。</p>
+    <p>但 <strong>不能跑</strong>，原因是内容问题而非技术问题：为了做端到端测试，我构造的 <code>v44_facts</code> 是我编的——"Chrome Hearts T-Shirt Black"、"Cross Logo Front Print"、以及一个我推测的 Brand 内链。目标商品 <code>536027552331542</code> 是**你在售的真实商品**。一旦 live 执行，它会带着这些未经核实的虚构事实被保存并上架，直接违反 V4.4 §0「Do not optimize the wrong product」和 §9 的 unsupported-claim guard，也违反本仓库自己的红线。</p>
+    <p><strong>要跑 live，需要你提供（或让 ChatGPT 研究出）以下已核实内容：</strong></p>
+    <ul>
+      <li>该商品锁定的 exact entity 与官方 colorway</li>
+      <li>若用 SKU：Tier 1–4 来源且 SKU 全等的证据</li>
+      <li>若用 SKU_OMIT：一句基于实际商品的 decision sentence + 第五字段的已验证产品事实</li>
+      <li>真实存在的、可访问的 Brand 分类内链</li>
+      <li>一个明确指定要处理的目标 Product ID</li>
+    </ul>
+    <p>给我这五项，我就能跑真正的单商品 live execute + verify 并给出前后台证据。或者你也可以先用 <code>--mode live</code> 自己跑一次，我按你的做法补证据。</p>
+  </div>
+</section>
+
+<!-- ===================== J ===================== -->
+<section>
+  <h2>J. 仍存在的 blocker</h2>
+
+  <div class="card p1">
+    <h3>J1　<code>dist/</code> 还没重新构建</h3>
+    <p>我只做了 <code>dotnet build</code>（输出到 <code>src/DripOps/bin/</code>）。<strong><code>dist/DripOps.exe</code> 里还没有 Bridge</strong>，也还没有 V4.4 标准文件。要生成可用可执行文件，请跑一次 <code>.\build.ps1</code>（我已把两个 V4.4 文件加进它的复制清单）。</p>
+  </div>
+
+  <div class="card p1">
+    <h3>J2　ChatGPT 还连不上</h3>
+    <p><code>mcp.json</code> 仍是占位符 <code>https://REPLACE-WITH-YOUR-MCP-HOST.example.com/mcp</code>。需要一个公网 HTTPS 端点，或开发阶段用 Secure MCP Tunnel。这不是代码问题，是部署步骤。</p>
+  </div>
+
+  <div class="card p1">
+    <h3>J3　分类页 5 条 route 没有实现</h3>
+    <p>按你的要求暂缓：插件侧保留工具声明，但 Bridge 侧没有对应路由实现，调用会得到 404。PDP 证明完之后再扩。</p>
+  </div>
+
+  <div class="card p1">
+    <h3>J4　V4.4 校验器覆盖的是可机器判定子集</h3>
+    <p>已实现的是确定性可判定的部分（模板全等、5 字段计数、Brand 内链、性别/供应商标记、URL 规则、Schema、三态 SKU）。<strong>不可机器判定的部分仍需 ChatGPT 的视觉判断</strong>——例如「主图是否真的匹配所声称的配色」「前后印花描述是否属实」。Bridge 会在 ALT 过于通用时给出 <code>ALT-02</code> WARN，但不会假装自己能看图。这是设计边界，不是遗漏。</p>
+  </div>
+
+  <div class="card p1">
+    <h3>J5　3.2 CLI 命令仍在仓库里</h3>
+    <p>按你的裁决，3.2 不再作为决策层，保留它只是为了不破坏你已有的 CLI。我额外做了一道硬隔离：<strong>Bridge 在加载 3.2 机器标准之前就被路由</strong>，所以它在代码路径上无法读取 3.2 规则。但 3.2 的 <code>compose</code>/<code>apply</code> 命令本身仍可被手动调用——如果你希望彻底停用，我可以把它们改成显式报错。</p>
+  </div>
+</section>
+
+<!-- ===================== 变更与安全 ===================== -->
+<section>
+  <h2>变更清单与安全说明</h2>
+  <h3>新增</h3>
+  <table>
+    <thead><tr><th>位置</th><th>内容</th></tr></thead>
+    <tbody>
+      <tr><td><code>dripops/src/DripOps/Rules/V44/</code></td><td><code>V44Standard.cs</code>、<code>V44Models.cs</code>、<code>V44SkuGate.cs</code>、<code>V44Composer.cs</code>、<code>V44Validator.cs</code>、<code>V44FrontendAuditor.cs</code></td></tr>
+      <tr><td><code>dripops/src/DripOps/Bridge/</code></td><td><code>BridgeServer.cs</code>（6 route + 鉴权 + 标准比对）、<code>PlanStore.cs</code>（不可变计划 + 哈希闸门）、<code>BridgeContracts.cs</code></td></tr>
+      <tr><td><code>dripops/standards/</code></td><td><code>SEO-PDP-V4.4.json</code>、canonical V4.4 文档副本</td></tr>
+      <tr><td><code>drip-chatgpt-seo-plugin/src/standard.ts</code></td><td>canonical 标准加载 + SHA-256 + 历史标准拒绝</td></tr>
+      <tr><td><code>drip-chatgpt-seo-plugin/tests/standard.test.ts</code></td><td>标准一致性与禁用模式测试</td></tr>
+      <tr><td><code>drip-chatgpt-seo-plugin/verification/</code></td><td>3 个可复跑验证脚本</td></tr>
+    </tbody>
+  </table>
+  <h3>修改（均已备份）</h3>
+  <ul>
+    <li><code>dripops/src/DripOps/Program.cs</code> — 新增 <code>serve</code> 子命令，路由位置在 3.2 加载之前。备份：临时工作区 <code>Program.cs.bak-20260918-101706</code>（43,877 字节）</li>
+    <li><code>dripops/src/DripOps/Configuration/DripOpsConfig.cs</code> — 纯追加 V4.4/Bridge 字段，原有字段与默认值未动</li>
+    <li><code>dripops/src/DripOps/DripOps.csproj</code>、<code>build.ps1</code>、<code>README.md</code> — 资源复制与文档</li>
+    <li><code>dripops/config/dripops.json</code> — 纯追加字段。备份：<code>dripops.json.bak-20260918-101754</code></li>
+    <li>插件侧：<code>validation.ts</code>、<code>standard.ts</code>、<code>result.ts</code>、<code>localAgent.ts</code>、<code>contracts.ts</code>、<code>server.ts</code>、<code>check-package.mjs</code>、<code>tests/*</code>、<code>SKILL.md</code>、<code>.env.example</code>、<code>package.json</code>、<code>IMPLEMENTATION_STATUS.md</code>、<code>LOCAL_AGENT_CONTRACT.md</code></li>
+  </ul>
+  <h3>未曾触碰</h3>
+  <ul>
+    <li><code>dripops/data/</code> 下的任何真实运行数据——所有测试都在副本 <code>bridge-test/state/runs</code> 上跑</li>
+    <li><code>dripops/dist/</code>（未执行 publish，<code>DripOps.exe</code> 未变）</li>
+    <li>MrShopPlus 后台与 dripsneakers.org：全程只读，无任何写入</li>
+    <li>历史标准副本已移入 <code>_superseded/</code> 而非删除</li>
+  </ul>
+</section>
+
+<!-- ===================== 证据 ===================== -->
+<section>
+  <h2>证据命令</h2>
+  <pre><code># A / B / C
+cd drip-chatgpt-seo-plugin
+npm run typecheck          → exit 0
+npm test                   → 19 passed, 0 failed
+npm run check-package      → PACKAGE CHECK PASS (12 tools, canonical hash)
+
+# 编译与回归
+cd ..\dripops
+dotnet build .\src\DripOps\DripOps.csproj -c Release   → 0 warnings, 0 errors
+dotnet .\src\DripOps\bin\Release\net8.0\DripOps.dll self-test   → ok:true
+
+# Bridge（沙箱副本 + simulate）
+$env:LOCAL_AGENT_TOKEN = 'test-token-local-bridge'
+dotnet .\src\DripOps\bin\Release\net8.0\DripOps.dll serve `
+  --config &lt;sandbox&gt;\dripops.json --mode simulate
+node bridge-acceptance.mjs  → 54 passed, 0 failed
+
+# MCP 端到端
+cd ..\drip-chatgpt-seo-plugin
+node verification\e2e-mcp.mjs   → 30 passed, 0 failed</code></pre>
+</section>
+
+<footer>
+  <p>本轮全部结论来自 2026-09-18 的实际执行输出。未执行的部分（I 的 live 写入）已在报告中明确标注并说明原因与前置条件，未以任何方式伪装为已完成。</p>
+  <p>唯一权威标准：<code>Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md</code> · SHA-256 <span class="hash">5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8</span></p>
+</footer>
+
+</div>
+</body>
+</html>

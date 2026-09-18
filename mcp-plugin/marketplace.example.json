@@ -1,0 +1,20 @@
+{
+  "name": "drip-local-plugins",
+  "interface": {
+    "displayName": "Drip Local Plugins"
+  },
+  "plugins": [
+    {
+      "name": "drip-seo-executor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/drip-seo-executor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

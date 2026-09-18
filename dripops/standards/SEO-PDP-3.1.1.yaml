@@ -1,0 +1,94 @@
+version: 3.1.1
+site_name: Drip Sneakers
+
+status_model:
+  input_audit_status:
+    PASS: Existing facts and content already comply.
+    FIX: Product entity is verified but existing content must be replaced.
+    VERIFY: Candidate facts exist but evidence conflicts or is incomplete.
+    HOLD: A required core fact cannot be verified reliably.
+  release_status:
+    BLOCKED: Must not write or publish.
+    READY: Candidate passed deterministic validation and may be saved.
+    SAVED: Backend save completed but read-back is pending.
+    PUBLISHED: Publish action completed but frontend verification is pending.
+    VERIFIED: Backend read-back and frontend checks both passed.
+
+facts:
+  required:
+    - brand
+    - model_name
+    - primary_colorway
+    - sku
+    - product_type
+    - image_match_verified
+    - brand_category_path
+    - category_path
+  optional:
+    - collection
+    - style
+    - material
+    - design_details
+    - silhouette
+  sku:
+    supplier_code_is_official_sku: false
+    display_format: preserve_authoritative_source
+    unresolved_action: HOLD
+  evidence_manifest:
+    required_fields:
+      - field
+      - value
+      - source_url
+      - source_tier
+      - verified_at
+
+product_name:
+  expression: "{brand} {model_name} {primary_colorway}"
+  invariants:
+    - product_name_equals_h1
+    - product_name_equals_pdp_h2
+    - no_duplicate_brand_model_or_colorway
+
+seo:
+  title: "{product_name} {sku} Reps | Drip Sneakers"
+  meta_length: { min: 120, max: 160 }
+  keywords: { min: 6, max: 8, delimiter: ", " }
+  slug_pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+  url_fields:
+    - current_url
+    - recommended_slug
+    - canonical_url
+    - url_change_required
+    - redirect_from
+
+pdp:
+  data_version: "3.1.1"
+  details_required: [brand, sku, colorway]
+  details_optional: [collection, style, material, design_details, silhouette]
+  related_products:
+    min: 0
+    max: 4
+    insufficient_action: omit_unverified_links
+    forbid_self_links: true
+    forbid_duplicates: true
+  link_policy:
+    html_links: verified_relative_internal_paths_only
+    require_http_200: true
+    reject_soft_404: true
+    reject_noindex: true
+    target_h1_must_match_anchor_for_products: true
+
+publication:
+  only_release_status_ready_can_save: true
+  only_validated_saved_content_can_publish: true
+  save_requires_read_back: true
+  publish_requires_frontend_verification: true
+  schema_owner: platform
+  schema_check: post_publish_read_only
+  url_migration_owner: site_operator
+
+failure_behavior:
+  fail_closed: true
+  never_guess_missing_facts: true
+  never_silently_skip_validation: true
+  checkpoint_after_every_external_side_effect: true
