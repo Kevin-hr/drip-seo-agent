@@ -1,0 +1,28 @@
+{
+  "case_id": "prada-78-preflight-2026-09-02",
+  "case_type": "verified_preflight_not_live_completion",
+  "source_products": 78,
+  "source_images": 856,
+  "category_partition": {
+    "americas_cup": 34,
+    "prada_other": 44
+  },
+  "frozen_manifest_reconciliation": {
+    "existing": 14,
+    "create": 64
+  },
+  "later_public_reconciliation": {
+    "visible_source_products": 9,
+    "absent_source_products": 69
+  },
+  "exact_duplicate_source_folders": 0,
+  "manifest_validation": "PASS",
+  "live_batch_completion": "NOT_PROVEN",
+  "active_standard": "V4.4",
+  "historical_manifest_standard": "3.0",
+  "allowed_sku_verdicts": [
+    "VERIFIED_SKU",
+    "SKU_OMIT",
+    "HOLD"
+  ]
+}
