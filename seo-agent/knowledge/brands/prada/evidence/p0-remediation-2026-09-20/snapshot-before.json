@@ -1,0 +1,101 @@
+{
+  "snapshot_purpose": "P0 remediation before-state (required by task: snapshot before write)",
+  "collected_at": "2026-09-20T01:0x+08:00",
+  "source": "live storefront (https://www.dripsneakers.org), 2026-09-20 crawl; all pages HTTP 200",
+  "note": "后端 /biz/DTB_proProduct/modify 读取未能执行：DripOps chrome profile 被其他进程占用（见 remediation report）。本快照取前台实测值，字段语义与后台一致（SeoTitle / SeoDesc / Name）。",
+  "products": [
+    {
+      "product_id": "536027558902041",
+      "slug": "Prada-Americas-Cup-White-Grey",
+      "canonical": "https://www.dripsneakers.org/Prada-Americas-Cup-White-Grey",
+      "task": "P0-2 + P0-3",
+      "before": {
+        "seo_title": "reps | Drip Sneakers",
+        "seo_title_length": 20,
+        "meta_description": "Shop the best Reps Prada America's Cup White Grey drip sneakers at Dripsneakers.org. 1:1 quality Replica Prada America's Cup White Grey, Free US shipping $99+. Shop Reps Prada America's Cup White Grey now!",
+        "meta_description_length": 217,
+        "title": "Prada America's Cup White Grey",
+        "color": "White Grey",
+        "keywords_count": 4,
+        "forbidden_terms": ["1:1 quality Replica"]
+      },
+      "prepared_change": {
+        "seo_title": "Prada America's Cup White Grey Reps | Drip Sneakers",
+        "meta_description": "Shop Prada America's Cup White Grey reps at Drip Sneakers with QC photos, 30-day returns and 7-20 day shipping.",
+        "title": "UNCHANGED",
+        "color": "UNCHANGED"
+      },
+      "sku_decision": {
+        "verdict": "SKU_OMIT",
+        "reason": "未取得该 exact entity 的 Tier 1-4 货号证据；V4.4 §5 与任务书'SKU must only use verified SKU'一致 → 省略，不猜测"
+      }
+    },
+    {
+      "product_id": "536027476120336",
+      "slug": "Prada-Americas-Cup-Patent-Leather-Sneakers-Grey-White",
+      "canonical": "https://www.dripsneakers.org/Prada-Americas-Cup-Patent-Leather-Sneakers-Grey-White",
+      "task": "P0-3",
+      "before": {
+        "seo_title": "Prada America's Cup Patent Leather Sneakers Grey White reps | Drip Sneakers",
+        "seo_title_length": 79,
+        "meta_description": "Shop the best Reps Prada America's Cup Patent Leather Sneakers Grey White drip sneakers at Dripsneakers.org. 1:1 quality Replica Prada America's Cup Patent Leather Sneakers Grey White, Free US shipping $99+. Shop Reps Prada America's Cup Patent Leather Sneakers Grey White now!",
+        "meta_description_length": 289,
+        "title": "Prada America's Cup Patent Leather Sneakers Grey White",
+        "color": "Grey White",
+        "keywords_count": 4,
+        "forbidden_terms": ["1:1 quality Replica"]
+      },
+      "prepared_change": {
+        "seo_title": "UNCHANGED (note: 'reps' 小写，与站内其余页面的 'Reps' 不一致；属 P1 级，本次不动)",
+        "meta_description": "Shop Prada America's Cup Patent Leather Sneakers Grey White reps at Drip Sneakers with QC photos, 30-day returns and 7-20 day shipping.",
+        "title": "UNCHANGED",
+        "color": "UNCHANGED"
+      },
+      "sku_decision": {
+        "verdict": "n/a",
+        "reason": "本条只改 Meta，不涉及 SKU"
+      }
+    },
+    {
+      "product_id": "536027435896094",
+      "slug": "Prada-Collapse-Re-Nylon-and-Suede-Elasticized-Sneakers-Topaz-2EG479_D7C_F0388_F_G001",
+      "canonical": "https://www.dripsneakers.org/Prada-Collapse-Re-Nylon-and-Suede-Elasticized-Sneakers-Topaz-2EG479_D7C_F0388_F_G001",
+      "task": "P0-4",
+      "before": {
+        "seo_title": "Prada Collapse Re-Nylon and Suede Elasticized Sneakers Topaz 2EG479_D7C_F0388_F_G001 Reps | Drip Sneakers",
+        "seo_title_length": 105,
+        "meta_description": "Shop Prada Collapse Re-Nylon and Suede Elasticized Sneakers Topaz 2EG479_D7C_F0388_F_G001 reps with QC photos, 30-day returns and 7-20 day delivery from Drip Sneakers.",
+        "meta_description_length": 167,
+        "title": "Prada Collapse Re-Nylon and Suede Sneakers Blue",
+        "color": "Blue (WRONG per Tier 1)",
+        "keywords_count": 7,
+        "forbidden_terms": []
+      },
+      "prepared_change": {
+        "title": "Prada Collapse Re-Nylon and Suede Elasticized Sneakers Topaz",
+        "seo_title": "UNCHANGED (already correct: says Topaz, matches corrected name)",
+        "meta_description": "UNCHANGED (already correct: says Topaz, no forbidden term)",
+        "color": "Topaz"
+      },
+      "sku_decision": {
+        "verdict": "VERIFIED_SKU (already in use)",
+        "sku": "2EG479_D7C_F0388_F_G001",
+        "evidence": "prada.com Tier 1 官方页：https://prada.com/ae/en/p/collapse-re-nylon-and-suede-elasticized-sneakers/2EG479_D7C_F0388_F_G001 标注 Color Topaz、Product code 2EG479_D7C_F0388_F_G001",
+        "note": "改名后名称与 slug / SEO Title / Meta / Schema 四处统一为 Topaz"
+      }
+    }
+  ],
+  "scope_narrowing_finding": "P0-4 实际范围比任务书假设更窄：该商品的 SEO Title / Meta / Keywords 本就已写 Topaz，仅商品名(H1) 仍为 '...Sneakers Blue'。因此 P0-4 = 单字段修改（Name）。",
+  "execution_status": "NOT_EXECUTED — 后台 chrome profile 被其他进程占用，见 PRADA-P0-REMEDIATION-REPORT.md",
+  "unchanged_fields_commitment": [
+    "URL / slug",
+    "SKU (except none changed)",
+    "images",
+    "variants",
+    "price",
+    "inventory",
+    "publish state",
+    "reviews",
+    "categories"
+  ]
+}
