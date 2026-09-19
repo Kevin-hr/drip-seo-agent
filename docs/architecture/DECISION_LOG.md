@@ -141,3 +141,30 @@ for the same document recreates exactly the ambiguity Decision #002 exists to
 eliminate — two documents that look like the same standard.
 
 **Action:** one document, one name, one hash, everywhere.
+
+---
+
+## Decision #008
+
+**Date:** 2026-09-19
+
+**Decision:** Preserve the successful Hellstar Hoodies 3.2 run as an operational
+case study, but migrate its decision layer completely to the sole active V4.4
+standard.
+
+**Reason:** The prior run produced reusable product inventory, visual
+fingerprints, evidence discipline and execution/verification lessons. Its 3.2
+rules cannot be copied forward because they conflict with V4.4 on SKU handling,
+Meta Description composition, backend placement and live-URL stability.
+
+**Action:**
+
+- The binding workflow is
+  `docs/playbooks/HELLSTAR_HOODIES_SEO_PDP_V4.4_END_TO_END.md`.
+- Historical product facts are research seeds only and must be freshness-checked
+  against current PDP images and external sources before each live write.
+- SKU decisions use only `VERIFIED_SKU`, `SKU_OMIT`, or `HOLD`.
+- The attached/historical V4.4 `STANDARD_FINAL` does not replace the pinned
+  `CLEAN_CONSOLIDATED` authority or its hash.
+- Completion requires immutable-plan execution plus backend and storefront
+  verification; a successful save response is insufficient.

@@ -141,6 +141,7 @@ See [tests/README.md](tests/README.md) for the exact prerequisites.
 | [MCP_FLOW.md](docs/architecture/MCP_FLOW.md) | The 12 MCP tools and their call order |
 | [IDP_PROCESS.md](docs/architecture/IDP_PROCESS.md) | Idea → Design → Prototype → Production |
 | [DECISION_LOG.md](docs/architecture/DECISION_LOG.md) | Binding engineering decisions |
+| [HELLSTAR_HOODIES_SEO_PDP_V4.4_END_TO_END.md](docs/playbooks/HELLSTAR_HOODIES_SEO_PDP_V4.4_END_TO_END.md) | Hellstar 3.2 success path migrated to the active V4.4 standard |
 
 ## Current status
 
