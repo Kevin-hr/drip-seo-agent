@@ -1,0 +1,51 @@
+{
+  "product_id": "536027552602386",
+  "collected_at": "2026-09-18T02:07:51.283289Z",
+  "migrated_at": "2026-09-18T02:07:51.283293Z",
+  "source": "v4_migration",
+  "entity": {
+    "status": "HOLD",
+    "brand": "Louis Vuitton",
+    "product_name": null,
+    "product_type": null,
+    "colorway": null,
+    "sku": null,
+    "notes": [
+      {
+        "timestamp": "2026-09-18T02:07:51.283295Z",
+        "from": "MIGRATION",
+        "to": "HOLD",
+        "reason": "Recommendation: Human review required before any action"
+      }
+    ]
+  },
+  "visual_observation": {
+    "status": "OBSERVED",
+    "base_color_visual": null,
+    "garment_type": null,
+    "logo_type": null,
+    "logo_position": null,
+    "sources": [
+      "v4_decision_log"
+    ]
+  },
+  "duplicate_check": {
+    "status": "OBSERVED",
+    "candidates": [],
+    "evidence": []
+  },
+  "decision_log": [
+    {
+      "action": "migrate_from_v4",
+      "decision": "HOLD",
+      "notes": [
+        "V4 batch: Shorts #4 (-DC2)",
+        "Duplicate check: price=99, inventory=3996, description md5 identical to #3",
+        "BUT: image perceptual hash 0 matches, color profile different (dark/navy)",
+        "Decision: HOLD — suspected duplicate but evidence insufficient",
+        "Recommendation: Human review required before any action"
+      ],
+      "timestamp": "2026-09-18T02:07:51.283298Z"
+    }
+  ]
+}

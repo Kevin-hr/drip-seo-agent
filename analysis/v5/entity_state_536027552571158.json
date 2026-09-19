@@ -1,0 +1,51 @@
+{
+  "product_id": "536027552571158",
+  "collected_at": "2026-09-18T02:07:51.282953Z",
+  "migrated_at": "2026-09-18T02:07:51.282957Z",
+  "source": "v4_migration",
+  "entity": {
+    "status": "HOLD",
+    "brand": "Louis Vuitton",
+    "product_name": null,
+    "product_type": null,
+    "colorway": null,
+    "sku": null,
+    "notes": [
+      {
+        "timestamp": "2026-09-18T02:07:51.282959Z",
+        "from": "MIGRATION",
+        "to": "HOLD",
+        "reason": "Migration status: HOLD — awaiting human confirmation of color name"
+      }
+    ]
+  },
+  "visual_observation": {
+    "status": "OBSERVED",
+    "base_color_visual": null,
+    "garment_type": null,
+    "logo_type": null,
+    "logo_position": null,
+    "sources": [
+      "v4_decision_log"
+    ]
+  },
+  "duplicate_check": {
+    "status": "OBSERVED",
+    "candidates": [],
+    "evidence": []
+  },
+  "decision_log": [
+    {
+      "action": "migrate_from_v4",
+      "decision": "HOLD",
+      "notes": [
+        "V4 batch: Shorts #3 (原版)",
+        "Color observation: light blue appearance (chromatic b-g=+9.7/+10.9)",
+        "BUT: no official SKU verification, no visual confirmation of embroidery pattern",
+        "Decision: User requested '只做 #3，按图集实际颜色命名'",
+        "Migration status: HOLD — awaiting human confirmation of color name"
+      ],
+      "timestamp": "2026-09-18T02:07:51.282963Z"
+    }
+  ]
+}

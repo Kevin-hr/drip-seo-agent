@@ -1,0 +1,33 @@
+{
+  "migrated_at": "2026-09-18T02:07:51.283630Z",
+  "source": "v4_embroidery_batch",
+  "total": 4,
+  "pass": 2,
+  "hold": 2,
+  "results": [
+    {
+      "product_id": "536027468294169",
+      "decision": "PASS",
+      "entity_status": "PASS",
+      "path": "C:\\Users\\Administrator\\Pictures\\dripsneakers\\analysis\\v5\\entity_state_536027468294169.json"
+    },
+    {
+      "product_id": "536027468342801",
+      "decision": "PASS",
+      "entity_status": "PASS",
+      "path": "C:\\Users\\Administrator\\Pictures\\dripsneakers\\analysis\\v5\\entity_state_536027468342801.json"
+    },
+    {
+      "product_id": "536027552571158",
+      "decision": "HOLD",
+      "entity_status": "HOLD",
+      "path": "C:\\Users\\Administrator\\Pictures\\dripsneakers\\analysis\\v5\\entity_state_536027552571158.json"
+    },
+    {
+      "product_id": "536027552602386",
+      "decision": "HOLD",
+      "entity_status": "HOLD",
+      "path": "C:\\Users\\Administrator\\Pictures\\dripsneakers\\analysis\\v5\\entity_state_536027552602386.json"
+    }
+  ]
+}

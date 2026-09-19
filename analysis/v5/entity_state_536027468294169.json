@@ -1,0 +1,50 @@
+{
+  "product_id": "536027468294169",
+  "collected_at": "2026-09-18T02:07:51.282144Z",
+  "migrated_at": "2026-09-18T02:07:51.282172Z",
+  "source": "v4_migration",
+  "entity": {
+    "status": "PASS",
+    "brand": "Louis Vuitton",
+    "product_name": null,
+    "product_type": null,
+    "colorway": null,
+    "sku": null,
+    "notes": [
+      {
+        "timestamp": "2026-09-18T02:07:51.282182Z",
+        "from": "MIGRATION",
+        "to": "PASS",
+        "reason": "Published successfully"
+      }
+    ]
+  },
+  "visual_observation": {
+    "status": "OBSERVED",
+    "base_color_visual": null,
+    "garment_type": null,
+    "logo_type": null,
+    "logo_position": null,
+    "sources": [
+      "v4_decision_log"
+    ]
+  },
+  "duplicate_check": {
+    "status": "OBSERVED",
+    "candidates": [],
+    "evidence": []
+  },
+  "decision_log": [
+    {
+      "action": "migrate_from_v4",
+      "decision": "PASS",
+      "notes": [
+        "V4 batch: Black T-Shirt, color verified via Pillow chromatic analysis",
+        "Frontend URL verified: /louis-vuitton-embroidery-t-shirt-black",
+        "Backend 10/10 checks passed",
+        "Published successfully"
+      ],
+      "timestamp": "2026-09-18T02:07:51.282191Z"
+    }
+  ]
+}
