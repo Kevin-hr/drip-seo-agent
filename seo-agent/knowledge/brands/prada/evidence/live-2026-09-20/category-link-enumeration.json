@@ -1,0 +1,622 @@
+{
+  "summary": {
+    "Prada": {
+      "file": "Prada.html",
+      "bytes": 162581,
+      "h1": [
+        "Prada"
+      ],
+      "product_link_count": 22,
+      "product_slugs": [
+        "Prada-Americas-Cup-White-Grey",
+        "Prada-Cotton-T-Shirt-White-UJN861_240_F0009_S_232",
+        "prada-milano-embroidered-logo-tshirt-black",
+        "prada-milano-embroidered-logo-tshirt-white",
+        "prada-renylon-and-jersey-zippocket-tshirt-black",
+        "prada-renylon-and-jersey-zippocket-tshirt-white",
+        "prada-renylon-panel-jersey-tshirt-black",
+        "prada-renylon-panel-jersey-tshirt-white",
+        "prada-logotab-patchpocket-cotton-tshirt-black",
+        "prada-logotab-patchpocket-cotton-tshirt-white",
+        "Prada-Americas-Cup-Patent-Leather-Sneakers-Grey-White",
+        "Prada-Americas-Cup-Sneakers-Cobalt-Blue-Silver-4E3400-ASZ-F0J3X",
+        "Prada-Americas-Cup-Soft-Rubber-and-Bike-Fabric-Sneakers-Black-4E6500_3LLJ_F0002_F_025",
+        "Prada-Collapse-Re-Nylon-and-Suede-Elasticized-Sneakers-Topaz-2EG479_D7C_F0388_F_G001",
+        "Prada-Collapse-Re-Nylon-and-Suede-Sneakers-Blue-2EG479FG001D7CF0008",
+        "Prada-Collapse-Re-Nylon-and-Suede-Elasticized-Sneakers-Palisander-2EG479_D7C_F0BW5_F_G001",
+        "prada-collapse-re-nylon-and-suede-elasticized-sneakers-ivory-2eg479-d7c-f0304-f-g001",
+        "Prada-Collapse-Re-Nylon-and-Suede-Sneakers-Burgundy-1E959N_D7C_F0007_F_005",
+        "Prada-Collapse-Re-Nylon-and-Suede-Elasticized-Sneakers-Black-2EG479_D7C_F0002_F_G001",
+        "Prada-Americas-Cup-Sneakers-Black-Red-4E3400-ASZ-F0002",
+        "Prada-Americas-Cup-Patent-Leather-and-Technical-Fabric-Sneakers-Black-Silver-4E3400_ASZ_F0I89_F_G000",
+        "Prada-Americas-Cup-Patent-Leather-and-Technical-Fabric-Sneakers-Black-4E3400_ASZ_F0002_F_G000"
+      ],
+      "price_range": [
+        "$1050.00",
+        "$99.00"
+      ],
+      "price_count": 8,
+      "forms": 3,
+      "selects": 0,
+      "button_count": 16,
+      "nav_text_sample": [
+        "Shop",
+        "Currency",
+        "Cart",
+        "Login",
+        "currencies",
+        "USD",
+        "Currency",
+        "USD",
+        "EUR",
+        "CAD",
+        "AUD",
+        "GBP",
+        "ZAR",
+        "PLN",
+        "ISK",
+        "SEK",
+        "Edit Cart",
+        "Buy Now",
+        "NEW ARRIVALS",
+        "BEST SELLERS",
+        "SNEAKERS",
+        "CLOTHING",
+        "SHOP BY STYLE",
+        "BRANDS",
+        "How To Buy"
+      ],
+      "top_classes": [
+        [
+          "third-link-item",
+          37
+        ],
+        [
+          "third-link",
+          37
+        ],
+        [
+          "animation-underline",
+          31
+        ],
+        [
+          "img-box",
+          26
+        ],
+        [
+          "product-item",
+          22
+        ],
+        [
+          "product-card",
+          22
+        ],
+        [
+          "c-product-item",
+          22
+        ],
+        [
+          "product-image",
+          22
+        ],
+        [
+          "first-image",
+          22
+        ],
+        [
+          "hover-image",
+          22
+        ],
+        [
+          "product-info",
+          22
+        ],
+        [
+          "product-info-top",
+          22
+        ],
+        [
+          "product-name",
+          22
+        ],
+        [
+          "product-subtitle",
+          22
+        ],
+        [
+          "product-info-bottom",
+          22
+        ],
+        [
+          "product-nostar",
+          22
+        ],
+        [
+          "price-row",
+          22
+        ],
+        [
+          "product-price",
+          22
+        ]
+      ],
+      "has_breadcrumb_class": false,
+      "visible_text_chars": 3401
+    },
+    "Prada America's Cup Sneakers": {
+      "file": "Prada-America-s-Cup-Sneakers.html",
+      "bytes": 87281,
+      "h1": [
+        "Prada America's Cup Sneakers"
+      ],
+      "product_link_count": 7,
+      "product_slugs": [
+        "Prada-Americas-Cup-Patent-Leather-and-Technical-Fabric-Sneakers-Black-4E3400_ASZ_F0002_F_G000",
+        "Prada-Americas-Cup-Patent-Leather-and-Technical-Fabric-Sneakers-Black-Silver-4E3400_ASZ_F0I89_F_G000",
+        "Prada-Americas-Cup-Soft-Rubber-and-Bike-Fabric-Sneakers-Black-4E6500_3LLJ_F0002_F_025",
+        "Prada-Americas-Cup-White-Grey",
+        "Prada-Americas-Cup-Patent-Leather-Sneakers-Grey-White",
+        "Prada-Americas-Cup-Sneakers-Black-Red-4E3400-ASZ-F0002",
+        "Prada-Americas-Cup-Sneakers-Cobalt-Blue-Silver-4E3400-ASZ-F0J3X"
+      ],
+      "price_range": [
+        "$139.00",
+        "$925.00"
+      ],
+      "price_count": 4,
+      "forms": 3,
+      "selects": 0,
+      "button_count": 16,
+      "nav_text_sample": [
+        "Shop",
+        "Currency",
+        "Cart",
+        "Login",
+        "currencies",
+        "USD",
+        "Currency",
+        "USD",
+        "EUR",
+        "CAD",
+        "AUD",
+        "GBP",
+        "ZAR",
+        "PLN",
+        "ISK",
+        "SEK",
+        "Edit Cart",
+        "Buy Now",
+        "NEW ARRIVALS",
+        "BEST SELLERS",
+        "SNEAKERS",
+        "CLOTHING",
+        "SHOP BY STYLE",
+        "BRANDS",
+        "How To Buy"
+      ],
+      "top_classes": [
+        [
+          "third-link-item",
+          37
+        ],
+        [
+          "third-link",
+          37
+        ],
+        [
+          "footer-menu-item",
+          22
+        ],
+        [
+          "footer-menu-inner",
+          22
+        ],
+        [
+          "animation-underline",
+          16
+        ],
+        [
+          "iconfont",
+          11
+        ],
+        [
+          "header-dropdown-item",
+          11
+        ],
+        [
+          "img-box",
+          11
+        ],
+        [
+          "second-link",
+          11
+        ],
+        [
+          "currencies-item-icon",
+          10
+        ],
+        [
+          "currencies-item",
+          9
+        ],
+        [
+          "nav-item",
+          9
+        ],
+        [
+          "nav-link",
+          9
+        ],
+        [
+          "has-third-children",
+          7
+        ],
+        [
+          "third-links",
+          7
+        ],
+        [
+          "product-item",
+          7
+        ],
+        [
+          "product-card",
+          7
+        ],
+        [
+          "c-product-item",
+          7
+        ]
+      ],
+      "has_breadcrumb_class": false,
+      "visible_text_chars": 2115
+    },
+    "Prada Collapse": {
+      "file": "Prada-Collapse.html",
+      "bytes": 81595,
+      "h1": [
+        "Prada Collapse"
+      ],
+      "product_link_count": 6,
+      "product_slugs": [
+        "Prada-Collapse-Re-Nylon-and-Suede-Elasticized-Sneakers-Topaz-2EG479_D7C_F0388_F_G001",
+        "Prada-Collapse-Re-Nylon-and-Suede-Sneakers-Blue-2EG479FG001D7CF0008",
+        "Prada-Collapse-Re-Nylon-and-Suede-Elasticized-Sneakers-Palisander-2EG479_D7C_F0BW5_F_G001",
+        "prada-collapse-re-nylon-and-suede-elasticized-sneakers-ivory-2eg479-d7c-f0304-f-g001",
+        "Prada-Collapse-Re-Nylon-and-Suede-Sneakers-Burgundy-1E959N_D7C_F0007_F_005",
+        "Prada-Collapse-Re-Nylon-and-Suede-Elasticized-Sneakers-Black-2EG479_D7C_F0002_F_G001"
+      ],
+      "price_range": [
+        "$1050.00",
+        "$129.00"
+      ],
+      "price_count": 2,
+      "forms": 3,
+      "selects": 0,
+      "button_count": 16,
+      "nav_text_sample": [
+        "Shop",
+        "Currency",
+        "Cart",
+        "Login",
+        "currencies",
+        "USD",
+        "Currency",
+        "USD",
+        "EUR",
+        "CAD",
+        "AUD",
+        "GBP",
+        "ZAR",
+        "PLN",
+        "ISK",
+        "SEK",
+        "Edit Cart",
+        "Buy Now",
+        "NEW ARRIVALS",
+        "BEST SELLERS",
+        "SNEAKERS",
+        "CLOTHING",
+        "SHOP BY STYLE",
+        "BRANDS",
+        "How To Buy"
+      ],
+      "top_classes": [
+        [
+          "third-link-item",
+          37
+        ],
+        [
+          "third-link",
+          37
+        ],
+        [
+          "footer-menu-item",
+          22
+        ],
+        [
+          "footer-menu-inner",
+          22
+        ],
+        [
+          "animation-underline",
+          15
+        ],
+        [
+          "iconfont",
+          11
+        ],
+        [
+          "header-dropdown-item",
+          11
+        ],
+        [
+          "second-link",
+          11
+        ],
+        [
+          "currencies-item-icon",
+          10
+        ],
+        [
+          "img-box",
+          10
+        ],
+        [
+          "currencies-item",
+          9
+        ],
+        [
+          "nav-item",
+          9
+        ],
+        [
+          "nav-link",
+          9
+        ],
+        [
+          "has-third-children",
+          7
+        ],
+        [
+          "third-links",
+          7
+        ],
+        [
+          "visually-hidden",
+          6
+        ],
+        [
+          "product-item",
+          6
+        ],
+        [
+          "product-card",
+          6
+        ]
+      ],
+      "has_breadcrumb_class": false,
+      "visible_text_chars": 2004
+    },
+    "Prada T-shirts": {
+      "file": "Prada-T-shirts.html",
+      "bytes": 95984,
+      "h1": [
+        "Prada T-shirts"
+      ],
+      "product_link_count": 9,
+      "product_slugs": [
+        "Prada-Cotton-T-Shirt-White-UJN861_240_F0009_S_232",
+        "prada-milano-embroidered-logo-tshirt-black",
+        "prada-milano-embroidered-logo-tshirt-white",
+        "prada-renylon-and-jersey-zippocket-tshirt-black",
+        "prada-renylon-and-jersey-zippocket-tshirt-white",
+        "prada-renylon-panel-jersey-tshirt-black",
+        "prada-renylon-panel-jersey-tshirt-white",
+        "prada-logotab-patchpocket-cotton-tshirt-black",
+        "prada-logotab-patchpocket-cotton-tshirt-white"
+      ],
+      "price_range": [
+        "$59.00",
+        "$99.00"
+      ],
+      "price_count": 2,
+      "forms": 3,
+      "selects": 0,
+      "button_count": 16,
+      "nav_text_sample": [
+        "Shop",
+        "Currency",
+        "Cart",
+        "Login",
+        "currencies",
+        "USD",
+        "Currency",
+        "USD",
+        "EUR",
+        "CAD",
+        "AUD",
+        "GBP",
+        "ZAR",
+        "PLN",
+        "ISK",
+        "SEK",
+        "Edit Cart",
+        "Buy Now",
+        "NEW ARRIVALS",
+        "BEST SELLERS",
+        "SNEAKERS",
+        "CLOTHING",
+        "SHOP BY STYLE",
+        "BRANDS",
+        "How To Buy"
+      ],
+      "top_classes": [
+        [
+          "third-link-item",
+          37
+        ],
+        [
+          "third-link",
+          37
+        ],
+        [
+          "footer-menu-item",
+          22
+        ],
+        [
+          "footer-menu-inner",
+          22
+        ],
+        [
+          "animation-underline",
+          18
+        ],
+        [
+          "img-box",
+          13
+        ],
+        [
+          "iconfont",
+          11
+        ],
+        [
+          "header-dropdown-item",
+          11
+        ],
+        [
+          "second-link",
+          11
+        ],
+        [
+          "currencies-item-icon",
+          10
+        ],
+        [
+          "currencies-item",
+          9
+        ],
+        [
+          "nav-item",
+          9
+        ],
+        [
+          "nav-link",
+          9
+        ],
+        [
+          "product-item",
+          9
+        ],
+        [
+          "product-card",
+          9
+        ],
+        [
+          "c-product-item",
+          9
+        ],
+        [
+          "product-image",
+          9
+        ],
+        [
+          "first-image",
+          9
+        ]
+      ],
+      "has_breadcrumb_class": false,
+      "visible_text_chars": 2208
+    }
+  },
+  "all_products": {
+    "Prada-Americas-Cup-White-Grey": [
+      "Prada",
+      "Prada America's Cup Sneakers"
+    ],
+    "Prada-Cotton-T-Shirt-White-UJN861_240_F0009_S_232": [
+      "Prada",
+      "Prada T-shirts"
+    ],
+    "prada-milano-embroidered-logo-tshirt-black": [
+      "Prada",
+      "Prada T-shirts"
+    ],
+    "prada-milano-embroidered-logo-tshirt-white": [
+      "Prada",
+      "Prada T-shirts"
+    ],
+    "prada-renylon-and-jersey-zippocket-tshirt-black": [
+      "Prada",
+      "Prada T-shirts"
+    ],
+    "prada-renylon-and-jersey-zippocket-tshirt-white": [
+      "Prada",
+      "Prada T-shirts"
+    ],
+    "prada-renylon-panel-jersey-tshirt-black": [
+      "Prada",
+      "Prada T-shirts"
+    ],
+    "prada-renylon-panel-jersey-tshirt-white": [
+      "Prada",
+      "Prada T-shirts"
+    ],
+    "prada-logotab-patchpocket-cotton-tshirt-black": [
+      "Prada",
+      "Prada T-shirts"
+    ],
+    "prada-logotab-patchpocket-cotton-tshirt-white": [
+      "Prada",
+      "Prada T-shirts"
+    ],
+    "Prada-Americas-Cup-Patent-Leather-Sneakers-Grey-White": [
+      "Prada",
+      "Prada America's Cup Sneakers"
+    ],
+    "Prada-Americas-Cup-Sneakers-Cobalt-Blue-Silver-4E3400-ASZ-F0J3X": [
+      "Prada",
+      "Prada America's Cup Sneakers"
+    ],
+    "Prada-Americas-Cup-Soft-Rubber-and-Bike-Fabric-Sneakers-Black-4E6500_3LLJ_F0002_F_025": [
+      "Prada",
+      "Prada America's Cup Sneakers"
+    ],
+    "Prada-Collapse-Re-Nylon-and-Suede-Elasticized-Sneakers-Topaz-2EG479_D7C_F0388_F_G001": [
+      "Prada",
+      "Prada Collapse"
+    ],
+    "Prada-Collapse-Re-Nylon-and-Suede-Sneakers-Blue-2EG479FG001D7CF0008": [
+      "Prada",
+      "Prada Collapse"
+    ],
+    "Prada-Collapse-Re-Nylon-and-Suede-Elasticized-Sneakers-Palisander-2EG479_D7C_F0BW5_F_G001": [
+      "Prada",
+      "Prada Collapse"
+    ],
+    "prada-collapse-re-nylon-and-suede-elasticized-sneakers-ivory-2eg479-d7c-f0304-f-g001": [
+      "Prada",
+      "Prada Collapse"
+    ],
+    "Prada-Collapse-Re-Nylon-and-Suede-Sneakers-Burgundy-1E959N_D7C_F0007_F_005": [
+      "Prada",
+      "Prada Collapse"
+    ],
+    "Prada-Collapse-Re-Nylon-and-Suede-Elasticized-Sneakers-Black-2EG479_D7C_F0002_F_G001": [
+      "Prada",
+      "Prada Collapse"
+    ],
+    "Prada-Americas-Cup-Sneakers-Black-Red-4E3400-ASZ-F0002": [
+      "Prada",
+      "Prada America's Cup Sneakers"
+    ],
+    "Prada-Americas-Cup-Patent-Leather-and-Technical-Fabric-Sneakers-Black-Silver-4E3400_ASZ_F0I89_F_G000": [
+      "Prada",
+      "Prada America's Cup Sneakers"
+    ],
+    "Prada-Americas-Cup-Patent-Leather-and-Technical-Fabric-Sneakers-Black-4E3400_ASZ_F0002_F_G000": [
+      "Prada",
+      "Prada America's Cup Sneakers"
+    ]
+  }
+}
