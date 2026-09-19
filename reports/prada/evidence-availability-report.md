@@ -508,14 +508,22 @@ OUTPUT HOLD
   reports/V4.4_STANDARD_FINAL_MIGRATION_2026-09-19.md  1,556
   reports/README.md                                   1,385
 
-证据文件（32 个）
+证据文件（28 个）
   reports/evidence/pre-write-gate/       8 个  ← 含机器可读门禁判定 99-gate-result.json
   reports/evidence/workflow-e2e/        18 个
   reports/evidence/t-shirts-v3/          1 个
   reports/evidence/v2-contract/          1 个
 
-本次新增（4 个）
+本次新增（5 个）
   reports/prada/*.md                     4 个
+  reports/prada/evidence-manifest.json   1 个
+```
+
+```text
+计数更正（Phase 5 自查）：本节曾写"证据文件（32 个）"，实测为 28 个。
+  23（顶层）+ 28（evidence）+ 5（prada）= 56，与 reports/ 总数吻合。
+  已在 Phase 5 分支修正；feature/prada-production-readiness 未作修改。
+  详见 reports/prada/GOVERNANCE_EVIDENCE_MAP.md §10。
 ```
 
 ### 11.2 `tests/`（12 个文件，全部已跟踪）
