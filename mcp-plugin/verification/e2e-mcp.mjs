@@ -1,7 +1,7 @@
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StreamableHTTPClientTransport } from "@modelcontextprotocol/sdk/client/streamableHttp.js";
 
-const EXPECTED_HASH = "5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8";
+const EXPECTED_HASH = "965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7";
 const PRODUCT = "536027552331542";
 
 let pass = 0;

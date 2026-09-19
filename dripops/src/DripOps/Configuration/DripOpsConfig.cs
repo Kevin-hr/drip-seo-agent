@@ -38,7 +38,7 @@ public sealed record DripOpsConfig
 
     // ---------------------------------------------------------------- V4.4 / Bridge
     //
-    // The bridge's decision layer is SEO-PDP V4.4 CLEAN_CONSOLIDATED only.
+    // The bridge's decision layer is SEO-PDP V4.4 STANDARD_FINAL only.
     // `StandardPath` above is retained for the historical 3.2 CLI commands and is
     // never consulted by the bridge.
 
@@ -47,7 +47,7 @@ public sealed record DripOpsConfig
 
     /// <summary>Canonical V4.4 Markdown document; its SHA-256 identifies the standard.</summary>
     public string StandardV44DocumentPath { get; init; } =
-        "standards/Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md";
+        "standards/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md";
 
     /// <summary>Where immutable plans and bridge evidence are stored.</summary>
     public string BridgeDirectory { get; init; } = "data/bridge";

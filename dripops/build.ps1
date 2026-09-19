@@ -24,7 +24,7 @@ Remove-Item -LiteralPath (Join-Path $dist 'standards\SEO-PDP-3.1.1.yaml') -Force
 Copy-Item -LiteralPath (Join-Path $projectRoot 'standards\SEO-PDP-3.2.json') -Destination (Join-Path $dist 'standards\SEO-PDP-3.2.json') -Force
 Copy-Item -LiteralPath (Join-Path $projectRoot 'standards\SEO-PDP-3.2.yaml') -Destination (Join-Path $dist 'standards\SEO-PDP-3.2.yaml') -Force
 Copy-Item -LiteralPath (Join-Path $projectRoot 'standards\SEO-PDP-V4.4.json') -Destination (Join-Path $dist 'standards\SEO-PDP-V4.4.json') -Force
-Copy-Item -LiteralPath (Join-Path $projectRoot 'standards\Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md') -Destination (Join-Path $dist 'standards\Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md') -Force
+Copy-Item -LiteralPath (Join-Path $projectRoot 'standards\Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md') -Destination (Join-Path $dist 'standards\Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md') -Force
 Copy-Item -LiteralPath (Join-Path $projectRoot 'schemas\*.json') -Destination (Join-Path $dist 'schemas') -Force
 Copy-Item -LiteralPath (Join-Path $projectRoot 'README.md') -Destination (Join-Path $dist 'README.md') -Force
 

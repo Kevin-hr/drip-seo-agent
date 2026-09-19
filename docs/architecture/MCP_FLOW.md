@@ -67,9 +67,9 @@ Every tool result — success or failure — carries the standard identity:
   "ok": true,
   "message": "…",
   "standard_version": "4.4",
-  "standard_status": "FINAL — CONSOLIDATED 2026-09-17",
-  "standard_hash": "5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8",
-  "standard_file": "Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md",
+  "standard_status": "FINAL",
+  "standard_hash": "965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7",
+  "standard_file": "Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md",
   "data": {}
 }
 ```

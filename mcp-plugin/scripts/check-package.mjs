@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.dirname(here);
 
-const CANONICAL = 'Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md';
+const CANONICAL = 'Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md';
 const CANONICAL_COPIES = [
   `rules/${CANONICAL}`,
   `skills/drip-seo-executor/references/${CANONICAL}`,
@@ -38,8 +38,8 @@ const standardHash = hashes[0];
 
 const document = fs.readFileSync(path.join(root, CANONICAL_COPIES[0]), 'utf8');
 if (!/^Version:\s*`4\.4`/m.test(document)) throw new Error('Canonical standard does not declare Version 4.4');
-if (!/^Status:\s*`FINAL — CONSOLIDATED 2026-09-17`/m.test(document)) {
-  throw new Error('Canonical standard does not declare the CONSOLIDATED 2026-09-17 status');
+if (!/^Status:\s*`FINAL`/m.test(document)) {
+  throw new Error('Canonical standard does not declare FINAL status');
 }
 
 // --- no historical 3.2 / superseded V4.4 standard may be active -------------
@@ -51,7 +51,7 @@ const activeStandardFiles = [
     .map((e) => `skills/drip-seo-executor/references/${e.name}`),
 ];
 for (const rel of activeStandardFiles) {
-  if (/SEO-PDP[-_ ]?3\.2|V4\.4_STANDARD_FINAL/i.test(rel)) {
+  if (/SEO-PDP[-_ ]?3\.2|CLEAN_CONSOLIDATED_2026-09-17|V4\.4_STANDARD(?!_FINAL)/i.test(rel)) {
     throw new Error(`Forbidden historical standard is active: ${rel}`);
   }
 }

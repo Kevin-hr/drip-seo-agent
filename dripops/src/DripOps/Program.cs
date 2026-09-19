@@ -33,10 +33,10 @@ internal static class Program
             using var cancellation = new CancellationTokenSource();
             Console.CancelKeyPress += (_, eventArgs) => { eventArgs.Cancel = true; cancellation.Cancel(); };
 
-            // The bridge's decision layer is SEO-PDP V4.4 CLEAN_CONSOLIDATED, so it is
+            // The bridge's decision layer is SEO-PDP V4.4 STANDARD_FINAL, so it is
             // routed before the historical 3.2 machine standard is loaded. The bridge
             // must never be able to read 3.2 rules: 3.2 mandates a verified SKU while
-            // V4.4 §5/§5A permits SKU_OMIT.
+            // V4.4 §5 permits SKU_OMIT.
             if (command == "serve") return await ServeAsync(config, store, options, cancellation.Token);
 
             var standard = MachineStandard.Load(config.StandardPath);

@@ -6,12 +6,12 @@ namespace DripOps.Rules.V44;
 
 /// <summary>
 /// Machine-readable projection of
-/// Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md
+/// Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md
 ///
 /// This is the ONLY active SEO-PDP standard for the bridge. SEO/PDP 3.2 and the
-/// superseded V4.4 STANDARD_FINAL are historical execution records and are
+/// superseded V4.4 CLEAN_CONSOLIDATED revision is a historical execution record and is
 /// rejected outright, because 3.2 mandates a verified SKU while V4.4 permits
-/// SKU_OMIT (V4.4 §5 and §5A).
+/// SKU_OMIT (V4.4 §5).
 /// </summary>
 public sealed class V44Standard
 {
@@ -50,8 +50,8 @@ public sealed class V44Standard
     private static readonly string[] ForbiddenDocumentPatterns =
     [
         @"SEO-PDP[-_ ]?3\.2",
-        @"V4\.4_STANDARD_FINAL",
-        @"V4\.4_STANDARD(?!_CLEAN_CONSOLIDATED)",
+        @"V4\.4_STANDARD(?!_FINAL)",
+        @"CLEAN_CONSOLIDATED_2026-09-17",
     ];
 
     public static V44Standard Load(string configPath, string documentPath)
@@ -66,7 +66,7 @@ public sealed class V44Standard
             {
                 throw new InvalidOperationException(
                     $"Refusing to load '{documentFile}': it is a historical standard. " +
-                    "Only Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md may be active.");
+                    "Only Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md may be active.");
             }
         }
 

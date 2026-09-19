@@ -52,14 +52,14 @@ Full detail: [docs/architecture/SYSTEM_ARCHITECTURE.md](docs/architecture/SYSTEM
 The only active SEO-PDP standard is:
 
 ```text
-standards/V4.4/Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md
-SHA-256  5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8
+standards/V4.4/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md
+SHA-256  965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7
 ```
 
-SEO/PDP 3.2 and the superseded V4.4 `STANDARD_FINAL` are historical records. They
+SEO/PDP 3.2 and the superseded V4.4 `CLEAN_CONSOLIDATED_2026-09-17` revision are historical records. They
 are parked in `standards/_superseded/` and must never be loaded as a decision
 layer. The reason is a hard rule conflict: 3.2 requires a verified SKU, while
-V4.4 §5/§5A permits publishing with the SKU omitted. See
+V4.4 §5 permits publishing with the SKU omitted. See
 [docs/architecture/DECISION_LOG.md](docs/architecture/DECISION_LOG.md) decision #001.
 
 Both the plugin and the bridge compute the standard's SHA-256 at startup and

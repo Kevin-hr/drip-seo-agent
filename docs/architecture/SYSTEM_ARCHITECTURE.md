@@ -98,7 +98,7 @@ a secure tunnel. The bridge is never publicly reachable.
 These hold across every component and are asserted by tests:
 
 1. The active standard hashes to
-   `5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8`.
+   `965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7`.
 2. Every tool result and every bridge response carries `standard_version` and
    `standard_hash`.
 3. `prepare` produces no write, and leaves the shop run state byte-identical.

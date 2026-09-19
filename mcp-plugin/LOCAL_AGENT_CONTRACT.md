@@ -14,7 +14,7 @@ All requests are JSON `POST` and include:
 Authorization: Bearer $LOCAL_AGENT_TOKEN
 X-Drip-MCP-Version: 0.1.0
 X-Drip-Standard-Version: 4.4
-X-Drip-Standard-Hash: 5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8
+X-Drip-Standard-Hash: 965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7
 Content-Type: application/json
 ```
 

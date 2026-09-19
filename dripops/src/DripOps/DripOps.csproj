@@ -14,6 +14,6 @@
     <None Include="..\..\standards\SEO-PDP-3.2.json" CopyToOutputDirectory="PreserveNewest" />
     <None Include="..\..\standards\SEO-PDP-3.2.yaml" CopyToOutputDirectory="PreserveNewest" />
     <None Include="..\..\standards\SEO-PDP-V4.4.json" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="..\..\standards\Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\standards\Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 </Project>

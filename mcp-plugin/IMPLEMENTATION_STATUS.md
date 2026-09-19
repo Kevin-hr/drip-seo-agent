@@ -2,9 +2,9 @@
 
 ## Standard (authoritative)
 
-- **Sole active SEO-PDP standard:** `Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md`
-- **SHA-256:** `5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8`
-- SEO/PDP 3.2 and the superseded V4.4 `STANDARD_FINAL` are historical execution
+- **Sole active SEO-PDP standard:** `Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md`
+- **SHA-256:** `965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7`
+- SEO/PDP 3.2 and the superseded V4.4 `CLEAN_CONSOLIDATED_2026-09-17` revision are historical execution
   records only. Both are rejected outright; the superseded copies are parked in
   `rules/_superseded/` and `skills/drip-seo-executor/references/_superseded/`.
 - The hash is computed at startup and travels with every tool result as
@@ -43,7 +43,7 @@ The bridge now exists as `DripOps serve`. See `dripops/README.md` §8.
   (`Rules/V44/V44Standard.cs`, `V44Composer.cs`, `V44Validator.cs`,
   `V44SkuGate.cs`, `V44FrontendAuditor.cs`). It shares no rules with the 3.2
   `SeoPdpComposer` / `SeoPdpValidator`, because 3.2 mandates a verified SKU
-  while V4.4 §5/§5A permits publishing with the SKU omitted.
+  while V4.4 §5 permits publishing with the SKU omitted.
 - Reuses the existing, already-proven execution path:
   `ChromeController` → `MrshopplusClient.WriteAndSaveAsync` / `ReadSeoAsync` →
   `FrontendVerifier`, extended by `V44FrontendAuditor` for V4.4 placement checks.

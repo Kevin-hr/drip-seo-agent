@@ -4,7 +4,7 @@
 
 **Received:** 2026-09-18
 **Status:** Governing agent contract. Supersedes the implicit behaviour contract in `README.md` and `docs/architecture/MCP_FLOW.md` where they conflict.
-**Companion standard:** `standards/V4.4/Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md`
+**Companion standard:** `standards/V4.4/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md`
 
 ---
 

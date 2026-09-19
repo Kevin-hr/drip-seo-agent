@@ -22,7 +22,7 @@ namespace DripOps.Bridge;
 /// writes go through the existing MrshopplusClient, and acceptance goes through
 /// the existing FrontendVerifier (extended by V44FrontendAuditor).
 ///
-/// The decision layer is SEO-PDP V4.4 CLEAN_CONSOLIDATED only. SEO/PDP 3.2 rule
+/// The decision layer is SEO-PDP V4.4 STANDARD_FINAL only. SEO/PDP 3.2 rule
 /// classes (SeoPdpComposer / SeoPdpValidator) are deliberately not referenced.
 /// </summary>
 public sealed class BridgeServer

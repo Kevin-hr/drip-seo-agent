@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 
 namespace DripOps.Rules.V44;
 
-/// <summary>V4.4 §5 / §5A: exactly three permitted SKU verdicts.</summary>
+/// <summary>V4.4 §5: exactly three permitted SKU verdicts.</summary>
 public static class V44Verdict
 {
     public const string VerifiedSku = "VERIFIED_SKU";

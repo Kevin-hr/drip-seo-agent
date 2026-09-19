@@ -3,7 +3,7 @@
 ## Version
 
 Version: `4.4`  
-Status: `FINAL — CONSOLIDATED 2026-09-17`  
+Status: `FINAL`  
 Scope: Drip Sneakers PDP SEO, Exact Entity Verification, SERP Decision, User Decision, Backend Field Placement, Internal Linking
 
 ---
@@ -209,42 +209,6 @@ SKU: N/A
 
 ---
 
-# 5A. Sample / Unreleased / Friends & Family Rule
-
-A verified product entity does not require a public retail SKU in order to be publishable.
-
-PASS without SKU is allowed only when:
-
-```text
-Exact sample / unreleased / F&F entity verified
-+
-Current product matches that exact entity
-+
-Release status or sample identity is independently supported
-+
-No conflicting identity-critical evidence
-```
-
-Then:
-
-```text
-Product Name / H1 = verified sample entity
-SEO Title = Product Name + Reps | Drip Sneakers
-Meta Description = no SKU variant
-Product Details field #5 = verified product-specific fact, normally Release Status
-Schema = omit sku
-URL = omit unverified supplier / sample reference codes
-```
-
-Hard rules:
-
-- A supplier reference code may be retained internally for inventory mapping, but it is not a front-end SKU unless independently verified for the same exact entity.
-- Do not infer a sample SKU from a released sibling model, color code, URL, supplier catalog or numbering pattern.
-- If a high-authority market source explicitly assigns an identifier to the exact sample entity, that identifier may be used only when it passes the same Independent SKU Rule and does not conflict with other exact-entity evidence.
-- Different physical sample pairs may carry different sample codes. Do not generalize one pair's code to the whole colorway.
-
----
-
 # 6. Product Naming Standard
 
 Product Name must be the consumer-facing exact entity.
@@ -266,24 +230,11 @@ Variant / Colorway
 Do not include:
 
 ```text
-Supplier wording (PKGod / Pkgod / batch names)
-Marketing filler (Top Quality / Best Quality / 1:1 / Authentic Quality)
-Fake / Replica wording
+Supplier wording
+Marketing filler
 Internal codes
 Unverified identifiers
-Gender / sizing-class words in public SEO identity fields
 ```
-
-Gender-word hard ban for public SEO identity fields:
-
-```text
-Women / Women's / WMNS
-Men / Men's
-GS / PS / TD
-Kids / Unisex
-```
-
-Unless the user explicitly creates a later exception, these terms must not appear in Product Name, H1, SEO Title, SEO Keywords, Meta Description, URL, Canonical, Key Description, Product Details, Image ALT or Product Schema. External sources may use them; normalize them out of Drip Sneakers public SEO fields without changing the verified SKU.
 
 H1:
 
@@ -499,70 +450,29 @@ Purchase-decision information is missing.
 
 # 10. URL / Canonical
 
-## New / launch-stage PDP
-
-Preferred with verified SKU:
+Preferred with SKU:
 
 ```text
 /product-name-colorway-sku
 ```
 
-Preferred without verified SKU:
+Preferred without SKU:
 
 ```text
 /product-name-colorway
 ```
 
-## Existing live PDP — stability rule
-
-Do **not** migrate an existing URL merely to make it prettier, reorder words, add a nickname, add `SE` / `SP`, or append a verified SKU when the current URL already identifies the correct entity and contains no harmful token.
-
-Keep the existing URL when all are true:
+Avoid:
 
 ```text
-Correct product entity
-+
-No supplier / batch wording
-+
-No wrong or unverified identifier
-+
-No material ambiguity / collision with another entity
-+
-No meaningless trailing noise
+Top-Quality
+Best-Quality
+Internal IDs
+Supplier numbers
+Meaningless trailing hyphens
 ```
 
-A URL migration is required when the current URL contains:
-
-```text
-PKGod / Pkgod / supplier wording
-Wrong SKU or unverified supplier number presented as identity
-Wrong product / collaboration / variant
-Material ambiguity between multiple exact entities
-Meaningless trailing hyphens or broken slug residue
-```
-
-When changing a live URL:
-
-```text
-Old URL -> direct 301 -> final URL
-Final URL = 200
-Canonical = final URL
-Schema / sitemap / internal links = final URL
-No redirect chain
-```
-
-Canonical must equal the chosen final primary URL.
-
-URL decision priority:
-
-```text
-1. Exact entity correctness
-2. Verified identifier correctness
-3. Remove supplier / misleading noise
-4. Avoid ambiguity
-5. Existing URL stability
-6. Pretty-slug optimization
-```
+Canonical must equal the preferred final URL.
 
 ---
 
@@ -709,23 +619,19 @@ If SKU is unavailable, omit SKU and use a verified product-specific fact.
 
 ---
 
-# 15. Mandatory Verified Internal Link
+# 15. Mandatory Brand Internal Link
 
-The Brand row in Product Details must carry at least one real, crawlable Drip Sneakers internal link. Never invent a category URL.
+The Brand row in Product Details must carry the verified Drip Sneakers internal brand/category link.
 
-Link priority:
-
-```text
-1. Verified brand hub
-2. Verified exact model / collection category
-3. Verified broader product category
-4. No guessed link; VERIFY if no real link can be established
-```
-
-Examples:
+Example — Hellstar:
 
 ```html
 <li><strong>Brand:</strong> <a href="https://www.dripsneakers.org/Hellstar-T-Shirts/"><strong>Hellstar</strong></a></li>
+```
+
+Example — Sp5der:
+
+```html
 <li><strong>Brand:</strong> <a href="https://www.dripsneakers.org/Sp5der/"><strong>Sp5der</strong></a></li>
 ```
 
@@ -734,8 +640,6 @@ Rules:
 ```text
 Use actual brand name as anchor text.
 Anchor text must be <strong>.
-Destination must return a real current page.
-Prefer the most specific verified useful destination.
 Do not use "click here".
 Do not add a duplicate "Explore more [Brand]" sentence to Key Description.
 ```
@@ -964,8 +868,6 @@ Cross-source consistency
 SKU belongs to same entity
 No supplier ID used as SKU
 No component SKU misused as set SKU
-Sample / unreleased entity can PASS without SKU only under Section 5A
-No conflicting sample code generalized across variants
 ```
 
 ## Pass 3 — SEO + Placement + User Decision
@@ -975,7 +877,6 @@ Check:
 ```text
 Product Name
 H1
-No forbidden gender / supplier / marketing words in public identity fields
 SEO Title
 Keywords comma-separated
 Meta Description exact entity
@@ -983,7 +884,7 @@ Meta Description verified SKU when available
 Meta Description reps intent
 Meta Description QC photos / 30-day returns / 7–20 day shipping
 Meta Description unsupported-claim guard
-URL decision follows new-vs-existing stability rule
+URL
 Canonical
 Key Description sentence
 Exactly 5 Product Details fields
@@ -1105,15 +1006,13 @@ Crawlability PASS
 
 > Verified SKU is output; unverified SKU is omitted.
 
-> A verified Sample / Unreleased / Friends & Family entity may PASS without a public SKU; use a verified release-status fact instead and keep supplier references internal.
-
 > The full Product Name does not need to be mechanically repeated inside Key Description.
 
 > Key Description = one concise decision sentence + exactly five Product Details fields.
 
 > Product Details is semantically an attribute layer but physically belongs inside the Key Description field.
 
-> The Brand row carries one verified internal link; prefer brand hub, then exact model/category, then broader category. Never invent a URL.
+> The Brand row carries the internal brand link.
 
 > Backend Description = product detail images only.
 
@@ -1128,9 +1027,5 @@ Crawlability PASS
 > Use "shipping" for the 7–20 day range; do not turn it into a delivery guarantee without separate verification.
 
 > Correct information in the wrong place is still a UX problem.
-
-> Existing correct live URLs are stable by default; migrate only for wrong/unverified identity, supplier noise, ambiguity or broken slug residue.
-
-> Public SEO identity fields exclude gender/sizing-class words unless a later explicit exception is created.
 
 > SEO starts only after Exact Entity PASS.
