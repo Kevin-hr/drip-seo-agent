@@ -1,0 +1,267 @@
+{
+  "generated_at": "2026-09-18T12:07:27.965Z",
+  "bridge": "http://127.0.0.1:8811",
+  "execution_mode": "simulate",
+  "standard_version": "4.4",
+  "standard_hash": "5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8",
+  "product_id": "536027551768089",
+  "run_id": "t-shirts-candidate-pool-2026-09-02",
+  "snapshot_hash": "ae7c127f9d0161d767a2a3be6f10b200481cef7400231fad32b073b65adb3df2",
+  "plan_ids": {
+    "migration": "plan_20260918T120715809_d31a770e",
+    "keep_url": "plan_20260918T120715838_788763a9",
+    "fresh": "plan_20260918T120727955_5e6f9ef1"
+  },
+  "assertions": {
+    "pass": 74,
+    "fail": 0,
+    "total": 74
+  },
+  "gaps": [
+    {
+      "id": "N3c.harness_cannot_reach_storefront",
+      "detail": "node fetch failed (fetch failed); storefront evidence is taken through the bridge in node 8"
+    },
+    {
+      "id": "N3c.price_no_reader",
+      "detail": "price is not read by any bridge route or client method"
+    },
+    {
+      "id": "N3c.inventory_no_reader",
+      "detail": "inventory is not read by any bridge route or client method"
+    },
+    {
+      "id": "N3c.collections_no_reader",
+      "detail": "collection membership is not read by any bridge route or client method"
+    },
+    {
+      "id": "N3c.schema_not_in_snapshot",
+      "detail": "JSON-LD is only obtainable from the storefront, not from the admin snapshot"
+    },
+    {
+      "id": "N7.publish_inference_unproven",
+      "detail": "publish is now derived from url_change_required, but that branch lives in ExecuteLiveAsync and simulate mode never reaches it"
+    },
+    {
+      "id": "N7.write_selectors_unproven",
+      "detail": "MrShopPlus write selectors and the SEO dialog save flow remain unmapped against the live admin UI"
+    }
+  ],
+  "artifacts": [
+    {
+      "node": "n1",
+      "name": "health",
+      "file": "reports\\evidence\\workflow-e2e\\n1-health.json",
+      "bytes": 374
+    },
+    {
+      "node": "n2",
+      "name": "search",
+      "file": "reports\\evidence\\workflow-e2e\\n2-search.json",
+      "bytes": 1090
+    },
+    {
+      "node": "n3",
+      "name": "read",
+      "file": "reports\\evidence\\workflow-e2e\\n3-read.json",
+      "bytes": 15985
+    },
+    {
+      "node": "n3b",
+      "name": "snapshot-baseline",
+      "file": "reports\\evidence\\workflow-e2e\\n3b-snapshot-baseline.json",
+      "bytes": 10451
+    },
+    {
+      "node": "n3c",
+      "name": "storefront-baseline",
+      "file": "reports\\evidence\\workflow-e2e\\n3c-storefront-baseline.json",
+      "bytes": 151
+    },
+    {
+      "node": "n4",
+      "name": "sku-gate-reject",
+      "file": "reports\\evidence\\workflow-e2e\\n4-sku-gate-reject.json",
+      "bytes": 232
+    },
+    {
+      "node": "n4",
+      "name": "hold-blocks",
+      "file": "reports\\evidence\\workflow-e2e\\n4-hold-blocks.json",
+      "bytes": 185
+    },
+    {
+      "node": "n5",
+      "name": "plan-migration",
+      "file": "reports\\evidence\\workflow-e2e\\n5-plan-migration.json",
+      "bytes": 11707
+    },
+    {
+      "node": "n5b",
+      "name": "plan-keep-url",
+      "file": "reports\\evidence\\workflow-e2e\\n5b-plan-keep-url.json",
+      "bytes": 11545
+    },
+    {
+      "node": "n7",
+      "name": "execute-simulated",
+      "file": "reports\\evidence\\workflow-e2e\\n7-execute-simulated.json",
+      "bytes": 12191
+    },
+    {
+      "node": "n7",
+      "name": "execute-simulated-keep-url",
+      "file": "reports\\evidence\\workflow-e2e\\n7-execute-simulated-keep-url.json",
+      "bytes": 12029
+    },
+    {
+      "node": "n8",
+      "name": "verify-migration",
+      "file": "reports\\evidence\\workflow-e2e\\n8-verify-migration.json",
+      "bytes": 1722
+    },
+    {
+      "node": "n8",
+      "name": "verify-keep-url",
+      "file": "reports\\evidence\\workflow-e2e\\n8-verify-keep-url.json",
+      "bytes": 2441
+    },
+    {
+      "node": "n9",
+      "name": "run-status",
+      "file": "reports\\evidence\\workflow-e2e\\n9-run-status.json",
+      "bytes": 46640
+    },
+    {
+      "node": "n10",
+      "name": "stale-snapshot",
+      "file": "reports\\evidence\\workflow-e2e\\n10-stale-snapshot.json",
+      "bytes": 376
+    },
+    {
+      "node": "n10",
+      "name": "fresh-snapshot",
+      "file": "reports\\evidence\\workflow-e2e\\n10-fresh-snapshot.json",
+      "bytes": 11707
+    },
+    {
+      "node": "n11",
+      "name": "plan-on-disk",
+      "file": "reports\\evidence\\workflow-e2e\\n11-plan-on-disk.json",
+      "bytes": 13234
+    }
+  ],
+  "lines": [
+    "",
+    "--- NODE 1  Service + standard pinning",
+    "PASS  N1.health_ok  :: status=200",
+    "PASS  N1.standard_version  :: 4.4",
+    "PASS  N1.standard_hash  :: 5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8",
+    "PASS  N1.execution_mode_simulate  :: simulate",
+    "PASS  N1.health_is_reachable_without_token  :: status=200",
+    "PASS  N1.auth_rejects_missing_token  :: status=401",
+    "PASS  N1.standard_hash_mismatch_rejected  :: status=409 error=standard_hash_mismatch",
+    "",
+    "--- NODE 2  Discovery  (local checkpoints)",
+    "PASS  N2.search_200  :: status=200",
+    "PASS  N2.search_scanned  :: scanned=230",
+    "PASS  N2.search_finds_target  :: hits=2",
+    "",
+    "--- NODE 3  Snapshot  (read from local checkpoint)",
+    "PASS  N3.read_200  :: status=200",
+    "PASS  N3.snapshot_hash_is_sha256  :: ae7c127f9d0161d7",
+    "PASS  N3.run_id_exposed  :: t-shirts-candidate-pool-2026-09-02",
+    "PASS  N3.name_present  :: Thom Browne 4 Bar Stripe Jersey Stitch Tee Grown",
+    "PASS  N3.slug_present  :: Top-Quality-Thom-Browne-4-Bar-Stripe-Jersey-Stitch-Tee-Grown",
+    "PASS  N3.images_present  :: images=11",
+    "PASS  N3.images_are_public_https  :: https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E3164571A713.jpeg",
+    "",
+    "--- NODE 3b  Snapshot baseline  (description, images, SEO fields, slug)",
+    "PASS  N3b.description_html_captured  :: bytes=8392",
+    "PASS  N3b.image_urls_captured  :: images=11",
+    "PASS  N3b.slug_captured  :: Top-Quality-Thom-Browne-4-Bar-Stripe-Jersey-Stitch-Tee-Grown",
+    "PASS  N3b.seo_fields_present_on_snapshot  :: title='' keywords=[] meta=''",
+    "PASS  N3b.publish_state_captured  :: is_published=false",
+    "PASS  N3b.snapshot_hash_covers_seo_fields  :: ae7c127f9d0161d7",
+    "",
+    "--- NODE 3c  Baseline gaps  (fields with no reader in the stack)",
+    "PASS  N3c.storefront_probe_attempted  :: status=0 url=https://www.dripsneakers.org/Top-Quality-Thom-Browne-4-Bar-Stripe-Jersey-Stitch-Tee-Grown",
+    "GAP   N3c.harness_cannot_reach_storefront  :: node fetch failed (fetch failed); storefront evidence is taken through the bridge in node 8",
+    "GAP   N3c.price_no_reader  :: price is not read by any bridge route or client method",
+    "GAP   N3c.inventory_no_reader  :: inventory is not read by any bridge route or client method",
+    "GAP   N3c.collections_no_reader  :: collection membership is not read by any bridge route or client method",
+    "GAP   N3c.schema_not_in_snapshot  :: JSON-LD is only obtainable from the storefront, not from the admin snapshot",
+    "",
+    "--- NODE 4  Research input gates  (SKU verdict enforcement)",
+    "PASS  N4.internal_product_id_rejected  :: status=400 error=sku_gate_failed",
+    "PASS  N4.rejected_sku_creates_no_plan",
+    "PASS  N4.hold_blocks_plan  :: status=409 error=hold_forbids_plan",
+    "",
+    "--- NODE 5  Compose + validate  (V4.4 generation, migration path (URL will change))",
+    "PASS  N5.prepare_200  :: status=200",
+    "PASS  N5.validation_pass  :: PASS",
+    "PASS  N5.plan_id_present  :: plan_20260918T120715809_d31a770e",
+    "PASS  N5.standard_hash_recorded  :: 5fb8457f049615b4",
+    "PASS  N5.snapshot_hash_recorded  :: ae7c127f9d0161d7",
+    "PASS  N5.not_executed_yet  :: executed=false",
+    "PASS  N5.migration_path_flags_url_change  :: url_change_required=true",
+    "PASS  N5.migration_path_records_redirect_from  :: https://www.dripsneakers.org/Top-Quality-Thom-Browne-4-Bar-Stripe-Jersey-Stitch-Tee-Grown",
+    "PASS  N5.slug_migrated  :: thom-browne-4-bar-stripe-jersey-stitch-tee-brown",
+    "PASS  N5.schema_omits_sku  :: { \"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"Thom Browne 4-Bar Stripe Jersey Stitch Tee Brown\", \"brand\": { \"@type\": \"Brand\", \"name\": \"Thom Browne\" }, \"category\": \"T-Shirt\", \"color\": \"Brown\" }",
+    "PASS  N5.key_description_has_five_fields  :: li=5",
+    "PASS  N5.image_alts_match_image_count  :: alts=11 images=11",
+    "",
+    "--- NODE 5b  Compose + validate  (safe-write path (URL must stay unchanged))",
+    "PASS  N5b.prepare_200  :: status=200",
+    "PASS  N5b.slug_unchanged  :: slug=Top-Quality-Thom-Browne-4-Bar-Stripe-Jersey-Stitch-Tee-Grown",
+    "PASS  N5b.url_change_required_false  :: url_change_required=false",
+    "PASS  N5b.redirect_from_null  :: redirect_from=null",
+    "PASS  N5b.canonical_is_existing_url  :: https://www.dripsneakers.org/Top-Quality-Thom-Browne-4-Bar-Stripe-Jersey-Stitch-Tee-Grown",
+    "",
+    "--- NODE 6  Execute guards  (no plan may be executed twice or against the wrong product)",
+    "PASS  N6.plan_product_mismatch_rejected  :: status=409 error=plan_product_mismatch",
+    "PASS  N6.malformed_plan_id_rejected  :: status=400 error=invalid_plan_id",
+    "PASS  N6.unknown_plan_rejected  :: status=404 error=unknown_plan",
+    "",
+    "--- NODE 7  Execute  (simulate mode — no MrShopPlus contact)",
+    "PASS  N7.execute_200  :: status=200",
+    "PASS  N7.executed_flag  :: executed=true",
+    "PASS  N7.not_published_in_simulate  :: published=false",
+    "PASS  N7.save_status_simulated  :: SIMULATED — MrShopPlus was NOT contacted",
+    "PASS  N7.duplicate_execute_refused  :: status=409 error=plan_already_executed",
+    "PASS  N7.keep_plan_executes  :: status=200",
+    "PASS  N7.simulate_leaves_run_state_byte_identical  :: tree unchanged",
+    "GAP   N7.publish_inference_unproven  :: publish is now derived from url_change_required, but that branch lives in ExecuteLiveAsync and simulate mode never reaches it",
+    "GAP   N7.write_selectors_unproven  :: MrShopPlus write selectors and the SEO dialog save flow remain unmapped against the live admin UI",
+    "",
+    "--- NODE 8  Verify  (storefront acceptance for both plans)",
+    "PASS  N8.verify_200  :: status=200",
+    "PASS  N8.verify_returns_pass_flag  :: pass=false",
+    "PASS  N8.verify_checks_present  :: checks=6",
+    "PASS  N8.verify_targets_proposed_canonical  :: FRONTEND-02 HTTP_STATUS | FRONTEND-03 H1_MISMATCH | FRONTEND-05 META_MISMATCH | SCHEMA-01 PRODUCT_SCHEMA_NOT_FOUND | FRONTEND-EXCEPTION | EXEC-01",
+    "PASS  N8.migration_target_is_not_live_yet  :: Frontend returned 404.",
+    "PASS  N8.verify_keep_url_200  :: status=200",
+    "PASS  N8.keep_url_target_is_the_live_page  :: no HTTP_STATUS finding: the page resolved",
+    "PASS  N8.keep_url_canonical_matches  :: FRONTEND-03 H1_MISMATCH | FRONTEND-05 META_MISMATCH | FE-02 PRODUCT_DETAILS_MISSING | FE-03 PRODUCT_DETAILS_LIST_MISSING | FE-08 IMAGE_ALT_MISSING | FE-09 FORBIDDEN_TERM | FE-09 FORBIDDEN_TERM | FE-09 FORBIDDEN_TERM | FE-09 FORBIDDEN_TERM | EXEC-01",
+    "PASS  N8.keep_url_finds_storefront_schema  :: FRONTEND-03 H1_MISMATCH | FRONTEND-05 META_MISMATCH | FE-02 PRODUCT_DETAILS_MISSING | FE-03 PRODUCT_DETAILS_LIST_MISSING | FE-08 IMAGE_ALT_MISSING | FE-09 FORBIDDEN_TERM | FE-09 FORBIDDEN_TERM | FE-09 FORBIDDEN_TERM | FE-09 FORBIDDEN_TERM | EXEC-01",
+    "PASS  N8.keep_url_only_content_checks_remain  :: FRONTEND-03 H1_MISMATCH | FRONTEND-05 META_MISMATCH | FE-02 PRODUCT_DETAILS_MISSING | FE-03 PRODUCT_DETAILS_LIST_MISSING | FE-08 IMAGE_ALT_MISSING | FE-09 FORBIDDEN_TERM | FE-09 FORBIDDEN_TERM | FE-09 FORBIDDEN_TERM | FE-09 FORBIDDEN_TERM | EXEC-01",
+    "",
+    "--- NODE 9  Run status",
+    "PASS  N9.run_status_200  :: status=200",
+    "PASS  N9.run_status_has_products  :: products=200",
+    "",
+    "--- NODE 10  Snapshot freshness gate",
+    "PASS  N10.aged_snapshot_refused  :: status=409 error=stale_snapshot_requires_refresh",
+    "PASS  N10.aged_snapshot_creates_no_plan",
+    "PASS  N10.fresh_snapshot_allowed  :: status=200 restamped=2026-09-18T12:07:27.929Z",
+    "",
+    "--- NODE 11  Immutable plan store",
+    "PASS  N11.plan_file_exists  :: .sandbox\\bridge\\plans\\plan_20260918T120715809_d31a770e.json",
+    "PASS  N11.plan_file_records_execution  :: executed=true",
+    "PASS  N11.plan_file_records_verification  :: checks=6",
+    "PASS  N11.plan_file_immutable_core_fields  :: standard=5fb8457f0496 snapshot=ae7c127f9d01",
+    "PASS  N11.plan_store_populated  :: plans=51",
+    "",
+    "--- NODE 99  Summary"
+  ]
+}

@@ -12,7 +12,12 @@ namespace DripOps.Rules.V44;
 /// </summary>
 public sealed class V44Validator(V44Standard standard)
 {
-    public V44ValidationResult Validate(V44Draft draft, V44SkuResolution resolution)
+    /// <param name="existingSlug">
+    /// The slug the product already has on the storefront, when known. Supplying
+    /// it lets the URL layer distinguish "this plan proposes a bad slug" from
+    /// "this plan carries a legacy slug it is deliberately not changing".
+    /// </param>
+    public V44ValidationResult Validate(V44Draft draft, V44SkuResolution resolution, string? existingSlug = null)
     {
         var checks = new List<V44Check>();
         var verdict = (resolution.Verdict ?? "").Trim().ToUpperInvariant();
@@ -103,9 +108,34 @@ public sealed class V44Validator(V44Standard standard)
         }
 
         // ------------------------------------------------------------- URL layer
+        //
+        // URL-01 gates the slug this plan proposes to publish, not one that is
+        // already live and is being left alone.
+        //
+        // When a plan changes no URL and carries the product's existing identifier
+        // verbatim, a pattern violation is a pre-existing condition. Recording it as
+        // ERROR would make "correct the SEO fields, touch nothing else" impossible
+        // to validate — which is precisely the mode P0-1 exists to protect, because
+        // legacy storefront slugs are frequently title-cased. The finding is kept as
+        // a WARN so it stays visible and is fixed in a dedicated URL pass.
+        var slugIsUnchangedExisting =
+            !draft.UrlChangeRequired
+            && !string.IsNullOrWhiteSpace(existingSlug)
+            && string.Equals(draft.Slug.Trim().Trim('/'), existingSlug.Trim().Trim('/'), StringComparison.Ordinal);
+
         if (!Regex.IsMatch(draft.Slug, standard.SlugPattern))
         {
-            checks.Add(Error("URL-01", $"Slug '{draft.Slug}' violates the lowercase ASCII pattern."));
+            if (slugIsUnchangedExisting)
+            {
+                checks.Add(Warn("URL-01",
+                    $"Slug '{draft.Slug}' violates the lowercase ASCII pattern, but this plan does not change the URL. " +
+                    "The violation is a pre-existing storefront condition, recorded for transparency. " +
+                    "Migrate it in a dedicated URL pass."));
+            }
+            else
+            {
+                checks.Add(Error("URL-01", $"Slug '{draft.Slug}' violates the lowercase ASCII pattern."));
+            }
         }
         if (draft.UrlChangeRequired && string.IsNullOrWhiteSpace(draft.RedirectFrom))
         {

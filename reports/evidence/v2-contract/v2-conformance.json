@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-09-18T12:07:07.804Z",
+  "contract": "standards\\agent\\AGENT_CONTRACT_V2.0.md",
+  "contract_sha256": "2bdeb72f2ca1edb1691141005bb413248eedbd8eecf078ada60d4e747551a1da",
+  "bridge": "http://127.0.0.1:8812",
+  "product_id": "536027551768089",
+  "require_complete_snapshot": true,
+  "assertions": {
+    "pass": 20,
+    "fail": 0,
+    "total": 20
+  },
+  "missing_stop_conditions": [
+    "seo_fields",
+    "variants"
+  ],
+  "missing_advisory": [
+    "current_sku",
+    "supplier_code",
+    "category",
+    "price",
+    "inventory",
+    "key_description",
+    "image_alt",
+    "existing_schema"
+  ],
+  "gaps": [
+    {
+      "id": "V2.§3.state_machine_partial",
+      "detail": "the bridge carries WorkflowStage x AuditStatus x ReleaseStatus, which covers the states but has no explicit CANDIDATE transition"
+    },
+    {
+      "id": "V2.§7.entity_dimensions_incomplete",
+      "detail": "ExactEntitySchema verifies brand, model, product_type, colorway and collection; graphic and single_item_or_set are not modelled, and no per-dimension match verdict is recorded"
+    },
+    {
+      "id": "V2.§9.duplicate_classification_absent",
+      "detail": "EXACT_DUPLICATE / COLOR_VARIANT / MODEL_VARIANT / VERIFY is not implemented anywhere"
+    },
+    {
+      "id": "V2.§12.update_plan_shape_partial",
+      "detail": "the plan carries proposed_changes as field->new; it does not carry old or evidence per change"
+    },
+    {
+      "id": "V2.§14.output_contract_absent",
+      "detail": "Decision / Evidence / Action Permission / SEO Payload is not a machine-enforced response shape"
+    },
+    {
+      "id": "V2.§5.vision_contract_external",
+      "detail": "the visual_observation schema is a ChatGPT-side obligation; nothing in this repository enforces it"
+    }
+  ],
+  "lines": [
+    "",
+    "--- §0  Contract archived and hashed",
+    "PASS  V2.contract_archived  :: standards\\agent\\AGENT_CONTRACT_V2.0.md",
+    "",
+    "--- §4  Snapshot completeness",
+    "PASS  V2.health_exposes_snapshot_policy  :: requireCompleteSnapshot=true maxAgeHours=24",
+    "PASS  V2.read_200  :: status=200",
+    "PASS  V2.completeness_report_present  :: present",
+    "PASS  V2.completeness_declares_contract  :: AGENT_CONTRACT_V2.0 §4",
+    "PASS  V2.completeness_covers_eighteen_fields  :: fields=18",
+    "PASS  V2.stop_conditions_are_the_four_named_in_section_4  :: images, description, seo_fields, variants",
+    "PASS  V2.images_and_description_present  :: present=[images, description]",
+    "PASS  V2.variants_is_an_unresolvable_stop_gap  :: missing=[seo_fields, variants]",
+    "PASS  V2.seo_fields_condition_is_grouped_not_duplicated  :: missing=[seo_fields, variants]",
+    "PASS  V2.advisory_gap_recorded.price  :: missing=[current_sku, supplier_code, category, price, inventory, key_description, image_alt, existing_schema]",
+    "PASS  V2.advisory_gap_recorded.inventory  :: missing=[current_sku, supplier_code, category, price, inventory, key_description, image_alt, existing_schema]",
+    "PASS  V2.advisory_gap_recorded.current_sku  :: missing=[current_sku, supplier_code, category, price, inventory, key_description, image_alt, existing_schema]",
+    "PASS  V2.advisory_gap_recorded.supplier_code  :: missing=[current_sku, supplier_code, category, price, inventory, key_description, image_alt, existing_schema]",
+    "PASS  V2.advisory_gap_recorded.existing_schema  :: missing=[current_sku, supplier_code, category, price, inventory, key_description, image_alt, existing_schema]",
+    "PASS  V2.incomplete_snapshot_reported_not_concealed  :: complete=false",
+    "PASS  V2.incomplete_snapshot_halts_the_plan  :: status=409 error=snapshot_incomplete",
+    "PASS  V2.refusal_names_the_missing_condition  :: The snapshot for 536027551768089 fails 2 of the four fields Agent Contract V2.0 §4 treats as a stop condition: seo_fields, variants. No plan was created. The snapshot is not a sufficient basis for an ",
+    "PASS  V2.refusal_creates_no_plan  :: keys=ok,error,detail,checks,gate_errors",
+    "",
+    "--- §8  SKU rules",
+    "PASS  V2.internal_id_rejected_as_sku  :: status=400 error=sku_gate_failed",
+    "",
+    "--- Gaps  clauses not machine-checkable yet",
+    "GAP   V2.§3.state_machine_partial  :: the bridge carries WorkflowStage x AuditStatus x ReleaseStatus, which covers the states but has no explicit CANDIDATE transition",
+    "GAP   V2.§7.entity_dimensions_incomplete  :: ExactEntitySchema verifies brand, model, product_type, colorway and collection; graphic and single_item_or_set are not modelled, and no per-dimension match verdict is recorded",
+    "GAP   V2.§9.duplicate_classification_absent  :: EXACT_DUPLICATE / COLOR_VARIANT / MODEL_VARIANT / VERIFY is not implemented anywhere",
+    "GAP   V2.§12.update_plan_shape_partial  :: the plan carries proposed_changes as field->new; it does not carry old or evidence per change",
+    "GAP   V2.§14.output_contract_absent  :: Decision / Evidence / Action Permission / SEO Payload is not a machine-enforced response shape",
+    "GAP   V2.§5.vision_contract_external  :: the visual_observation schema is a ChatGPT-side obligation; nothing in this repository enforces it"
+  ]
+}

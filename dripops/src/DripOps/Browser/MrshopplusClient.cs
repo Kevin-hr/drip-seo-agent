@@ -22,8 +22,8 @@ public sealed class MrshopplusClient
         if (rowLimit <= 0) throw new ArgumentOutOfRangeException(nameof(rowLimit), "Row limit must be positive.");
         await NavigateFreshAsync(categoryAdminUrl, cancellationToken);
         await EnsureAuthenticatedAsync(cancellationToken);
-        await _page.WaitForAsync("document.querySelector('main') && document.body.innerText.includes('类别中的商品')",
-            TimeSpan.FromSeconds(45), cancellationToken);
+        await WaitForAuthenticatedFormAsync(
+            "document.querySelector('main') && document.body.innerText.includes('类别中的商品')", cancellationToken);
         await LoadCategoryRowsAsync(rowLimit, cancellationToken);
 
         const string script = """
@@ -87,8 +87,8 @@ public sealed class MrshopplusClient
         var listUrl = _config.AdminOrigin.TrimEnd('/') + "/#/product/list_DTB_proCategory";
         await NavigateFreshAsync(listUrl, cancellationToken);
         await EnsureAuthenticatedAsync(cancellationToken);
-        await _page.WaitForAsync("document.querySelector('main input[placeholder=\"请输入要搜索的内容\"]')",
-            TimeSpan.FromSeconds(45), cancellationToken);
+        await WaitForAuthenticatedFormAsync(
+            "document.querySelector('main input[placeholder=\"请输入要搜索的内容\"]')", cancellationToken);
         var searchValue = JsonSerializer.Serialize(categoryName, JsonOptions.Default);
         var searchScript = $$"""
             (() => {
@@ -134,8 +134,8 @@ public sealed class MrshopplusClient
     {
         await NavigateFreshAsync(productAdminUrl, cancellationToken);
         await EnsureAuthenticatedAsync(cancellationToken);
-        await _page.WaitForAsync("document.querySelector('main input[placeholder=\"请输入商品名称\"]')?.value",
-            TimeSpan.FromSeconds(45), cancellationToken);
+        await WaitForAuthenticatedFormAsync(
+            "document.querySelector('main input[placeholder=\"请输入商品名称\"]')?.value", cancellationToken);
 
         // The form becomes usable before the image-list component has finished
         // hydrating. Reading immediately can turn a real 12-16 image gallery
@@ -515,6 +515,27 @@ public sealed class MrshopplusClient
     {
         await _page.NavigateAsync("about:blank", cancellationToken);
         await _page.NavigateAsync(url, cancellationToken);
+    }
+
+    /// <summary>
+    /// Waits for an authenticated page to render the given form control.
+    ///
+    /// A dead session is not an edge case. MrShopPlus is a hash-routed SPA whose
+    /// auth guard redirects to <c>#/login</c> only after the first render, so
+    /// reading <c>location.href</c> immediately after navigation races that guard
+    /// and can pass on a session that is already invalid. The failure then
+    /// surfaces as a full-length timeout on a selector that will never appear,
+    /// which says nothing about the real cause.
+    ///
+    /// This waits for whichever comes first — the form control or the login route
+    /// — and then reports the precise reason.
+    /// </summary>
+    private async Task WaitForAuthenticatedFormAsync(string selectorExpression, CancellationToken cancellationToken)
+    {
+        await _page.WaitForAsync(
+            $"({selectorExpression}) || location.href.includes('#/login')",
+            TimeSpan.FromSeconds(45), cancellationToken);
+        await EnsureAuthenticatedAsync(cancellationToken);
     }
 
     private async Task LoadCategoryRowsAsync(int? rowLimit, CancellationToken cancellationToken)

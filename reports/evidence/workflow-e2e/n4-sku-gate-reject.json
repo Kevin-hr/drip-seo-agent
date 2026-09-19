@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": "sku_gate_failed",
+  "detail": "No plan was created.",
+  "checks": [],
+  "gate_errors": [
+    "SKU looks like an internal/placeholder identifier and is not allowed (MrShopPlus internal Product ID)."
+  ]
+}

@@ -62,6 +62,27 @@ public sealed record DripOpsConfig
     /// </summary>
     public string ExecutionMode { get; init; } = "live";
 
+    /// <summary>
+    /// P0-2: maximum age of a local product snapshot, in hours, before the bridge
+    /// refuses to plan against it. Applies to products that already have a
+    /// storefront URL. snapshot_hash proves the plan matches the stored snapshot; it
+    /// does not prove the stored snapshot matches reality, so age is enforced
+    /// separately. Set to 0 to disable.
+    /// </summary>
+    public int SnapshotMaxAgeHours { get; init; } = 24;
+
+    /// <summary>
+    /// Agent Contract V2.0 §4: refuse to plan when the snapshot is missing one of
+    /// the four STOP-condition fields (images, description, SEO fields, variants).
+    ///
+    /// The completeness report is always computed and returned. This switch only
+    /// decides whether an incomplete snapshot halts the run. It defaults to false
+    /// so that the report can be observed before it is enforced, and so that the
+    /// existing acceptance suites keep exercising the guard chain; production is
+    /// expected to set it to true once a variants reader exists.
+    /// </summary>
+    public bool RequireCompleteSnapshot { get; init; }
+
     public static DripOpsConfig Load(string path)
     {
         if (!File.Exists(path))

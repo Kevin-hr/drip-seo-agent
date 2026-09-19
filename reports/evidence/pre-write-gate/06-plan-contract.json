@@ -1,0 +1,37 @@
+{
+  "plan_id": "plan_20260918T120738192_17e31bf0",
+  "slug": "Top-Quality-Thom-Browne-4-Bar-Stripe-Jersey-Stitch-Tee-Grown",
+  "canonical_url": "https://www.dripsneakers.org/Top-Quality-Thom-Browne-4-Bar-Stripe-Jersey-Stitch-Tee-Grown",
+  "url_change_required": false,
+  "redirect_from": null,
+  "product_name": "Thom Browne 4-Bar Stripe Jersey Stitch Tee Brown",
+  "seo_title": "Thom Browne 4-Bar Stripe Jersey Stitch Tee Brown Reps | Drip Sneakers",
+  "keywords": [
+    "Thom Browne 4-Bar Stripe Jersey Stitch Tee Brown",
+    "Thom Browne 4-Bar Stripe Jersey Stitch Tee Reps",
+    "Brown T-Shirt",
+    "Designer T-Shirts",
+    "Thom Browne T-Shirt"
+  ],
+  "meta_description": "Shop Thom Browne 4-Bar Stripe Jersey Stitch Tee Brown reps at Drip Sneakers with QC photos, 30-day returns and 7–20 day shipping.",
+  "key_description_li_count": 5,
+  "image_alt_count": 11,
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Thom Browne 4-Bar Stripe Jersey Stitch Tee Brown",
+    "brand": {
+      "@type": "Brand",
+      "name": "Thom Browne"
+    },
+    "category": "T-Shirt",
+    "color": "Brown"
+  },
+  "validation_status": "PASS",
+  "warnings": [
+    "URL-01: Slug 'Top-Quality-Thom-Browne-4-Bar-Stripe-Jersey-Stitch-Tee-Grown' violates the lowercase ASCII pattern, but this plan does not change the URL. The violation is a pre-existing storefront condition, recorded for transparency. Migrate it in a dedicated URL pass.",
+    "ALT-02: Image ALT is generic. V4.4 §21 wants Product Name + View/Detail; supply specific view labels before publishing.",
+    "URL-11: snapshot.IsPublished is false while the product already has a slug. That flag may be stale (the storefront URL can still resolve). URL stability no longer depends on it, but the published state should not be trusted for this product until read live."
+  ],
+  "errors": []
+}

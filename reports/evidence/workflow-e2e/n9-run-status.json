@@ -1,0 +1,1615 @@
+{
+  "run_id": "t-shirts-candidate-pool-2026-09-02",
+  "status": "IN_PROGRESS",
+  "standard_version": "3.1.1",
+  "created_at": "2026-09-02T06:42:30.8781087+08:00",
+  "updated_at": "2026-09-02T06:43:48.7559706+08:00",
+  "total": 200,
+  "published": 7,
+  "pass": 2,
+  "hold": 0,
+  "failed": 0,
+  "pending": 198,
+  "products": [
+    {
+      "product_id": "536027559207962",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7575798+08:00"
+    },
+    {
+      "product_id": "536027553308699",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7776945+08:00"
+    },
+    {
+      "product_id": "536027553279506",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7786649+08:00"
+    },
+    {
+      "product_id": "536027553230614",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7798064+08:00"
+    },
+    {
+      "product_id": "536027553199636",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7807485+08:00"
+    },
+    {
+      "product_id": "536027553165840",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7818008+08:00"
+    },
+    {
+      "product_id": "536027553116690",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7831202+08:00"
+    },
+    {
+      "product_id": "536027553085202",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7841715+08:00"
+    },
+    {
+      "product_id": "536027553036823",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7852083+08:00"
+    },
+    {
+      "product_id": "536027553004049",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7863039+08:00"
+    },
+    {
+      "product_id": "536027552972318",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7872702+08:00"
+    },
+    {
+      "product_id": "536027552907547",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7883427+08:00"
+    },
+    {
+      "product_id": "536027552860691",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7895202+08:00"
+    },
+    {
+      "product_id": "536027552828692",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7906467+08:00"
+    },
+    {
+      "product_id": "536027552779792",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7916294+08:00"
+    },
+    {
+      "product_id": "536027552731159",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7925822+08:00"
+    },
+    {
+      "product_id": "536027552683280",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7935578+08:00"
+    },
+    {
+      "product_id": "536027552652311",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7974726+08:00"
+    },
+    {
+      "product_id": "536027552489746",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7988718+08:00"
+    },
+    {
+      "product_id": "536027552460056",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.7997984+08:00"
+    },
+    {
+      "product_id": "536027552411421",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8007449+08:00"
+    },
+    {
+      "product_id": "536027552361488",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8016927+08:00"
+    },
+    {
+      "product_id": "536027552331542",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8026388+08:00"
+    },
+    {
+      "product_id": "536027552298524",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8035419+08:00"
+    },
+    {
+      "product_id": "536027552249371",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8060571+08:00"
+    },
+    {
+      "product_id": "536027552202003",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8071534+08:00"
+    },
+    {
+      "product_id": "536027552168472",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8102321+08:00"
+    },
+    {
+      "product_id": "536027552120594",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8148786+08:00"
+    },
+    {
+      "product_id": "536027552056603",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8162276+08:00"
+    },
+    {
+      "product_id": "536027552023825",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8172053+08:00"
+    },
+    {
+      "product_id": "536027551975444",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8181853+08:00"
+    },
+    {
+      "product_id": "536027551927067",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8192809+08:00"
+    },
+    {
+      "product_id": "536027551863317",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8203270+08:00"
+    },
+    {
+      "product_id": "536027551814932",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:05.7994523+08:00"
+    },
+    {
+      "product_id": "536027551768089",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:07.3082391+08:00"
+    },
+    {
+      "product_id": "536027551719187",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8236151+08:00"
+    },
+    {
+      "product_id": "536027551668252",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8246385+08:00"
+    },
+    {
+      "product_id": "536027551621393",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8256770+08:00"
+    },
+    {
+      "product_id": "536027551572250",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8267979+08:00"
+    },
+    {
+      "product_id": "536027551525908",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8278216+08:00"
+    },
+    {
+      "product_id": "536027551476247",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8289399+08:00"
+    },
+    {
+      "product_id": "536027551428639",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8300177+08:00"
+    },
+    {
+      "product_id": "536027551366431",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8312261+08:00"
+    },
+    {
+      "product_id": "536027551317008",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8321728+08:00"
+    },
+    {
+      "product_id": "536027551267610",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8333889+08:00"
+    },
+    {
+      "product_id": "536027551204113",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8342968+08:00"
+    },
+    {
+      "product_id": "536027551157778",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8351612+08:00"
+    },
+    {
+      "product_id": "536027551107099",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8359656+08:00"
+    },
+    {
+      "product_id": "536027551059478",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8368089+08:00"
+    },
+    {
+      "product_id": "536027551011357",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:08.7577262+08:00"
+    },
+    {
+      "product_id": "536027550949150",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:10.2400303+08:00"
+    },
+    {
+      "product_id": "536027550850335",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:11.5822806+08:00"
+    },
+    {
+      "product_id": "536027550802192",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:13.0915408+08:00"
+    },
+    {
+      "product_id": "536027550738203",
+      "stage": "FrontendVerified",
+      "audit_status": "Pass",
+      "release_status": "Verified",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:49:04.7054126+08:00"
+    },
+    {
+      "product_id": "536027550673695",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:44:17.9572916+08:00"
+    },
+    {
+      "product_id": "536027550608151",
+      "stage": "FrontendVerified",
+      "audit_status": "Pass",
+      "release_status": "Verified",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:49:13.8092926+08:00"
+    },
+    {
+      "product_id": "536027550479388",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8511629+08:00"
+    },
+    {
+      "product_id": "536027550336017",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8524533+08:00"
+    },
+    {
+      "product_id": "536027550207004",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8535237+08:00"
+    },
+    {
+      "product_id": "536027550143765",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8556337+08:00"
+    },
+    {
+      "product_id": "536027550093854",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8569041+08:00"
+    },
+    {
+      "product_id": "536027550031134",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8581069+08:00"
+    },
+    {
+      "product_id": "536027549980958",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8617803+08:00"
+    },
+    {
+      "product_id": "536027549838619",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8628417+08:00"
+    },
+    {
+      "product_id": "536027549725461",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8650904+08:00"
+    },
+    {
+      "product_id": "536027549613081",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8662403+08:00"
+    },
+    {
+      "product_id": "536027549162515",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8673405+08:00"
+    },
+    {
+      "product_id": "536027549112848",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8683593+08:00"
+    },
+    {
+      "product_id": "536027549064979",
+      "stage": "FrontendVerified",
+      "audit_status": "Fix",
+      "release_status": "Verified",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:49:22.5643213+08:00"
+    },
+    {
+      "product_id": "536027548985105",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8717310+08:00"
+    },
+    {
+      "product_id": "536027548857372",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8731688+08:00"
+    },
+    {
+      "product_id": "536027548792605",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8754313+08:00"
+    },
+    {
+      "product_id": "536027548744727",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8764706+08:00"
+    },
+    {
+      "product_id": "536027548662554",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8776897+08:00"
+    },
+    {
+      "product_id": "536027548565523",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8786277+08:00"
+    },
+    {
+      "product_id": "536027548436763",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:14.3363691+08:00"
+    },
+    {
+      "product_id": "536027548357402",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8805687+08:00"
+    },
+    {
+      "product_id": "536027548277023",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8815133+08:00"
+    },
+    {
+      "product_id": "536027547586577",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8824488+08:00"
+    },
+    {
+      "product_id": "536027547522847",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8833303+08:00"
+    },
+    {
+      "product_id": "536027547489820",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8842594+08:00"
+    },
+    {
+      "product_id": "536027547442201",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.8879900+08:00"
+    },
+    {
+      "product_id": "536027547393559",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:15.6080890+08:00"
+    },
+    {
+      "product_id": "536027547344921",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:16.8635303+08:00"
+    },
+    {
+      "product_id": "536027547297304",
+      "stage": "FrontendVerified",
+      "audit_status": "Fix",
+      "release_status": "Verified",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T07:04:08.1187024+08:00"
+    },
+    {
+      "product_id": "536027547266582",
+      "stage": "FrontendVerified",
+      "audit_status": "Fix",
+      "release_status": "Verified",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T07:06:35.4043371+08:00"
+    },
+    {
+      "product_id": "536027546958865",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:21.0822887+08:00"
+    },
+    {
+      "product_id": "536027546912283",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:22.5722333+08:00"
+    },
+    {
+      "product_id": "536027546878224",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:23.8387309+08:00"
+    },
+    {
+      "product_id": "536027546732563",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:25.0274342+08:00"
+    },
+    {
+      "product_id": "536027546702879",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:26.3682013+08:00"
+    },
+    {
+      "product_id": "536027546637086",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9019395+08:00"
+    },
+    {
+      "product_id": "536027546603797",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9033815+08:00"
+    },
+    {
+      "product_id": "536027546557203",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:27.5494959+08:00"
+    },
+    {
+      "product_id": "536027546525456",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9070521+08:00"
+    },
+    {
+      "product_id": "536027546476830",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9083120+08:00"
+    },
+    {
+      "product_id": "536027546428944",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9095954+08:00"
+    },
+    {
+      "product_id": "536027546380316",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9108759+08:00"
+    },
+    {
+      "product_id": "536027546315795",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9121383+08:00"
+    },
+    {
+      "product_id": "536027546269464",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9132142+08:00"
+    },
+    {
+      "product_id": "536027546218783",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9141173+08:00"
+    },
+    {
+      "product_id": "536027546106394",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9154294+08:00"
+    },
+    {
+      "product_id": "536027546027281",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9164824+08:00"
+    },
+    {
+      "product_id": "536027545961232",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9174964+08:00"
+    },
+    {
+      "product_id": "536027545898008",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9185214+08:00"
+    },
+    {
+      "product_id": "536027545835027",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9195724+08:00"
+    },
+    {
+      "product_id": "536027545785624",
+      "stage": "FrontendVerified",
+      "audit_status": "Fix",
+      "release_status": "Verified",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:49:31.7006556+08:00"
+    },
+    {
+      "product_id": "536027545737240",
+      "stage": "FrontendVerified",
+      "audit_status": "Fix",
+      "release_status": "Verified",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:49:40.7523333+08:00"
+    },
+    {
+      "product_id": "536027545705757",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9275623+08:00"
+    },
+    {
+      "product_id": "536027545657107",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9287074+08:00"
+    },
+    {
+      "product_id": "536027545607445",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9299158+08:00"
+    },
+    {
+      "product_id": "536027545560857",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9309358+08:00"
+    },
+    {
+      "product_id": "536027545513500",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9320961+08:00"
+    },
+    {
+      "product_id": "536027545254419",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9334025+08:00"
+    },
+    {
+      "product_id": "536027545208597",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9345729+08:00"
+    },
+    {
+      "product_id": "536027545158417",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9357525+08:00"
+    },
+    {
+      "product_id": "536027545124888",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9370472+08:00"
+    },
+    {
+      "product_id": "536027545078289",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9384197+08:00"
+    },
+    {
+      "product_id": "536027545046549",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9395893+08:00"
+    },
+    {
+      "product_id": "536027544948753",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9410695+08:00"
+    },
+    {
+      "product_id": "536027544917008",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9428208+08:00"
+    },
+    {
+      "product_id": "536027544869913",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9439550+08:00"
+    },
+    {
+      "product_id": "536027544788507",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9449502+08:00"
+    },
+    {
+      "product_id": "536027544723736",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9460830+08:00"
+    },
+    {
+      "product_id": "536027544674326",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9473347+08:00"
+    },
+    {
+      "product_id": "536027544644627",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:28.7469985+08:00"
+    },
+    {
+      "product_id": "536027544595231",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:30.1744420+08:00"
+    },
+    {
+      "product_id": "536027544547861",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:31.4570228+08:00"
+    },
+    {
+      "product_id": "536027544515353",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:32.7640765+08:00"
+    },
+    {
+      "product_id": "536027544466198",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:34.2358138+08:00"
+    },
+    {
+      "product_id": "536027544435997",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:35.6723048+08:00"
+    },
+    {
+      "product_id": "536027544386842",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:36.9642837+08:00"
+    },
+    {
+      "product_id": "536027544339472",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:38.4199883+08:00"
+    },
+    {
+      "product_id": "536027544306705",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:39.8574560+08:00"
+    },
+    {
+      "product_id": "536027544256540",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:41.3726866+08:00"
+    },
+    {
+      "product_id": "536027544211228",
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:50:42.8000440+08:00"
+    },
+    {
+      "product_id": "536027538792219",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9636684+08:00"
+    },
+    {
+      "product_id": "536027538727696",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9647632+08:00"
+    },
+    {
+      "product_id": "536027538664212",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9659954+08:00"
+    },
+    {
+      "product_id": "536027538615321",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9669813+08:00"
+    },
+    {
+      "product_id": "536027538551579",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9693345+08:00"
+    },
+    {
+      "product_id": "536027538469657",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9703713+08:00"
+    },
+    {
+      "product_id": "536027538339859",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9713971+08:00"
+    },
+    {
+      "product_id": "536027538294559",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9724271+08:00"
+    },
+    {
+      "product_id": "536027537875224",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9736529+08:00"
+    },
+    {
+      "product_id": "536027537843486",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9746767+08:00"
+    },
+    {
+      "product_id": "536027537779480",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9756795+08:00"
+    },
+    {
+      "product_id": "536027537746975",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9769835+08:00"
+    },
+    {
+      "product_id": "536027537683997",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9785210+08:00"
+    },
+    {
+      "product_id": "536027537634079",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9796477+08:00"
+    },
+    {
+      "product_id": "536027537570582",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9806575+08:00"
+    },
+    {
+      "product_id": "536027537504784",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9818509+08:00"
+    },
+    {
+      "product_id": "536027537458970",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9830600+08:00"
+    },
+    {
+      "product_id": "536027537392413",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9842244+08:00"
+    },
+    {
+      "product_id": "536027535014681",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9853196+08:00"
+    },
+    {
+      "product_id": "536027534966814",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9886572+08:00"
+    },
+    {
+      "product_id": "536027534935320",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9901911+08:00"
+    },
+    {
+      "product_id": "536027534902298",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9939393+08:00"
+    },
+    {
+      "product_id": "536027534871057",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9957409+08:00"
+    },
+    {
+      "product_id": "536027534822686",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9974143+08:00"
+    },
+    {
+      "product_id": "536027534774298",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9984190+08:00"
+    },
+    {
+      "product_id": "536027534725907",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:48.9996832+08:00"
+    },
+    {
+      "product_id": "536027534693394",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0007346+08:00"
+    },
+    {
+      "product_id": "536027534646043",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0017288+08:00"
+    },
+    {
+      "product_id": "536027534548766",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0026276+08:00"
+    },
+    {
+      "product_id": "536027534501144",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0035645+08:00"
+    },
+    {
+      "product_id": "536027534452500",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0046107+08:00"
+    },
+    {
+      "product_id": "536027534307345",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0058795+08:00"
+    },
+    {
+      "product_id": "536027534275093",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0068643+08:00"
+    },
+    {
+      "product_id": "536027534129943",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0078613+08:00"
+    },
+    {
+      "product_id": "536027534083093",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0088455+08:00"
+    },
+    {
+      "product_id": "536027534017820",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0098454+08:00"
+    },
+    {
+      "product_id": "536027533986065",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0109163+08:00"
+    },
+    {
+      "product_id": "536027533937438",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0119174+08:00"
+    },
+    {
+      "product_id": "536027533903900",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0127552+08:00"
+    },
+    {
+      "product_id": "536027533857309",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0148014+08:00"
+    },
+    {
+      "product_id": "536027533824791",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0162512+08:00"
+    },
+    {
+      "product_id": "536027533777433",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0221122+08:00"
+    },
+    {
+      "product_id": "536027533696283",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0234265+08:00"
+    },
+    {
+      "product_id": "536027533648921",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0253811+08:00"
+    },
+    {
+      "product_id": "536027533615383",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0316410+08:00"
+    },
+    {
+      "product_id": "536027533552671",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0330021+08:00"
+    },
+    {
+      "product_id": "536027533520400",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0340202+08:00"
+    },
+    {
+      "product_id": "536027533470488",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0354423+08:00"
+    },
+    {
+      "product_id": "536027533438998",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0367674+08:00"
+    },
+    {
+      "product_id": "536027533407255",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0384567+08:00"
+    },
+    {
+      "product_id": "536027533294609",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0395119+08:00"
+    },
+    {
+      "product_id": "536027533214234",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0404901+08:00"
+    },
+    {
+      "product_id": "536027533164823",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0414886+08:00"
+    },
+    {
+      "product_id": "536027533134868",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0445553+08:00"
+    },
+    {
+      "product_id": "536027533099287",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0458240+08:00"
+    },
+    {
+      "product_id": "536027533053465",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0470893+08:00"
+    },
+    {
+      "product_id": "536027533020691",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0480913+08:00"
+    },
+    {
+      "product_id": "536027532989204",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0495891+08:00"
+    },
+    {
+      "product_id": "536027532940823",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0506807+08:00"
+    },
+    {
+      "product_id": "536027532907032",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0517429+08:00"
+    },
+    {
+      "product_id": "536027532764701",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0537803+08:00"
+    },
+    {
+      "product_id": "536027532730908",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0548650+08:00"
+    },
+    {
+      "product_id": "536027532683293",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0558849+08:00"
+    },
+    {
+      "product_id": "536027532650771",
+      "stage": "Discovered",
+      "audit_status": "Verify",
+      "release_status": "Blocked",
+      "failure_codes": [],
+      "updated_at": "2026-09-02T06:43:49.0571129+08:00"
+    }
+  ]
+}

@@ -77,6 +77,17 @@ public sealed record V44Facts
     /// <summary>V4.4 §10: set when an existing harmful URL must be migrated.</summary>
     public bool MigrateUrl { get; init; }
 
+    /// <summary>
+    /// Set when the operator wants the existing URL preserved verbatim even
+    /// though it carries a harmful token. This is the Phase 8.1 safe-write
+    /// mode: SEO fields are corrected while the URL, the canonical and the
+    /// publish state stay untouched, so no 301 is required.
+    ///
+    /// It is an explicit opt-in and never a default, because the harmful-token
+    /// migration rule in V4.4 §10 is the normal behaviour.
+    /// </summary>
+    public bool KeepExistingSlug { get; init; }
+
     public string? RedirectFrom { get; init; }
 }
 

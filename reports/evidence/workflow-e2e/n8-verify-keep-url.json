@@ -1,0 +1,74 @@
+{
+  "product_id": "536027551768089",
+  "plan_id": "plan_20260918T120715838_788763a9",
+  "standard_version": "4.4",
+  "standard_hash": "5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8",
+  "pass": false,
+  "checks": [
+    {
+      "code": "FRONTEND-03 H1_MISMATCH",
+      "severity": "ERROR",
+      "message": "Frontend H1 mismatch. Found: Thom Browne 4 Bar Stripe Jersey Stitch Tee Grown"
+    },
+    {
+      "code": "FRONTEND-05 META_MISMATCH",
+      "severity": "ERROR",
+      "message": "Frontend meta description does not match the saved draft."
+    },
+    {
+      "code": "FE-02 PRODUCT_DETAILS_MISSING",
+      "severity": "ERROR",
+      "message": "Rendered HTML has no <h2>Product Details</h2> block."
+    },
+    {
+      "code": "FE-03 PRODUCT_DETAILS_LIST_MISSING",
+      "severity": "ERROR",
+      "message": "Could not find the Product Details list in the rendered HTML."
+    },
+    {
+      "code": "FE-08 IMAGE_ALT_MISSING",
+      "severity": "ERROR",
+      "message": "1 product image(s) render without ALT text."
+    },
+    {
+      "code": "FE-09 FORBIDDEN_TERM",
+      "severity": "ERROR",
+      "message": "Rendered HTML contains wording banned by V4.4 §6: 'luckdog'."
+    },
+    {
+      "code": "FE-09 FORBIDDEN_TERM",
+      "severity": "ERROR",
+      "message": "Rendered HTML contains wording banned by V4.4 §6: '1:1'."
+    },
+    {
+      "code": "FE-09 FORBIDDEN_TERM",
+      "severity": "ERROR",
+      "message": "Rendered HTML contains wording banned by V4.4 §6: 'aaa'."
+    },
+    {
+      "code": "FE-09 FORBIDDEN_TERM",
+      "severity": "ERROR",
+      "message": "Rendered HTML contains wording banned by V4.4 §6: 'replica'."
+    },
+    {
+      "code": "EXEC-01",
+      "severity": "WARN",
+      "message": "Plan executed at 2026-09-18T12:07:16.1604411+00:00 with save status SIMULATED — MrShopPlus was NOT contacted. Bridge verify covers storefront acceptance only; backend read-back is recorded on the plan."
+    }
+  ],
+  "execution": {
+    "run_id": "t-shirts-candidate-pool-2026-09-02",
+    "published": false,
+    "save_status": "SIMULATED — MrShopPlus was NOT contacted",
+    "readback_status": "SIMULATED",
+    "frontend_status": "SIMULATED",
+    "readback_checks": [],
+    "frontend_checks": [
+      {
+        "code": "SIM-01",
+        "severity": "WARN",
+        "message": "Bridge is running in simulate mode; no write, read-back or storefront check was performed."
+      }
+    ]
+  }
+}

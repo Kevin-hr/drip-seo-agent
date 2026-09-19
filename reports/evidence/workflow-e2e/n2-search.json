@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "product_id": "536027551768089",
+      "name": "Thom Browne 4 Bar Stripe Jersey Stitch Tee Grown",
+      "admin_url": "https://www.mrshopplus.com/#/product/form_DTB_proProduct/0?action=3&pkValues=%5B536027551768089%5D",
+      "run_id": "t-shirts-candidate-pool-2026-09-02",
+      "is_published": false,
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "updated_at": "2026-09-02T06:50:07.3082391+08:00",
+      "image_count": 11
+    },
+    {
+      "product_id": "536027551814932",
+      "name": "Thom Browne 4 Bar Stripe Jersey Stitch Tee Medium Brown",
+      "admin_url": "https://www.mrshopplus.com/#/product/form_DTB_proProduct/0?action=3&pkValues=%5B536027551814932%5D",
+      "run_id": "t-shirts-candidate-pool-2026-09-02",
+      "is_published": false,
+      "stage": "SnapshotCaptured",
+      "audit_status": "Fix",
+      "release_status": "Blocked",
+      "updated_at": "2026-09-02T06:50:05.7994523+08:00",
+      "image_count": 11
+    }
+  ],
+  "total_scanned": 230,
+  "source": "local-checkpoints"
+}

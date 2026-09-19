@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "error": "stale_snapshot_requires_refresh",
+  "detail": "The local snapshot for 536027551768089 was captured 384.0 hours ago (2026-09-02T12:07:27.9110000+00:00) and the product already has a storefront URL. Maximum age is 24 hours. No plan was created. Re-run with live=true to read a fresh snapshot from the backend.",
+  "checks": [],
+  "gate_errors": []
+}

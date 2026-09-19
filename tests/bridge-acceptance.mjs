@@ -117,6 +117,24 @@ const hold = await call("POST", "/api/chatgpt-mcp/products/prepare-v44", {
 check("sku.hold_forbids_plan", hold.status === 409 && hold.json?.error === "hold_forbids_plan", `status=${hold.status} error=${hold.json?.error}`);
 
 // --------------------------------------------- 7. prepare: SKU_OMIT (valid)
+//
+// P0-2 introduced a snapshot-freshness guard: a product that already has a
+// storefront URL cannot be planned from a snapshot older than
+// SNAPSHOT_MAX_AGE_HOURS. The sandbox holds real run data captured weeks ago, so
+// the test products are re-stamped as freshly captured before the prepare tests.
+// This only touches the sandbox copy, never production state.
+function freshenSnapshot(runId, productId) {
+  const file = path.join(RUNS, runId, "products", `${productId}.json`);
+  if (!fs.existsSync(file)) return;
+  const job = JSON.parse(fs.readFileSync(file, "utf8"));
+  if (job.snapshot == null) return;
+  job.snapshot.capturedAt = new Date().toISOString();
+  fs.writeFileSync(file, JSON.stringify(job, null, 2));
+}
+for (const runId of fs.readdirSync(RUNS)) {
+  for (const productId of [PRODUCT, OTHER_PRODUCT]) freshenSnapshot(runId, productId);
+}
+
 const beforeTree = hashTree(RUNS);
 
 const omitPrepare = await call("POST", "/api/chatgpt-mcp/products/prepare-v44", {

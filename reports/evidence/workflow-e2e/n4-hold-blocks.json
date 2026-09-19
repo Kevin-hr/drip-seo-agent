@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "error": "hold_forbids_plan",
+  "detail": "Exact entity / SKU verdict is HOLD. V4.4 §4 forbids preparing a publish-ready PDP.",
+  "checks": [],
+  "gate_errors": []
+}

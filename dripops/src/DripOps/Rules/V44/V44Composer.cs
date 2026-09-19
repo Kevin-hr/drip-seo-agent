@@ -86,39 +86,93 @@ public sealed class V44Composer(V44Standard standard)
     private sealed record SlugDecision(string Slug, bool ChangeRequired, string? CurrentUrl);
 
     /// <summary>
-    /// V4.4 §10. An existing correct live URL is stable by default; migration is
-    /// required only for supplier noise, a wrong/unverified identifier,
-    /// ambiguity, or broken slug residue.
+    /// V4.4 §10. An existing live URL is stable by default; migration is required
+    /// only for supplier noise, a wrong/unverified identifier, ambiguity, or broken
+    /// slug residue.
+    ///
+    /// P0-1 hardening: the stability rule must NOT depend on
+    /// <c>snapshot.IsPublished</c>. That flag can be stale — a product whose
+    /// storefront URL resolves at HTTP 200 was observed with IsPublished=false —
+    /// and keying stability off it caused the composer to derive a replacement
+    /// slug while reporting UrlChangeRequired=false, i.e. silently replacing an
+    /// indexed production URL with no redirect.
+    ///
+    /// Rules now enforced:
+    ///   1. A non-empty existing slug is authoritative. If it carries no harmful
+    ///      token the composer keeps it verbatim, regardless of IsPublished.
+    ///   2. Whenever the final slug differs from a non-empty existing slug,
+    ///      UrlChangeRequired is forced true, which makes redirectFrom mandatory
+    ///      and therefore makes the migration explicit rather than silent.
     /// </summary>
     private SlugDecision DecideSlug(string productName, string? sku, V44Facts facts, ProductSnapshot snapshot)
     {
         var currentSlug = (snapshot.ExistingSlug ?? string.Empty).Trim().Trim('/');
-        var currentUrl = string.IsNullOrWhiteSpace(currentSlug) ? null : standard.CanonicalUrl(currentSlug);
-        var hasLiveUrl = snapshot.IsPublished && !string.IsNullOrWhiteSpace(currentSlug);
+        var hasExistingSlug = !string.IsNullOrWhiteSpace(currentSlug);
+        var currentUrl = hasExistingSlug ? standard.CanonicalUrl(currentSlug) : null;
 
-        if (facts.MigrateUrl)
+        string targetSlug;
+        bool changeRequired;
+
+        if (facts.KeepExistingSlug && hasExistingSlug)
         {
-            var target = ResolveTargetSlug(productName, sku, facts);
-            return new SlugDecision(target, true, currentUrl);
+            // Phase 8.1 safe-write mode. The operator has explicitly accepted the
+            // existing identifier for this pass, so the harmful-token rule is
+            // deliberately not applied. Nothing about the URL may change, which is
+            // what makes a 301 unnecessary. This branch is opt-in and is checked
+            // before every other rule, including MigrateUrl.
+            targetSlug = currentSlug;
+            changeRequired = false;
+        }
+        else if (facts.MigrateUrl)
+        {
+            // Explicit operator request: migrate to a clean slug.
+            targetSlug = ResolveTargetSlug(productName, sku, facts);
+            changeRequired = !hasExistingSlug || !IsSameSlug(targetSlug, currentSlug);
+        }
+        else if (!hasExistingSlug)
+        {
+            // No existing URL to protect: this is a new PDP.
+            targetSlug = ResolveTargetSlug(productName, sku, facts);
+            changeRequired = false;
+        }
+        else if (HasHarmfulSlugToken(currentSlug))
+        {
+            // The existing URL carries noise, so V4.4 §10 requires a migration.
+            targetSlug = ResolveTargetSlug(productName, sku, facts);
+            changeRequired = !IsSameSlug(targetSlug, currentSlug);
+        }
+        else
+        {
+            // Stability. Keep the existing identifier-correct URL. The published
+            // flag is deliberately not consulted here.
+            targetSlug = currentSlug;
+            changeRequired = false;
         }
 
-        if (hasLiveUrl)
+        // Invariant: a different final slug than an existing one is never silent.
+        if (hasExistingSlug && !IsSameSlug(targetSlug, currentSlug))
         {
-            var harmful = HarmfulSlugTokens.IsMatch(currentSlug)
-                || currentSlug.EndsWith('-')
-                || currentSlug.StartsWith('-')
-                || currentSlug.Contains("--", StringComparison.Ordinal)
-                || !Regex.IsMatch(currentSlug, standard.SlugPattern);
-            if (!harmful)
-            {
-                // Stability rule: keep the existing identifier-correct URL.
-                return new SlugDecision(currentSlug, false, currentUrl);
-            }
-            var target = ResolveTargetSlug(productName, sku, facts);
-            return new SlugDecision(target, !string.Equals(target, currentSlug, StringComparison.Ordinal), currentUrl);
+            changeRequired = true;
         }
 
-        return new SlugDecision(ResolveTargetSlug(productName, sku, facts), false, currentUrl);
+        return new SlugDecision(targetSlug, changeRequired, currentUrl);
+    }
+
+    private static bool IsSameSlug(string left, string right) =>
+        string.Equals(left.Trim().Trim('/'), right.Trim().Trim('/'), StringComparison.Ordinal);
+
+    /// <summary>
+    /// V4.4 §6/§10: supplier wording, marketing filler and broken slug residue are
+    /// migration triggers. Note this no longer depends on the published flag.
+    /// </summary>
+    private static bool HasHarmfulSlugToken(string slug)
+    {
+        if (string.IsNullOrWhiteSpace(slug)) return false;
+        return HarmfulSlugTokens.IsMatch(slug)
+               || slug.StartsWith('-')
+               || slug.EndsWith('-')
+               || slug.Contains("--", StringComparison.Ordinal)
+               || !Regex.IsMatch(slug, "^[a-z0-9]+(?:-[a-z0-9]+)*$");
     }
 
     private string ResolveTargetSlug(string productName, string? sku, V44Facts facts)

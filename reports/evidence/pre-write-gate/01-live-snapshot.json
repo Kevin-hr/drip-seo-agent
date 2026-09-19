@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "error": "live_read_failed",
+  "detail": "live=true was requested for 536027551768089 but the backend read did not return a snapshot. Refusing to fall back to a possibly stale local checkpoint. Cause: Mrshopplus login is required in the dedicated DripOps Chrome profile. Log in once, then rerun the command.",
+  "checks": [],
+  "gate_errors": []
+}

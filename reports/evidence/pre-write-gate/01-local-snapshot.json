@@ -1,0 +1,199 @@
+{
+  "product_id": "536027551768089",
+  "run_id": "t-shirts-candidate-pool-2026-09-02",
+  "admin_url": "https://www.mrshopplus.com/#/product/form_DTB_proProduct/0?action=3&pkValues=%5B536027551768089%5D",
+  "name": "Thom Browne 4 Bar Stripe Jersey Stitch Tee Grown",
+  "subtitle": "QC Photos · 30-Day Returns",
+  "is_published": false,
+  "stage": "SnapshotCaptured",
+  "audit_status": "Fix",
+  "release_status": "Blocked",
+  "failure_codes": [],
+  "captured_at": "2026-09-18T12:07:31.2320000+00:00",
+  "snapshot_hash": "ae7c127f9d0161d767a2a3be6f10b200481cef7400231fad32b073b65adb3df2",
+  "images": [
+    "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E3164571A713.jpeg",
+    "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31645739B19.jpeg",
+    "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E316458A6A12.jpeg",
+    "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31645992415.jpeg",
+    "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31645AFF517.jpeg",
+    "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31645D54614.jpeg",
+    "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31645F89612.jpeg",
+    "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E3164630C41E.jpeg",
+    "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E316464B4314.jpeg",
+    "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31646ACA814.jpeg",
+    "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31646D91711.jpeg"
+  ],
+  "snapshot": {
+    "product_id": "536027551768089",
+    "admin_url": "https://www.mrshopplus.com/#/product/form_DTB_proProduct/0?action=3&pkValues=%5B536027551768089%5D",
+    "existing_name": "Thom Browne 4 Bar Stripe Jersey Stitch Tee Grown",
+    "existing_subtitle": "QC Photos · 30-Day Returns",
+    "existing_description_html": "<style>\n   .sx-pdp-layout {\n     --text-dark: #111111;\n     --text-muted: #555555;\n     --border-light: #eeeeee;\n     --bg-light: #fdfdfd;\n     \n     font-family: Helvetica, sans-serif;\n     font-size: 14px;\n     line-height: 1.7;\n     color: var(--text-dark);\n     max-width: 100%;\n     margin: 0 auto;\n     padding: 10px 0;\n     \n     -webkit-text-size-adjust: 100%;\n     text-size-adjust: 100%;\n     box-sizing: border-box;\n \n     -webkit-font-smoothing: antialiased;\n     -moz-osx-font-smoothing: grayscale;\n   }\n \n   .sx-pdp-layout * {\n     box-sizing: border-box;\n   }\n \n   .sx-intro-meta {\n     margin-bottom: 24px;\n   }\n   .sx-intro-meta p {\n     margin: 0 0 12px 0;\n   }\n   .sx-intro-meta strong {\n     font-weight: 700;\n   }\n   .sx-product-desc {\n     font-style: italic;\n     color: var(--text-muted);\n     border-left: 2px solid #000000;\n     padding-left: 12px;\n     margin: 16px 0;\n     font-weight: 400;\n   }\n \n   .sx-section-title {\n     font-size: 16px;\n     font-weight: 700;\n     text-transform: uppercase;\n     letter-spacing: 1px;\n     color: var(--text-dark);\n     margin: 28px 0 12px 0;\n     padding-bottom: 6px;\n     border-bottom: 1px solid #000000;\n   }\n \n   .sx-clean-list {\n     list-style: none;\n     padding: 0;\n     margin: 0 0 20px 0;\n   }\n   .sx-clean-list li {\n     position: relative;\n     padding-left: 16px;\n     margin-bottom: 8px;\n     color: var(--text-muted);\n     font-weight: 400;\n   }\n   .sx-clean-list li::before {\n     content: \"\\2022\";\n     position: absolute;\n     left: 0;\n     color: var(--text-dark);\n     font-weight: 700;\n   }\n   .sx-clean-list strong {\n     color: var(--text-dark);\n     font-weight: 700;\n   }\n \n   .sx-guarantee-card-grid {\n     display: grid;\n     grid-template-columns: repeat(3, 1fr);\n     gap: 16px;\n     margin: 20px 0 32px 0;\n   }\n   .sx-g-card {\n     background-color: var(--bg-light);\n     border: 1px solid var(--border-light);\n     padding: 16px;\n     border-radius: 4px;\n   }\n   .sx-g-card-title {\n     font-size: 12px;\n     font-weight: 700;\n     text-transform: uppercase;\n     letter-spacing: 1px;\n     margin-bottom: 8px;\n     color: var(--text-dark);\n   }\n   .sx-g-card-text {\n     font-size: 14px;\n     color: var(--text-muted);\n     margin: 0;\n     line-height: 1.6;\n     font-weight: 400;\n   }\n \n   .sx-automation-footer {\n     margin-top: 40px;\n     padding-top: 24px;\n     border-top: 2px solid #000000;\n   }\n   .sx-dynamic-panel {\n     margin-bottom: 24px;\n     background-color: var(--bg-light);\n     border: 1px solid var(--border-light);\n     padding: 16px;\n     border-radius: 4px;\n   }\n   .sx-panel-title {\n     font-size: 12px;\n     font-weight: 700;\n     text-transform: uppercase;\n     letter-spacing: 1px;\n     margin: 0 0 12px 0;\n     color: var(--text-dark);\n   }\n   .sx-link-hub {\n     font-size: 14px;\n     color: var(--text-muted);\n     line-height: 1.8;\n   }\n   .sx-link-hub a {\n     color: var(--text-dark);\n     text-decoration: none;\n     font-weight: 700;\n     border-bottom: 1px dashed var(--text-muted);\n     padding-bottom: 1px;\n     margin: 0 4px;\n     transition: all 0.2s ease;\n   }\n   .sx-link-hub a:hover {\n     color: #689f38;\n     border-bottom-color: #689f38;\n   }\n \n   .sx-pdp-layout a.sx-text-link {\n     color: var(--text-dark);\n     text-decoration: underline;\n     text-underline-offset: 3px;\n     font-weight: 700;\n   }\n \n   .sx-contact-row {\n     font-size: 14px;\n     margin-bottom: 6px;\n     color: var(--text-muted);\n     font-weight: 400;\n   }\n   .sx-contact-row a {\n     color: var(--text-dark);\n     text-decoration: underline;\n     font-weight: 700;\n   }\n \n   @media (max-width: 768px) {\n     .sx-guarantee-card-grid {\n       grid-template-columns: 1fr;\n       gap: 12px;\n     }\n   }\n </style><div class=\"sx-pdp-layout\"><div class=\"sx-intro-meta\"><p><strong>Name:</strong> Thom Browne 4 Bar Stripe Jersey Stitch Tee Grown</p><div class=\"sx-product-desc\">The T-Shirt brings exceptional craftsmanship and premium materials to streetwear. A must-have for any serious collector.</div></div><div class=\"sx-section-title\">Technical Breakdown</div><ul class=\"sx-clean-list\"><li><strong>Unmatched 1:1 Replication:</strong> Constructed using the exact same premium materials and original mold specifications as the authentic retail pairs.</li><li><strong>Fit Guide:</strong> True to size. We recommend your standard sizing for the optimal fit.</li></ul><div class=\"sx-section-title\">Essential Care Guide</div><ul class=\"sx-clean-list\"><li><strong>Cleaning:</strong> Use a premium soft-bristle brush and specialized cleaner. Avoid fully submerging the item in water.</li><li><strong>Storage:</strong> Keep in a cool, dry environment. Use shoe trees or proper hangers to maintain structural integrity.</li></ul><div class=\"sx-section-title\">Our Operational Standards</div><div class=\"sx-guarantee-card-grid\"><div class=\"sx-g-card\"><div class=\"sx-g-card-title\">100% Direct Factory</div><p class=\"sx-g-card-text\">We are the source factory utilizing the exact same imported assembly lines, original molds, and retail material sources as top-tier batches like LJR and PK. Zero middlemen premiums.</p></div><div class=\"sx-g-card\"><div class=\"sx-g-card-title\">Zero-Risk QC</div><p class=\"sx-g-card-text\">Every order receives high-resolution pre-shipment photos via WhatsApp within 1-3 days. Give us a Green Light (GL) to ship, or Red Light (RL) for a free replacement pair.</p></div><div class=\"sx-g-card\"><div class=\"sx-g-card-title\">Customs Insured</div><p class=\"sx-g-card-text\">Full customs clearance management. In the extremely rare event that your package is seized during global transit, we will reship a brand new pair completely FREE.</p></div></div><div class=\"sx-section-title\">Shipping &amp; Payment</div><ul class=\"sx-clean-list\"><li><strong>Delivery Time:</strong> 7-14 Business Days. See full <a href=\"https://www.dripsneakers.net/delivery-shipping-policy\" rel=\"noopener\" target=\"_blank\" class=\"sx-text-link\" data-mce-href=\"https://www.dripsneakers.net/delivery-shipping-policy\">Shipping Policy</a>.</li><li><strong>Payments Accepted:</strong> Credit/Debit Card, PayPal, Cash App, Zelle, USDT(Best) / ETH / BTC.</li></ul><div class=\"sx-automation-footer\"><div class=\"sx-dynamic-panel\"><div class=\"sx-panel-title\">Explore More Heat</div><div class=\"sx-link-hub\"><a href=\"https://www.dripsneakers.net/Stockx-Jordan-4/\" rel=\"noopener\" target=\"_blank\" data-mce-href=\"https://www.dripsneakers.net/Stockx-Jordan-4/\">Jordan 4</a> <a href=\"https://www.dripsneakers.net/Stockx-Jordan-1/\" rel=\"noopener\" target=\"_blank\" data-mce-href=\"https://www.dripsneakers.net/Stockx-Jordan-1/\">Jordan 1</a> <a href=\"https://www.dripsneakers.net/Stockx-Jordan-11-c111444/\" rel=\"noopener\" target=\"_blank\" data-mce-href=\"https://www.dripsneakers.net/Stockx-Jordan-11-c111444/\">Jordan 11</a> <a href=\"https://www.dripsneakers.net/Balenciaga/\" rel=\"noopener\" target=\"_blank\" data-mce-href=\"https://www.dripsneakers.net/Balenciaga/\">Balenciaga Shoes</a> <a href=\"https://www.dripsneakers.net/blog/\" rel=\"noopener\" target=\"_blank\" data-mce-href=\"https://www.dripsneakers.net/blog/\">QC Pics Blog</a></div></div><div class=\"sx-nav-group\" style=\"border-top: 1px solid var(--border-light); padding-top: 16px;\" data-mce-style=\"border-top: 1px solid var(--border-light); padding-top: 16px;\"><div class=\"sx-panel-title\">Need Help? Contact Us</div><div class=\"sx-contact-row\">WhatsApp: <a href=\"https://api.whatsapp.com/send?phone=8618959205893\" rel=\"noopener\" target=\"_blank\" data-mce-href=\"https://api.whatsapp.com/send?phone=8618959205893\">+86 189 5920 5893</a></div><div class=\"sx-contact-row\">Instagram: <a href=\"https://www.instagram.com/dripsneakers_net/\" rel=\"noopener\" target=\"_blank\" data-mce-href=\"https://www.instagram.com/dripsneakers_net/\">@dripsneakers_net</a></div><p style=\"font-size: 13px; color: var(--text-muted); margin-top: 14px; line-height: 1.6;\" data-mce-style=\"font-size: 13px; color: var(--text-muted); margin-top: 14px; line-height: 1.6;\"><em>Backed by 15 years of retail expertise, we bypass resale middlemen to deliver top-tier, 1:1 premium streetwear at unbeatable factory-direct prices. We guarantee a 100% risk-free shopping experience by sending detailed QC photos for your approval before anything ships. As your trusted independent supplier, we ensure you shop with total transparency and wear your heat with absolute confidence.</em></p></div></div></div>",
+    "existing_seo_title": "",
+    "existing_seo_keywords": [],
+    "existing_meta_description": "",
+    "existing_slug": "Top-Quality-Thom-Browne-4-Bar-Stripe-Jersey-Stitch-Tee-Grown",
+    "is_published": false,
+    "image_urls": [
+      "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E3164571A713.jpeg",
+      "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31645739B19.jpeg",
+      "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E316458A6A12.jpeg",
+      "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31645992415.jpeg",
+      "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31645AFF517.jpeg",
+      "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31645D54614.jpeg",
+      "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31645F89612.jpeg",
+      "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E3164630C41E.jpeg",
+      "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E316464B4314.jpeg",
+      "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31646ACA814.jpeg",
+      "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-27/t_shirt_1E31646D91711.jpeg"
+    ],
+    "captured_at": "2026-09-18T12:07:31.232+00:00"
+  },
+  "snapshot_completeness": {
+    "contract": "AGENT_CONTRACT_V2.0",
+    "section": "4",
+    "complete": false,
+    "fields": [
+      {
+        "field": "product_id",
+        "present": true,
+        "stop_condition": null,
+        "source": "admin snapshot"
+      },
+      {
+        "field": "current_product_name",
+        "present": true,
+        "stop_condition": null,
+        "source": "admin snapshot"
+      },
+      {
+        "field": "current_url",
+        "present": true,
+        "stop_condition": null,
+        "source": "admin snapshot"
+      },
+      {
+        "field": "current_sku",
+        "present": false,
+        "stop_condition": null,
+        "source": "no reader in the stack"
+      },
+      {
+        "field": "supplier_code",
+        "present": false,
+        "stop_condition": null,
+        "source": "no reader in the stack"
+      },
+      {
+        "field": "category",
+        "present": false,
+        "stop_condition": null,
+        "source": "no reader in the stack"
+      },
+      {
+        "field": "price",
+        "present": false,
+        "stop_condition": null,
+        "source": "no reader in the stack"
+      },
+      {
+        "field": "inventory",
+        "present": false,
+        "stop_condition": null,
+        "source": "no reader in the stack"
+      },
+      {
+        "field": "variants",
+        "present": false,
+        "stop_condition": "variants",
+        "source": "no reader in the stack"
+      },
+      {
+        "field": "description",
+        "present": true,
+        "stop_condition": "description",
+        "source": "admin snapshot"
+      },
+      {
+        "field": "key_description",
+        "present": false,
+        "stop_condition": null,
+        "source": "no reader in the stack"
+      },
+      {
+        "field": "seo_title",
+        "present": false,
+        "stop_condition": "seo_fields",
+        "source": "admin snapshot (SEO dialog)"
+      },
+      {
+        "field": "seo_keywords",
+        "present": false,
+        "stop_condition": "seo_fields",
+        "source": "admin snapshot (SEO dialog)"
+      },
+      {
+        "field": "meta_description",
+        "present": false,
+        "stop_condition": "seo_fields",
+        "source": "admin snapshot (SEO dialog)"
+      },
+      {
+        "field": "images",
+        "present": true,
+        "stop_condition": "images",
+        "source": "admin snapshot"
+      },
+      {
+        "field": "image_urls",
+        "present": true,
+        "stop_condition": null,
+        "source": "admin snapshot"
+      },
+      {
+        "field": "image_alt",
+        "present": false,
+        "stop_condition": null,
+        "source": "no reader in the stack"
+      },
+      {
+        "field": "existing_schema",
+        "present": false,
+        "stop_condition": null,
+        "source": "storefront only, not in the admin snapshot"
+      }
+    ],
+    "stop_conditions": [
+      "images",
+      "description",
+      "seo_fields",
+      "variants"
+    ],
+    "missing_stop_conditions": [
+      "seo_fields",
+      "variants"
+    ],
+    "missing_advisory": [
+      "current_sku",
+      "supplier_code",
+      "category",
+      "price",
+      "inventory",
+      "key_description",
+      "image_alt",
+      "existing_schema"
+    ]
+  },
+  "current_seo": {
+    "seo_title": "",
+    "keywords": [],
+    "meta_description": "",
+    "slug": "Top-Quality-Thom-Browne-4-Bar-Stripe-Jersey-Stitch-Tee-Grown"
+  },
+  "facts": null,
+  "local_evidence": [],
+  "sku_status": "UNRESOLVED",
+  "v44_required": true,
+  "research_instruction": "Resolve the exact entity and SKU evidence externally. Never use the MrShopPlus Product ID, supplier code, listing ID, URL suffix or image filename as a public SKU."
+}

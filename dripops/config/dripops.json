@@ -13,6 +13,8 @@
   "bridgeHost": "127.0.0.1",
   "bridgePort": 8787,
   "executionMode": "live",
+  "snapshotMaxAgeHours": 24,
+  "requireCompleteSnapshot": false,
   "headless": false,
   "autoPublishPassOnly": true,
   "trustClaims": {

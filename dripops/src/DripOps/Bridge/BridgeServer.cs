@@ -115,6 +115,8 @@ public sealed class BridgeServer
                     standard_hash = _standard.DocumentHash,
                     standard_file = _standard.DocumentFile,
                     execution_mode = _executionMode,
+                    snapshot_max_age_hours = _config.SnapshotMaxAgeHours,
+                    require_complete_snapshot = _config.RequireCompleteSnapshot,
                 });
                 return;
             }
@@ -261,12 +263,17 @@ public sealed class BridgeServer
         }
 
         var located = FindProduct(request.ProductId);
-        if (located is null && request.Live)
+
+        // A live request always refreshes, even when a local checkpoint exists.
+        if (request.Live)
         {
             var live = await ReadLiveSnapshotAsync(request.ProductId);
             if (live is null)
             {
-                await WriteJsonAsync(context, 502, Error("live_read_failed", "Live MrShopPlus read did not return a snapshot."));
+                await WriteJsonAsync(context, 502, Error("live_read_failed",
+                    $"live=true was requested for {request.ProductId} but the backend read did not return a snapshot. " +
+                    "Refusing to fall back to a possibly stale local checkpoint. " +
+                    $"Cause: {_lastLiveReadError ?? "unknown"}"));
                 return;
             }
             located = live;
@@ -302,6 +309,9 @@ public sealed class BridgeServer
             // `images` mirrors snapshot.imageUrls so the MCP image loader can pick them up.
             images = snapshot.ImageUrls,
             snapshot,
+            // Agent Contract V2.0 §4. Always computed, so the caller can see which
+            // fields the snapshot does and does not carry before attempting a plan.
+            snapshot_completeness = V44SnapshotCompleteness.Evaluate(snapshot),
             current_seo = new
             {
                 seo_title = snapshot.ExistingSeoTitle,
@@ -354,10 +364,24 @@ public sealed class BridgeServer
         }
 
         var located = FindProduct(request.ProductId);
-        if (located is null && request.Live)
+
+        // P0-2: an explicit live request must actually refresh, even when a local
+        // checkpoint exists. Silently falling back to a stale checkpoint would make
+        // the freshness guarantee meaningless.
+        if (request.Live)
         {
-            located = await ReadLiveSnapshotAsync(request.ProductId);
+            var live = await ReadLiveSnapshotAsync(request.ProductId);
+            if (live is null)
+            {
+                await WriteJsonAsync(context, 502, Error("live_read_failed",
+                    $"live=true was requested for {request.ProductId} but the backend read did not return a snapshot. " +
+                    "No plan was created. Refusing to fall back to a possibly stale local checkpoint. " +
+                    $"Cause: {_lastLiveReadError ?? "unknown"}"));
+                return;
+            }
+            located = live;
         }
+
         if (located is null)
         {
             await WriteJsonAsync(context, 404, Error("product_not_indexed",
@@ -366,6 +390,53 @@ public sealed class BridgeServer
         }
 
         var (runId, job, snapshot) = located.Value;
+
+        // P0-2: snapshot freshness. snapshot_hash proves the plan matches the stored
+        // snapshot; it does not prove the stored snapshot matches reality. A product
+        // that already has a storefront URL must be planned from a recent snapshot.
+        var snapshotAgeHours = (DateTimeOffset.Now - snapshot.CapturedAt).TotalHours;
+        var hasStorefrontUrl = !string.IsNullOrWhiteSpace(snapshot.ExistingSlug);
+        if (hasStorefrontUrl && snapshotAgeHours > _config.SnapshotMaxAgeHours)
+        {
+            await WriteJsonAsync(context, 409, new BridgeError
+            {
+                Ok = false,
+                Error = "stale_snapshot_requires_refresh",
+                Detail =
+                    $"The local snapshot for {request.ProductId} was captured {snapshotAgeHours:F1} hours ago " +
+                    $"({snapshot.CapturedAt:O}) and the product already has a storefront URL. " +
+                    $"Maximum age is {_config.SnapshotMaxAgeHours} hours. No plan was created. " +
+                    "Re-run with live=true to read a fresh snapshot from the backend.",
+            });
+            return;
+        }
+
+        // Agent Contract V2.0 §4: a snapshot missing one of the four STOP-condition
+        // fields cannot support the identity decision at all, so no plan may be
+        // built from it. The report is always attached to the response; whether it
+        // halts the run is controlled by requireCompleteSnapshot, because the
+        // variants reader does not exist yet and enforcing it unconditionally would
+        // block every product rather than the incomplete ones.
+        var completeness = V44SnapshotCompleteness.Evaluate(snapshot);
+        if (_config.RequireCompleteSnapshot && !completeness.Complete)
+        {
+            var brokenSources = completeness.Fields
+                .Where(f => f.StopCondition is not null && completeness.MissingStopConditions.Contains(f.StopCondition))
+                .Select(f => $"{f.Field}={f.Source}");
+            await WriteJsonAsync(context, 409, new BridgeError
+            {
+                Ok = false,
+                Error = "snapshot_incomplete",
+                Detail =
+                    $"The snapshot for {request.ProductId} fails {completeness.MissingStopConditions.Count} of the four " +
+                    $"fields Agent Contract V2.0 §4 treats as a stop condition: " +
+                    $"{string.Join(", ", completeness.MissingStopConditions)}. " +
+                    $"No plan was created. The snapshot is not a sufficient basis for an identity decision. " +
+                    $"Sources: {string.Join("; ", brokenSources)}.",
+            });
+            return;
+        }
+
         var snapshotHash = PlanStore.ComputeSnapshotHash(snapshot);
 
         var composer = new V44Composer(_standard);
@@ -373,7 +444,40 @@ public sealed class BridgeServer
         var draft = composer.Compose(request.SkuResolution.ExactEntity, facts, request.SkuResolution.Sku, snapshot);
 
         var validator = new V44Validator(_standard);
-        var validation = validator.Validate(draft, request.SkuResolution);
+        // The existing slug is passed so the URL layer can tell a bad proposed slug
+        // apart from a legacy slug the plan deliberately leaves in place.
+        var validation = validator.Validate(draft, request.SkuResolution, snapshot.ExistingSlug);
+
+        // P0-1 visibility: a URL change on an existing product is never silent.
+        var extraChecks = new List<V44Check>();
+        if (hasStorefrontUrl && draft.UrlChangeRequired)
+        {
+            extraChecks.Add(new V44Check
+            {
+                Code = "URL-10",
+                Severity = "WARN",
+                Message =
+                    $"This product already has a storefront URL ('{snapshot.ExistingSlug}'). The plan changes it to " +
+                    $"'{draft.Slug}'. A direct 301 from the old URL to the new one must be configured at site level, " +
+                    $"and redirectFrom is recorded as '{draft.RedirectFrom}'.",
+            });
+        }
+        if (!snapshot.IsPublished && hasStorefrontUrl)
+        {
+            extraChecks.Add(new V44Check
+            {
+                Code = "URL-11",
+                Severity = "WARN",
+                Message =
+                    "snapshot.IsPublished is false while the product already has a slug. That flag may be stale " +
+                    "(the storefront URL can still resolve). URL stability no longer depends on it, but the " +
+                    "published state should not be trusted for this product until read live.",
+            });
+        }
+        if (extraChecks.Count > 0)
+        {
+            validation = validation with { Checks = [.. validation.Checks, .. extraChecks] };
+        }
         if (!validation.IsPass)
         {
             // A failing dry run must not leave a plan behind.
@@ -589,8 +693,15 @@ public sealed class BridgeServer
         var page = await chrome.OpenPageAsync(plan.AdminUrl, cancellationToken);
         var client = new MrshopplusClient(_config, page);
 
-        // Existing, already-proven MrShopPlus write path.
-        await client.WriteAndSaveAsync(draft, publish: true, cancellationToken);
+        // Publish is requested only when the plan actually changes the URL.
+        //
+        // A plan that leaves the URL alone is a Phase 8.1 SEO-field correction:
+        // touching the publish toggle in the same pass would turn a content fix
+        // into a visibility change as a side effect, and the review gate would
+        // have approved a scope that did not include it. A URL migration, which
+        // is the Phase 8.2 operation, is the only case that publishes.
+        var shouldPublish = draft.UrlChangeRequired;
+        await client.WriteAndSaveAsync(draft, publish: shouldPublish, cancellationToken);
 
         // Backend read-back through the existing path.
         var readbackChecks = new List<V44Check>();
@@ -839,8 +950,17 @@ public sealed class BridgeServer
         return best;
     }
 
+    /// <summary>
+    /// The reason the most recent live read failed, when it failed. Bridge
+    /// diagnostics go to stderr, which the caller never sees; an operator
+    /// debugging an expired admin session needs the cause in the response, not a
+    /// generic "did not return a snapshot".
+    /// </summary>
+    private string? _lastLiveReadError;
+
     private async Task<(string RunId, ProductJob Job, ProductSnapshot Snapshot)?> ReadLiveSnapshotAsync(string productId)
     {
+        _lastLiveReadError = null;
         try
         {
             var adminUrl = $"{_config.AdminOrigin.TrimEnd('/')}/#/product/form_DTB_proProduct/0?action=3&pkValues=%5B{productId}%5D";
@@ -850,11 +970,39 @@ public sealed class BridgeServer
             var client = new MrshopplusClient(_config, page);
             var snapshot = await client.ReadProductAsync(productId, adminUrl, CancellationToken.None);
 
+            // The snapshot is the rollback baseline for a write. A baseline that is
+            // missing the four SEO fields cannot be used to restore them, and
+            // because PlanStore.ComputeSnapshotHash covers those fields an always-empty
+            // value also weakens tamper detection. Read them in the same session and
+            // fail the whole live read rather than hand back a baseline with a silent
+            // hole in it.
+            ProductSeoReadback seo;
+            try
+            {
+                seo = await client.ReadSeoAsync(CancellationToken.None);
+            }
+            catch (Exception exception)
+            {
+                throw new InvalidOperationException(
+                    $"Live snapshot for {productId} did not capture the SEO fields, so it is not a complete " +
+                    $"rollback baseline. Refusing to return a partial snapshot. " +
+                    $"SEO dialog read failed: {exception.Message}",
+                    exception);
+            }
+
+            snapshot = snapshot with
+            {
+                ExistingSeoTitle = seo.SeoTitle,
+                ExistingSeoKeywords = seo.Keywords,
+                ExistingMetaDescription = seo.MetaDescription,
+            };
+
             var job = new ProductJob { ProductId = productId, AdminUrl = adminUrl, Snapshot = snapshot };
             return ("live", job, snapshot);
         }
         catch (Exception exception)
         {
+            _lastLiveReadError = exception.Message;
             Console.Error.WriteLine($"Live read failed for {productId}: {exception.Message}");
             return null;
         }
