@@ -146,4 +146,3 @@ Exact Entity PASS
 
 Until those gates run again, the repository’s defensible claim remains:
 **11 historical V3 terminal successes, 0 independently re-accepted under V4.4.**
-

@@ -27,4 +27,3 @@ assert.match(lessons, /single-item\/set gate/i);
 assert.match(lessons, /Description image-only PASS/i);
 
 console.log("T-SHIRTS V3 LESSONS CHECK PASS — 11 distinct historical successes; V4.4 carry-forward is fail-closed.");
-
