@@ -39,9 +39,26 @@ node seo-core/tests/run-core-tests.mjs
 ## 两个文件
 
 ```text
+../engine.mjs          参考实现（可被品牌包 import）
 test-cases-v1.json     10 个案例，机器可读（输入是证据事实，不是期望值）
-run-core-tests.mjs     参考实现 + 断言
+run-core-tests.mjs     断言harness
 ```
+
+引擎抽成 `seo-core/engine.mjs` 的目的：**让品牌包 import 引擎，而不是复制它**。
+
+```js
+import { runCore, applyPackConstraints, evaluateUrlPolicy } from "../engine.mjs";
+```
+
+`runCore(input, policy, pack)` 的第三个参数是可选品牌包：
+
+```text
+pack = null          纯 Core 行为
+pack = <prada pack>  Core 行为 + 品牌命名公式 + 品牌收紧的 SKU 来源类型
+pack 试图扩大权限     →  HOLD，原因码 PACK-WIDENS-PERMISSION
+```
+
+品牌包自己的测试见 `packs/prada/tests/`。
 
 关键设计：**案例输入描述"有哪些证据"，不由案例直接写死结论。**
 结论由参考实现按规则推导。这样测试才是在验证规则，而不是在验证我的预期。

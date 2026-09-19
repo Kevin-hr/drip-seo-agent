@@ -211,11 +211,46 @@ IF 触发迁移条件（身份错误 / 供应商噪音 / 歧义 / slug 残留 / 
 THEN old → 单跳 301 → final，final = 200，无 redirect chain，
      且 canonical / Schema / sitemap / 内链同步
 OUTPUT PASS
+```
 
+```text
 RULE-ID: GEN-09
 IF Canonical != origin + slug
 THEN 阻断（URL-03）
 OUTPUT HOLD
+```
+
+### 7.1 迁移触发条件的不对称（实测得出，务必区分）
+
+```text
+结构性破损 → MIGRATE
+  空 path
+  segment 以连字符开头或结尾（真实反例：/-Prada-Sneakers-Black-Red）
+  URL 无法解析
+
+约定漂移 → 只 WARN，不迁移
+  既有 slug 不是小写
+  既有 slug 不符合新 slug 的 `^[a-z0-9]+(?:-[a-z0-9]+)*$`
+
+显式触发 → MIGRATE
+  身份错误 / 未核实、供应商噪音、歧义、slug 残留
+```
+
+```text
+RULE-ID: GEN-22
+IF 既有 live URL 只是大小写不符合新 slug 约定
+THEN 只出 WARN（沿用 URL-01 的降级口径），不得迁移
+OUTPUT VERIFY
+```
+
+为什么必须区分：Prada 的线上成功页是
+`/Prada-Americas-Cup-Patent-Leather-Sneakers-Grey-White`（含大写），
+而那次执行**刻意保留了它**。把大小写当成迁移触发条件，
+会去重写一个当时被判断为"正确、应当保留"的 URL —— 直接违反 GEN-07。
+
+```text
+实现：seo-core/engine.mjs 的 evaluateUrlPolicy(currentUrl, triggers)
+     返回 { action: NEW | KEEP | MIGRATE, reason, triggers[], warnings[] }
 ```
 
 ---

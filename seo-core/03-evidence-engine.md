@@ -45,7 +45,7 @@ test_cases: [TC-001, TC-002, TC-009, TC-010]
   "stage": "FrontendVerified",
   "release_status": "Verified",
   "validation_is_valid": true,
-  "product_state_sha256": "be8ee43e..."
+  "product_state_sha256": "be8ee43e993e456eebde4768af528231797c9d71c2ef9df7f5bc67697f3a283a"
 }
 ```
 
