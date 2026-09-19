@@ -1,0 +1,208 @@
+{
+  "pack_id": "prada",
+  "pack_version": "1.0.0",
+  "brand": "Prada",
+  "applies_to": ["category:sneakers"],
+  "created": "2026-09-20",
+  "core_required": {
+    "branch": "feature/seo-pdp-intelligence-core-v1",
+    "minimum_commit": "ce99c80a",
+    "engine": "seo-core/engine.mjs"
+  },
+  "standard": {
+    "file": "standards/V4.4/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md",
+    "sha256": "965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7"
+  },
+  "evidence_status": "VERIFIED_CASE_AVAILABLE",
+  "ready_for_production": false,
+  "ready_blockers": [
+    "PRADA-RUN-EXECUTED-0-OF-78",
+    "PRADA-SKU-MIGRATION-UNRESOLVED",
+    "PRADA-LEGACY-URLS-BROKEN",
+    "PRADA-LEGACY-PDP-VERSION-3.3-NOT-V4.4"
+  ],
+
+  "naming": {
+    "series": [
+      {
+        "collection": "America's Cup",
+        "template": "{brand} America's Cup {descriptor} {colorway}",
+        "allowed_descriptors": [
+          "Patent Leather Sneakers",
+          "Soft Rubber Sneakers",
+          "Leather Sneakers"
+        ],
+        "derivation": "formula-driven; the descriptor must be one of the three listed values"
+      }
+    ],
+    "non_series_handling": "manual mapping required; naming may not be improvised",
+    "colorway_noise_tokens": ["4E3400", "4E6500", "3LLJ", "ASZ", "6GW"],
+    "colorway_noise_scope": "these tokens are stripped from the PUBLIC colorway name only; they remain valid segments inside an official SKU",
+    "colorway_normalisations": [
+      { "from": "and", "to": "/" },
+      { "from": "Pumpkin/Silver", "to": "Pumpkin Orange/Silver" }
+    ],
+    "validators": [
+      "product name must start with 'Prada '",
+      "product name must equal the manifest product_title"
+    ]
+  },
+
+  "sku": {
+    "accepted_source_types": ["official_brand_code", "authorized_retailer_code"],
+    "narrowing_rationale": "This pack narrows the Core set by removing stockx_code and goat_code. The Prada evidence base contains no Tier 2 or Tier 3 confirmation, so accepting those types would assert a capability this pack cannot support. Narrowing can only reduce SKU usage, never produce a wrong value.",
+    "revisit_when": "a Tier 2 or Tier 3 Prada confirmation is captured with exact-entity evidence",
+    "always_rejected_values": [
+      "2EG2933",
+      "2EG4243",
+      "1E819LF0503KR2",
+      "1D246M JHR FO002 F",
+      "2DB205 055 F0002 F"
+    ],
+    "always_rejected_values_rationale": "These five strings were observed in source folder names but cannot be relied on as official codes (missing segments, glued segments, or O/0 ambiguity). They are rejected by value, not by type, so that a mis-typed sku_type cannot resurrect them. Rejection is recorded as SKU-PACK-REJECTED, never as absence.",
+    "rejected_source_types": [
+      "internal_catalog",
+      "supplier_batch_suffix",
+      "internal_platform_id",
+      "url_suffix",
+      "image_filename"
+    ],
+    "internal_code_pattern": "DS-PRA-### where ### is 001..078",
+    "official_code_examples": [
+      "4E3400 ASZ F0I89 F G000",
+      "4E3400 ASZ F0002 F G000",
+      "4E6500 3LLJ F0002 F 025",
+      "1D246M 055 F0002",
+      "1E819L 3KR F0002",
+      "1T255M 3LFR F0002",
+      "2DB205 055 F0002",
+      "2EG479 D7C F0002 F G001",
+      "2EG479 D7C F0BW5 F G001",
+      "2EG479 D7C F0008 F G001",
+      "2EG479 D7C F0304 F G001",
+      "1E959N D7C F0007 F 005"
+    ],
+    "official_code_shape_note": "descriptive, not normative: <main model> [color/material] [version] [extension] [factory]",
+    "incomplete_code_examples": [
+      "2EG2933",
+      "2EG4243",
+      "1E819LF0503KR2",
+      "1D246M JHR FO002 F",
+      "2DB205 055 F0002 F"
+    ],
+    "incomplete_code_handling": "treat as source-folder residue; return to Tier 1-4 and re-read the code character by character (watch O vs 0); if unresolved, omit the SKU",
+    "public_url_code_form": "underscore-joined, e.g. 2EG479_D7C_F0304_F_G001; the same code may also appear without underscores, which is not a second SKU"
+  },
+
+  "categories": {
+    "parent": "Prada",
+    "series_requirements": [
+      {
+        "collection": "America's Cup",
+        "required": ["Prada", "Prada America's Cup Sneakers"],
+        "note": "both are mandatory; the parent alone is not sufficient"
+      }
+    ],
+    "global_category_must_not_replace": "NEW CLOTHING"
+  },
+
+  "known_conflicts": [
+    {
+      "id": "PRADA-INTERNAL-CODE-AS-SKU",
+      "description": "66 of 78 manifest SKU values were sku_type=internal_catalog (DS-PRA-001..078). Under the active V4.4 standard those are Internal IDs and must not be published as SKU.",
+      "resolution": "re-resolve each item to VERIFIED_SKU or SKU_OMIT",
+      "status": "UNRESOLVED"
+    }
+  ],
+
+  "failure_taxonomy": [
+    { "symptom": "product name has no brand", "example": "Crewneck T-Shirt", "verdict": "HOLD", "code": "ID-NAME-UNMATCHED" },
+    { "symptom": "batch suffix is the only discriminator", "example": "Prada Logo T-Shirt-DC2", "verdict": "HOLD", "code": "ID-NAME-UNMATCHED" },
+    { "symptom": "no colorway information", "example": "Prada T-Shirt", "verdict": "HOLD", "code": "ID-COLORWAY-UNVERIFIED" },
+    { "symptom": "broken legacy slug", "example": "https://www.dripsneakers.org/-Prada-Sneakers-Black-Red", "verdict": "MIGRATE", "code": "URL-MIGRATION-TRIGGER" },
+    { "symptom": "internal catalogue code offered as SKU", "example": "DS-PRA-010", "verdict": "SKU_OMIT", "code": "SKU-TYPE-REJECTED" },
+    { "symptom": "incomplete code from a source folder name", "example": "2EG2933", "verdict": "VERIFY", "code": "SKU-INCOMPLETE-CODE" }
+  ],
+
+  "verified_success": {
+    "product_id": "536027476120336",
+    "product_name": "Prada America's Cup Patent Leather Sneakers Grey White",
+    "public_url": "https://www.dripsneakers.org/Prada-Americas-Cup-Patent-Leather-Sneakers-Grey-White",
+    "categories": ["Prada", "Prada America's Cup Sneakers", "NEW CLOTHING"],
+    "expected_image_count": 12,
+    "before": {
+      "product_name": "Prada Off-White Gray",
+      "public_url": "https://www.dripsneakers.org/-Prada-Off-White-Gray",
+      "published": false
+    },
+    "evidence": {
+      "visual_identity": "public image dhash_distance = 0 and color_mae = 0 against local source image",
+      "naming": "America's Cup template with descriptor = Patent Leather Sneakers",
+      "observed_on_storefront": "2026-09-15"
+    },
+    "claim_boundary": "This case proves identity, naming, category placement and image provenance. It does NOT prove SKU validity (the recorded value was an internal code) and it does NOT prove V4.4 compliance."
+  },
+
+  "rules": [
+    {
+      "id": "PRADA-R01",
+      "if": "the product belongs to the America's Cup collection",
+      "then": "compose the name from the series template and accept only the three listed descriptors",
+      "output": "PASS"
+    },
+    {
+      "id": "PRADA-R02",
+      "if": "the product does not belong to America's Cup and no manual mapping exists",
+      "then": "stop; naming may not be improvised",
+      "output": "HOLD"
+    },
+    {
+      "id": "PRADA-R03",
+      "if": "the candidate SKU matches the internal pattern DS-PRA-###",
+      "then": "reject the candidate and resolve to SKU_OMIT",
+      "output": "SKU_OMIT"
+    },
+    {
+      "id": "PRADA-R04",
+      "if": "a colorway noise token appears in the public colorway name",
+      "then": "strip it from the public name only",
+      "output": "PASS"
+    },
+    {
+      "id": "PRADA-R05",
+      "if": "the candidate SKU is an incomplete code (missing segments or ambiguous characters)",
+      "then": "return to a Tier 1-4 source and re-read it; if unresolved, omit the SKU",
+      "output": "SKU_OMIT"
+    },
+    {
+      "id": "PRADA-R06",
+      "if": "the product is America's Cup",
+      "then": "require both the parent and the series category",
+      "output": "PASS"
+    },
+    {
+      "id": "PRADA-R07",
+      "if": "an existing live URL is structurally broken (leading hyphen, no brand prefix, no colorway semantics)",
+      "then": "migrate: old URL to a single 301 hop to the final URL",
+      "output": "PASS"
+    }
+  ],
+
+  "blocked": [
+    { "id": "PRADA-B01", "fact": "the 78-product run executed 0 of 78 uploads; operations log holds 8 pre-flight lines only", "impact": "the pack is not production-ready" },
+    { "id": "PRADA-B02", "fact": "backend product-list read failed: 'Chrome extension timed out while reading the large product table'", "impact": "large-table reads are a single point of failure" },
+    { "id": "PRADA-B03", "fact": "two reconciliations disagree: 2026-09-02 recorded 10 visible / 9 matched / 69 missing; 2026-09-07 recorded 14 existing / 64 create", "impact": "counts must always carry a date and a source" },
+    { "id": "PRADA-B04", "fact": "audit of the 9 existing public Prada PDPs: pdp_3_0_pass_count = 0, observed versions 3.3 x8 and 1 missing", "impact": "no legacy page can be inherited" },
+    { "id": "PRADA-B05", "fact": "5 unpublished products carry broken URLs of the form /-Prada-Sneakers-Black-Red", "impact": "URL migration is mandatory before any write" },
+    { "id": "PRADA-B06", "fact": "check-prada.js is a 0-byte file", "impact": "it must never be cited as a validator" }
+  ],
+
+  "provenance": [
+    "audit/2026-09-02T14-30-31+08-00-prada-78/{manifest,identity-audit,validation-checks,operations}.json",
+    "scripts/build-prada-78-manifest.cjs",
+    "scripts/validate-prada-seo-pdp-3.cjs",
+    "shipping-audit/raw_products.json (captured 2026-09-15)",
+    "docs/case-studies/PRADA_78_PREFLIGHT_CASE.md @ 645638b",
+    "docs/case-studies/PRADA_BATCH_LEARNINGS.md @ 645638b"
+  ]
+}
