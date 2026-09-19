@@ -65,6 +65,12 @@ V4.4 §5 permits publishing with the SKU omitted. See
 Both the plugin and the bridge compute the standard's SHA-256 at startup and
 refuse to run against a different revision.
 
+## Operational knowledge
+
+- [T-Shirts V3 lessons carried into V4.4](docs/operations/T_SHIRTS_V3_LESSONS_TO_V4.4.md)
+  records the 11 evidence-backed historical terminal successes, the incomplete
+  30-product objective, and the fail-closed V4.4 migration playbook.
+
 ## SKU verdicts
 
 Exactly three are permitted:
