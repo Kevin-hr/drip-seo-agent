@@ -273,6 +273,40 @@ Used by Pack:   NO
 Risk:           LOW
 ```
 
+### 5.1 `tests/`（本分支，Phase 1 要求的检查位置之一）
+
+本分支 `tests/` 共 12 个文件，**全部已跟踪**：
+
+```text
+File:           tests/pre-write-gate.mjs                    (10,570 bytes)
+Exists:         YES
+Tracked by Git: YES — 本仓库，本分支
+Used by Pack:   NO（但见 Phase 4：它是写入门禁证据的生产者）
+Risk:           NONE
+
+File:           tests/README.md / package.json / package-lock.json
+                tests/bridge-acceptance.mjs / e2e-mcp.mjs / workflow-e2e.mjs
+                tests/v2-contract.mjs / verify-mcp-tools.mjs / verify-ssrf.mjs
+                tests/p0-remediation.mjs / tshirts-v3-lessons.mjs
+Exists:         YES（11 个文件，均已跟踪）
+Tracked by Git: YES
+Used by Pack:   NO
+Risk:           NONE
+```
+
+```text
+关键判定：tests/ 下没有任何 Prada 专属测试。
+          唯一的 Prada 回归测试（tests/prada-case-regression.mjs）在 645638b，不在本分支。
+```
+
+```text
+RULE-ID: EV-04
+IF 需要跑 Prada 专属回归
+THEN 必须先从 645638b 取回 tests/prada-case-regression.mjs
+     不得声称本分支已包含 Prada 回归覆盖
+OUTPUT VERIFY
+```
+
 ---
 
 ## 6. Pack 自身
@@ -352,6 +386,19 @@ EVIDENCE_SINGLE_POINT_RISK
 3  scripts/ 下 6 个 Prada 脚本 —— 全部未跟踪
 4  外层 dripsneakers 仓库共跟踪 80 个文件，其中与 Prada 相关的数量为 0
 5  唯一进入版本控制的 Prada 文档在另一条分支（645638b），不在本分支
+6  本分支 tests/ 下 0 个 Prada 专属测试；唯一的 Prada 回归测试在 645638b
+```
+
+必须区分清楚的一点（否则会得出错误结论）：
+
+```text
+本仓库确实跟踪着一套证据树（reports/ 55 个文件、tests/ 12 个文件）——
+但那是「通用基础设施证据」：写入门禁、工作流 E2E、V2 契约、T-Shirts V3 基线、
+Thom Browne 模拟。它们对 Prada 有价值（共享同一条写入路径），
+却都不是 Prada 案例证据。
+
+Prada 案例证据（78 款 run、公开站抓取、画像比对、SKU 分型）在本仓库中：
+      已跟踪 = 0 个文件
 ```
 
 ```text
@@ -363,6 +410,45 @@ RULE-ID: EV-02
 IF 证据仅存在于工作区
 THEN 不得声称该证据 production safe
      不得基于它授权任何后台写入
+OUTPUT HOLD
+```
+
+### 9.1 本次已完成的最小缓解（不等于消除）
+
+把证据搬进仓库是一个**需要授权**的决定（体积、以及素材归属），
+所以本次先做能够立即做且可验证的那一步：**把每一个证据文件用 sha256 钉死**。
+
+```text
+产物
+  reports/prada/evidence-manifest.json          36 个文件 / 7,518,279 bytes
+  packs/prada/tools/build-evidence-manifest.mjs  生成器（只读）
+  packs/prada/tools/verify-evidence-manifest.mjs 校验器（只读）
+
+校验
+  $ node packs/prada/tools/verify-evidence-manifest.mjs
+    VERIFIED : 36
+    LOST     : 0
+    CHANGED  : 0
+    ZERO-BYTE: 1  (check-prada.js)
+    EVIDENCE_MANIFEST_VERIFIED — every pinned file is present and byte-identical.
+```
+
+这解决什么 / 不解决什么：
+
+```text
+解决   ：证据丢失或被静默修改 → 立即可检测（LOST / CHANGED）
+         清单本身进入版本控制，因此"我们依赖哪些文件"这件事是可审计的
+         清单的 36 个文件 / 7,518,279 bytes 与 §9 的判定依据独立吻合（交叉验证）
+
+不解决 ：文件本身仍未纳入版本控制 → 载体仍可能整体丢失
+         因此 EVIDENCE_SINGLE_POINT_RISK 维持不变，不降级
+```
+
+```text
+RULE-ID: EV-06
+IF 证据未入库但已有 sha256 清单
+THEN 风险等级仍为 EVIDENCE_SINGLE_POINT_RISK
+     但可补充说明"可检测"与"不可恢复"是两个不同问题
 OUTPUT HOLD
 ```
 
@@ -386,4 +472,97 @@ RULE-ID: EV-03
 IF 上述任一项未完成
 THEN 本 Pack 的证据状态仍为 EVIDENCE_SINGLE_POINT_RISK
 OUTPUT HOLD
+```
+
+---
+
+## 11. 已纳入版本控制的证据（本仓库，供对照）
+
+以下是本仓库**已跟踪**的证据树，Phase 1 必须把它们与未跟踪的 Prada 证据区分开。
+
+### 11.1 `reports/`（55 个文件，全部已跟踪）
+
+```text
+通用治理文档（23 个）
+  reports/PRODUCTION_READINESS_REPORT.md              8,464   ← 仓库级就绪判定：BLOCKED
+  reports/PRE_WRITE_REVIEW_GATE.md                    8,445   ← 写入门禁：NO-GO
+  reports/LIVE_EXECUTION_READINESS_CHECK.md           5,121
+  reports/LIVE_FIRST_EXECUTION_PLAN.md               22,361
+  reports/PHASE_8_1_SAFE_WRITE_PLAN.md               31,733
+  reports/RELEASE_PRECHECK_REPORT.md                  6,644
+  reports/REPOSITORY_INTEGRITY_REPORT.md              2,700
+  reports/STANDARD_INTEGRITY_REPORT.md                4,560
+  reports/THOM_BROWNE_SIMULATION_REPORT.md           12,140
+  reports/WORKFLOW_E2E_REPORT.md                     13,351
+  reports/V2_CONFORMANCE_AUDIT.md                    10,067
+  reports/V5_READINESS_GAP_REPORT.md                  7,485
+  reports/V5_RELEASE_COMPLETION_REPORT.md             2,617
+  reports/P0-1_URL_STABILITY_REPORT.md                6,760
+  reports/P0-2_SNAPSHOT_FRESHNESS_REPORT.md           5,480
+  reports/FINAL_P0_REMEDIATION_REPORT.md              9,198
+  reports/BRIDGE_TEST_REPORT.md                       6,924
+  reports/MCP_SECURITY_TEST_REPORT.md                 8,774
+  reports/PHASE0-GITHUB-FREEZE.md                     8,249
+  reports/PHASE0-V0.1-ACCEPTANCE.html                26,383
+  reports/V0.1-VERIFICATION-AND-GAP.html             32,504
+  reports/V4.4_STANDARD_FINAL_MIGRATION_2026-09-19.md  1,556
+  reports/README.md                                   1,385
+
+证据文件（32 个）
+  reports/evidence/pre-write-gate/       8 个  ← 含机器可读门禁判定 99-gate-result.json
+  reports/evidence/workflow-e2e/        18 个
+  reports/evidence/t-shirts-v3/          1 个
+  reports/evidence/v2-contract/          1 个
+
+本次新增（4 个）
+  reports/prada/*.md                     4 个
+```
+
+### 11.2 `tests/`（12 个文件，全部已跟踪）
+
+```text
+tests/pre-write-gate.mjs          → 生成 reports/evidence/pre-write-gate/
+tests/workflow-e2e.mjs            → 生成 reports/evidence/workflow-e2e/
+tests/bridge-acceptance.mjs       → 54/54 PASS（见 PHASE0 与 BRIDGE_TEST_REPORT）
+tests/e2e-mcp.mjs                 → 30/30 PASS
+tests/v2-contract.mjs
+tests/verify-mcp-tools.mjs
+tests/verify-ssrf.mjs
+tests/p0-remediation.mjs
+tests/tshirts-v3-lessons.mjs
+tests/README.md / package.json / package-lock.json
+```
+
+```text
+结论：本仓库的「能力可信度」证据是完整的；
+      本 Pack 缺失的是「Prada 这个品牌的事实」的证据。
+```
+
+---
+
+## 12. 与仓库既有治理文档的关系
+
+本报告不是从零开始，而是接在既有治理之上。必须明确两者关系：
+
+```text
+reports/PRODUCTION_READINESS_REPORT.md（2026-09-18，repo @ b503d47，tag v0.1.0）
+  范围：整个系统
+  判定：BLOCKED —— "not ready for a live production write"
+  并给出两项未验证：live browser execution path、category routes
+
+reports/PRE_WRITE_REVIEW_GATE.md（2026-09-18）
+  范围：单商品（Thom Browne 536027551768089）
+  判定：NO-GO，三项 blocker（会话过期 / 回滚基线 70-100 / 选择器未实测）
+
+reports/prada/production-readiness-report.md（2026-09-20，见 Phase 4）
+  范围：Prada Pack
+  判定：false —— 与上述结论一致，并补充 Prada 专属 blocker
+```
+
+```text
+RULE-ID: EV-05
+IF 报告 Prada 的生产就绪状态
+THEN 必须同时声明它与仓库级判定（BLOCKED / NO-GO）的关系
+     不得让读者以为 Prada 是唯一未就绪的部分
+OUTPUT PASS
 ```
