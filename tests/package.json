@@ -7,7 +7,8 @@
   "scripts": {
     "test:bridge": "node bridge-acceptance.mjs",
     "test:e2e": "node e2e-mcp.mjs",
-    "test:tshirts-lessons": "node tshirts-v3-lessons.mjs"
+    "test:tshirts-lessons": "node tshirts-v3-lessons.mjs",
+    "test:prada-case": "node prada-case-regression.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.18.2"

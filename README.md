@@ -147,6 +147,8 @@ See [tests/README.md](tests/README.md) for the exact prerequisites.
 | [MCP_FLOW.md](docs/architecture/MCP_FLOW.md) | The 12 MCP tools and their call order |
 | [IDP_PROCESS.md](docs/architecture/IDP_PROCESS.md) | Idea → Design → Prototype → Production |
 | [DECISION_LOG.md](docs/architecture/DECISION_LOG.md) | Binding engineering decisions |
+| [PRADA_78_PREFLIGHT_CASE.md](docs/case-studies/PRADA_78_PREFLIGHT_CASE.md) | Evidence-backed 78-product preflight and reconciliation case; explicitly not a live-completion claim |
+| [PRADA_BATCH_LEARNINGS.md](docs/case-studies/PRADA_BATCH_LEARNINGS.md) | Reusable batch controls distilled from the Prada case without changing V4.4 |
 
 ## Current status
 

@@ -97,3 +97,12 @@ v0.6.0-beta
 Target:
 
 LLM Evidence Layer integration.
+
+## Documentation Addendum — Prada 78
+
+- Added an evidence-backed Prada 78 preflight and reconciliation case study.
+- Added reusable batch controls for source freezing, identity/SKU separation,
+  fresh reconciliation, canary execution and three-stage read-back.
+- Added a secret-free regression fixture and standalone test.
+- The retained evidence does not prove 78/78 live completion; the documentation
+  states this boundary explicitly and does not alter the active V4.4 standard.

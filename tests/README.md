@@ -9,6 +9,13 @@ logic live in `mcp-plugin/tests/`.
 | `e2e-mcp.mjs` | 30 assertions over the real MCP server talking to the real bridge: tool discovery, image delivery for vision, SKU gate, plan lifecycle, standard hash passthrough | bridge on `127.0.0.1:8799`, MCP server on `127.0.0.1:8001` |
 | `verify-mcp-tools.mjs` | Tool surface and SKU gate against the mock agent | mock agent on `127.0.0.1:8787`, MCP server on `127.0.0.1:8000` |
 | `verify-ssrf.mjs` | 14 SSRF cases against the image loader | none |
+| `prada-case-regression.mjs` | Prada 78 case counts, evidence boundaries, allowed V4.4 SKU verdicts and secret-free fixture | none |
+
+Run the standalone case regression with:
+
+```bash
+npm run test:prada-case
+```
 
 ## Running the bridge suites safely
 
