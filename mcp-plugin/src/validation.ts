@@ -1,7 +1,7 @@
 import type { SkuResolution } from "./contracts.js";
 
 /**
- * SKU gate — V4.4 CLEAN_CONSOLIDATED §5 / §5A.
+ * SKU gate — V4.4 STANDARD_FINAL §5.
  *
  * V4.4 allows exactly three verdicts:
  *   VERIFIED_SKU — a Tier 1-4 source attaches the same SKU to the exact entity.

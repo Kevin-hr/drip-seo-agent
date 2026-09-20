@@ -5,7 +5,7 @@ namespace DripOps.Rules.V44;
 
 /// <summary>
 /// Deterministic V4.4 validator — a machine-checkable projection of the
-/// three-pass audit in Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md
+/// three-pass audit in Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md
 /// (§23) plus the §26 final gate.
 ///
 /// WARN findings are recorded but do not block PASS. ERROR findings do.

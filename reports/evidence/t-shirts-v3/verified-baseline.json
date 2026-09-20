@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-19",
+  "claim": "Verified historical baseline; not proof of 30/30 completion and not a V4.4 acceptance result.",
+  "source_roots_note": "Derived from local archived DripOps run state. Absolute workstation paths are intentionally not committed.",
+  "runs": [
+    {
+      "run_id": "t-shirts-first-30-2026-09-01",
+      "declared_standard_version": "3.1.1",
+      "snapshot_total": 30,
+      "published_at_snapshot": 0,
+      "verified_products": 4,
+      "run_json_sha256": "d05df65077e69956584231250eb20cc0260186ce6759b43874b451c098856720"
+    },
+    {
+      "run_id": "t-shirts-candidate-pool-2026-09-02",
+      "declared_standard_version": "3.1.1",
+      "snapshot_total": 200,
+      "published_at_snapshot": 10,
+      "verified_products": 7,
+      "run_json_sha256": "b84f57cbd33bff32f0ebf53d0782441a4a49f70364c837bbbe17dac95be4243d"
+    }
+  ],
+  "counts": {
+    "distinct_products": 11,
+    "pdp_3_1_1": 9,
+    "pdp_3_2": 2,
+    "v4_4_verified": 0
+  },
+  "products": [
+    {
+      "product_id": "536027552860691",
+      "source_run": "t-shirts-first-30-2026-09-01",
+      "pdp_version": "3.1.1",
+      "product_name": "Givenchy Stamp Print T-Shirt White",
+      "sku": "BM71NK3YSA-100",
+      "sku_verified": true,
+      "historical_canonical_url": "https://www.dripsneakers.org/givenchy-stamp-print-t-shirt-white-bm71nk3ysa-100",
+      "stage": "FrontendVerified",
+      "release_status": "Verified",
+      "validation_is_valid": true,
+      "product_state_sha256": "be8ee43e993e456eebde4768af528231797c9d71c2ef9df7f5bc67697f3a283a"
+    },
+    {
+      "product_id": "536027552907547",
+      "source_run": "t-shirts-first-30-2026-09-01",
+      "pdp_version": "3.1.1",
+      "product_name": "Givenchy Stamp Print T-Shirt Black",
+      "sku": "BM71NK3YSA-001",
+      "sku_verified": true,
+      "historical_canonical_url": "https://www.dripsneakers.org/givenchy-stamp-print-t-shirt-black-bm71nk3ysa-001",
+      "stage": "FrontendVerified",
+      "release_status": "Verified",
+      "validation_is_valid": true,
+      "product_state_sha256": "575b84ae7ba83fabba694026913e2cd0a19d71ef96af92ea4a7a62b8eddedb29"
+    },
+    {
+      "product_id": "536027553036823",
+      "source_run": "t-shirts-first-30-2026-09-01",
+      "pdp_version": "3.1.1",
+      "product_name": "Loewe Relaxed Fit Embroidered Logo T-Shirt White",
+      "sku": "S359Y22XAC-2100",
+      "sku_verified": true,
+      "historical_canonical_url": "https://www.dripsneakers.org/loewe-relaxed-fit-embroidered-logo-t-shirt-white-s359y22xac-2100",
+      "stage": "FrontendVerified",
+      "release_status": "Verified",
+      "validation_is_valid": true,
+      "product_state_sha256": "458a1a93b20de8cd07e51e1988f37d362d7a1f527d83fdf00ad8b32fbf73b55e"
+    },
+    {
+      "product_id": "536027559207962",
+      "source_run": "t-shirts-first-30-2026-09-01",
+      "pdp_version": "3.1.1",
+      "product_name": "BAPE ABC Camo By Bathing Ape Tee Black/Green",
+      "sku": "0ZXTEM110006N",
+      "sku_verified": true,
+      "historical_canonical_url": "https://www.dripsneakers.org/bape-abc-camo-by-bathing-ape-tee-black-green-0zxtem110006n",
+      "stage": "FrontendVerified",
+      "release_status": "Verified",
+      "validation_is_valid": true,
+      "product_state_sha256": "5627499ade8f2577c328105fee9482b289c6ab35974600c11d0e01caf31c6b96"
+    },
+    {
+      "product_id": "536027545737240",
+      "source_run": "t-shirts-candidate-pool-2026-09-02",
+      "pdp_version": "3.1.1",
+      "product_name": "Gucci Cotton Jersey T-Shirt with Gucci Embroidery Off White/Navy",
+      "sku": "756596XJFV89088",
+      "sku_verified": true,
+      "historical_canonical_url": "https://www.dripsneakers.org/gucci-cotton-jersey-t-shirt-with-gucci-embroidery-off-white-navy-756596xjfv89088",
+      "stage": "FrontendVerified",
+      "release_status": "Verified",
+      "validation_is_valid": true,
+      "product_state_sha256": "3cbe7ab2dc372b5dd6b236ebe8e25418ac2bd207b3efb9ab2fba1b737404b93a"
+    },
+    {
+      "product_id": "536027545785624",
+      "source_run": "t-shirts-candidate-pool-2026-09-02",
+      "pdp_version": "3.1.1",
+      "product_name": "Gucci Cotton Jersey T-Shirt with Embroidery Navy/White",
+      "sku": "756596XJFV84930",
+      "sku_verified": true,
+      "historical_canonical_url": "https://www.dripsneakers.org/gucci-cotton-jersey-t-shirt-with-embroidery-navy-white-756596xjfv84930",
+      "stage": "FrontendVerified",
+      "release_status": "Verified",
+      "validation_is_valid": true,
+      "product_state_sha256": "8d1d865d39597b1f3991805268e5f25aab203f8fc177f045a5d89946a6b00cab"
+    },
+    {
+      "product_id": "536027547266582",
+      "source_run": "t-shirts-candidate-pool-2026-09-02",
+      "pdp_version": "3.2",
+      "product_name": "adidas Originals Britcore Short Sleeve Ringer T-Shirt Off White/Aurora Coffee HZ3830",
+      "sku": "HZ3830",
+      "sku_verified": true,
+      "historical_canonical_url": "https://www.dripsneakers.org/adidas-originals-britcore-short-sleeve-ringer-t-shirt-off-white-aurora-coffee-hz3830",
+      "stage": "FrontendVerified",
+      "release_status": "Verified",
+      "validation_is_valid": true,
+      "product_state_sha256": "82e16ba54ed192a9a13eb93cf08a5083a43584f08ff7dd8f4e88cd2a0a4a324d"
+    },
+    {
+      "product_id": "536027547297304",
+      "source_run": "t-shirts-candidate-pool-2026-09-02",
+      "pdp_version": "3.2",
+      "product_name": "adidas Originals Britcore Short Sleeve Ringer T-Shirt Crystal Sky HZ3831",
+      "sku": "HZ3831",
+      "sku_verified": true,
+      "historical_canonical_url": "https://www.dripsneakers.org/adidas-originals-britcore-short-sleeve-ringer-t-shirt-crystal-sky-hz3831",
+      "stage": "FrontendVerified",
+      "release_status": "Verified",
+      "validation_is_valid": true,
+      "product_state_sha256": "d0db1539b984e611faf67302f983e1b390b949db7e3902bc2350d2e3ad0251dd"
+    },
+    {
+      "product_id": "536027549064979",
+      "source_run": "t-shirts-candidate-pool-2026-09-02",
+      "pdp_version": "3.1.1",
+      "product_name": "Gucci Cotton Piquet T-Shirt with Embroidery Black",
+      "sku": "856003XJHQG1043",
+      "sku_verified": true,
+      "historical_canonical_url": "https://www.dripsneakers.org/gucci-cotton-piquet-t-shirt-with-embroidery-black-856003xjhqg1043",
+      "stage": "FrontendVerified",
+      "release_status": "Verified",
+      "validation_is_valid": true,
+      "product_state_sha256": "16980b7645b0cb95f34d255f987c83cda831717b1299f9772c29d638dcd33437"
+    },
+    {
+      "product_id": "536027550608151",
+      "source_run": "t-shirts-candidate-pool-2026-09-02",
+      "pdp_version": "3.1.1",
+      "product_name": "Gucci Cotton Jersey T-Shirt with Embroidery White",
+      "sku": "835640XJHCV9692",
+      "sku_verified": true,
+      "historical_canonical_url": "https://www.dripsneakers.org/gucci-cotton-jersey-t-shirt-with-embroidery-white-835640xjhcv9692",
+      "stage": "FrontendVerified",
+      "release_status": "Verified",
+      "validation_is_valid": true,
+      "product_state_sha256": "de8093f6f56c5fd10cab6d1715145270a8fd09849389622eee1c15920faca30e"
+    },
+    {
+      "product_id": "536027550738203",
+      "source_run": "t-shirts-candidate-pool-2026-09-02",
+      "pdp_version": "3.1.1",
+      "product_name": "Gucci Cotton Jersey T-Shirt with Embroidery Grey Mélange",
+      "sku": "835640XJHCW1183",
+      "sku_verified": true,
+      "historical_canonical_url": "https://www.dripsneakers.org/gucci-cotton-jersey-t-shirt-with-embroidery-grey-melange-835640xjhcw1183",
+      "stage": "FrontendVerified",
+      "release_status": "Verified",
+      "validation_is_valid": true,
+      "product_state_sha256": "fdcd981a40e65bc1d948c4ceabb3c2591a1486b8117bada154d47063be2eacf2"
+    }
+  ]
+}

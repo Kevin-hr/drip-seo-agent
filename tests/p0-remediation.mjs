@@ -15,7 +15,7 @@ const BASE = process.env.BRIDGE_BASE_URL ?? "http://127.0.0.1:8811";
 const TOKEN = process.env.LOCAL_AGENT_TOKEN ?? "test-token-local-bridge";
 const HASH =
   process.env.EXPECTED_STANDARD_SHA256 ??
-  "5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8";
+  "965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7";
 const SANDBOX = process.env.BRIDGE_SANDBOX ? path.resolve(process.env.BRIDGE_SANDBOX) : null;
 const RUNS = SANDBOX ? path.join(SANDBOX, "state/runs") : null;
 const RUN_ID = process.env.TEST_RUN_ID ?? "t-shirts-candidate-pool-2026-09-02";

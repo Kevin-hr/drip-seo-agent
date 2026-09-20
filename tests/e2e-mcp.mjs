@@ -4,7 +4,7 @@ import { StreamableHTTPClientTransport } from "@modelcontextprotocol/sdk/client/
 const MCP_URL = process.env.MCP_URL ?? "http://127.0.0.1:8001/mcp";
 const EXPECTED_HASH =
   process.env.EXPECTED_STANDARD_SHA256 ??
-  "5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8";
+  "965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7";
 const PRODUCT = process.env.TEST_PRODUCT_ID ?? "536027552331542";
 const RUN_ID = process.env.TEST_RUN_ID ?? "t-shirts-first-30-2026-09-01";
 

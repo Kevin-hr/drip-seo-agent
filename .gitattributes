@@ -1,0 +1,6 @@
+# SHA-256-pinned standards must retain LF byte identity on every platform.
+standards/V4.4/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md text eol=lf
+dripops/standards/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md text eol=lf
+mcp-plugin/rules/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md text eol=lf
+mcp-plugin/skills/drip-seo-executor/references/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md text eol=lf
+standards/_superseded/Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md text eol=lf

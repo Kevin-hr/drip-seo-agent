@@ -7,12 +7,12 @@ description: Execute Drip Sneakers product PDP SEO and category-page SEO through
 
 Use the connected `drip-seo-executor` MCP tools as the execution layer. ChatGPT is the research/reasoning layer; the existing local Agent is the MrShopPlus execution and acceptance-test layer.
 
-The authoritative PDP standard is `references/Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md`. Do not silently replace it with generic SEO advice.
+The authoritative PDP standard is `references/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md`. Do not silently replace it with generic SEO advice.
 
 Sole authority rule:
 
-- `Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md` is the only active SEO-PDP standard.
-- SEO/PDP 3.2 and the superseded V4.4 `STANDARD_FINAL` are historical execution records only. They must never be used as a decision layer, and 3.2 in particular contradicts V4.4 on SKU (3.2 requires a verified SKU; V4.4 allows `SKU_OMIT`).
+- `Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md` is the only active SEO-PDP standard.
+- SEO/PDP 3.2 and the superseded V4.4 `CLEAN_CONSOLIDATED_2026-09-17` revision are historical execution records only. They must never be used as a decision layer, and 3.2 in particular contradicts V4.4 on SKU (3.2 requires a verified SKU; V4.4 allows `SKU_OMIT`).
 - Every prepare / plan / execute / verify result carries `standard_version` and `standard_hash`. If the hash returned by the local bridge differs from the plugin's own hash, stop and report; do not execute.
 
 ## PDP workflow

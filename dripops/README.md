@@ -153,7 +153,7 @@ GET  /health
 
 分类页 route 暂缓，先证明 PDP 端到端。
 
-**决策层是 V4.4，不是 3.2。** Bridge 在加载 3.2 机器标准之前就被路由，因此它根本无法读取 3.2 规则。原因：3.2 强制要求已验证 SKU，而 V4.4 §5/§5A 允许 `SKU_OMIT` 后照常发布，二者直接冲突。
+**决策层是 V4.4，不是 3.2。** Bridge 在加载 3.2 机器标准之前就被路由，因此它根本无法读取 3.2 规则。原因：3.2 强制要求已验证 SKU，而 V4.4 §5 允许 `SKU_OMIT` 后照常发布，二者直接冲突。
 
 写入闸门：
 
@@ -194,7 +194,7 @@ data\runs\RUN_ID\events.jsonl
 - 默认 Trust Claims 全部关闭；只有在 `config\dripops.json` 中经过业务验证后才能启用。
 - Chrome/Mrshopplus DOM 更新时，程序应报 Selector 错误并停止，不盲目点击。
 - `standards/SEO-PDP-3.1.1.*` 仅为历史参考，配置、构建和发布不得加载。
-- 两套标准的适用范围必须分清：`standards/SEO-PDP-3.2.json` 只服务历史 CLI 命令（`compose` / `apply` 等）；`standards/SEO-PDP-V4.4.json` + `Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md` 才是 Local Bridge 的决策层。Bridge 在 3.2 加载之前路由，无法读取 3.2 规则。
+- 两套标准的适用范围必须分清：`standards/SEO-PDP-3.2.json` 只服务历史 CLI 命令（`compose` / `apply` 等）；`standards/SEO-PDP-V4.4.json` + `Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md` 才是 Local Bridge 的决策层。Bridge 在 3.2 加载之前路由，无法读取 3.2 规则。
 
 ## 自检
 

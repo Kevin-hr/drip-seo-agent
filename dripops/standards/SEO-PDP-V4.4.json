@@ -1,11 +1,11 @@
 {
   "version": "4.4",
-  "status": "FINAL — CONSOLIDATED 2026-09-17",
+  "status": "FINAL",
   "siteName": "Drip Sneakers",
   "storeOrigin": "https://www.dripsneakers.org",
   "titleIntentTerm": "Reps",
-  "standardDocument": "Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md",
-  "standardDocumentSha256": "5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8",
+  "standardDocument": "Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md",
+  "standardDocumentSha256": "965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7",
 
   "seoTitleTemplateWithSku": "{productName} {sku} {intent} | {site}",
   "seoTitleTemplateWithoutSku": "{productName} {intent} | {site}",

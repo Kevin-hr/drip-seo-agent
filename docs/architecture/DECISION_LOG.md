@@ -141,3 +141,27 @@ for the same document recreates exactly the ambiguity Decision #002 exists to
 eliminate — two documents that look like the same standard.
 
 **Action:** one document, one name, one hash, everywhere.
+
+---
+
+## Decision #008
+
+**Date:** 2026-09-19
+
+**Decision:** The user-approved `Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md`
+is the only active SEO-PDP standard. This decision explicitly supersedes the
+active-standard identity selected by Decisions #001, #002 and #007; their
+historical rationale remains recorded above.
+
+**Pinned value:**
+
+```text
+965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7
+```
+
+**Action:**
+- Canonical file: `standards/V4.4/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md`.
+- The former `CLEAN_CONSOLIDATED_2026-09-17` revision is retained only in
+  `standards/_superseded/`.
+- Plugin, bridge, bundled skill reference, configuration, tests and hash locks
+  must all resolve to the same filename and SHA-256.

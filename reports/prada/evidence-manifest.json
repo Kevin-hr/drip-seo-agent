@@ -1,0 +1,205 @@
+{
+  "schema": "evidence-manifest-v1",
+  "pack": "prada",
+  "generated": "2026-09-19T17:19:41.861Z",
+  "purpose": "Pin the untracked Prada evidence by size and sha256 so loss or modification is detectable.",
+  "tracked_by_git": false,
+  "workspace_root_name": "dripsneakers",
+  "verification": "node packs/prada/tools/verify-evidence-manifest.mjs",
+  "scope": {
+    "run_id": "2026-09-02T14-30-31+08-00-prada-78",
+    "empty_run_id": "2026-09-02T14-30-09+08-00-prada-78",
+    "note": "The 2026-09-02T14-30-09 run directory contains an empty evidence/ folder only and must not be cited as a run."
+  },
+  "totals": {
+    "files": 36,
+    "bytes": 7518279,
+    "zero_byte_files": 1
+  },
+  "zero_byte_files": [
+    "check-prada.js"
+  ],
+  "missing_roots": [],
+  "files": [
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/BLOCKED.md",
+      "bytes": 405,
+      "sha256": "b040593e2aa6086a794d6fb2df8dfd0330d1a781b93ead7ea5ff837637cf88b5"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/backend-unpublished-image-matches.json",
+      "bytes": 10945,
+      "sha256": "45103d81899d39c713d7f208cd6fd28086f6452215a4a7fe3c935722f878213a"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/backend-unpublished-images/536027385478934-prada-sneakers-black-red.jpg",
+      "bytes": 173337,
+      "sha256": "cc81293579532ac02588dae19782f3add86fc4c965834f285db4cdae744a7d55"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/backend-unpublished-images/536027390667289-prada-cloudbust-thunder.jpg",
+      "bytes": 715484,
+      "sha256": "22f7eaac090a768d390dda0054bfbf5a0915b0268de3f58396704330d7128d98"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/backend-unpublished-images/536027417154580-prada-sneakers-black.jpg",
+      "bytes": 193500,
+      "sha256": "b43fab2f48e3b44b8fc1913e47651defeeef2f403f56ab2441a7df9f8dadec7d"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/backend-unpublished-images/536027428790800-prada-cloudbust-thunder-silver-black.jpg",
+      "bytes": 45276,
+      "sha256": "725340df773ae2b4859e0333e92c25589900dec49696fb46297ee953f124b704"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/backend-unpublished-images/536027441409051-prada-sneakers-blue.jpg",
+      "bytes": 182575,
+      "sha256": "e0b1352a29f519f109c51edc8ac0571cdc4a0801e9cd22045abab7b283468d8c"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/backend-unpublished-images/536027476120336-prada-off-white-gray.jpg",
+      "bytes": 111396,
+      "sha256": "8a28fad97af8d4b66ab8d33eae4b973957165dfbdc526197ad8f620e2f602929"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/prada-78-first-image-contact-sheet.jpg",
+      "bytes": 902125,
+      "sha256": "c28e5d5395fecb5922f939e0fa08c51e53b7e69f5da8e291a003a9e26b48697f"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/prada-source-inventory.json",
+      "bytes": 439879,
+      "sha256": "b168b99e441ea9d3a2096e8cfb023f837926d337ed944cb574ee5d72839c8735"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/prada-visual-dedupe.json",
+      "bytes": 1281699,
+      "sha256": "c49dee250eedaab263b9b41fca5bc68bc3c8a4586d965ac4f7d0af91ccc80720"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/public-prada-seo-pdp-audit.json",
+      "bytes": 18348,
+      "sha256": "66a8eb30a4de49fbe6f24f1027faa0fecf6ee71b3d7af9f6c4667d86c96b8751"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/public-product-images/01-americas-white-grey.jpg",
+      "bytes": 98038,
+      "sha256": "00c12f87deeabcae8f33a2ac10d4dd3e6411e109dcec2937412dda0e0f98615a"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/public-product-images/02-americas-soft-black.jpg",
+      "bytes": 122463,
+      "sha256": "ad9111ee82bd9966f43c9a9bd2644cdd01c3643ebb7d9873470ffce5d664d590"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/public-product-images/03-collapse-topaz.jpg",
+      "bytes": 171626,
+      "sha256": "2d4fb6372e4246cddf754a057d196522c29829f78df2abc5fc9fbfc87abecdb1"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/public-product-images/04-collapse-dark-blue.jpg",
+      "bytes": 146284,
+      "sha256": "30371b84b90fd36e1d4b09fabd73f65642a8015af3fb5bb06de356818d23968c"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/public-product-images/05-collapse-brown.jpg",
+      "bytes": 166141,
+      "sha256": "21751165c109ba440ef58b7ce423defa1592f8e966a0d5c24c6babf14c05f25e"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/public-product-images/06-collapse-off-white.jpg",
+      "bytes": 147341,
+      "sha256": "72d824775aaa871f19ed7d395ec1a832af94a7dc46962f010a5a51017d896f0f"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/public-product-images/07-collapse-rose-red.jpg",
+      "bytes": 168332,
+      "sha256": "0c83eff091ae59fa3f1b6ea45bff365405c751385c0de6782659812bf8f64154"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/public-product-images/08-collapse-black.jpg",
+      "bytes": 139452,
+      "sha256": "d2785befe5a7b648e3086dfb84f9d624210f2551afca92dd4081663d08eb69fb"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/public-product-images/09-americas-black-silver.jpg",
+      "bytes": 165156,
+      "sha256": "f9cd3d9e7da9a5a280a3614e92884de8203941c3f31293c9d906a34ff69bd546"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/public-product-images/10-americas-black.jpg",
+      "bytes": 71045,
+      "sha256": "60d96e046f07af0100143e1a66d97483998c33e91fd0cfb9a29205e8dbde599c"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/public-to-local-image-matches.json",
+      "bytes": 17602,
+      "sha256": "401e641e53272b8c8213b0129b34750ec95e74dcf665a5dc6ebcd96593a2aec3"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/identity-audit.json",
+      "bytes": 23105,
+      "sha256": "6525ef438116c5806d0da4ae24fd0d7854e9224eb3c7005ed6f582355fe9d690"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/manifest.json",
+      "bytes": 382135,
+      "sha256": "b3cd58cb61af37d51021d1e9c9ca470cb95b1c863295b38bfd1ffa496a6015ef"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/operations.jsonl",
+      "bytes": 4420,
+      "sha256": "5b2c2b67a606c2be4082beb7414f707a01103bbfebb307b052cfa58a45e199b8"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/PROGRESS.md",
+      "bytes": 1585,
+      "sha256": "45fc4a8e899e35c1bf2feef827efb7aca9646cbcdaab0f7212e51af9eca45aba"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/validation-checks.json",
+      "bytes": 727,
+      "sha256": "06f4b3d2c1783012d27a8d2da4c67021e8ad38d035a6a5565f4a95830647cb27"
+    },
+    {
+      "path": "check-prada.js",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts/audit-public-prada.ps1",
+      "bytes": 5092,
+      "sha256": "845811f856126ef51b77a0c752a306b7bf4bcea2458d14920c47af8fed373acf"
+    },
+    {
+      "path": "scripts/build-prada-78-manifest.cjs",
+      "bytes": 27828,
+      "sha256": "30d36e437d9b44b9cf4d26da6e83f4580457fa02b00aaf7228a3d2ec92d23ea5"
+    },
+    {
+      "path": "scripts/compare-public-prada-images.cjs",
+      "bytes": 3092,
+      "sha256": "7e1448a6d8c7c0492c739a74361a98cd93f4aca8269197e1f2a27051c0d52de4"
+    },
+    {
+      "path": "scripts/inventory-prada.ps1",
+      "bytes": 4866,
+      "sha256": "038c73c0ed3ff5ee24f497793087c314aaf63f237a71e0ed2ac2554aab898242"
+    },
+    {
+      "path": "scripts/prada-visual-dedupe.cjs",
+      "bytes": 6898,
+      "sha256": "7322c7292bb87368aa285be1d8cb502cd21061cfa9e61563a4d6325180411c13"
+    },
+    {
+      "path": "scripts/validate-prada-seo-pdp-3.cjs",
+      "bytes": 7528,
+      "sha256": "d4ffee30d6c59928ee9cfd34783644160346d466a42cae686a9663ef12ac3083"
+    },
+    {
+      "path": "shipping-audit/raw_products.json",
+      "bytes": 1562554,
+      "sha256": "99e6d9d73b3de1dca231b32c74f531901a8be74ec54b552e82d35fe8201b0f72"
+    }
+  ]
+}

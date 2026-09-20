@@ -1,0 +1,242 @@
+{
+  "suite_id": "prada-pack-conformance-v1",
+  "version": "1.0.0",
+  "pack": "packs/prada/pack.json",
+  "core_required": "feature/seo-pdp-intelligence-core-v1 (>= ce99c80a)",
+  "purpose": "Prove the Prada pack plugs into the Core: it narrows permissions, it rejects its own known-bad codes, and it cannot widen the Core.",
+  "pipeline_cases": [
+    {
+      "id": "PC-001",
+      "title": "America's Cup name composed from the pack template, with a real Tier 1 code",
+      "source": "Pack verified_success: ProductID 536027476120336; official code list from the Prada 78 manifest",
+      "why": "Kills two birds: the pack template must reproduce the real on-site name, and a genuine brand code must reach VERIFIED_SKU.",
+      "expect_product_name": "Prada America's Cup Patent Leather Sneakers Grey White",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Prada Americas Cup Patent Grey White", "sku": "DC2", "images": 12 },
+        "identity": {
+          "brand": "Prada",
+          "model": "America's Cup",
+          "product_type": "Sneakers",
+          "colorway": "Grey White",
+          "collection": "America's Cup",
+          "descriptor": "Patent Leather Sneakers",
+          "official_name_matched": true,
+          "colorway_has_tier14": true,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false,
+          "decision_sentence": "The Prada America's Cup Patent Leather Sneakers in Grey White pair a patent leather upper with a rubber cup sole.",
+          "brand_internal_url": "https://www.dripsneakers.org/Prada-Sneakers/"
+        },
+        "sku_candidates": [
+          {
+            "value": "2EG479 D7C F0008 F G001",
+            "sku_type": "official_brand_code",
+            "entity_ref": "prada-americas-cup-patent-grey-white",
+            "evidence": [
+              { "tier": 1, "source_name": "Prada official", "url": "https://www.prada.com/example-americas-cup", "exact_entity_match": true, "sku": "2EG479 D7C F0008 F G001" }
+            ]
+          },
+          { "value": "DC2", "sku_type": "supplier_batch_suffix", "entity_ref": "prada-americas-cup-patent-grey-white", "evidence": [] }
+        ],
+        "evidence": { "official_source": "https://www.prada.com/example-americas-cup", "confidence": "high", "gaps": [] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "PASS", "publish_readback": "PASS", "storefront": "PASS" }
+      },
+      "expect": {
+        "final_status": "PASS",
+        "sku_verdict": "VERIFIED_SKU",
+        "sku_rejections": [{ "value": "DC2", "reason": "SKU-TYPE-REJECTED" }],
+        "hold_codes": [],
+        "action_permission": "ALLOW_SEO_UPDATE"
+      }
+    },
+    {
+      "id": "PC-002",
+      "title": "Internal catalogue code is rejected and the product still publishes with SKU omitted",
+      "source": "Prada 78 identity-audit: 66 of 78 SKU values were sku_type=internal_catalog (DS-PRA-001..078)",
+      "why": "The headline Prada lesson. A rejected code must not block an otherwise verifiable product, and must not be recorded as absence.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Prada Pocket T-Shirt-DC2", "sku": "DS-PRA-010", "images": 7 },
+        "identity": {
+          "brand": "Prada",
+          "model": "Pocket T-Shirt",
+          "product_type": "T-Shirt",
+          "colorway": "Black",
+          "collection": null,
+          "official_name_matched": true,
+          "colorway_has_tier14": true,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false
+        },
+        "sku_candidates": [
+          { "value": "DS-PRA-010", "sku_type": "internal_catalog", "entity_ref": "prada-pocket-tee-black", "evidence": [] }
+        ],
+        "evidence": { "official_source": "https://www.prada.com/example-pocket-tee", "confidence": "medium", "gaps": [] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "PASS", "publish_readback": "PASS", "storefront": "PASS" }
+      },
+      "expect": {
+        "final_status": "PASS",
+        "sku_verdict": "SKU_OMIT",
+        "sku_rejections": [{ "value": "DS-PRA-010", "reason": "SKU-TYPE-REJECTED" }],
+        "hold_codes": [],
+        "action_permission": "ALLOW_SEO_UPDATE"
+      }
+    },
+    {
+      "id": "PC-003",
+      "title": "Tier 2 source type is refused because the pack has no Tier 2 evidence",
+      "source": "pack.json sku.accepted_source_types narrowed to official_brand_code + authorized_retailer_code",
+      "why": "Proves the pack narrows the Core. Accepting a source tier the pack cannot support would assert an unverified capability.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Prada America's Cup Soft Rubber Sneakers Carbon Black", "sku": "", "images": 10 },
+        "identity": {
+          "brand": "Prada",
+          "model": "America's Cup",
+          "product_type": "Sneakers",
+          "colorway": "Carbon Black",
+          "collection": "America's Cup",
+          "descriptor": "Soft Rubber Sneakers",
+          "official_name_matched": true,
+          "colorway_has_tier14": true,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false
+        },
+        "sku_candidates": [
+          {
+            "value": "4E6500 3LLJ F0002 F 025",
+            "sku_type": "stockx_code",
+            "entity_ref": "prada-americas-cup-soft-rubber-carbon-black",
+            "evidence": [
+              { "tier": 2, "source_name": "StockX", "url": "https://stockx.com/example", "exact_entity_match": true, "sku": "4E6500 3LLJ F0002 F 025" }
+            ]
+          }
+        ],
+        "evidence": { "official_source": "https://www.prada.com/example-soft-rubber", "confidence": "high", "gaps": [] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "PASS", "publish_readback": "PASS", "storefront": "PASS" }
+      },
+      "expect": {
+        "final_status": "PASS",
+        "sku_verdict": "SKU_OMIT",
+        "sku_rejections": [{ "value": "4E6500 3LLJ F0002 F 025", "reason": "SKU-TYPE-REJECTED" }],
+        "hold_codes": [],
+        "action_permission": "ALLOW_SEO_UPDATE"
+      }
+    },
+    {
+      "id": "PC-004",
+      "title": "Known-incomplete Prada code is rejected even when mislabelled as an official code",
+      "source": "pack.json sku.always_rejected_values (2EG2933 / 2EG4243 / 1E819LF0503KR2 / 1D246M JHR FO002 F / 2DB205 055 F0002 F)",
+      "why": "These strings came from source folder names and cannot be relied on. Rejection is by value, so a wrong sku_type cannot resurrect them.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Prada Sneakers Olive", "sku": "2EG2933", "images": 9 },
+        "identity": {
+          "brand": "Prada",
+          "model": "Sneakers",
+          "product_type": "Sneakers",
+          "colorway": "Olive",
+          "collection": null,
+          "official_name_matched": true,
+          "colorway_has_tier14": true,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false
+        },
+        "sku_candidates": [
+          {
+            "value": "2EG2933",
+            "sku_type": "official_brand_code",
+            "entity_ref": "prada-sneakers-olive",
+            "evidence": [
+              { "tier": 1, "source_name": "mis-declared", "url": "https://example.com/x", "exact_entity_match": true, "sku": "2EG2933" }
+            ]
+          }
+        ],
+        "evidence": { "official_source": "https://www.prada.com/example-olive", "confidence": "medium", "gaps": [] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "PASS", "publish_readback": "PASS", "storefront": "PASS" }
+      },
+      "expect": {
+        "final_status": "PASS",
+        "sku_verdict": "SKU_OMIT",
+        "sku_rejections": [{ "value": "2EG2933", "reason": "SKU-PACK-REJECTED" }],
+        "hold_codes": [],
+        "action_permission": "ALLOW_SEO_UPDATE"
+      }
+    }
+  ],
+
+  "url_policy_cases": [
+    {
+      "id": "PU-001",
+      "source": "Prada 78: 5 unpublished products carry URLs of the form /-Prada-Sneakers-Black-Red",
+      "expect": { "action": "MIGRATE", "reason": "URL-MIGRATION-TRIGGER:LEADING-OR-TRAILING-HYPHEN" },
+      "current_url": "https://www.dripsneakers.org/-Prada-Sneakers-Black-Red",
+      "triggers": []
+    },
+    {
+      "id": "PU-002",
+      "source": "Prada verified success: the live URL after the rewrite (the real page is capitalised and was correctly kept)",
+      "why": "Case style is convention drift, not structural breakage. Treating it as a migration trigger would have rewritten the very URL the Prada run deliberately preserved.",
+      "expect": { "action": "KEEP", "reason": "URL-ALREADY-CORRECT", "warnings": ["URL-01-EXISTING-SLUG-NOT-LOWERCASE"] },
+      "current_url": "https://www.dripsneakers.org/Prada-Americas-Cup-Patent-Leather-Sneakers-Grey-White",
+      "triggers": []
+    },
+    {
+      "id": "PU-003",
+      "source": "Core 05 GEN-07: a correct lower-case live URL must never be rewritten for uniformity",
+      "expect": { "action": "KEEP", "reason": "URL-ALREADY-CORRECT" },
+      "current_url": "https://www.dripsneakers.org/prada-americas-cup-patent-leather-sneakers-grey-white",
+      "triggers": []
+    },
+    {
+      "id": "PU-004",
+      "source": "Core 05 GEN-08: an explicit migration trigger forces MIGRATE even when the URL looks clean",
+      "expect": { "action": "MIGRATE", "reason": "URL-MIGRATION-TRIGGER:SUPPLIER-NOISE" },
+      "current_url": "https://www.dripsneakers.org/prada-nice-shoes",
+      "triggers": ["SUPPLIER-NOISE"]
+    },
+    {
+      "id": "PU-005",
+      "source": "New product with no live URL yet",
+      "expect": { "action": "NEW", "reason": "URL-NOT-YET-EXISTS" },
+      "current_url": "",
+      "triggers": []
+    }
+  ],
+
+  "pack_boundary_cases": [
+    {
+      "id": "PB-001",
+      "title": "A pack that widens the Core permission set must stop the run",
+      "why": "Brand knowledge may only make the system more conservative. Otherwise every new brand is a permission expansion.",
+      "pack_under_test": {
+        "pack_id": "malicious-narrowing-attempt",
+        "sku": { "accepted_source_types": ["official_brand_code", "supplier_batch_suffix"] }
+      },
+      "use_pipeline_case": "PC-001",
+      "expect": {
+        "final_status": "HOLD",
+        "sku_verdict": "HOLD",
+        "hold_codes": ["PACK-WIDENS-PERMISSION", "PACK-WIDENS-SKU-TYPE:supplier_batch_suffix"],
+        "action_permission": "FORBID_UPDATE"
+      }
+    },
+    {
+      "id": "PB-002",
+      "title": "The real Prada pack declares no violations",
+      "why": "Control case: the shipped pack must be accepted, and its narrowing must be a pure subset.",
+      "pack_file": "packs/prada/pack.json",
+      "expect_violations": [],
+      "expect_accepted_types": ["official_brand_code", "authorized_retailer_code"]
+    }
+  ]
+}

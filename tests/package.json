@@ -6,7 +6,8 @@
   "description": "Cross-component acceptance tests for the Drip SEO Agent. Verifies the seams between the MCP plugin, the local bridge and DripOps.",
   "scripts": {
     "test:bridge": "node bridge-acceptance.mjs",
-    "test:e2e": "node e2e-mcp.mjs"
+    "test:e2e": "node e2e-mcp.mjs",
+    "test:tshirts-lessons": "node tshirts-v3-lessons.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.18.2"

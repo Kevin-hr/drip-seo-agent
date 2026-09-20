@@ -22,10 +22,10 @@ const root = path.resolve(here, "..");
  * treated as produced by a different standard.
  */
 const PINNED_SHA256 =
-  "5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8";
+  "965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7";
 
-test("canonical standard is the CLEAN_CONSOLIDATED 2026-09-17 revision", () => {
-  assert.equal(CANONICAL_STANDARD_FILE, "Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md");
+test("canonical standard is the V4.4 STANDARD_FINAL revision", () => {
+  assert.equal(CANONICAL_STANDARD_FILE, "Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md");
   assert.ok(fs.existsSync(CANONICAL_STANDARD_PATH), "canonical standard file must exist");
 });
 
@@ -37,7 +37,7 @@ test("SHA-256 of the canonical standard matches the pinned value", () => {
 test("standard identity is loaded and reported", () => {
   const info = getStandardInfo();
   assert.equal(info.standard_version, "4.4");
-  assert.match(info.standard_status, /CONSOLIDATED 2026-09-17/);
+  assert.equal(info.standard_status, "FINAL");
   assert.equal(info.standard_hash, PINNED_SHA256);
   assert.equal(info.standard_file, CANONICAL_STANDARD_FILE);
 });
@@ -49,12 +49,12 @@ test("every tool result envelope carries standard_version and standard_hash", ()
   assert.ok(envelope.standard_file.length > 0);
 });
 
-test("historical 3.2 and superseded V4.4 STANDARD_FINAL are recognised as forbidden", () => {
+test("historical 3.2 and superseded V4.4 revisions are recognised as forbidden", () => {
   const forbidden = [
     "standards/SEO-PDP-3.2.json",
     "SEO-PDP_3.2.md",
     "Drip_Sneakers_SEO-PDP_V4.4_STANDARD.md",
-    "Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md",
+    "Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md",
   ];
   for (const candidate of forbidden) {
     assert.ok(
@@ -99,6 +99,6 @@ test("superseded copies are parked outside the active reference directory", () =
   }
   assert.ok(
     fs.existsSync(path.join(root, "rules", "_superseded", "Drip_Sneakers_SEO-PDP_V4.4_STANDARD.md")),
-    "the superseded V4.4 STANDARD_FINAL must be retained under _superseded/",
+    "a superseded V4.4 revision must be retained under _superseded/",
   );
 });

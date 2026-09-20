@@ -1,8 +1,8 @@
 # STATUS
 
-**Last updated:** 2026-09-18
+**Last updated:** 2026-09-19
 **Repository:** Drip SEO Agent
-**HEAD:** `b503d47` — changes are in the working tree, nothing committed
+**Branch:** `codex/upgrade-seo-pdp-v4.4-final`
 
 ---
 
@@ -27,7 +27,7 @@ Detail: [reports/WORKFLOW_E2E_REPORT.md](reports/WORKFLOW_E2E_REPORT.md)
 | Gate | State |
 |---|---|
 | Repository freeze | PASS |
-| V4.4 standard lock | PASS — `5fb8457f049615b467e54b4a4d4fdb59dd39a4b6a73172020b12fa1fedbf3bf8` |
+| V4.4 standard lock | PASS — `965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7` |
 | Agent Contract V2.0 | Pinned — `2bdeb72f2ca1edb1691141005bb413248eedbd8eecf078ada60d4e747551a1da` |
 | MCP tool surface | PASS — 12 tools, `check-package` green |
 | Bridge | PASS — 6 PDP routes, 54/54 acceptance |

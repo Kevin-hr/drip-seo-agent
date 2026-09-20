@@ -11,9 +11,9 @@ namespace DripOps.Rules.V44;
 /// Deterministic V4.4 composer.
 ///
 /// This is a NEW generator written against
-/// Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md. It deliberately
+/// Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md. It deliberately
 /// shares no rules with SeoPdpComposer (SEO/PDP 3.2), because 3.2 mandates a
-/// verified SKU while V4.4 §5/§5A permits publishing with the SKU omitted.
+/// verified SKU while V4.4 §5 permits publishing with the SKU omitted.
 /// </summary>
 public sealed class V44Composer(V44Standard standard)
 {

@@ -6,9 +6,9 @@ import { fileURLToPath } from "node:url";
 /**
  * Canonical SEO-PDP standard loader.
  *
- * Sole authority: Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md
+ * Sole authority: Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md
  *
- * SEO/PDP 3.2 and the superseded V4.4 STANDARD_FINAL are historical execution
+ * SEO/PDP 3.2 and the superseded V4.4 CLEAN_CONSOLIDATED revision are historical execution
  * records only. They must never be loaded, referenced, or used as a decision
  * layer by this plugin. The superseded copies are parked in `_superseded/`
  * precisely so they cannot be picked up accidentally.
@@ -18,7 +18,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const packageRoot = path.resolve(here, "..");
 
 export const CANONICAL_STANDARD_FILE =
-  "Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md";
+  "Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md";
 
 export const CANONICAL_STANDARD_PATH = path.join(
   packageRoot,
@@ -29,14 +29,14 @@ export const CANONICAL_STANDARD_PATH = path.join(
 /** Files that must never be active. Presence alone is not an error; loading is. */
 export const FORBIDDEN_STANDARD_PATTERNS: RegExp[] = [
   /SEO-PDP[-_ ]?3\.2/i,
-  /SEO-PDP_V4\.4_STANDARD(?!_CLEAN_CONSOLIDATED)/i,
-  /V4\.4_STANDARD_FINAL/i,
+  /SEO-PDP_V4\.4_STANDARD(?!_FINAL)/i,
+  /CLEAN_CONSOLIDATED_2026-09-17/i,
 ];
 
 export interface StandardInfo {
   /** "4.4" as declared in the canonical document */
   standard_version: string;
-  /** "FINAL — CONSOLIDATED 2026-09-17" */
+  /** "FINAL" */
   standard_status: string;
   /** lower-case hex sha256 of the canonical document bytes */
   standard_hash: string;

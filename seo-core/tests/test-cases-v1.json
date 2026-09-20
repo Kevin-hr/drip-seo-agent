@@ -1,0 +1,360 @@
+{
+  "suite_id": "seo-core-conformance-v1",
+  "version": "1.0.0",
+  "target": "SEO PDP Intelligence Core v1",
+  "standard": {
+    "file": "standards/V4.4/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md",
+    "sha256": "965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7"
+  },
+  "purpose": "Any agent (ChatGPT / Trae / Claude / Qwen / MCP agent) must pass this same suite before touching products.",
+  "policy_note": "TC-002 runs twice, once per sku_policy, because the HOLD-on-missing-SKU question is an open design decision. Both outcomes are asserted so the switch cannot drift silently.",
+  "cases": [
+    {
+      "id": "TC-001",
+      "title": "Prada America's Cup with Tier 1 official SKU",
+      "source": "Prada 78 manifest (audit/2026-09-02T14-30-31+08-00-prada-78) + ProductID 536027476120336",
+      "why": "The canonical happy path: entity confirmed by the brand itself, SKU attached to the same entity.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Prada Americas Cup Patent Grey White", "sku": "DC2", "images": 12 },
+        "identity": {
+          "brand": "Prada",
+          "model": "America's Cup Patent Leather Sneakers",
+          "product_type": "Sneakers",
+          "colorway": "Grey White",
+          "collection": "America's Cup",
+          "official_name_matched": true,
+          "colorway_has_tier14": true,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false
+        },
+        "sku_candidates": [
+          {
+            "value": "2EG479 D7C F0008 F G001",
+            "sku_type": "official_brand_code",
+            "entity_ref": "americas-cup-patent-grey-white",
+            "evidence": [
+              {
+                "tier": 1,
+                "source_name": "Prada official",
+                "url": "https://www.prada.com/example-americas-cup",
+                "exact_entity_match": true,
+                "sku": "2EG479 D7C F0008 F G001"
+              }
+            ]
+          }
+        ],
+        "evidence": { "official_source": "https://www.prada.com/example-americas-cup", "confidence": "high", "gaps": [] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "PASS", "publish_readback": "PASS", "storefront": "PASS" }
+      },
+      "expect": { "final_status": "PASS", "sku_verdict": "VERIFIED_SKU", "hold_codes": [], "action_permission": "ALLOW_SEO_UPDATE" }
+    },
+    {
+      "id": "TC-002",
+      "title": "Entity clear, no official SKU anywhere (the policy fork)",
+      "source": "Air Jordan 1 / 106 run: only 7 of 106 used a Tier 4 code, the other 94 published with SKU omitted",
+      "why": "This is the single open design question. Under the locked V4.4 standard the product publishes with SKU omitted; under strict_require_verified the same product HOLDs.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Air Jordan 1 Retro High OG Taxi", "sku": "", "images": 9 },
+        "identity": {
+          "brand": "Jordan",
+          "model": "Air Jordan 1 Retro High OG",
+          "product_type": "Sneakers",
+          "colorway": "Taxi",
+          "collection": null,
+          "official_name_matched": true,
+          "colorway_has_tier14": true,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false
+        },
+        "sku_candidates": [],
+        "evidence": { "official_source": "https://www.nike.com/example-aj1-taxi", "confidence": "medium", "gaps": [] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "PASS", "publish_readback": "PASS", "storefront": "PASS" }
+      },
+      "expect": { "final_status": "PASS", "sku_verdict": "SKU_OMIT", "hold_codes": [], "action_permission": "ALLOW_SEO_UPDATE" },
+      "expect_strict": { "final_status": "HOLD", "sku_verdict": "HOLD", "hold_codes": ["SKU-POLICY-STRICT"], "action_permission": "FORBID_UPDATE" }
+    },
+    {
+      "id": "TC-003",
+      "title": "Supplier batch suffix is the only identifier",
+      "source": "T-Shirts run: \"Prada Logo T-Shirt-DC2\", \"Crewneck T-Shirt-DC2\", \"Chrome Hearts T-Shirt-DC4\"",
+      "why": "A batch suffix looks like a model discriminator but carries no identity. Supplier noise must never reach the generator.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Prada Logo T-Shirt-DC2", "sku": "DC2", "images": 6 },
+        "identity": {
+          "brand": "Prada",
+          "model": "",
+          "product_type": "T-Shirt",
+          "colorway": "",
+          "collection": null,
+          "official_name_matched": false,
+          "colorway_has_tier14": false,
+          "collection_unverifiable": false,
+          "multiple_candidates": true,
+          "field_missing": true
+        },
+        "sku_candidates": [
+          { "value": "DC2", "sku_type": "supplier_batch_suffix", "entity_ref": "prada-logo-tee", "evidence": [] }
+        ],
+        "evidence": { "official_source": "", "confidence": "low", "gaps": ["no official name", "no official colorway"] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "NOT_RUN", "publish_readback": "NOT_RUN", "storefront": "NOT_RUN" }
+      },
+      "expect": {
+        "final_status": "HOLD",
+        "sku_verdict": "SKU_OMIT",
+        "sku_rejections": [{ "value": "DC2", "reason": "SKU-TYPE-REJECTED" }],
+        "hold_codes": ["ID-FIELD-MISSING", "ID-NAME-UNMATCHED", "ID-COLORWAY-UNVERIFIED", "ID-MULTI-CANDIDATE", "EVD-EMPTY", "EVD-LOW-CONFIDENCE", "EVD-GAPS-PRESENT"],
+        "action_permission": "FORBID_UPDATE"
+      }
+    },
+    {
+      "id": "TC-004",
+      "title": "Visual colour offered as if it were the official colourway",
+      "source": "Agent Contract V2.0 section 5; Air Jordan 1 ordinal 31 (name said Bleached Coral, the image did not)",
+      "why": "Visual colour and official colourway are different evidence classes. Promoting one to the other is the most common silent failure.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Air Jordan 1 Retro High OG Bleached Coral", "sku": "", "images": 8 },
+        "identity": {
+          "brand": "Jordan",
+          "model": "Air Jordan 1 Retro High OG",
+          "product_type": "Sneakers",
+          "colorway": "Bleached Coral",
+          "collection": null,
+          "official_name_matched": true,
+          "colorway_has_tier14": false,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false
+        },
+        "sku_candidates": [],
+        "evidence": { "official_source": "https://www.nike.com/example-aj1", "confidence": "medium", "gaps": ["colourway not confirmed by Tier 1-4"] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "NOT_RUN", "publish_readback": "NOT_RUN", "storefront": "NOT_RUN" }
+      },
+      "expect": {
+        "final_status": "HOLD",
+        "sku_verdict": "SKU_OMIT",
+        "hold_codes": ["ID-COLORWAY-UNVERIFIED", "EVD-GAPS-PRESENT"],
+        "action_permission": "FORBID_UPDATE"
+      }
+    },
+    {
+      "id": "TC-005",
+      "title": "Internal catalogue code offered as the SKU",
+      "source": "Prada 78 identity-audit: 66 of 78 SKU values were sku_type=internal_catalog (DS-PRA-001..078)",
+      "why": "The Prada case's headline lesson. An internal code is well-formed, stable and looks official. It is still not a SKU.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Prada Pocket T-Shirt-DC2", "sku": "DS-PRA-010", "images": 7 },
+        "identity": {
+          "brand": "Prada",
+          "model": "Pocket T-Shirt",
+          "product_type": "T-Shirt",
+          "colorway": "Black",
+          "collection": null,
+          "official_name_matched": true,
+          "colorway_has_tier14": true,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false
+        },
+        "sku_candidates": [
+          { "value": "DS-PRA-010", "sku_type": "internal_catalog", "entity_ref": "prada-pocket-tee-black", "evidence": [] }
+        ],
+        "evidence": { "official_source": "https://www.prada.com/example-pocket-tee", "confidence": "medium", "gaps": [] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "PASS", "publish_readback": "PASS", "storefront": "PASS" }
+      },
+      "expect": {
+        "final_status": "PASS",
+        "sku_verdict": "SKU_OMIT",
+        "sku_rejections": [{ "value": "DS-PRA-010", "reason": "SKU-TYPE-REJECTED" }],
+        "hold_codes": [],
+        "action_permission": "ALLOW_SEO_UPDATE"
+      }
+    },
+    {
+      "id": "TC-006",
+      "title": "Platform product ID mislabelled as an official SKU (structural guard)",
+      "source": "Agent Contract V2.0 section 8 forbidden list: MrShopPlus Product ID",
+      "why": "Defence in depth. The declared sku_type lies, so the structural guard has to catch it. Rejection must not be recorded as absence.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Air Jordan 1 Retro High OG Taxi", "sku": "536027121999899", "images": 9 },
+        "identity": {
+          "brand": "Jordan",
+          "model": "Air Jordan 1 Retro High OG",
+          "product_type": "Sneakers",
+          "colorway": "Taxi",
+          "collection": null,
+          "official_name_matched": true,
+          "colorway_has_tier14": true,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false
+        },
+        "sku_candidates": [
+          {
+            "value": "536027121999899",
+            "sku_type": "official_brand_code",
+            "entity_ref": "aj1-taxi",
+            "evidence": [
+              { "tier": 1, "source_name": "mis-declared", "url": "https://example.com/x", "exact_entity_match": true, "sku": "536027121999899" }
+            ]
+          }
+        ],
+        "evidence": { "official_source": "https://www.nike.com/example-aj1-taxi", "confidence": "medium", "gaps": [] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "PASS", "publish_readback": "PASS", "storefront": "PASS" }
+      },
+      "expect": {
+        "final_status": "PASS",
+        "sku_verdict": "SKU_OMIT",
+        "sku_rejections": [{ "value": "536027121999899", "reason": "SKU-STRUCT-REJECTED" }],
+        "hold_codes": [],
+        "action_permission": "ALLOW_SEO_UPDATE"
+      }
+    },
+    {
+      "id": "TC-007",
+      "title": "One SKU attached to two different entities",
+      "source": "Dior v3.2 batch: 3SN272-ZIR1-6536 used for both B33 White and B33 Black",
+      "why": "A code that identifies two products identifies neither. This must stop before either product is written.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Dior B33 White / Dior B33 Black", "sku": "3SN272-ZIR1-6536", "images": 10 },
+        "identity": {
+          "brand": "Dior",
+          "model": "B33 Sneakers",
+          "product_type": "Sneakers",
+          "colorway": "White",
+          "collection": "Denim Tears",
+          "official_name_matched": true,
+          "colorway_has_tier14": true,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false
+        },
+        "sku_candidates": [
+          {
+            "value": "3SN272-ZIR1-6536",
+            "sku_type": "official_brand_code",
+            "entity_ref": "dior-b33-white",
+            "evidence": [{ "tier": 1, "source_name": "Dior", "url": "https://www.dior.com/x", "exact_entity_match": true, "sku": "3SN272-ZIR1-6536" }]
+          },
+          {
+            "value": "3SN272-ZIR1-6536",
+            "sku_type": "official_brand_code",
+            "entity_ref": "dior-b33-black",
+            "evidence": [{ "tier": 1, "source_name": "Dior", "url": "https://www.dior.com/y", "exact_entity_match": true, "sku": "3SN272-ZIR1-6536" }]
+          }
+        ],
+        "evidence": { "official_source": "https://www.dior.com/x", "confidence": "high", "gaps": [] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "NOT_RUN", "publish_readback": "NOT_RUN", "storefront": "NOT_RUN" }
+      },
+      "expect": { "final_status": "HOLD", "sku_verdict": "HOLD", "hold_codes": ["SKU-CONFLICT"], "action_permission": "FORBID_UPDATE" }
+    },
+    {
+      "id": "TC-008",
+      "title": "Two listings generate the same slug",
+      "source": "Air Jordan 1 ordinal 102 vs ordinal 65: identical name, colourway and generated slug; the save was rejected",
+      "why": "Slug collision is the strongest available duplicate signal. Publishing either one blind creates a duplicate PDP.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Air Jordan 1 NRG OG High NOT FOR RESALE Varsity Red", "sku": "", "images": 8 },
+        "identity": {
+          "brand": "Jordan",
+          "model": "Air Jordan 1 High OG NRG",
+          "product_type": "Sneakers",
+          "colorway": "NOT FOR RESALE Varsity Red",
+          "collection": null,
+          "official_name_matched": true,
+          "colorway_has_tier14": true,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false
+        },
+        "sku_candidates": [],
+        "evidence": { "official_source": "https://www.nike.com/example-nfr", "confidence": "medium", "gaps": [] },
+        "reconciliation": { "duplicate_same_slug": true },
+        "verification": { "save_readback": "NOT_RUN", "publish_readback": "NOT_RUN", "storefront": "NOT_RUN" }
+      },
+      "expect": { "final_status": "HOLD", "sku_verdict": "SKU_OMIT", "hold_codes": ["DUP-SAME-SLUG"], "action_permission": "FORBID_UPDATE" }
+    },
+    {
+      "id": "TC-009",
+      "title": "Historically 'verified' product resubmitted without new evidence",
+      "source": "T-Shirts V3 lessons: names, SKUs and URLs are historical evidence and must be re-verified before a V4.4 write",
+      "why": "A prior PASS is not inheritable. If the only source is a historical URL, confidence is low and the record is not a PASS.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Givenchy Stamp Print T-Shirt White", "sku": "BM71NK3YSA-100", "images": 5 },
+        "identity": {
+          "brand": "Givenchy",
+          "model": "Stamp Print T-Shirt",
+          "product_type": "T-Shirt",
+          "colorway": "White",
+          "collection": null,
+          "official_name_matched": true,
+          "colorway_has_tier14": true,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false
+        },
+        "sku_candidates": [
+          {
+            "value": "BM71NK3YSA-100",
+            "sku_type": "official_brand_code",
+            "entity_ref": "givenchy-stamp-white",
+            "evidence": [{ "tier": 1, "source_name": "Givenchy", "url": "https://www.givenchy.com/x", "exact_entity_match": true, "sku": "BM71NK3YSA-100" }]
+          }
+        ],
+        "evidence": { "official_source": "", "confidence": "low", "gaps": ["historical canonical URL only", "no current source re-read"] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "NOT_RUN", "publish_readback": "NOT_RUN", "storefront": "NOT_RUN" }
+      },
+      "expect": {
+        "final_status": "HOLD",
+        "sku_verdict": "VERIFIED_SKU",
+        "hold_codes": ["EVD-EMPTY", "EVD-LOW-CONFIDENCE", "EVD-GAPS-PRESENT"],
+        "action_permission": "FORBID_UPDATE"
+      }
+    },
+    {
+      "id": "TC-010",
+      "title": "Core passes, storefront verification fails",
+      "source": "Agent Contract V2.0 section 13 pre-publish checks; pre-write gate currently NO-GO",
+      "why": "A successful save is not completion. When the public page disagrees, the correct terminal state is ROLLBACK, not PASS and not HOLD.",
+      "sku_policy": "v44_standard",
+      "input": {
+        "supplier": { "title": "Prada America's Cup Soft Rubber Sneakers Carbon Black", "sku": "", "images": 10 },
+        "identity": {
+          "brand": "Prada",
+          "model": "America's Cup Soft Rubber Sneakers",
+          "product_type": "Sneakers",
+          "colorway": "Carbon Black",
+          "collection": "America's Cup",
+          "official_name_matched": true,
+          "colorway_has_tier14": true,
+          "collection_unverifiable": false,
+          "multiple_candidates": false,
+          "field_missing": false
+        },
+        "sku_candidates": [],
+        "evidence": { "official_source": "https://www.prada.com/example-soft-rubber", "confidence": "high", "gaps": [] },
+        "reconciliation": { "duplicate_same_slug": false },
+        "verification": { "save_readback": "PASS", "publish_readback": "PASS", "storefront": "FAIL" }
+      },
+      "expect": { "final_status": "ROLLBACK", "sku_verdict": "SKU_OMIT", "hold_codes": ["WR-STOREFRONT-FAILED"], "action_permission": "FORBID_UPDATE" }
+    }
+  ]
+}
