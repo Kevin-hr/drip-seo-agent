@@ -4,6 +4,7 @@ using DripOps.Browser;
 using DripOps.Configuration;
 using DripOps.Domain;
 using DripOps.Rules;
+using DripOps.Rules.V44;
 using DripOps.State;
 
 namespace DripOps;
@@ -739,6 +740,22 @@ internal static class Program
                 "explicit URL migration generates normalized slug");
             Assert(migratedDraft.UrlChangeRequired && migratedDraft.RedirectFrom == "/Top-Quality-Old-Slug",
                 "explicit URL migration retains redirect source");
+
+            var completeSnapshot = new ProductSnapshot
+            {
+                ProductId = "1", AdminUrl = "https://admin.test/product/1",
+                ExistingName = "Test Product", ExistingSlug = "test-product",
+                ExistingDescriptionHtml = "<p>description</p>", ExistingSeoTitle = "SEO title",
+                ExistingSeoKeywords = ["test"], ExistingMetaDescription = "meta",
+                ImageUrls = ["https://img.test/1.jpg"], CurrentSku = "SKU-1",
+                SupplierCode = "SUP-1", Category = "Test", Price = "99.00",
+                Inventory = "10", Collections = ["Test"], Variants = ["Size M"]
+            };
+            var completeness = V44SnapshotCompleteness.Evaluate(completeSnapshot);
+            Assert(completeness.Complete, "complete rollback snapshot passes stop conditions");
+            Assert(!completeness.MissingAdvisory.Contains("price"), "price reader contributes to baseline");
+            Assert(!completeness.MissingAdvisory.Contains("inventory"), "inventory reader contributes to baseline");
+            Assert(!completeness.MissingAdvisory.Contains("collections"), "collections reader contributes to baseline");
 
             var store = new RunStore(config.StateDirectory);
             var runId = store.CreateRun("https://admin.test/category", "https://shop.test/category", standard.Version, "self-test");

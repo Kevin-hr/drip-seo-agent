@@ -146,7 +146,7 @@ if (plan.plan_id) {
 }
 
 // ------------------------------------------- step 4: rollback baseline + gates
-const snap = local.json?.snapshot ?? {};
+const snap = (buildOnLive ? live.json?.snapshot : local.json?.snapshot) ?? {};
 const seoIsInSnapshot = "existing_seo_title" in snap;
 
 const categories = [
@@ -162,9 +162,9 @@ const categories = [
     captured: seoIsInSnapshot, source: "admin snapshot (SEO dialog)" },
   { key: "publish_state", fields: ["is_published"], weight: 5,
     captured: typeof snap.is_published === "boolean", source: "admin snapshot" },
-  { key: "price", fields: ["price"], weight: 10, captured: false, source: "NO READER" },
-  { key: "inventory", fields: ["inventory"], weight: 10, captured: false, source: "NO READER" },
-  { key: "collections", fields: ["collections"], weight: 10, captured: false, source: "NO READER" },
+  { key: "price", fields: ["price"], weight: 10, captured: Boolean(snap.price), source: "admin product form" },
+  { key: "inventory", fields: ["inventory"], weight: 10, captured: Boolean(snap.inventory), source: "admin product form" },
+  { key: "collections", fields: ["collections"], weight: 10, captured: (snap.collections?.length ?? 0) > 0, source: "admin product form" },
   { key: "schema", fields: ["json_ld"], weight: 5,
     captured: schemaFound === true, source: schemaFound ? "storefront (via bridge verify)" : "not captured" },
 ];

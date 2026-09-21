@@ -69,7 +69,7 @@ if (lost.length) console.log(`\nLOST:\n  ${lost.join("\n  ")}`);
 if (changed.length) console.log(`\nCHANGED:\n  ${changed.join("\n  ")}`);
 if (zeroByte.length) console.log(`\nZERO-BYTE (fatal per project rules):\n  ${zeroByte.join("\n  ")}`);
 
-const drift = lost.length + changed.length;
+const drift = lost.length + changed.length + zeroByte.length;
 console.log("");
 if (drift > 0) {
   console.log("EVIDENCE_DRIFT_DETECTED — the evidence behind the Prada Pack no longer matches the pinned manifest.");

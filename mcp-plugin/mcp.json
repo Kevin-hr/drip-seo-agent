@@ -3,7 +3,7 @@
   "mcpServers": {
     "drip-seo": {
       "type": "streamable-http",
-      "url": "https://REPLACE-WITH-YOUR-MCP-HOST.example.com/mcp"
+      "url": "http://127.0.0.1:8000/mcp"
     }
   }
 }
