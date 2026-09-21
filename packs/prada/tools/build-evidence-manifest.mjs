@@ -43,7 +43,6 @@ const roots = [
   "scripts/audit-public-prada.ps1",
   "scripts/compare-public-prada-images.cjs",
   "scripts/prada-visual-dedupe.cjs",
-  "check-prada.js",
 ];
 
 function sha256(file) {
@@ -81,6 +80,9 @@ for (const rel of roots) {
 entries.sort((a, b) => a.path.localeCompare(b.path));
 
 const zeroByte = entries.filter((e) => e.bytes === 0).map((e) => e.path);
+if (zeroByte.length > 0) {
+  throw new Error(`Refusing to build a manifest with zero-byte evidence: ${zeroByte.join(", ")}`);
+}
 const totalBytes = entries.reduce((sum, e) => sum + e.bytes, 0);
 
 const manifest = {

@@ -1,7 +1,7 @@
 {
   "schema": "evidence-manifest-v1",
   "pack": "prada",
-  "generated": "2026-09-19T17:19:41.861Z",
+  "generated": "2026-09-21T03:35:48.386Z",
   "purpose": "Pin the untracked Prada evidence by size and sha256 so loss or modification is detectable.",
   "tracked_by_git": false,
   "workspace_root_name": "dripsneakers",
@@ -12,13 +12,11 @@
     "note": "The 2026-09-02T14-30-09 run directory contains an empty evidence/ folder only and must not be cited as a run."
   },
   "totals": {
-    "files": 36,
-    "bytes": 7518279,
-    "zero_byte_files": 1
+    "files": 37,
+    "bytes": 7542048,
+    "zero_byte_files": 0
   },
-  "zero_byte_files": [
-    "check-prada.js"
-  ],
+  "zero_byte_files": [],
   "missing_roots": [],
   "files": [
     {
@@ -60,6 +58,11 @@
       "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/backend-unpublished-images/536027476120336-prada-off-white-gray.jpg",
       "bytes": 111396,
       "sha256": "8a28fad97af8d4b66ab8d33eae4b973957165dfbdc526197ad8f620e2f602929"
+    },
+    {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/live-prada-query-2026-09-21.json",
+      "bytes": 20664,
+      "sha256": "cec091673c7adae3609d39412816c529ff493d53b0e7bd15fdd8792c25bae152"
     },
     {
       "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/prada-78-first-image-contact-sheet.jpg",
@@ -137,6 +140,11 @@
       "sha256": "401e641e53272b8c8213b0129b34750ec95e74dcf665a5dc6ebcd96593a2aec3"
     },
     {
+      "path": "audit/2026-09-02T14-30-31+08-00-prada-78/evidence/reconcile-live-2026-09-21.cjs",
+      "bytes": 2375,
+      "sha256": "06f4ecaa705c13b7b19e1fed997e047a6ce101aee8f72b860564babfeb7e841f"
+    },
+    {
       "path": "audit/2026-09-02T14-30-31+08-00-prada-78/identity-audit.json",
       "bytes": 23105,
       "sha256": "6525ef438116c5806d0da4ae24fd0d7854e9224eb3c7005ed6f582355fe9d690"
@@ -153,18 +161,13 @@
     },
     {
       "path": "audit/2026-09-02T14-30-31+08-00-prada-78/PROGRESS.md",
-      "bytes": 1585,
-      "sha256": "45fc4a8e899e35c1bf2feef827efb7aca9646cbcdaab0f7212e51af9eca45aba"
+      "bytes": 2312,
+      "sha256": "ce607254d6ecd36a1c77bbb4b45871746136bc35adc6b3a0a7b65639bd83313d"
     },
     {
       "path": "audit/2026-09-02T14-30-31+08-00-prada-78/validation-checks.json",
-      "bytes": 727,
-      "sha256": "06f4b3d2c1783012d27a8d2da4c67021e8ad38d035a6a5565f4a95830647cb27"
-    },
-    {
-      "path": "check-prada.js",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "bytes": 730,
+      "sha256": "e70505375de8c3d4f4106e6490eb255444d8034d009faff49c1e58913ed847a9"
     },
     {
       "path": "scripts/audit-public-prada.ps1",

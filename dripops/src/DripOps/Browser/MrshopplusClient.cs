@@ -176,7 +176,27 @@ public sealed class MrshopplusClient
                 isPublished = Boolean(box?.querySelector('input[type="checkbox"]:checked, [role="switch"][aria-checked="true"]'));
               }
               const slugMatch = text.match(/https:\/\/www\.dripsneakers\.org\/([^\s]+)/);
-              return { name: name.trim(), subtitle: subtitle.trim(), descriptionHtml, images, isPublished, slug: slugMatch ? slugMatch[1].replace(/\/$/, '') : '' };
+              const formItems = [...(main?.querySelectorAll('.el-form-item') || [])].map(item => {
+                const label = (item.querySelector('.el-form-item__label, label')?.textContent || '').replace(/\s+/g, ' ').trim();
+                const controls = [...item.querySelectorAll('input, textarea, select')]
+                  .map(control => (control.value || '').trim()).filter(Boolean);
+                const tags = [...item.querySelectorAll('.el-tag, .el-select__tags span, [role="option"]')]
+                  .map(tag => (tag.textContent || '').replace(/\s+/g, ' ').trim()).filter(Boolean);
+                return { label, values: [...new Set([...controls, ...tags])] };
+              });
+              const valuesFor = pattern => formItems.filter(row => pattern.test(row.label)).flatMap(row => row.values);
+              const firstFor = pattern => valuesFor(pattern)[0] || '';
+              return {
+                name: name.trim(), subtitle: subtitle.trim(), descriptionHtml, images, isPublished,
+                slug: slugMatch ? slugMatch[1].replace(/\/$/, '') : '',
+                currentSku: firstFor(/sku|style\s*code|货号|款号|商品编码/i),
+                supplierCode: firstFor(/supplier|供应商.*(?:code|编号|编码)|供货.*(?:code|编号|编码)/i),
+                category: firstFor(/category|分类|类目/i),
+                price: firstFor(/price|售价|销售价|商品价格/i),
+                inventory: firstFor(/inventory|stock|库存/i),
+                collections: [...new Set(valuesFor(/collection|集合|归属分类/i))],
+                variants: [...new Set(valuesFor(/variant|option|规格|尺码|size|颜色选项/i))]
+              };
             })()
             """;
         var value = await _page.EvaluateAsync(script, cancellationToken);
@@ -190,6 +210,13 @@ public sealed class MrshopplusClient
             ExistingSubtitle = data.Subtitle,
             ExistingDescriptionHtml = data.DescriptionHtml,
             ExistingSlug = data.Slug,
+            CurrentSku = data.CurrentSku,
+            SupplierCode = data.SupplierCode,
+            Category = data.Category,
+            Price = data.Price,
+            Inventory = data.Inventory,
+            Collections = data.Collections,
+            Variants = data.Variants,
             IsPublished = data.IsPublished,
             ImageUrls = data.Images
         };
@@ -632,6 +659,13 @@ public sealed class MrshopplusClient
         public string Subtitle { get; init; } = "";
         public string DescriptionHtml { get; init; } = "";
         public string Slug { get; init; } = "";
+        public string CurrentSku { get; init; } = "";
+        public string SupplierCode { get; init; } = "";
+        public string Category { get; init; } = "";
+        public string Price { get; init; } = "";
+        public string Inventory { get; init; } = "";
+        public List<string> Collections { get; init; } = [];
+        public List<string> Variants { get; init; } = [];
         public bool IsPublished { get; init; }
         public List<string> Images { get; init; } = [];
     }

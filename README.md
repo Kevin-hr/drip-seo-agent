@@ -109,12 +109,13 @@ cd dripops
 
 ```powershell
 $env:LOCAL_AGENT_TOKEN = "<long random string>"
-.\dist\DripOps.exe serve --config .\config\dripops.json --mode live
+.\dist\DripOps.exe serve --config .\config\dripops.json --mode simulate
 ```
 
-Use `--mode simulate` to exercise every guard without contacting MrShopPlus. A
-simulated execution is labelled `SIMULATED` in the result and never touches the
-run state.
+Simulation is the default and exercises every guard without contacting
+MrShopPlus. A simulated execution is labelled `SIMULATED` and never touches the
+run state. `--mode live` is an explicit, supervised override only after the
+pre-write gate returns `GO`.
 
 ### 4. Cross-component verification
 
@@ -153,5 +154,7 @@ See [tests/README.md](tests/README.md) for the exact prerequisites.
 
 ## Current status
 
-Frozen at `v0.1.0`. Verification state and known blockers are recorded in
-`reports/`. The first live single-product execution has not yet been performed.
+The integrated main line is beyond `v0.5.0-alpha`; the authoritative verification
+state and live blockers are recorded in [STATUS.md](STATUS.md). The first live
+single-product execution has not yet been performed, so production remains
+`NO-GO` until a supervised canary closes the live gate.

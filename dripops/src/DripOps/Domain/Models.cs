@@ -127,6 +127,13 @@ public sealed record ProductSnapshot
     public List<string> ExistingSeoKeywords { get; init; } = [];
     public string ExistingMetaDescription { get; init; } = "";
     public string ExistingSlug { get; init; } = "";
+    public string CurrentSku { get; init; } = "";
+    public string SupplierCode { get; init; } = "";
+    public string Category { get; init; } = "";
+    public string Price { get; init; } = "";
+    public string Inventory { get; init; } = "";
+    public List<string> Collections { get; init; } = [];
+    public List<string> Variants { get; init; } = [];
     public bool IsPublished { get; init; }
     public List<string> ImageUrls { get; init; } = [];
     public DateTimeOffset CapturedAt { get; init; } = DateTimeOffset.Now;

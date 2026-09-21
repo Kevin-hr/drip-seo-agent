@@ -12,7 +12,7 @@
   "bridgeDirectory": "data/bridge",
   "bridgeHost": "127.0.0.1",
   "bridgePort": 8787,
-  "executionMode": "live",
+  "executionMode": "simulate",
   "snapshotMaxAgeHours": 24,
   "requireCompleteSnapshot": true,
   "headless": false,

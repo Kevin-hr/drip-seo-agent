@@ -60,7 +60,7 @@ public sealed record DripOpsConfig
     /// chain without contacting MrShopPlus, and marks the result as SIMULATED so it
     /// can never be mistaken for a real write.
     /// </summary>
-    public string ExecutionMode { get; init; } = "live";
+    public string ExecutionMode { get; init; } = "simulate";
 
     /// <summary>
     /// P0-2: maximum age of a local product snapshot, in hours, before the bridge
@@ -81,7 +81,7 @@ public sealed record DripOpsConfig
     /// existing acceptance suites keep exercising the guard chain; production is
     /// expected to set it to true once a variants reader exists.
     /// </summary>
-    public bool RequireCompleteSnapshot { get; init; }
+    public bool RequireCompleteSnapshot { get; init; } = true;
 
     public static DripOpsConfig Load(string path)
     {

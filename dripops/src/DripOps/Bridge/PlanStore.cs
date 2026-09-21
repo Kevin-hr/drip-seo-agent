@@ -43,6 +43,13 @@ public sealed class PlanStore
             snapshot.ExistingSeoKeywords,
             snapshot.ExistingMetaDescription,
             snapshot.ExistingSlug,
+            snapshot.CurrentSku,
+            snapshot.SupplierCode,
+            snapshot.Category,
+            snapshot.Price,
+            snapshot.Inventory,
+            snapshot.Collections,
+            snapshot.Variants,
             snapshot.IsPublished,
             snapshot.ImageUrls,
         };
