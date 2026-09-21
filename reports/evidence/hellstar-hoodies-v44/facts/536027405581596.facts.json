@@ -1,0 +1,30 @@
+{
+  "brand": "Hellstar",
+  "modelName": "Hoodie",
+  "primaryColorway": "Fire Orange",
+  "sku": "HC 2039 FIRE",
+  "productType": "Hoodie",
+  "style": "Hellstar Hoodie",
+  "designDetails": "Fire-orange washed pullover hoodie with a small circular flame emblem on the chest, black Hellstar sleeve lettering and a large circular flame-face back graphic.",
+  "silhouette": "Pullover hoodie with a kangaroo pocket and ribbed cuffs and hem",
+  "productIntro": "The Hellstar Hoodie Fire Orange features a fire-orange washed finish, a circular flame emblem at the chest, black Hellstar lettering along both sleeves and a large back graphic.",
+  "categoryPath": "/Hellstar-Hoodies/",
+  "imageMatchVerified": true,
+  "skuVerified": true,
+  "evidence": [
+    {
+      "field": "productName,sku,colorway",
+      "value": "Hellstar Hoodie; HC 2039 FIRE; Fire Orange",
+      "sourceUrl": "https://www.goat.com/apparel/hellstar-hoodie-fire-orange-hc-2039-fire",
+      "sourceTier": "mature-market",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    },
+    {
+      "field": "skuCrossCheck",
+      "value": "HC-2039-FIRE",
+      "sourceUrl": "https://www.kickscrew.com/products/hellstar-hoodie-fire-orange-hc-2039-fire",
+      "sourceTier": "established-retailer",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    }
+  ]
+}

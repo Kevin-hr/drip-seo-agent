@@ -1,0 +1,30 @@
+{
+  "brand": "Hellstar",
+  "modelName": "Sports Tie-Dye Skull Hoodie",
+  "primaryColorway": "Red",
+  "sku": "9357 1SS240106STDS RED",
+  "productType": "Hoodie",
+  "style": "Hellstar Sports Tie-Dye Skull Hoodie",
+  "designDetails": "Red tie-dye pullover hoodie with a Hellstar Sports flaming skull and crossbones chest graphic, scattered distressed marks and a large circular flame-face back graphic.",
+  "silhouette": "Pullover hoodie with a kangaroo pocket and ribbed cuffs and hem",
+  "productIntro": "The Hellstar Sports Tie-Dye Skull Hoodie Red combines a red tie-dye finish with a flaming skull and crossbones chest graphic, distressed marks and a circular flame-face back design.",
+  "categoryPath": "/Hellstar-Hoodies/",
+  "imageMatchVerified": true,
+  "skuVerified": true,
+  "evidence": [
+    {
+      "field": "productName,sku,colorway",
+      "value": "Hellstar Sports Tie-Dye Skull Hoodie; 9357 1SS240106STDS RED; Red",
+      "sourceUrl": "https://www.goat.com/apparel/hellstar-sports-tie-dye-skull-hoodie-red-9357-1ss240106stds-red",
+      "sourceTier": "mature-market",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    },
+    {
+      "field": "imageMatch",
+      "value": "Red tie-dye body and flaming skull chest graphic match the GOAT market image",
+      "sourceUrl": "https://images.mrshopplus.com/517863593625639/DTB_proProduct/2026-08-06/hellstar_sports_tie_dye_skull_hoodie_red_1E8C725DFB917.jpg",
+      "sourceTier": "current-product-image",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    }
+  ]
+}
