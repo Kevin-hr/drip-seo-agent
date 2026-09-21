@@ -1,0 +1,30 @@
+{
+  "brand": "Hellstar",
+  "modelName": "Sports 96 Crewneck",
+  "primaryColorway": "Black",
+  "sku": "HS SH 0666 BLAC",
+  "productType": "Crewneck Sweatshirt",
+  "style": "Hellstar Sports 96 Crewneck",
+  "designDetails": "Black crewneck sweatshirt with a Hellstar Sports wordmark, a large eye portrait graphic at the front and white graphic prints along both sleeves.",
+  "silhouette": "Relaxed crewneck sweatshirt with ribbed collar, cuffs and hem",
+  "productIntro": "The Hellstar Sports 96 Crewneck Black combines a black crewneck silhouette with a large eye portrait, Hellstar Sports lettering and coordinated white graphics along both sleeves.",
+  "categoryPath": "/Hellstar-Hoodies/",
+  "imageMatchVerified": true,
+  "skuVerified": true,
+  "evidence": [
+    {
+      "field": "productName,sku,colorway",
+      "value": "Hellstar Sports 96 Crewneck; HS SH 0666 BLAC; Black",
+      "sourceUrl": "https://www.goat.com/en-gb/apparel/hellstar-sports-96-crewneck-black-hs-sh-0666-blac",
+      "sourceTier": "mature-market",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    },
+    {
+      "field": "imageMatch,productType",
+      "value": "Black collarless crewneck with eye portrait and sleeve graphics",
+      "sourceUrl": "https://images.mrshopplus.com/517863593625639/DTB_proProduct/2026-08-06/hellstar_sport_hoodie_8807__1E8C6FF9CA916.jpg",
+      "sourceTier": "current-product-image",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "brand": "Hellstar",
+  "modelName": "Future Flame Hoodie",
+  "primaryColorway": "Grey",
+  "sku": "9357 1FW230106FFH GREY",
+  "productType": "Hoodie",
+  "style": "Hellstar Future Flame Hoodie",
+  "material": "Cotton",
+  "designDetails": "Washed grey pullover hoodie with pink Hellstar lettering framed by black flame graphics, coordinated sleeve prints and a large circular flame-face back graphic.",
+  "silhouette": "Relaxed pullover hoodie with a kangaroo pocket and ribbed cuffs and hem",
+  "productIntro": "The Hellstar Future Flame Hoodie Grey pairs a washed grey base with pink Hellstar lettering, black flame graphics, coordinated sleeve prints and a large flame-face back design.",
+  "categoryPath": "/Hellstar-Hoodies/",
+  "imageMatchVerified": true,
+  "skuVerified": true,
+  "evidence": [
+    {
+      "field": "productName,sku,colorway",
+      "value": "Hellstar Future Flame Hoodie; 9357 1FW230106FFH GREY; Grey",
+      "sourceUrl": "https://www.goat.com/apparel/hellstar-future-flame-hoodie-grey-9357-1fw230106ffh-grey",
+      "sourceTier": "mature-market",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    },
+    {
+      "field": "imageMatch,material",
+      "value": "Washed grey body with pink and black graphics; cotton",
+      "sourceUrl": "https://www.kickgame.com/products/hellstar-hellstar-future-flame-hoodie-grey-9357-1fw230106ffh-grey",
+      "sourceTier": "established-retailer",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    }
+  ]
+}

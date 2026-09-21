@@ -1,0 +1,31 @@
+{
+  "brand": "Hellstar",
+  "modelName": "Records Tour Hoodie",
+  "primaryColorway": "Faded Black",
+  "sku": "HSR040",
+  "productType": "Hoodie",
+  "collection": "Capsule 9",
+  "style": "Hellstar Records Tour Hoodie",
+  "designDetails": "Faded black pullover hoodie with red and white Hellstar Records lettering, white tribal flame sleeve graphics and an Is This What Heaven Sounds Like tour graphic on the back.",
+  "silhouette": "Pullover hoodie with a kangaroo pocket and ribbed cuffs and hem",
+  "productIntro": "The Hellstar Records Tour Hoodie Faded Black features red and white Records lettering, tribal flame sleeve graphics and an Is This What Heaven Sounds Like tour print across the back.",
+  "categoryPath": "/Hellstar-Hoodies/",
+  "imageMatchVerified": true,
+  "skuVerified": true,
+  "evidence": [
+    {
+      "field": "productName,sku,colorway",
+      "value": "Hellstar Records Tour Hoodie; HSR040; Faded Black",
+      "sourceUrl": "https://www.farfetch.com/de/shopping/men/hellstar-records-tour-hoodie-mit-flammen-print-item-31837941.aspx",
+      "sourceTier": "established-retailer",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    },
+    {
+      "field": "imageMatch,collection",
+      "value": "Records chest print, tribal sleeves and tour back graphic; Capsule 9",
+      "sourceUrl": "https://www.grailed.com/listings/100822663-hellstar-records-tour-hoodie-faded-black",
+      "sourceTier": "mature-market",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    }
+  ]
+}

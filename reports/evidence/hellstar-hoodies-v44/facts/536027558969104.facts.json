@@ -1,0 +1,30 @@
+{
+  "brand": "Hellstar",
+  "modelName": "Path To Paradise Hoodie",
+  "primaryColorway": "Black",
+  "sku": "09357 10004HPTPHB BLAC",
+  "productType": "Hoodie",
+  "style": "Hellstar Path To Paradise Hoodie",
+  "designDetails": "Black pullover hoodie with white Hellstar and Path To Paradise chest graphics, scattered star details and graphic prints along both sleeves.",
+  "silhouette": "Pullover hoodie with a kangaroo pocket and ribbed cuffs and hem",
+  "productIntro": "The Hellstar Path To Paradise Hoodie Black uses a black pullover base with white Hellstar and Path To Paradise chest graphics, scattered stars and coordinated sleeve artwork.",
+  "categoryPath": "/Hellstar-Hoodies/",
+  "imageMatchVerified": true,
+  "skuVerified": true,
+  "evidence": [
+    {
+      "field": "productName,sku,colorway",
+      "value": "Hellstar Path To Paradise Hoodie; 09357 10004HPTPHB BLAC; Black",
+      "sourceUrl": "https://www.goat.com/apparel/hellstar-path-to-paradise-hoodie-black-09357-10004hptphb-blac",
+      "sourceTier": "mature-market",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    },
+    {
+      "field": "imageMatch",
+      "value": "Front graphics and sleeve artwork match the GOAT market image",
+      "sourceUrl": "https://images.mrshopplus.com/517863593625639/DTB_proProduct/2026-08-06/hellstar_studios_records_hoodie_black_1E8C718E38C1F.jpg",
+      "sourceTier": "current-product-image",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    }
+  ]
+}

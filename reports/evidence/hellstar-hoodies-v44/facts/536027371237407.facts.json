@@ -1,0 +1,30 @@
+{
+  "brand": "Hellstar",
+  "modelName": "Sport Hoodie",
+  "primaryColorway": "Black",
+  "sku": "9357 1SS240106SH BLAC",
+  "productType": "Hoodie",
+  "style": "Hellstar Sport Hoodie",
+  "designDetails": "Washed black pullover hoodie with a large silver and white Hellstar Sport logo across the chest and flame graphics printed along both sleeves.",
+  "silhouette": "Slightly oversized pullover hoodie with a kangaroo pocket and ribbed cuffs and hem",
+  "productIntro": "The Hellstar Sport Hoodie Black uses a washed black pullover base with a large silver and white sport logo across the chest and coordinated flame graphics along both sleeves.",
+  "categoryPath": "/Hellstar-Hoodies/",
+  "imageMatchVerified": true,
+  "skuVerified": true,
+  "evidence": [
+    {
+      "field": "productName,sku,colorway",
+      "value": "Hellstar Sport Hoodie; 9357 1SS240106SH BLAC; Black",
+      "sourceUrl": "https://www.goat.com/apparel/hellstar-sport-hoodie-black-9357-1ss240106sh-blac",
+      "sourceTier": "mature-market",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    },
+    {
+      "field": "imageMatch",
+      "value": "Washed black body, silver sport logo and flame sleeve graphics match the GOAT market image",
+      "sourceUrl": "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-07-07/hellstar_sport_hoodie_black__1E65B8FC6841A.png",
+      "sourceTier": "current-product-image",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    }
+  ]
+}

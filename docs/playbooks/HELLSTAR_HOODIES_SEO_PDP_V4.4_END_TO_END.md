@@ -9,7 +9,7 @@ field-by-field writing and post-save verification—but replaces every 3.2
 decision rule with the repository's sole active standard:
 
 ```text
-standards/V4.4/Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md
+standards/V4.4/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md
 ```
 
 If this playbook and the canonical standard ever disagree, the canonical

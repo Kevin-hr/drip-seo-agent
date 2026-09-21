@@ -1,0 +1,30 @@
+{
+  "brand": "Hellstar",
+  "modelName": "No Guts No Glory Hoodie",
+  "primaryColorway": "Blue",
+  "sku": "HS SH 0663 BLUE",
+  "productType": "Hoodie",
+  "style": "Hellstar No Guts No Glory Hoodie",
+  "designDetails": "Royal blue pullover hoodie with large cream No Guts No Glory lettering and a centered star-and-flame emblem across the front.",
+  "silhouette": "Pullover hoodie with a kangaroo pocket and ribbed cuffs and hem",
+  "productIntro": "The Hellstar No Guts No Glory Hoodie Blue uses a royal blue pullover base with oversized cream lettering and a centered star-and-flame emblem across the front.",
+  "categoryPath": "/Hellstar-Hoodies/",
+  "imageMatchVerified": true,
+  "skuVerified": true,
+  "evidence": [
+    {
+      "field": "productName,sku,colorway",
+      "value": "Hellstar No Guts No Glory Hoodie; HS SH 0663 BLUE; Blue",
+      "sourceUrl": "https://www.goat.com/apparel/hellstar-no-guts-no-glory-hoodie-blue-hs-sh-0663-blue",
+      "sourceTier": "mature-market",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    },
+    {
+      "field": "imageMatch",
+      "value": "Royal blue body and cream No Guts No Glory chest graphic match the GOAT market image",
+      "sourceUrl": "https://images.mrshopplus.com/517863593625639/DTB_proProduct/2026-08-06/hellstar_sport_hoodie_2223__1E8C73D70AB1E.jpg",
+      "sourceTier": "current-product-image",
+      "verifiedAt": "2026-09-02T07:05:00+08:00"
+    }
+  ]
+}
