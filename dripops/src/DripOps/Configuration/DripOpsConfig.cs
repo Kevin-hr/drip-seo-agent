@@ -1,5 +1,7 @@
 using System.Text.Json;
 
+using DripOps.TypeSafe;
+
 namespace DripOps.Configuration;
 
 public sealed record AiProviderConfig
@@ -35,6 +37,12 @@ public sealed record DripOpsConfig
     public bool AutoPublishPassOnly { get; init; } = true;
     public TrustClaimsConfig TrustClaims { get; init; } = new();
     public List<AiProviderConfig> AiProviders { get; init; } = [new()];
+
+    /// <summary>
+    /// TypeSafe System One adapter settings. Inert until Enabled=true and an API
+    /// key is present in the configured environment variable.
+    /// </summary>
+    public TypeSafeOptions TypeSafe { get; init; } = new();
 
     // ---------------------------------------------------------------- V4.4 / Bridge
     //

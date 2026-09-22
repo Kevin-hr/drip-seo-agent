@@ -5,6 +5,8 @@ using DripOps.Configuration;
 using DripOps.Domain;
 using DripOps.Rules;
 using DripOps.State;
+using DripOps.TypeSafe;
+using V44 = DripOps.Rules.V44;
 
 namespace DripOps;
 
@@ -57,6 +59,7 @@ internal static class Program
                 "apply" => await ApplyAsync(config, standard, store, options, cancellation.Token),
                 "publish-saved" => await PublishSavedAsync(config, standard, store, options, cancellation.Token),
                 "verify-frontend" => await VerifyFrontendAsync(config, standard, store, options, cancellation.Token),
+                "typesafe-judge" => await TypesafeJudgeAsync(config, options, cancellation.Token),
                 _ => throw new ArgumentException($"Unknown command: {command}")
             };
         }
@@ -671,6 +674,73 @@ internal static class Program
         return verified == jobs.Count ? 0 : 4;
     }
 
+    /// <summary>
+    /// TypeSafe System One evidence judgment. Read a V44SkuResolution file and run
+    /// the four-question battery (entity Choice, per-source SKU Noul and relevance
+    /// Score, deterministic compose). Without credentials it fail-closes rather than
+    /// silently succeeding; pass --mock to demonstrate the compose step offline.
+    /// </summary>
+    private static async Task<int> TypesafeJudgeAsync(DripOpsConfig config, CliOptions options, CancellationToken cancellationToken)
+    {
+        var inputPath = options.Required("input");
+        var mock = options.Flag("mock");
+        var resolution = System.Text.Json.JsonSerializer.Deserialize<V44.V44SkuResolution>(
+                              File.ReadAllText(inputPath), JsonOptions.Default)
+                          ?? throw new InvalidDataException($"Invalid judgment input: {inputPath}");
+
+        var client = new TypeSafeSystemOneClient(config.TypeSafe);
+        var session = new DripSneakersJudgmentSession(client, config.TypeSafe);
+
+        if (mock)
+        {
+            var result = DripSneakersJudgmentSession.Compose(
+                resolution, SystemOneResponse.Parse(BuildMockTypeSafeResponse()), config.TypeSafe.NoulSupportThreshold);
+            Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(
+                new { ok = true, driver = $"mock-{config.TypeSafe.Model}", threshold = config.TypeSafe.NoulSupportThreshold, result },
+                JsonOptions.Default));
+            return 0;
+        }
+
+        if (!session.HasCredentials)
+        {
+            Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(
+                new
+                {
+                    ok = false,
+                    status = "UNAVAILABLE",
+                    reason = "TypeSafe not configured: set TYPESAFE_API_KEY and config.typeSafe.enabled=true.",
+                }, JsonOptions.Default));
+            return 3;
+        }
+
+        var live = await session.JudgeAsync(resolution, cancellationToken);
+        Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(
+            new { ok = true, driver = $"typesafe:{config.TypeSafe.Model}", result = live }, JsonOptions.Default));
+        return 0;
+    }
+
+    /// <summary>
+    /// A canned TypeSafe response covering all three answer shapes, used by --mock
+    /// and the self-test to exercise parsing and composition without the network.
+    /// </summary>
+    private static string BuildMockTypeSafeResponse() => """
+        {
+          "model": "jev-test-mock",
+          "answers": {
+            "entity_match": { "type": "choice", "choice": "match", "confidence": 0.91,
+              "probabilities": { "match": 0.91, "conflict": 0.02, "insufficient_evidence": 0.07 } },
+            "evidence_0_relevance": { "type": "score", "score": 1.0, "confidence": 0.95,
+              "legend": { "0": "No direct evidence", "1": "Secondary or weak", "2": "Direct and specific" },
+              "probabilities": { "0": 0.0, "1": 0.0, "2": 1.0 } },
+            "evidence_0_supports_sku": { "type": "noul", "noul": 0.96 },
+            "evidence_1_relevance": { "type": "score", "score": 0.5, "confidence": 0.8,
+              "legend": { "0": "No direct evidence", "1": "Secondary or weak", "2": "Direct and specific" },
+              "probabilities": { "0": 0.1, "1": 0.8, "2": 0.1 } },
+            "evidence_1_supports_sku": { "type": "noul", "noul": 0.2 }
+          }
+        }
+        """;
+
     private static List<string> CompareReadBack(MachineStandard standard, SeoDraft draft, ProductSnapshot snapshot, ProductSeoReadback seo)
     {
         var mismatches = new List<string>();
@@ -758,6 +828,43 @@ internal static class Program
                 try { using var duplicate = store.AcquireRunLock(runId); failures.Add("run lock exclusivity"); }
                 catch (IOException) { }
             }
+
+            // TypeSafe System One: parse all three answer shapes, then combine them
+            // deterministically. Offline — never contacts the hosted API.
+            var tsResolution = new V44.V44SkuResolution
+            {
+                Verdict = "pending",
+                ExactEntity = new V44.V44ExactEntity
+                {
+                    Brand = "Chrome Hearts", Model = "Horseshoe Floral Hoodie", ProductType = "Hoodie", Colorway = "Black"
+                },
+                Sku = "CH-TEST-001",
+                Evidence =
+                [
+                    new V44.V44Evidence { Tier = 1, SourceName = "official", Url = "https://official.test/p", Sku = "CH-TEST-001", ExactEntityMatch = true },
+                    new V44.V44Evidence { Tier = 4, SourceName = "forum", Url = "https://forum.test/t", Sku = "CH-TEST-001", ExactEntityMatch = false },
+                ],
+            };
+            var tsResponse = SystemOneResponse.Parse(BuildMockTypeSafeResponse());
+            Assert(tsResponse.Answers.Count == 5, "typesafe parses five answers");
+            Assert(tsResponse.Model == "jev-test-mock", "typesafe parses model");
+            Assert(tsResponse.Answers["entity_match"].Choice == "match", "typesafe choice answer");
+            Assert(Math.Abs(tsResponse.Answers["evidence_0_supports_sku"].Noul!.Value - 0.96) < 1e-9, "typesafe noul answer");
+            Assert(Math.Abs(tsResponse.Answers["evidence_1_relevance"].Score!.Value - 0.5) < 1e-9, "typesafe score answer");
+            var tsResult = DripSneakersJudgmentSession.Compose(tsResolution, tsResponse, 0.85);
+            Assert(tsResult.Status == V44.V44Verdict.VerifiedSku, "typesafe composition yields VERIFIED_SKU");
+            Assert(tsResult.StrongEvidence.Count == 1, "typesafe strong evidence count");
+            Assert(tsResult.StrongEvidence[0].Source == "official", "typesafe strongest source is official");
+            var omitResolution = tsResolution with { Sku = null };
+            var omitResponse = SystemOneResponse.Parse(
+                BuildMockTypeSafeResponse().Replace("\"choice\": \"match\"", "\"choice\": \"insufficient_evidence\"", StringComparison.Ordinal)
+                    .Replace("\"noul\": 0.96", "\"noul\": 0.2", StringComparison.Ordinal));
+            var omitResult = DripSneakersJudgmentSession.Compose(omitResolution, omitResponse, 0.85);
+            Assert(omitResult.Status == V44.V44Verdict.Hold, "typesafe insufficient-evidence yields HOLD");
+            var skuOmitResponse = SystemOneResponse.Parse(
+                BuildMockTypeSafeResponse().Replace("\"choice\": \"match\"", "\"choice\": \"insufficient_evidence\"", StringComparison.Ordinal));
+            var skuOmitResult = DripSneakersJudgmentSession.Compose(tsResolution, skuOmitResponse, 0.85);
+            Assert(skuOmitResult.Status == V44.V44Verdict.Hold, "typesafe unlocked entity holds despite SKU support");
         }
         finally
         {
@@ -811,6 +918,7 @@ internal static class Program
               apply --run ID [--product PRODUCT_ID] [--publish]
               publish-saved --run ID [--product PRODUCT_ID]
               verify-frontend --run ID [--product PRODUCT_ID]
+              typesafe-judge --input SKU_RESOLUTION.json [--mock]
               serve [--mode live|simulate] [--host 127.0.0.1] [--port 8787]
               self-test
 

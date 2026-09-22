@@ -38,5 +38,13 @@
       "model": "your-local-model",
       "apiKeyEnvironmentVariable": null
     }
-  ]
+  ],
+  "typeSafe": {
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "model": "jev-latest",
+    "apiKeyEnvironmentVariable": "TYPESAFE_API_KEY",
+    "enabled": false,
+    "noulSupportThreshold": 0.85,
+    "scoreHighThreshold": 0.7
+  }
 }

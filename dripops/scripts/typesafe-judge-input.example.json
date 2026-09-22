@@ -1,0 +1,38 @@
+{
+  "verdict": "pending",
+  "exactEntity": {
+    "brand": "Adidas",
+    "model": "Yeezy Boost 350 V2",
+    "productType": "Sneaker",
+    "colorway": "Antlia (Reflective)"
+  },
+  "sku": "FY2905",
+  "evidence": [
+    {
+      "tier": 1,
+      "sourceName": "adidas-official",
+      "url": "https://www.adidas.com/us/yeezy-boost-350-v2-antlia-reflective",
+      "sku": "FY2905",
+      "exactEntityMatch": true,
+      "notes": "Official product page lists style code FY2905 for the Antlia Reflective colorway."
+    },
+    {
+      "tier": 3,
+      "sourceName": "stockx",
+      "url": "https://stockx.com/adidas-yeezy-boost-350-v2-antlia-reflective",
+      "sku": "FY2905",
+      "exactEntityMatch": true,
+      "notes": "StockX listing attaches the SAME SKU FY2905 to the exact colorway."
+    },
+    {
+      "tier": 4,
+      "sourceName": "reddit-community",
+      "url": "https://reddit.com/r/yeezy/thread-fy2905",
+      "sku": "FY2905",
+      "exactEntityMatch": true,
+      "notes": "Community thread mentions the style code in passing, with no official backing."
+    }
+  ],
+  "conflicts": [],
+  "decisionNote": "Two independent Tier 1-3 sources attach SKU FY2905 to the exact entity."
+}
