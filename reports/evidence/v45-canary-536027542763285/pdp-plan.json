@@ -1,0 +1,43 @@
+{
+  "standard": "4.5",
+  "standard_source": "standards/V4.5/Drip_Sneakers_SEO-PDP_V4.5_CLEAN_CONSOLIDATED_2026-09-21.md",
+  "product_id": "536027542763285",
+  "baseline_name_trimmed": "Nike Kobe 6 Protro Kay Yow Think Pink IQ9317-001",
+  "product_name": "Nike Kobe 6 Protro Kay Yow Think Pink (2026)",
+  "h1": "Nike Kobe 6 Protro Kay Yow Think Pink (2026)",
+  "seo_title": "Nike Kobe 6 Protro Kay Yow Think Pink (2026) IQ9317-001 Reps | Drip Sneakers",
+  "seo_keywords": [
+    "Nike Kobe 6 Protro Kay Yow Think Pink",
+    "Kobe 6 Kay Yow Think Pink",
+    "Black Hyper Pink Kobe 6",
+    "IQ9317-001",
+    "Kobe 6 Protro reps"
+  ],
+  "meta_description": "Shop Nike Kobe 6 Protro Kay Yow Think Pink (2026) reps (IQ9317-001) at Drip Sneakers with QC photos, 30-day returns and 7–20 day shipping.",
+  "slug": "nike-kobe-6-protro-kay-yow-think-pink-2026-iq9317-001",
+  "canonical_url": "https://www.dripsneakers.org/nike-kobe-6-protro-kay-yow-think-pink-2026-iq9317-001",
+  "subtitle": "QC Photos · 30-Day Returns",
+  "description_policy": "independent-detail-images-only; empty when none",
+  "description_images": [],
+  "key_description_html": "<section class=\"ds-pdp-key-description\" data-standard=\"4.5\"><p>This Kobe 6 Protro pairs a Hyper Pink and Pink Foam textured upper with a black Swoosh, black laces and black heel structure.</p><h2>Product Details</h2><ul><li><strong>Brand:</strong> <a href=\"https://www.dripsneakers.org/sneakers/\"><strong>Nike</strong></a></li><li><strong>Product Type:</strong> Basketball Sneakers</li><li><strong>Model:</strong> Kobe 6 Protro Kay Yow Think Pink (2026)</li><li><strong>Colorway:</strong> Black/Hyper Pink/Pink Foam</li><li><strong>SKU:</strong> IQ9317-001</li></ul></section>",
+  "image_alt_base": "Nike Kobe 6 Protro Kay Yow Think Pink 2026",
+  "schema_expected": {
+    "@type": "Product",
+    "name": "Nike Kobe 6 Protro Kay Yow Think Pink (2026)",
+    "sku": "IQ9317-001"
+  },
+  "attestation": {
+    "entity_status": "ENTITY PASS",
+    "visual_match": "PASS — no material conflict; not used as identity proof",
+    "brand_verified": "PASS",
+    "model_verified": "PASS",
+    "colorway_verified": "PASS",
+    "sku_verified_or_omitted": "PASS — IQ9317-001 verified",
+    "attested_by": "Codex + TypeSafe Jev",
+    "evidence_urls": [
+      "https://stockx.com/nike-kobe-6-protro-kay-yow-think-pink-2026",
+      "https://www.goat.com/sneakers/nike-zoom-kobe-6-protro-kay-yow-think-pink-2026-iq9317-001",
+      "https://www.dripsneakers.org/sneakers/"
+    ]
+  }
+}

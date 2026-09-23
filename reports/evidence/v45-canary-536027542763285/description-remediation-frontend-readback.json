@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "http_200": true,
+    "h1_unchanged": true,
+    "canonical_unchanged": true,
+    "gallery_preserved": true,
+    "description_duplicate_images_removed": true,
+    "product_details_preserved": true
+  },
+  "observed": {
+    "statusMarker": "complete",
+    "h1": "Nike Kobe 6 Protro Kay Yow Think Pink (2026)",
+    "canonical": "https://www.dripsneakers.org/nike-kobe-6-protro-kay-yow-think-pink-2026-iq9317-001",
+    "exactProductGalleryImages": 60,
+    "descriptionImages": 0,
+    "productDetails": true,
+    "httpStatus": 200
+  }
+}

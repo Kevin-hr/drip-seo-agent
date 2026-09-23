@@ -1,0 +1,47 @@
+{
+  "target_id": "536027542763285",
+  "commit": true,
+  "success": true,
+  "steps": [
+    {
+      "step": "backup",
+      "at": "2026-09-23T09:02:56.719Z",
+      "content_sha256": "74451f2838c7bf8eedc2c789ff9619340970d2aa98cb099630dc890d9e294205",
+      "duplicate_images": 12,
+      "gallery_images": 12
+    },
+    {
+      "step": "editor-cleared",
+      "at": "2026-09-23T09:02:56.731Z",
+      "ok": true,
+      "editorCount": 2,
+      "keyDescriptionLength": 586
+    },
+    {
+      "step": "save-receipt",
+      "at": "2026-09-23T09:02:57.446Z",
+      "status": 200,
+      "result_ids": [
+        "536027542763285"
+      ]
+    },
+    {
+      "step": "backend-readback",
+      "at": "2026-09-23T09:02:58.958Z",
+      "content_empty": true,
+      "invariant_drift": [],
+      "gallery_images": 12
+    },
+    {
+      "step": "frontend-readback",
+      "at": "2026-09-23T09:03:03.305Z",
+      "http_200": true,
+      "h1_unchanged": true,
+      "canonical_unchanged": true,
+      "gallery_preserved": true,
+      "description_duplicate_images_removed": true,
+      "product_details_preserved": true
+    }
+  ],
+  "mode": "commit"
+}

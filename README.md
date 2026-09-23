@@ -155,6 +155,17 @@ See [tests/README.md](tests/README.md) for the exact prerequisites.
 ## Current status
 
 The integrated main line is beyond `v0.5.0-alpha`; the authoritative verification
-state and live blockers are recorded in [STATUS.md](STATUS.md). The first live
-single-product execution has not yet been performed, so production remains
-`NO-GO` until a supervised canary closes the live gate.
+state and live blockers are recorded in [STATUS.md](STATUS.md). A supervised
+V4.5 single-product Canary was published and verified on 2026-09-23. Its initial
+Description/main-gallery duplication was removed, and the reusable Description
+policy now rejects gallery URL reuse. Batch execution still requires fresh
+reconciliation plus per-product PASS / VERIFY / HOLD routing.
+
+Before any live write, follow the [Production Canary Checklist](docs/operations/production-checklist.md).
+The daily maintenance workflow checks the canonical standard hash, repository
+state, deterministic tests, and open issues; it does not perform production
+writes.
+
+V4.5 source, migration notes, Canary report and evidence are available under
+[`standards/V4.5/`](standards/V4.5/) and
+[`reports/V4.5_CANARY_536027542763285_REPORT.md`](reports/V4.5_CANARY_536027542763285_REPORT.md).

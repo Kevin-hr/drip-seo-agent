@@ -1,0 +1,51 @@
+{
+  "evaluated_at": "2026-09-23T08:18:57.988Z",
+  "product_id": "536027542763285",
+  "model": "jev-1.13.0",
+  "thresholds": {
+    "exact_entity_min": 0.9,
+    "sku_same_entity_min": 0.9,
+    "image_conflict_max": 0.1,
+    "disposition_confidence_min": 0.7
+  },
+  "normalized": {
+    "exact_entity": 0.9,
+    "sku_same_entity": 0.94,
+    "image_conflict": 0.06,
+    "disposition": "PASS",
+    "disposition_confidence": 0.84,
+    "threshold_pass": true,
+    "final_gate": "PASS"
+  },
+  "raw": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "exact_entity": {
+        "type": "noul",
+        "noul": 0.9
+      },
+      "sku_same_entity": {
+        "type": "noul",
+        "noul": 0.94
+      },
+      "image_conflict": {
+        "type": "noul",
+        "noul": 0.06
+      },
+      "disposition": {
+        "type": "choice",
+        "choice": "PASS",
+        "confidence": 0.84,
+        "probabilities": {
+          "VERIFY": 0.04,
+          "PASS": 0.9,
+          "HOLD": 0.06
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 1077,
+      "output_tokens": 95
+    }
+  }
+}

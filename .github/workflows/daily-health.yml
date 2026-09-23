@@ -1,0 +1,69 @@
+name: Daily maintenance health check
+
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: |
+            mcp-plugin/package-lock.json
+            tests/package-lock.json
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Check canonical V4.4 standard SHA
+        shell: bash
+        run: |
+          expected="965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7"
+          actual=$(sha256sum standards/V4.4/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md | cut -d ' ' -f 1)
+          test "$actual" = "$expected"
+
+      - name: Verify clean checkout state
+        run: test -z "$(git status --porcelain)"
+
+      - name: Install MCP dependencies
+        run: npm ci
+        working-directory: mcp-plugin
+
+      - name: Run MCP checks
+        run: npm run typecheck && npm test && npm run check-package
+        working-directory: mcp-plugin
+
+      - name: Build and self-test DripOps
+        run: dotnet build src/DripOps/DripOps.csproj --configuration Release && dotnet run --project src/DripOps/DripOps.csproj --configuration Release -- self-test
+        working-directory: dripops
+
+      - name: Run deterministic core and pack tests
+        run: |
+          node seo-core/tests/run-core-tests.mjs
+          node packs/prada/tests/run-prada-pack-tests.mjs
+
+      - name: Install cross-component test dependencies
+        run: npm ci
+        working-directory: tests
+
+      - name: Run regression tests
+        run: npm run test:tshirts-lessons && npm run test:prada-case
+        working-directory: tests
+
+      - name: Scan open issues
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue list --state open --limit 100 --json number,title,labels,updatedAt

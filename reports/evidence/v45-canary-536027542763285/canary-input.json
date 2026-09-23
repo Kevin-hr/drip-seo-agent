@@ -1,0 +1,44 @@
+{
+  "standard": "Drip Sneakers SEO-PDP V4.5",
+  "product_id": "536027542763285",
+  "backend_observation": {
+    "name": "Nike Kobe 6 Protro Kay Yow Think Pink IQ9317-001",
+    "publish_state": "unpublished",
+    "category": "Kobe",
+    "price_usd": 139,
+    "image_count": 12,
+    "image_fingerprint": "Pink textured Kobe 6 upper, black Swoosh, black laces, black heel structure, pink/black midsole and outsole details",
+    "legacy_seo_state": "invalid title, broken slug, empty key description, legacy text description"
+  },
+  "candidate_entity": {
+    "brand": "Nike",
+    "model": "Kobe 6 Protro",
+    "nickname": "Kay Yow Think Pink",
+    "release_year": 2026,
+    "sku": "IQ9317-001",
+    "colorway": "Black/Hyper Pink/Pink Foam"
+  },
+  "collision_to_reject": {
+    "entity": "Nike Kobe 6 Protro Think Pink 2021",
+    "sku": "DJ3596-600",
+    "image_fingerprint": "Pink upper with white Swoosh, silver heel structure and white midsole"
+  },
+  "evidence": [
+    {
+      "source": "StockX",
+      "url": "https://stockx.com/nike-kobe-6-protro-kay-yow-think-pink-2026",
+      "supports": ["name", "sku", "colorway", "release_year"]
+    },
+    {
+      "source": "GOAT",
+      "url": "https://www.goat.com/sneakers/nike-zoom-kobe-6-protro-kay-yow-think-pink-2026-iq9317-001",
+      "supports": ["name", "sku", "colorway", "image fingerprint"]
+    },
+    {
+      "source": "Drip Sneakers backend images",
+      "url": "https://images.mrshopplus.com/418932770517528/DTB_proProduct/2026-05-21/nike_kobe_6_protro_kay_yow_think_pink_iq9317_001_1E295B0632818.jpg",
+      "supports": ["observed image fingerprint"]
+    }
+  ],
+  "decision_rule": "Visual similarity cannot establish identity. PASS requires independent exact-entity and SKU evidence plus no material image conflict."
+}

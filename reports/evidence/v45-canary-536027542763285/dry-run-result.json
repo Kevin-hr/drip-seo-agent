@@ -1,0 +1,41 @@
+{
+  "target_id": "536027542763285",
+  "commit": false,
+  "deterministic": {
+    "product_name_equals_h1": true,
+    "title_template": true,
+    "keywords_exactly_five": true,
+    "meta_template": true,
+    "meta_length_in_range": true,
+    "key_description_field_count_equals_5": true,
+    "product_details_h2_present": true,
+    "brand_link_present": true,
+    "supplier_wording_absent": true,
+    "slug_valid": true,
+    "canonical_matches_slug": true,
+    "typesafe_gate_pass": true
+  },
+  "steps": [
+    {
+      "name": "   Nike Kobe 6 Protro Kay Yow Think Pink IQ9317-001",
+      "at": "2026-09-23T08:34:06.791Z",
+      "is_show": false,
+      "content_sha256": "2ebb10e7524888ce03bdb7122c9d53df3f691cb0686cf27bcbf1ef9591bb9302",
+      "image_count": 12
+    },
+    {
+      "name": "brand-link-probe",
+      "at": "2026-09-23T08:34:07.943Z",
+      "url": "https://www.dripsneakers.org/sneakers/",
+      "status": 200
+    },
+    {
+      "name": "description-generated",
+      "at": "2026-09-23T08:34:07.944Z",
+      "image_count": 12,
+      "all_alt_specific": true
+    }
+  ],
+  "success": true,
+  "mode": "dry-run"
+}
