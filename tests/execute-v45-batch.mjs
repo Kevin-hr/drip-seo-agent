@@ -85,6 +85,7 @@ try {
       if (await textareas.count() < 3) throw new Error('SEO dialog field count < 3');
       await textareas.nth(0).fill(plan.seo_title);
       await textareas.nth(1).fill(plan.meta_description);
+      plan.slug = `${plan.slug}-${id.slice(-6)}`;
       await textareas.nth(2).fill(plan.slug);
       const closeTags = dialog.locator('.el-select__tags .el-tag__close, .el-select__tags .el-tag .el-icon-close');
       let guard = 0;
