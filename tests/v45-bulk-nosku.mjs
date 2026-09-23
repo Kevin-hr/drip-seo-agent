@@ -21,9 +21,17 @@ for (const dir of await fs.readdir(runDir)) {
 }
 console.log(`Already published: ${published.size}`);
 
-// Target: no-SKU VERIFY products not yet published
+// Blocklist: products that consistently fail backend save (excluded from queue)
+const blocklistFile = path.join(runDir, 'blocklist.json');
+const blocklist = new Set();
+try {
+  for (const id of JSON.parse(await fs.readFile(blocklistFile, 'utf8'))) blocklist.add(String(id));
+} catch {}
+if (blocklist.size) console.log(`Blocklist: ${blocklist.size} excluded`);
+
+// Target: no-SKU VERIFY products not yet published and not blocklisted
 const targets = queue.products
-  .filter(p => p.disposition === 'VERIFY' && (!p.sku || !p.sku.trim()) && !published.has(String(p.productId)));
+  .filter(p => p.disposition === 'VERIFY' && (!p.sku || !p.sku.trim()) && !published.has(String(p.productId)) && !blocklist.has(String(p.productId)));
 
 const BATCH = Number(process.env.BULK_BATCH || 15);
 const OFFSET = Number(process.env.BULK_OFFSET || 0);
@@ -82,7 +90,7 @@ for (const prod of products) {
   decisions.push({ product_id: prod.id, normalized: { threshold_pass: true, final_gate: 'PASS' } });
 }
 
-const outDir = path.join(runDir, `bulk-nosku-${String(OFFSET).padStart(4,'0')}-exec`);
+const outDir = path.join(runDir, `bulk-nosku-${Date.now()}-exec`);
 await fs.mkdir(outDir, { recursive: true });
 await fs.writeFile(path.join(outDir, 'plans.json'), JSON.stringify(plans, null, 2));
 await fs.writeFile(path.join(outDir, 'decisions.json'), JSON.stringify(decisions, null, 2));
