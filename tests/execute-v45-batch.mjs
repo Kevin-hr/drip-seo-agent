@@ -109,7 +109,7 @@ try {
       }
       let ids = [];
       let lastBody = null;
-      let slugSuffix = 1;
+      const baseSlug = plan.slug;
       for (let attempt = 1; attempt <= 6; attempt++) {
         const saveResponsePromise = page.waitForResponse((r) => /DTB_proProduct\/saveModify/i.test(r.url()) && r.request().method() !== 'GET', { timeout: 60000 });
         await page.getByRole('button', { name: '保存', exact: true }).click();
@@ -119,17 +119,20 @@ try {
         ids = Array.isArray(receipt?.result) ? receipt.result.map(String) : [];
         if (saveResponse.status() === 200 && ids.length === 1) break;
         const isDup = receipt?.result?.code === -3 || JSON.stringify(receipt).includes('code":-3');
-        if (isDup && attempt <= 3) {
-          slugSuffix++;
-          const newSlug = `${plan.slug}-${slugSuffix}`;
+        if (isDup && attempt <= 4) {
+          const newSlug = attempt === 1 ? `${baseSlug}-2` : `${baseSlug}-${id.slice(-6)}`;
           result.steps.push({ step: `slug-collision-retry`, old: plan.slug, new: newSlug });
           await page.getByRole('button', { name: /编辑SEO/ }).click();
-          await page.waitForTimeout(300);
+          await page.waitForTimeout(500);
           const dialog = page.locator('.el-dialog:visible, .el-drawer:visible').last();
-          await dialog.locator('textarea').nth(2).fill(newSlug);
+          const slugField = dialog.locator('textarea').nth(2);
+          await slugField.fill('');
+          await page.waitForTimeout(200);
+          await slugField.fill(newSlug);
+          await page.waitForTimeout(200);
           await dialog.getByRole('button', { name: /确定|保存/ }).last().click();
           plan.slug = newSlug;
-          await page.waitForTimeout(500);
+          await page.waitForTimeout(800);
           continue;
         }
         result.steps.push({ step: `save-retry-${attempt}`, ids, body: JSON.stringify(receipt).slice(0, 400) });
