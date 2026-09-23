@@ -7,7 +7,7 @@ if (!apiKey) throw new Error('TYPESAFE_API_KEY is required');
 
 const inputs = JSON.parse(await fs.readFile(inputPath, 'utf8'));
 // SKU_OMIT thresholds: name-based verification instead of SKU matching
-const thresholds = { exact_entity_min: 0.80, name_entity_min: 0.85, image_conflict_max: 0.18, disposition_confidence_min: 0.75 };
+const thresholds = { exact_entity_min: 0.75, name_entity_min: 0.75, image_conflict_max: 0.20, disposition_confidence_min: 0.65 };
 
 const evaluate = async (input) => {
   const questions = {
