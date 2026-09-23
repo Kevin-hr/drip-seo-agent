@@ -86,7 +86,11 @@ try {
       await textareas.nth(1).fill(plan.meta_description);
       await textareas.nth(2).fill(plan.slug);
       const closeTags = dialog.locator('.el-select__tags .el-tag__close, .el-select__tags .el-tag .el-icon-close');
-      while (await closeTags.count()) await closeTags.first().click();
+      let guard = 0;
+      while (await closeTags.count() && guard++ < 20) {
+        await closeTags.first().click({ force: true }).catch(() => {});
+        await page.waitForTimeout(120);
+      }
       const keywordInput = dialog.locator('input.el-select__input').first();
       for (const keyword of plan.seo_keywords) { await keywordInput.fill(keyword); await keywordInput.press('Enter'); await page.waitForTimeout(150); }
       if (await dialog.locator('.el-select__tags .el-tag').count() !== 5) throw new Error('SEO keyword write failed');
