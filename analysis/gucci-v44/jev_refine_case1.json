@@ -1,0 +1,43 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "best_name": {
+      "type": "choice",
+      "choice": "Gucci Screener Series GG Red Green",
+      "confidence": 0.46,
+      "probabilities": {
+        "Gucci Screener Series GG Sneaker Red Green": 0.03,
+        "Gucci Screener Series GG Red Green": 0.58,
+        "Gucci Screener Sneaker Red Green": 0.1,
+        "Gucci Screener GG Red Green Sneaker": 0.25,
+        "Gucci Screener Series GG 'Red Green'": 0.04
+      }
+    },
+    "claim_verdict": {
+      "type": "choice",
+      "choice": "clean",
+      "confidence": 0.51,
+      "probabilities": {
+        "has_unsupported_claim": 0.25,
+        "clean": 0.75
+      }
+    },
+    "which_part_unsupported": {
+      "type": "choice",
+      "choice": "the reps phrase",
+      "confidence": 0.67,
+      "probabilities": {
+        "the shipping phrase": 0.01,
+        "the opening verb": 0.01,
+        "none": 0.25,
+        "the QC photos phrase": 0.01,
+        "the reps phrase": 0.71,
+        "the returns phrase": 0.01
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 897,
+    "output_tokens": 209
+  }
+}

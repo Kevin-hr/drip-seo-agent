@@ -1,0 +1,434 @@
+[
+  {
+    "pid": "536027265030940",
+    "name": "Gucci Women's Screener Sneaker Pink",
+    "gate2": [],
+    "gate3": [
+      "A4 SeoDesc: forbidden phrase \"real qc photos\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D2 Content is legacy V3.3 structure",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027265110047",
+    "name": "Gucci GG Screener Distressed GG Canvas Pink",
+    "gate2": [],
+    "gate3": [
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D2 Content is legacy V3.3 structure",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027265190424",
+    "name": "Gucci Screener 546551 99W20 4368",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027265239835",
+    "name": "Gucci Screener 576223 2KQ40 4467",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027265320726",
+    "name": "Gucci Screener 546551 2KU50 2197",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027265415199",
+    "name": "Gucci Screener 570442 0YI20 9570",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027265496863",
+    "name": "Gucci Screener 546551 9PYQ0 9116",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027265704983",
+    "name": "Gucci Screener 546651 HVKI0 9765",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027265866258",
+    "name": "Gucci Screener 546551 9Y920 9666",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027265946649",
+    "name": "Gucci Screener 577684 9W880 2596",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027266092049",
+    "name": "Gucci Screener 546551 9SFR0 3390",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027266156049",
+    "name": "Gucci Screener 677423 9SFR0 4983",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027266236186",
+    "name": "Gucci Screener 577684 2C830 7266",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027266315284",
+    "name": "Gucci Screener 677423 9SFR0 2587",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027266365213",
+    "name": "Gucci Screener 577684 2C830 9150",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027347720990",
+    "name": "Gucci 24SS Re-Web",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027369710617",
+    "name": "Gucci Interlocking G Palladium Buckle Belt",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (5x)",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)"
+    ]
+  },
+  {
+    "pid": "536027373744918",
+    "name": " Gucci Hoodie-HD01 ",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (5x)",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027380478229",
+    "name": " Gucci Bifold Wallet GG Supreme Bee Print ",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (6x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027381201943",
+    "name": "Gucci Slides Bloom Supreme 408508 KU200 8919 ",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"perfect kicks\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "A4 Content: forbidden phrase \"high-quality replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027389750552",
+    "name": "    adidas Gazelle Gucci Original GG Beige Brown",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (7x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "F8 Content retains scraped CSS class (chakra-)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027407848725",
+    "name": "  Gucci Apricot Striped Ribbon Card Case",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (6x)",
+      "A4 Content: forbidden phrase \"pkgod\"",
+      "A4 Content: forbidden phrase \"1:1\"",
+      "A4 Content: forbidden phrase \"replica\"",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027429290003",
+    "name": "Gucci Rython GG Grey Navy 692909 UIQ20 1060",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (5x)",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027436138005",
+    "name": " Gucci Slippers Grey",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (10x)",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027436217363",
+    "name": " Gucci Slippers White",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (10x)",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027436280860",
+    "name": " Gucci Slippers Blue",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (10x)",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  },
+  {
+    "pid": "536027436359701",
+    "name": " Gucci Slippers Black",
+    "gate2": [],
+    "gate3": [
+      "A5 Content contains dead domain dripsneakers.net (10x)",
+      "D1 Content has no <img> (V4.4 requires image-only)",
+      "D1 Content still carries visible text (V4.4 requires image-only)",
+      "D5 BrandId/BrandName empty -> brand internal link has no anchor",
+      "C3 UrlValue has leading '-' (dirty slug)",
+      "E1 BasePrice is 0/empty"
+    ]
+  }
+]

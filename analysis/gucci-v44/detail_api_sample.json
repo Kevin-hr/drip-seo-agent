@@ -1,0 +1,823 @@
+{
+  "success": true,
+  "result": [
+    {
+      "name": "dtb_proProduct",
+      "defaults": {
+        "IsShow": true,
+        "BasePrice": 0,
+        "IsDelete": false,
+        "SaleCount": 0,
+        "ReviewCount": 0,
+        "MarketPrice": 0,
+        "Sort": 9999,
+        "TradePrice": 0,
+        "NeedTax": false,
+        "MeasureUnit": "件/个",
+        "IsDisableStock": false,
+        "ReviewRate": 0,
+        "Rate5Count": 0,
+        "Rate4Count": 0,
+        "Rate3Count": 0,
+        "Rate2Count": 0,
+        "Rate1Count": 0,
+        "ImageReviewCount": 0,
+        "MultipleSku": false,
+        "SingleAttr": false,
+        "VedioPosition": 1,
+        "EnabledCoupon": true,
+        "MeasureType": 0,
+        "PackageItems": 1,
+        "MinItems": 1,
+        "MeasureDiscountType": 0,
+        "State": 0,
+        "ViewCount": 0,
+        "ViewCountAttr": 0,
+        "ViewCountAccValue": 0,
+        "UrlSuffix": ".html"
+      },
+      "rows": [
+        {
+          "Id": 536027265030940,
+          "IsShow": false,
+          "Name": "Gucci Women's Screener Sneaker Pink",
+          "Height": null,
+          "BrandName": null,
+          "BasePrice": 0,
+          "ImgUrl": "",
+          "Content": "<section class=\"ds-pdp-description\" data-version=\"3.3\">\n<h2>Gucci Women's Screener Sneaker Pink 570443-9SFR0-5270</h2>\n<h3>Product Details</h3>\n<ul>\n<li><strong>Style:</strong> <a href=\"sneakers/\"><strong>Gucci Screener</strong></a></li>\n<li><strong>Colorway:</strong> Pink</li>\n<li><strong>Silhouette:</strong> Low-top sneaker</li>\n<li><strong>Upper Design:</strong> Pink-based upper with contrasting Web stripe</li>\n<li><strong>Signature Details:</strong> Vintage Gucci logo and distressed finish</li>\n<li><strong>Reference Style Code:</strong> 570443-9SFR0-5270</li>\n</ul>\n</section>",
+          "DeliveryTemp": 517863596180259,
+          "IsDelete": false,
+          "DeliveryName": "Best Shipping",
+          "Summary": "",
+          "SaleCount": 0,
+          "ReviewCount": 0,
+          "MarketPrice": 159,
+          "Sort": 9999,
+          "BrandId": null,
+          "TradePrice": 0,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "opt": [
+                {
+                  "i": 1,
+                  "n": "W US5=EUR35=CM24",
+                  "img": "",
+                  "able": true,
+                  "t": 0,
+                  "s": "",
+                  "si": null
+                },
+                {
+                  "i": 2,
+                  "n": "W US5.5=EUR36=CM24.5",
+                  "img": "",
+                  "able": true,
+                  "t": 0,
+                  "s": "",
+                  "si": null
+                },
+                {
+                  "i": 3,
+                  "n": "W US6=EUR37=CM25",
+                  "img": "",
+                  "able": true,
+                  "t": 0,
+                  "s": "",
+                  "si": null
+                },
+                {
+                  "i": 4,
+                  "n": "W US6.5=EUR38=CM25.5",
+                  "img": "",
+                  "able": true,
+                  "t": 0,
+                  "s": "",
+                  "si": null
+                },
+                {
+                  "i": 5,
+                  "n": "W US7=EUR39=CM26",
+                  "img": "",
+                  "able": true,
+                  "t": 0,
+                  "s": "",
+                  "si": null
+                },
+                {
+                  "i": 6,
+                  "n": "M US6=EUR40=CM26.9",
+                  "img": "",
+                  "able": true,
+                  "t": 0,
+                  "s": "",
+                  "si": null
+                },
+                {
+                  "i": 7,
+                  "n": "M US7=EUR41=CM27.4",
+                  "img": "",
+                  "able": true,
+                  "t": 0,
+                  "s": "",
+                  "si": null
+                },
+                {
+                  "i": 8,
+                  "n": "M US8=EUR42=CM27.9",
+                  "img": "",
+                  "able": true,
+                  "t": 0,
+                  "s": "",
+                  "si": null
+                },
+                {
+                  "i": 9,
+                  "n": "M US9=EUR43=CM28.4",
+                  "img": "",
+                  "able": true,
+                  "t": 0,
+                  "s": "",
+                  "si": null
+                },
+                {
+                  "i": 10,
+                  "n": "M US10=EUR44=CM28.9",
+                  "img": "",
+                  "able": true,
+                  "t": 0,
+                  "s": "",
+                  "si": null
+                },
+                {
+                  "i": 11,
+                  "n": "M US11=EUR45=CM29.4",
+                  "img": "",
+                  "able": true,
+                  "t": 0,
+                  "s": "",
+                  "si": null
+                },
+                {
+                  "i": 12,
+                  "n": "M US12=EUR46=CM29.9",
+                  "img": "",
+                  "able": true,
+                  "t": 0,
+                  "s": "",
+                  "si": null
+                }
+              ]
+            }
+          ],
+          "Properties": [],
+          "Remark": "",
+          "NeedTax": false,
+          "Weight": 2,
+          "ModifyTime": "2026-09-03 15:16:40",
+          "InsTime": "2026-07-21 22:42:06",
+          "PublishTime": "2023-10-14 16:49:44",
+          "Length": null,
+          "Width": null,
+          "IsStepSetting": null,
+          "MeasureUnit": "千克",
+          "SubTitle": "QC Photos · 30-Day Returns ",
+          "IsDisableStock": false,
+          "Video": "",
+          "FirstImg": {
+            "class": "ImgObject",
+            "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB546A041A.jpg",
+            "a": "Gucci Screener 570443 9SFR0 5270",
+            "w": 1200,
+            "h": 800
+          },
+          "ImgList": [
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB546A041A.jpg",
+              "a": "Gucci Screener 570443 9SFR0 5270",
+              "w": 1200,
+              "h": 800
+            },
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB548E0C18.jpg",
+              "a": null,
+              "w": 1200,
+              "h": 800
+            },
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB545DCD14.jpg",
+              "a": null,
+              "w": 1200,
+              "h": 800
+            },
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB5460041B.jpg",
+              "a": null,
+              "w": 1200,
+              "h": 800
+            },
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB5467C817.jpg",
+              "a": null,
+              "w": 1200,
+              "h": 800
+            },
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB54698010.jpg",
+              "a": null,
+              "w": 1200,
+              "h": 800
+            },
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB54549E12.jpg",
+              "a": null,
+              "w": 1200,
+              "h": 800
+            },
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB54723C16.jpg",
+              "a": null,
+              "w": 1200,
+              "h": 800
+            },
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB546C5F18.jpg",
+              "a": null,
+              "w": 1200,
+              "h": 800
+            },
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB546CF016.jpg",
+              "a": null,
+              "w": 1200,
+              "h": 800
+            },
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB5457E618.jpg",
+              "a": null,
+              "w": 1200,
+              "h": 800
+            },
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB5474AE1F.jpg",
+              "a": null,
+              "w": 1200,
+              "h": 800
+            },
+            {
+              "class": "ImgObject",
+              "s": "418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB5470AD1E.jpg",
+              "a": null,
+              "w": 1200,
+              "h": 800
+            }
+          ],
+          "ReviewRate": 0,
+          "Rate5Count": 0,
+          "Rate4Count": 0,
+          "Rate3Count": 0,
+          "Rate2Count": 0,
+          "Rate1Count": 0,
+          "ImageReviewCount": 0,
+          "MultipleSku": false,
+          "SingleAttr": true,
+          "TplId": 536017617219089,
+          "VedioPosition": 1,
+          "EnabledCoupon": true,
+          "DefaultSku": 536027265031190,
+          "WqyProductId": "",
+          "CustomLabels": null,
+          "MeasureType": 0,
+          "PackageItems": 1,
+          "MinItems": 1,
+          "MeasureDiscountType": 0,
+          "State": 0,
+          "ViewCount": 39,
+          "ViewCountAttr": 0,
+          "ViewCountAccValue": 0,
+          "UrlValue": "Gucci-Screener-Sneaker-Pink-570443-9SFR0-5270",
+          "Url": "/Gucci-Screener-Sneaker-Pink-570443-9SFR0-5270",
+          "SeoTitle": "Gucci Screener Sneaker Pink 570443-9SFR0-5270 Reps | Drip Sneakers",
+          "SeoKeyword": "Gucci Women's Screener Sneaker Pink 570443-9SFR0-5270, Gucci Screener Sneaker Pink, Gucci Women's Screener Sneaker, Gucci Pink Screener Sneakers, Gucci Screener Reps, Gucci Sneakers Reps, 570443-9SFR0-5270",
+          "SeoDesc": "Shop Gucci Women's Screener Sneaker Pink 570443-9SFR0-5270 reps with real QC photos and 30-day returns from Drip Sneakers.",
+          "DtbId": 517863593625639,
+          "UrlDomain": "www.dripsneakers.org",
+          "UrlPrefix": "/",
+          "UrlSuffix": "",
+          "OldUrlValue": "Gucci-Screener-Sneaker-Pink-570443-9SFR0-5270",
+          "SeoUrlChangeTo301": true
+        }
+      ]
+    },
+    {
+      "name": "dtb_proProductCates",
+      "defaults": {
+        "SortCateProd": 9999,
+        "IsAutoCate": false,
+        "SetTop": 0
+      },
+      "rows": [
+        {
+          "ProductId": 536027265030940,
+          "CategoryId": 536023239111190,
+          "SortCateProd": 2,
+          "CategoryName": "Gucci",
+          "IsAutoCate": false,
+          "SetTop": 0,
+          "DtbId": 517863593625639
+        },
+        {
+          "ProductId": 536027265030940,
+          "CategoryId": 538124917898005,
+          "SortCateProd": 75,
+          "CategoryName": "Gucci Sneakers ",
+          "IsAutoCate": false,
+          "SetTop": 0,
+          "DtbId": 517863593625639
+        },
+        {
+          "ProductId": 536027265030940,
+          "CategoryId": 538133309059602,
+          "SortCateProd": 3426,
+          "CategoryName": "NEW CLOTHING",
+          "IsAutoCate": false,
+          "SetTop": 0,
+          "DtbId": 517863593625639
+        }
+      ]
+    },
+    {
+      "name": "DTB_proSKU_ref",
+      "defaults": {
+        "UsableStatus": 1,
+        "OPrice": 0
+      },
+      "rows": [
+        {
+          "Id": 536027265030163,
+          "ProdId": 536027265030940,
+          "ImgUrl": null,
+          "UsableStatus": 1,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "v": {
+                "i": 2,
+                "n": "W US5.5=EUR36=CM24.5",
+                "img": "",
+                "able": true,
+                "t": 0,
+                "s": "",
+                "si": null
+              }
+            }
+          ],
+          "Count": 9999,
+          "BarCode": null,
+          "SkuCode": null,
+          "OPrice": 0,
+          "Price": 159,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 536027265030430,
+          "ProdId": 536027265030940,
+          "ImgUrl": null,
+          "UsableStatus": 1,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "v": {
+                "i": 11,
+                "n": "M US11=EUR45=CM29.4",
+                "img": "",
+                "able": true,
+                "t": 0,
+                "s": "",
+                "si": null
+              }
+            }
+          ],
+          "Count": 9999,
+          "BarCode": null,
+          "SkuCode": null,
+          "OPrice": 0,
+          "Price": 159,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 536027265030928,
+          "ProdId": 536027265030940,
+          "ImgUrl": null,
+          "UsableStatus": 1,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "v": {
+                "i": 10,
+                "n": "M US10=EUR44=CM28.9",
+                "img": "",
+                "able": true,
+                "t": 0,
+                "s": "",
+                "si": null
+              }
+            }
+          ],
+          "Count": 9999,
+          "BarCode": null,
+          "SkuCode": null,
+          "OPrice": 0,
+          "Price": 159,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 536027265030930,
+          "ProdId": 536027265030940,
+          "ImgUrl": null,
+          "UsableStatus": 1,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "v": {
+                "i": 12,
+                "n": "M US12=EUR46=CM29.9",
+                "img": "",
+                "able": true,
+                "t": 0,
+                "s": "",
+                "si": null
+              }
+            }
+          ],
+          "Count": 9999,
+          "BarCode": null,
+          "SkuCode": null,
+          "OPrice": 0,
+          "Price": 159,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 536027265030933,
+          "ProdId": 536027265030940,
+          "ImgUrl": null,
+          "UsableStatus": 1,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "v": {
+                "i": 7,
+                "n": "M US7=EUR41=CM27.4",
+                "img": "",
+                "able": true,
+                "t": 0,
+                "s": "",
+                "si": null
+              }
+            }
+          ],
+          "Count": 9999,
+          "BarCode": null,
+          "SkuCode": null,
+          "OPrice": 0,
+          "Price": 159,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 536027265030935,
+          "ProdId": 536027265030940,
+          "ImgUrl": null,
+          "UsableStatus": 1,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "v": {
+                "i": 9,
+                "n": "M US9=EUR43=CM28.4",
+                "img": "",
+                "able": true,
+                "t": 0,
+                "s": "",
+                "si": null
+              }
+            }
+          ],
+          "Count": 9999,
+          "BarCode": null,
+          "SkuCode": null,
+          "OPrice": 0,
+          "Price": 159,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 536027265030938,
+          "ProdId": 536027265030940,
+          "ImgUrl": null,
+          "UsableStatus": 1,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "v": {
+                "i": 8,
+                "n": "M US8=EUR42=CM27.9",
+                "img": "",
+                "able": true,
+                "t": 0,
+                "s": "",
+                "si": null
+              }
+            }
+          ],
+          "Count": 9999,
+          "BarCode": null,
+          "SkuCode": null,
+          "OPrice": 0,
+          "Price": 159,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 536027265031190,
+          "ProdId": 536027265030940,
+          "ImgUrl": null,
+          "UsableStatus": 1,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "v": {
+                "i": 1,
+                "n": "W US5=EUR35=CM24",
+                "img": "",
+                "able": true,
+                "t": 0,
+                "s": "",
+                "si": null
+              }
+            }
+          ],
+          "Count": 9999,
+          "BarCode": null,
+          "SkuCode": null,
+          "OPrice": 0,
+          "Price": 159,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 536027265031444,
+          "ProdId": 536027265030940,
+          "ImgUrl": null,
+          "UsableStatus": 1,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "v": {
+                "i": 5,
+                "n": "W US7=EUR39=CM26",
+                "img": "",
+                "able": true,
+                "t": 0,
+                "s": "",
+                "si": null
+              }
+            }
+          ],
+          "Count": 9999,
+          "BarCode": null,
+          "SkuCode": null,
+          "OPrice": 0,
+          "Price": 159,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 536027265031445,
+          "ProdId": 536027265030940,
+          "ImgUrl": null,
+          "UsableStatus": 1,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "v": {
+                "i": 3,
+                "n": "W US6=EUR37=CM25",
+                "img": "",
+                "able": true,
+                "t": 0,
+                "s": "",
+                "si": null
+              }
+            }
+          ],
+          "Count": 9999,
+          "BarCode": null,
+          "SkuCode": null,
+          "OPrice": 0,
+          "Price": 159,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 536027265031451,
+          "ProdId": 536027265030940,
+          "ImgUrl": null,
+          "UsableStatus": 1,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "v": {
+                "i": 4,
+                "n": "W US6.5=EUR38=CM25.5",
+                "img": "",
+                "able": true,
+                "t": 0,
+                "s": "",
+                "si": null
+              }
+            }
+          ],
+          "Count": 9999,
+          "BarCode": null,
+          "SkuCode": null,
+          "OPrice": 0,
+          "Price": 159,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 536027265031958,
+          "ProdId": 536027265030940,
+          "ImgUrl": null,
+          "UsableStatus": 1,
+          "Attrs": [
+            {
+              "i": 2,
+              "n": "Size（Big Half Size）",
+              "v": {
+                "i": 6,
+                "n": "M US6=EUR40=CM26.9",
+                "img": "",
+                "able": true,
+                "t": 0,
+                "s": "",
+                "si": null
+              }
+            }
+          ],
+          "Count": 9999,
+          "BarCode": null,
+          "SkuCode": null,
+          "OPrice": 0,
+          "Price": 159,
+          "DtbId": 517863593625639
+        }
+      ]
+    },
+    {
+      "name": "dtb_proProductTag",
+      "rows": []
+    },
+    {
+      "name": "dtb_proPriceRange",
+      "defaults": {
+        "CondQty": 1,
+        "Value": 0,
+        "Sort": 9999
+      },
+      "rows": []
+    },
+    {
+      "name": "dtb_proProductAttr",
+      "rows": [
+        {
+          "Id": 539892736430096,
+          "ProdId": 536027265030940,
+          "ItemId": 2,
+          "ItemName": "Size（Big Half Size）",
+          "ValueName": "M US10=EUR44=CM28.9",
+          "ValueId": 10,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 539892736430352,
+          "ProdId": 536027265030940,
+          "ItemId": 2,
+          "ItemName": "Size（Big Half Size）",
+          "ValueName": "M US11=EUR45=CM29.4",
+          "ValueId": 11,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 539892736430357,
+          "ProdId": 536027265030940,
+          "ItemId": 2,
+          "ItemName": "Size（Big Half Size）",
+          "ValueName": "M US9=EUR43=CM28.4",
+          "ValueId": 9,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 539892736430364,
+          "ProdId": 536027265030940,
+          "ItemId": 2,
+          "ItemName": "Size（Big Half Size）",
+          "ValueName": "W US7=EUR39=CM26",
+          "ValueId": 5,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 539892736430609,
+          "ProdId": 536027265030940,
+          "ItemId": 2,
+          "ItemName": "Size（Big Half Size）",
+          "ValueName": "W US6.5=EUR38=CM25.5",
+          "ValueId": 4,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 539892736430621,
+          "ProdId": 536027265030940,
+          "ItemId": 2,
+          "ItemName": "Size（Big Half Size）",
+          "ValueName": "W US5=EUR35=CM24",
+          "ValueId": 1,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 539892736430864,
+          "ProdId": 536027265030940,
+          "ItemId": 2,
+          "ItemName": "Size（Big Half Size）",
+          "ValueName": "W US6=EUR37=CM25",
+          "ValueId": 3,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 539892736431383,
+          "ProdId": 536027265030940,
+          "ItemId": 2,
+          "ItemName": "Size（Big Half Size）",
+          "ValueName": "M US8=EUR42=CM27.9",
+          "ValueId": 8,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 539892736431636,
+          "ProdId": 536027265030940,
+          "ItemId": 2,
+          "ItemName": "Size（Big Half Size）",
+          "ValueName": "M US7=EUR41=CM27.4",
+          "ValueId": 7,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 539892736431640,
+          "ProdId": 536027265030940,
+          "ItemId": 2,
+          "ItemName": "Size（Big Half Size）",
+          "ValueName": "W US5.5=EUR36=CM24.5",
+          "ValueId": 2,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 539892736431901,
+          "ProdId": 536027265030940,
+          "ItemId": 2,
+          "ItemName": "Size（Big Half Size）",
+          "ValueName": "M US6=EUR40=CM26.9",
+          "ValueId": 6,
+          "DtbId": 517863593625639
+        },
+        {
+          "Id": 539892736448028,
+          "ProdId": 536027265030940,
+          "ItemId": 2,
+          "ItemName": "Size（Big Half Size）",
+          "ValueName": "M US12=EUR46=CM29.9",
+          "ValueId": 12,
+          "DtbId": 517863593625639
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "evidence": {
+    "legacy_name": "Gucci Women's Screener Sneaker Pink",
+    "observation": "Low-top sneaker. Off-white / light-grey leather upper. A purple GG monogram canvas side panel containing red GG lettering. A red and green Web stripe running down the side. Gum / brown rubber sole with a distressed vintage finish. White heel tab carrying a GG logo.",
+    "sku": "570443-9SFR0-5270",
+    "brand": "Gucci",
+    "product_type": "Sneakers",
+    "model": "Screener Series GG",
+    "colorway": "Red Green",
+    "proposed_name": "Gucci Screener Series GG Red Green",
+    "sources": [
+      {
+        "source_type": "established sneaker retailer (KicksCrew)",
+        "title": "(WMNS) Gucci Screener Series GG 'Red Green'",
+        "sku": "570443-9SFR0-5270",
+        "colorway": "red/green",
+        "series": "Screener Sneaker",
+        "release_date": "2021-07-27"
+      }
+    ],
+    "colorway_options": {
+      "Red Green": "The retailer/brand colorway term describing the stripe colours",
+      "Pink": "Names the product pink",
+      "Purple GG": "Names only the monogram canvas panel colour",
+      "White Leather": "Names only the upper material colour"
+    },
+    "alt_views": [
+      "Side View",
+      "Front View",
+      "Back View",
+      "Top View",
+      "Sole Detail",
+      "Graphic Detail"
+    ]
+  },
+  "pdp": {
+    "pid": "536027265030940",
+    "product_name": "Gucci Screener Series GG Red Green",
+    "h1": "Gucci Screener Series GG Red Green",
+    "seo_title": "Gucci Screener Series GG Red Green 570443-9SFR0-5270 Reps | Drip Sneakers",
+    "keywords": "Gucci Screener Series GG Red Green, Gucci Screener Series GG Red Green Sneakers, Gucci Red Green Sneakers, 570443-9SFR0-5270, Gucci Screener Reps",
+    "meta_description": "Shop Gucci Screener Series GG Red Green reps (570443-9SFR0-5270) at Drip Sneakers with QC photos, 30-day returns and 7–20 day shipping.",
+    "url_slug": "gucci-screener-series-gg-red-green-570443-9sfr0-5270",
+    "canonical": "https://www.dripsneakers.org/gucci-screener-series-gg-red-green-570443-9sfr0-5270",
+    "key_description": "<p>\nThis Gucci Screener pairs an off-white leather upper with a purple GG canvas side panel, a red and green Web stripe and a gum rubber sole.\n</p>\n\n<h2>Product Details</h2>\n\n<ul>\n<li><strong>Brand:</strong> <a href=\"https://www.dripsneakers.org/Gucci/\"><strong>Gucci</strong></a></li>\n<li><strong>Product Type:</strong> Sneakers</li>\n<li><strong>Model:</strong> Screener Series GG</li>\n<li><strong>Colorway:</strong> Red Green</li>\n<li><strong>SKU:</strong> 570443-9SFR0-5270</li>\n</ul>",
+    "key_description_sentence": "This Gucci Screener pairs an off-white leather upper with a purple GG canvas side panel, a red and green Web stripe and a gum rubber sole.",
+    "description_rule": "product detail images only",
+    "description_html": "<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB546A041A.jpg\" alt=\"Gucci Screener Series GG Red Green Side View\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB548E0C18.jpg\" alt=\"Gucci Screener Series GG Red Green Front View\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB545DCD14.jpg\" alt=\"Gucci Screener Series GG Red Green Back View\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB5460041B.jpg\" alt=\"Gucci Screener Series GG Red Green Top View\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB5467C817.jpg\" alt=\"Gucci Screener Series GG Red Green Sole Detail\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570443_9sfr0_5270_195FB54698010.jpg\" alt=\"Gucci Screener Series GG Red Green Graphic Detail\" />",
+    "image_alt": [
+      "Gucci Screener Series GG Red Green Side View",
+      "Gucci Screener Series GG Red Green Front View",
+      "Gucci Screener Series GG Red Green Back View",
+      "Gucci Screener Series GG Red Green Top View",
+      "Gucci Screener Series GG Red Green Sole Detail",
+      "Gucci Screener Series GG Red Green Graphic Detail"
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Gucci Screener Series GG Red Green",
+      "brand": {
+        "@type": "Brand",
+        "name": "Gucci"
+      },
+      "category": "Sneakers",
+      "color": "Red Green",
+      "sku": "570443-9SFR0-5270"
+    },
+    "photo_observation": "Low-top sneaker. Off-white / light-grey leather upper. A purple GG monogram canvas side panel containing red GG lettering. A red and green Web stripe running down the side. Gum / brown rubber sole with a distressed vintage finish. White heel tab carrying a GG logo."
+  },
+  "jev": {
+    "naming": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "legacy_name_accurate": {
+          "type": "noul",
+          "noul": 0.04
+        },
+        "proposed_name_accurate": {
+          "type": "noul",
+          "noul": 0.53
+        }
+      },
+      "usage": {
+        "input_tokens": 507,
+        "output_tokens": 45
+      }
+    },
+    "colorway": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "colorway_term": {
+          "type": "choice",
+          "choice": "Red Green",
+          "confidence": 0.7,
+          "probabilities": {
+            "Purple GG": 0.15,
+            "White Leather": 0.07,
+            "Pink": 0.0,
+            "Red Green": 0.78
+          }
+        },
+        "most_identity_critical": {
+          "type": "choice",
+          "choice": "panel_artwork",
+          "confidence": 0.83,
+          "probabilities": {
+            "panel_artwork": 0.87,
+            "overall_base_colour": 0.08,
+            "sole_and_heel": 0.02,
+            "web_stripe": 0.03
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 600,
+        "output_tokens": 108
+      }
+    },
+    "compliance": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "meta_exact_entity": {
+          "type": "noul",
+          "noul": 0.95
+        },
+        "meta_reps_intent": {
+          "type": "noul",
+          "noul": 0.97
+        },
+        "meta_assurance_trio": {
+          "type": "noul",
+          "noul": 0.99
+        },
+        "meta_no_unsupported_claim": {
+          "type": "noul",
+          "noul": 0.15
+        },
+        "meta_no_feature_stuffing": {
+          "type": "noul",
+          "noul": 0.85
+        },
+        "kd_not_repeating_entity": {
+          "type": "noul",
+          "noul": 0.96
+        },
+        "kd_sentence_matches_photo": {
+          "type": "noul",
+          "noul": 0.69
+        },
+        "details_five_high_value": {
+          "type": "noul",
+          "noul": 0.64
+        },
+        "title_carries_sku_once": {
+          "type": "noul",
+          "noul": 0.96
+        },
+        "keywords_not_cannibalising": {
+          "type": "noul",
+          "noul": 0.79
+        }
+      },
+      "usage": {
+        "input_tokens": 2334,
+        "output_tokens": 209
+      }
+    }
+  },
+  "gates": {
+    "gate2": [],
+    "gate3": [
+      "E1 BasePrice is 0/empty"
+    ]
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "formItems": [
+    {
+      "label": "商品名称",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": "商品名称"
+    },
+    {
+      "label": "商品副标题",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": "商品副标题 27/500"
+    },
+    {
+      "label": "商品属性",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": "商品属性 编辑"
+    },
+    {
+      "label": "商品描述",
+      "hasEditor": true,
+      "cls": "el-form-item",
+      "txt": "商品描述 14px Verdana 36 字 上传图片"
+    },
+    {
+      "label": "商品图片：",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": "商品图片： "
+    },
+    {
+      "label": "主图视频：",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": "主图视频： 支持格式：mp4/ avi / mpeg / wmv / rmvb / flv文件，文件小于40M，比例建议1:1"
+    },
+    {
+      "label": "显示位置",
+      "hasEditor": false,
+      "cls": "el-form-item vedio-position",
+      "txt": "显示位置"
+    },
+    {
+      "label": "计量单位",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": "计量单位"
+    },
+    {
+      "label": "按件卖",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": "按件卖 打包销售"
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "不计库存",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": "不计库存"
+    },
+    {
+      "label": "商品上架",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": "商品上架"
+    },
+    {
+      "label": "优惠券折扣",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": "优惠券折扣 "
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "包装后重量",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": "包装后重量 Kg"
+    },
+    {
+      "label": "包装长度",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": "包装长度 Cm"
+    },
+    {
+      "label": "包装宽度",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": "包装宽度 Cm"
+    },
+    {
+      "label": "包装高度",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": "包装高度 Cm"
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item is-required",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    },
+    {
+      "label": "",
+      "hasEditor": false,
+      "cls": "el-form-item",
+      "txt": ""
+    }
+  ],
+  "editor1": {
+    "box": {
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0
+    },
+    "chain": [
+      {
+        "tag": "TEXTAREA",
+        "cls": "tinymce-textarea",
+        "txt": ""
+      },
+      {
+        "tag": "DIV",
+        "cls": "tinymce-container",
+        "txt": "14px Verdana 0 字 上传图片"
+      },
+      {
+        "tag": "DIV",
+        "cls": "base-prop-item",
+        "txt": "关键描述 14px Verdana 0 字 上传图片"
+      },
+      {
+        "tag": "DIV",
+        "cls": "labelleft el-row",
+        "txt": "商品上架 优惠券折扣 物流模板 新增模板 类别 GucciGucci Sneakers NEW CLOTHING 品牌 "
+      },
+      {
+        "tag": "DIV",
+        "cls": "fs-content",
+        "txt": "商品上架 优惠券折扣 物流模板 新增模板 类别 GucciGucci Sneakers NEW CLOTHING 品牌 "
+      },
+      {
+        "tag": "SECTION",
+        "cls": "fs-section",
+        "txt": "基本属性 商品上架 优惠券折扣 物流模板 新增模板 类别 GucciGucci Sneakers NEW CLOTHIN"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-col el-col-6",
+        "txt": "基本属性 商品上架 优惠券折扣 物流模板 新增模板 类别 GucciGucci Sneakers NEW CLOTHIN"
+      },
+      {
+        "tag": "DIV",
+        "cls": "el-row",
+        "txt": "基础信息 ID: 536027265030940 商品名称 商品副标题 27/500 商品属性 编辑 商品描述 14px"
+      },
+      {
+        "tag": "FORM",
+        "cls": "el-form",
+        "txt": "基础信息 ID: 536027265030940 商品名称 商品副标题 27/500 商品属性 编辑 商品描述 14px"
+      },
+      {
+        "tag": "DIV",
+        "cls": "con-body",
+        "txt": "基础信息 ID: 536027265030940 商品名称 商品副标题 27/500 商品属性 编辑 商品描述 14px"
+      }
+    ]
+  },
+  "kd": [
+    {
+      "txt": "关键描述",
+      "parentCls": "left",
+      "grandTxt": "关键描述 14px Verdana 0 字 上传图片"
+    }
+  ]
+}

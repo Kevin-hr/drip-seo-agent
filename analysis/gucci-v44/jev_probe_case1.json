@@ -1,0 +1,43 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "sku_identity": {
+      "type": "noul",
+      "noul": 0.9
+    },
+    "candidate_same_entity": {
+      "type": "noul",
+      "noul": 0.55
+    },
+    "our_name_accurate": {
+      "type": "noul",
+      "noul": 0.09
+    },
+    "colorway_term": {
+      "type": "choice",
+      "choice": "Red Green",
+      "confidence": 0.94,
+      "probabilities": {
+        "White Leather": 0.0,
+        "Pink": 0.04,
+        "Purple GG": 0.0,
+        "Red Green": 0.96
+      }
+    },
+    "identity_critical_features": {
+      "type": "choice",
+      "choice": "canvas panel color and pattern",
+      "confidence": 0.42,
+      "probabilities": {
+        "sole type": 0.05,
+        "heel tab": 0.0,
+        "web stripe colors": 0.38,
+        "canvas panel color and pattern": 0.57
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 961,
+    "output_tokens": 164
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "cond": {
+    "name": "dtb_proCateAddCond",
+    "rows": [
+      {
+        "Id": 538663524100115,
+        "Pid": 538124917898005,
+        "Field": "Name",
+        "Operator": "nlk",
+        "Value": "short",
+        "DtbId": 517863593625639
+      },
+      {
+        "Id": 538663524100120,
+        "Pid": 538124917898005,
+        "Field": "Name",
+        "Operator": "nlk",
+        "Value": "Tee",
+        "DtbId": 517863593625639
+      },
+      {
+        "Id": 538663524100126,
+        "Pid": 538124917898005,
+        "Field": "Name",
+        "Operator": "nlk",
+        "Value": "jacket",
+        "DtbId": 517863593625639
+      },
+      {
+        "Id": 538663524100626,
+        "Pid": 538124917898005,
+        "Field": "Name",
+        "Operator": "nlk",
+        "Value": "Pants",
+        "DtbId": 517863593625639
+      },
+      {
+        "Id": 538663524100633,
+        "Pid": 538124917898005,
+        "Field": "Name",
+        "Operator": "nlk",
+        "Value": "Necklace",
+        "DtbId": 517863593625639
+      },
+      {
+        "Id": 538663524100636,
+        "Pid": 538124917898005,
+        "Field": "Name",
+        "Operator": "nlk",
+        "Value": "polo",
+        "DtbId": 517863593625639
+      },
+      {
+        "Id": 538663524100639,
+        "Pid": 538124917898005,
+        "Field": "Name",
+        "Operator": "nlk",
+        "Value": "Bag",
+        "DtbId": 517863593625639
+      },
+      {
+        "Id": 538663524101145,
+        "Pid": 538124917898005,
+        "Field": "Name",
+        "Operator": "nlk",
+        "Value": "Scarf",
+        "DtbId": 517863593625639
+      },
+      {
+        "Id": 538663524101392,
+        "Pid": 538124917898005,
+        "Field": "Name",
+        "Operator": "nlk",
+        "Value": "T-shirt",
+        "DtbId": 517863593625639
+      },
+      {
+        "Id": 538663524101396,
+        "Pid": 538124917898005,
+        "Field": "Name",
+        "Operator": "nlk",
+        "Value": "shirt",
+        "DtbId": 517863593625639
+      },
+      {
+        "Id": 538663524101915,
+        "Pid": 538124917898005,
+        "Field": "Name",
+        "Operator": "lk",
+        "Value": "Gucci",
+        "DtbId": 517863593625639
+      }
+    ]
+  },
+  "cate": {
+    "name": "DTB_proCategory",
+    "rows": [
+      {
+        "Id": 538124917898005,
+        "IsAutomatic": true,
+        "IsCondAnd": true
+      }
+    ]
+  }
+}
