@@ -108,18 +108,35 @@ try {
         result.steps.push({ step: 'publish-switch-already-on', note: 'content filled, saving' });
       }
       let ids = [];
-      for (let attempt = 1; attempt <= 3; attempt++) {
+      let lastBody = null;
+      let slugSuffix = 1;
+      for (let attempt = 1; attempt <= 6; attempt++) {
         const saveResponsePromise = page.waitForResponse((r) => /DTB_proProduct\/saveModify/i.test(r.url()) && r.request().method() !== 'GET', { timeout: 60000 });
         await page.getByRole('button', { name: '保存', exact: true }).click();
         const saveResponse = await saveResponsePromise;
         const receipt = await saveResponse.json();
+        lastBody = receipt;
         ids = Array.isArray(receipt?.result) ? receipt.result.map(String) : [];
         if (saveResponse.status() === 200 && ids.length === 1) break;
-        result.steps.push({ step: `save-retry-${attempt}`, ids });
-        await page.waitForTimeout(1500);
+        const isDup = receipt?.result?.code === -3 || JSON.stringify(receipt).includes('code":-3');
+        if (isDup && attempt <= 3) {
+          slugSuffix++;
+          const newSlug = `${plan.slug}-${slugSuffix}`;
+          result.steps.push({ step: `slug-collision-retry`, old: plan.slug, new: newSlug });
+          await page.getByRole('button', { name: /编辑SEO/ }).click();
+          await page.waitForTimeout(300);
+          const dialog = page.locator('.el-dialog:visible, .el-drawer:visible').last();
+          await dialog.locator('textarea').nth(2).fill(newSlug);
+          await dialog.getByRole('button', { name: /确定|保存/ }).last().click();
+          plan.slug = newSlug;
+          await page.waitForTimeout(500);
+          continue;
+        }
+        result.steps.push({ step: `save-retry-${attempt}`, ids, body: JSON.stringify(receipt).slice(0, 400) });
+        await page.waitForTimeout(2000);
       }
-      if (ids.length !== 1) throw new Error(`Unsafe save receipt: ${JSON.stringify(ids)}`);
-      result.steps.push({ step: 'save-receipt', ids, expected_id: id });
+      if (ids.length !== 1) throw new Error(`Unsafe save receipt: ${JSON.stringify(ids)} body=${JSON.stringify(lastBody).slice(0,300)}`);
+      result.steps.push({ step: 'save-receipt', ids, expected_id: id, final_slug: plan.slug });
 
       await page.waitForTimeout(1000);
       const after = rowOf(await readApi(id));
