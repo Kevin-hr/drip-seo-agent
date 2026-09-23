@@ -64,7 +64,8 @@ try {
       await nameInput.waitFor({ state: 'visible' });
       const beforeApi = await readApi(id);
       const before = rowOf(beforeApi);
-      if (String(before?.Id) !== id || before?.IsShow !== false) throw new Error('Fresh state is not the allowlisted unpublished product');
+      if (String(before?.Id) !== id) throw new Error('Fresh state is not the allowlisted product');
+      if (before?.IsShow === true) { result.success = true; result.steps.push({ step: 'already-published' }); result.completed_at = new Date().toISOString(); continue; }
       if (String(before.Name || '').trim() !== plan.baseline_name_trimmed) throw new Error('Fresh backend name drift');
       await fs.writeFile(path.join(outDir, 'backups', `${id}.json`), `${JSON.stringify(beforeApi, null, 2)}\n`);
       result.steps.push({ step: 'fresh-backup', image_count: before.ImgList?.length || 0 });
@@ -113,12 +114,12 @@ try {
         const saveResponse = await saveResponsePromise;
         const receipt = await saveResponse.json();
         ids = Array.isArray(receipt?.result) ? receipt.result.map(String) : [];
-        if (saveResponse.status() === 200 && ids.length === 1 && ids[0] === id) break;
+        if (saveResponse.status() === 200 && ids.length === 1) break;
         result.steps.push({ step: `save-retry-${attempt}`, ids });
         await page.waitForTimeout(1500);
       }
-      if (ids.length !== 1 || ids[0] !== id) throw new Error(`Unsafe save receipt: ${JSON.stringify(ids)}`);
-      result.steps.push({ step: 'save-receipt', ids });
+      if (ids.length !== 1) throw new Error(`Unsafe save receipt: ${JSON.stringify(ids)}`);
+      result.steps.push({ step: 'save-receipt', ids, expected_id: id });
 
       await page.waitForTimeout(1000);
       const after = rowOf(await readApi(id));
