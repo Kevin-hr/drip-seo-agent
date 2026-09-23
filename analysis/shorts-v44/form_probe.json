@@ -1,0 +1,477 @@
+{
+ "dump": {
+  "controls": [
+   {
+    "label": "商品名称",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "text",
+    "placeholder": "请输入商品名称",
+    "value": "Dior CD Obi Drawstring Shorts Blue",
+    "cls": "el-form-item is-required"
+   },
+   {
+    "label": "商品副标题",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "text",
+    "placeholder": "请输入商品副标题",
+    "value": "QC Photos · 30-Day Returns",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "商品属性",
+    "hasEditor": false,
+    "inputTag": null,
+    "inputType": null,
+    "placeholder": null,
+    "value": null,
+    "cls": "el-form-item"
+   },
+   {
+    "label": "商品描述",
+    "hasEditor": true,
+    "inputTag": "TEXTAREA",
+    "inputType": "textarea",
+    "placeholder": null,
+    "value": "",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "商品图片：",
+    "hasEditor": false,
+    "inputTag": null,
+    "inputType": null,
+    "placeholder": null,
+    "value": null,
+    "cls": "el-form-item"
+   },
+   {
+    "label": "主图视频：",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "file",
+    "placeholder": null,
+    "value": "",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "显示位置",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "text",
+    "placeholder": null,
+    "value": "1",
+    "cls": "el-form-item vedio-position"
+   },
+   {
+    "label": "计量单位",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "text",
+    "placeholder": "请选择计量单位",
+    "value": "件/个",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "按件卖",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "radio",
+    "placeholder": null,
+    "value": "0",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "不计库存",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "checkbox",
+    "placeholder": null,
+    "value": "on",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "商品上架",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "checkbox",
+    "placeholder": null,
+    "value": "on",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "优惠券折扣",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "checkbox",
+    "placeholder": null,
+    "value": "on",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "text",
+    "placeholder": "请选择物流模板",
+    "value": "Clothing",
+    "cls": "base-prop-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "text",
+    "placeholder": "请选择物流模板",
+    "value": "Clothing",
+    "cls": "el-form-item is-required"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "text",
+    "placeholder": null,
+    "value": "",
+    "cls": "base-prop-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "text",
+    "placeholder": "请选择品牌",
+    "value": "",
+    "cls": "base-prop-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "text",
+    "placeholder": "请选择品牌",
+    "value": "",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "text",
+    "placeholder": null,
+    "value": "",
+    "cls": "base-prop-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "text",
+    "placeholder": null,
+    "value": "默认模板",
+    "cls": "base-prop-item"
+   },
+   {
+    "label": "",
+    "hasEditor": true,
+    "inputTag": "TEXTAREA",
+    "inputType": "textarea",
+    "placeholder": null,
+    "value": "",
+    "cls": "base-prop-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "TEXTAREA",
+    "inputType": "textarea",
+    "placeholder": "请输入商品备注",
+    "value": "",
+    "cls": "base-prop-item"
+   },
+   {
+    "label": "包装后重量",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入包装后重量",
+    "value": "0.3",
+    "cls": "el-form-item is-required"
+   },
+   {
+    "label": "包装长度",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入包装长度",
+    "value": "",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "包装宽度",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入包装宽度",
+    "value": "",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "包装高度",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入包装高度",
+    "value": "",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入售价",
+    "value": "59",
+    "cls": "el-form-item is-required"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入原价",
+    "value": "99",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入数量",
+    "value": "999",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入售价",
+    "value": "59",
+    "cls": "el-form-item is-required"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入原价",
+    "value": "99",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入数量",
+    "value": "999",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入售价",
+    "value": "59",
+    "cls": "el-form-item is-required"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入原价",
+    "value": "99",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入数量",
+    "value": "999",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入售价",
+    "value": "59",
+    "cls": "el-form-item is-required"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入原价",
+    "value": "99",
+    "cls": "el-form-item"
+   },
+   {
+    "label": "",
+    "hasEditor": false,
+    "inputTag": "INPUT",
+    "inputType": "number",
+    "placeholder": "请输入数量",
+    "value": "999",
+    "cls": "el-form-item"
+   }
+  ],
+  "editors": [
+   {
+    "i": 0,
+    "id": "vue-tinymce-1790153470390958",
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "tinymce-container",
+      "txt": "14px\nVerdana\n \n \n152 字\n上传图片"
+     },
+     {
+      "tag": "DIV",
+      "cls": "el-form-item__content",
+      "txt": "14px\nVerdana\n \n \n152 字\n上传图片"
+     },
+     {
+      "tag": "DIV",
+      "cls": "el-form-item",
+      "txt": "商品描述\n14px\nVerdana\n \n \n152 字\n上传图片"
+     },
+     {
+      "tag": "DIV",
+      "cls": "el-col el-col-24",
+      "txt": "商品名称\n商品副标题\n26/500\n商品属性\n编辑\n商品描述\n14px\nVerdana\n \n \n152 字\n上传图片"
+     },
+     {
+      "tag": "DIV",
+      "cls": "el-row",
+      "txt": "商品名称\n商品副标题\n26/500\n商品属性\n编辑\n商品描述\n14px\nVerdana\n \n \n152 字\n上传图片"
+     }
+    ]
+   },
+   {
+    "i": 1,
+    "id": "vue-tinymce-1790153470408633",
+    "chain": [
+     {
+      "tag": "DIV",
+      "cls": "tinymce-container",
+      "txt": "14px\nVerdana\n \n \n0 字\n上传图片"
+     },
+     {
+      "tag": "DIV",
+      "cls": "base-prop-item",
+      "txt": "关键描述\n14px\nVerdana\n \n \n0 字\n上传图片"
+     },
+     {
+      "tag": "DIV",
+      "cls": "labelleft el-row",
+      "txt": "商品上架\n优惠券折扣 \n物流模板\n新增模板\n类别 \nDiorShortsDior ClothingNEW CLOTHIN"
+     },
+     {
+      "tag": "DIV",
+      "cls": "fs-content",
+      "txt": "商品上架\n优惠券折扣 \n物流模板\n新增模板\n类别 \nDiorShortsDior ClothingNEW CLOTHIN"
+     },
+     {
+      "tag": "SECTION",
+      "cls": "fs-section",
+      "txt": "基本属性\n商品上架\n优惠券折扣 \n物流模板\n新增模板\n类别 \nDiorShortsDior ClothingNEW CL"
+     }
+    ]
+   }
+  ],
+  "labels": [
+   {
+    "tag": "LABEL",
+    "cls": "el-form-item__label",
+    "txt": "商品名称"
+   },
+   {
+    "tag": "LABEL",
+    "cls": "el-form-item__label",
+    "txt": "商品副标题"
+   },
+   {
+    "tag": "LABEL",
+    "cls": "el-form-item__label",
+    "txt": "商品上架"
+   }
+  ]
+ },
+ "requests": [
+  {
+   "m": "POST",
+   "u": "https://www.mrshopplus.com/biz/FS_MainUser/GetDtbInfo",
+   "post": "{\"token\":\"mainuser-token\"}"
+  },
+  {
+   "m": "POST",
+   "u": "https://www.mrshopplus.com/biz/DTB_busDayInfo/GetInfoBuyDate",
+   "post": "{\"args\":[\"2026-9-23\",\"2026-9-23\"]}"
+  },
+  {
+   "m": "POST",
+   "u": "https://www.mrshopplus.com/biz/DTB_busSaleOrder/GetOrderWaitCount",
+   "post": "{}"
+  },
+  {
+   "m": "POST",
+   "u": "https://www.mrshopplus.com/biz/DTB_repProdSale/GetInfoBuyDate",
+   "post": "{\"args\":[\"2026-9-23\",\"2026-9-23\"]}"
+  },
+  {
+   "m": "POST",
+   "u": "https://www.mrshopplus.com/biz/FS_sysNotice/queryList",
+   "post": "{\"args\":[{\"IsStart\":true},0,10]}"
+  },
+  {
+   "m": "POST",
+   "u": "https://www.mrshopplus.com/biz/DTB_busDayInfo/GetInfoBuyDate",
+   "post": "{\"args\":[\"2026-9-23\",\"2026-9-23\"]}"
+  },
+  {
+   "m": "POST",
+   "u": "https://www.mrshopplus.com/biz/FS_sysTradeSales/querylist",
+   "post": "{}"
+  },
+  {
+   "m": "POST",
+   "u": "https://www.mrshopplus.com/biz/FS_sysMerchant/GetDtbDashboardTip",
+   "post": "{\"args\":[]}"
+  },
+  {
+   "m": "POST",
+   "u": "https://www.mrshopplus.com/biz/DTB_proProduct/modify",
+   "post": "{\"args\":[[536027503505948]],\"additions\":{}}"
+  },
+  {
+   "m": "POST",
+   "u": "https://www.mrshopplus.com/biz/DTB_proCategory/QuerySelectManual",
+   "post": "{}"
+  },
+  {
+   "m": "POST",
+   "u": "https://www.mrshopplus.com/biz/DTB_PageTheme/GetThemeTpls4Product",
+   "post": "{}"
+  }
+ ]
+}

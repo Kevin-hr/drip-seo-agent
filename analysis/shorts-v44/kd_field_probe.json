@@ -1,0 +1,8 @@
+{
+ "field_paths": [
+  [
+   ".args[0][0].rows[0].Summary",
+   "<p>KD-MARKER-7F3A2B</p>"
+  ]
+ ]
+}

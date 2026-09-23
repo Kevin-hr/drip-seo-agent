@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "standard_version": "4.4",
+  "standard_status": "FINAL",
+  "standard_hash": "965314cdb899bfddaafd25d6e083bff6861663c38a7860f553be7e4b34d3e5b7",
+  "standard_file": "Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md",
+  "execution_mode": "simulate",
+  "snapshot_max_age_hours": 24,
+  "require_complete_snapshot": true
+}

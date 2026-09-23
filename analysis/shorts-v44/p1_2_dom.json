@@ -1,0 +1,76 @@
+{
+ "hits": [
+  {
+   "snippet": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"url\": \"https://dripsneakers.net/Payment-Methods\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Which cards does DripSneakers accept?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"DripSneakers accepts Visa, Mast",
+   "chain": [
+    {
+     "tag": "SCRIPT",
+     "id": null,
+     "cls": null,
+     "dataAttrs": []
+    },
+    {
+     "tag": "DIV",
+     "id": null,
+     "cls": "page-section-content rich-text common-style",
+     "dataAttrs": []
+    },
+    {
+     "tag": "SECTION",
+     "id": null,
+     "cls": "page-section",
+     "dataAttrs": [
+      "data-section=prod_tab_side4"
+     ]
+    },
+    {
+     "tag": "LI",
+     "id": null,
+     "cls": "tab-item",
+     "dataAttrs": [
+      "data-tab=prod_tab_side4"
+     ]
+    },
+    {
+     "tag": "UL",
+     "id": null,
+     "cls": "tab-list",
+     "dataAttrs": []
+    },
+    {
+     "tag": "DIV",
+     "id": null,
+     "cls": "tab",
+     "dataAttrs": []
+    },
+    {
+     "tag": "DIV",
+     "id": null,
+     "cls": "tab-wrapper",
+     "dataAttrs": [
+      "data-content-fold=true",
+      "data-tab-expand=false",
+      "data-content-height=200",
+      "data-need-maxh=true"
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": null,
+     "cls": "main-right-body",
+     "dataAttrs": []
+    },
+    {
+     "tag": "SECTION",
+     "id": null,
+     "cls": "main-right",
+     "dataAttrs": []
+    }
+   ]
+  }
+ ],
+ "containment": {
+  "inScriptTags": 1,
+  "inPreCodeTextarea": 0
+ }
+}

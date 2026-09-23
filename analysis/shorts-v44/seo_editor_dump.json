@@ -1,0 +1,44 @@
+[
+ {
+  "dialog": 0,
+  "cls": "el-drawer rtl",
+  "title": null,
+  "controls": [
+   {
+    "label": null,
+    "tag": "TEXTAREA",
+    "type": "textarea",
+    "ph": null,
+    "val": " reps | Drip Sneakers"
+   },
+   {
+    "label": null,
+    "tag": "INPUT",
+    "type": "text",
+    "ph": null,
+    "val": ""
+   },
+   {
+    "label": null,
+    "tag": "INPUT",
+    "type": "text",
+    "ph": "回车确认，可添加多个",
+    "val": ""
+   },
+   {
+    "label": null,
+    "tag": "TEXTAREA",
+    "type": "textarea",
+    "ph": null,
+    "val": ""
+   },
+   {
+    "label": null,
+    "tag": "TEXTAREA",
+    "type": "textarea",
+    "ph": "仅支持中文、英文字母、数字、下划线、.和-",
+    "val": "Top-Quality-Dior-CD-Obi-Drawstring-Shorts-Blue"
+   }
+  ]
+ }
+]

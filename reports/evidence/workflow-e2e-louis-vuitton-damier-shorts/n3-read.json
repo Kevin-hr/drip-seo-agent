@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "error": "product_not_indexed",
+  "detail": "No local checkpoint for 536027551768089. Run `DripOps snapshot` for its run first, or retry with live=true.",
+  "checks": [],
+  "gate_errors": []
+}

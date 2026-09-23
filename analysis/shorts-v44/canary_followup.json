@@ -1,0 +1,57 @@
+{
+ "ld_types": [
+  "Brand",
+  "BreadcrumbList",
+  "ContactPoint",
+  "EntryPoint",
+  "ImageObject",
+  "ListItem",
+  "Offer",
+  "Organization",
+  "Product",
+  "SearchAction",
+  "WebPage",
+  "WebSite"
+ ],
+ "kd": {
+  "containerText": "Dior Oblique Swim Shorts Sky Blue\nProduct Images and Video\nProduct Thumbnail Images\nMain Product Images\nProduct Information and Purchasing Options\nDior Oblique Swim Shorts Sky Blue\n\nQC Photos · 30-Day Returns\n\n$59.00\n /Piece\n$99.00\nSave $40.00\nOWN YOUR DRIP.\nSEP 16–30\nALL ORDERS\n13% OFF\n+ FREE SOCKS\nSPEND $199+\n16% OFF\n+ FREE T-SHIRT\nBEST VALUE\nSPEND $399+\n20% OFF\n+ FREE T-SHIRT\nSize\nS\nQuantity\n/Piece\nBuy Now\nQC Photos\nBefore Shipping\nFast Delivery\n7–20 Days\n30-Day Returns\nEasy Returns\n\nThis Dior swim short is crafted in sky blue technical fabric with a tonal allover Dior Oblique print and a lace-up drawstring waist finished with Dior-engraved metal tips.\n\nProduct Details\nBrand: Dior\nProduct",
+  "brandLinkHref": "https://www.dripsneakers.org/Dior/",
+  "listItems": [
+   "Brand: Dior",
+   "Product Type: Swim Shorts",
+   "Model: Oblique Swim Shorts",
+   "Colorway: Sky Blue",
+   "SKU: 293B103CB041_C510"
+  ],
+  "visible": true
+ },
+ "detail_images": {
+  "count": 78,
+  "sample": [
+   {
+    "w": 848,
+    "h": 520,
+    "alt": "Dior Oblique Swim Shorts Sky Blue Front View",
+    "src": "ize,m_pad,w_848,h_520,color_ffffff/format,webp/quality,Q_100"
+   },
+   {
+    "w": 848,
+    "h": 520,
+    "alt": "Dior Oblique Swim Shorts Sky Blue Side View with Flap Pocket",
+    "src": "ize,m_pad,w_848,h_520,color_ffffff/format,webp/quality,Q_100"
+   },
+   {
+    "w": 848,
+    "h": 520,
+    "alt": "Dior Oblique Swim Shorts Sky Blue Worn Front View",
+    "src": "ize,m_pad,w_848,h_520,color_ffffff/format,webp/quality,Q_100"
+   }
+  ]
+ },
+ "deadlink_hits": [
+  {
+   "tag": "TEXT",
+   "txt": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"url\": \"https://dripsneakers.net/Payment-Methods\",\n  \"main"
+  }
+ ]
+}
