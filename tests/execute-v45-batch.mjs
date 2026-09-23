@@ -69,13 +69,20 @@ try {
       const summary = await setEditor(1, plan.key_description_html);
       result.steps.push({ step: 'content-filled', descOk: description.ok, summaryLi: (summary.content.match(/<li\b/gi) || []).length });
 
-      // Toggle publish switch
+      // Toggle publish switch - always force it on
       const publishSwitch = page.locator('main .el-form-item').filter({ hasText: '商品上架' }).locator('[role=switch], .el-switch').first();
       if (!await publishSwitch.count()) throw new Error('Publish switch not found');
       const checked = await publishSwitch.getAttribute('aria-checked');
       const alreadyOn = checked === 'true' || await publishSwitch.evaluate((el) => el.classList.contains('is-checked'));
-      if (!alreadyOn) await publishSwitch.click();
-      result.steps.push({ step: 'switch-set', alreadyOn });
+      if (alreadyOn) {
+        await publishSwitch.click();
+        await page.waitForTimeout(300);
+        await publishSwitch.click();
+      } else {
+        await publishSwitch.click();
+      }
+      await page.waitForTimeout(300);
+      result.steps.push({ step: 'switch-set', before: checked });
 
       // Save
       let ids = [];
