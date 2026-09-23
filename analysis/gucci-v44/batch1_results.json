@@ -1,0 +1,370 @@
+{
+  "report": {
+    "PASS": [
+      {
+        "pid": "536027265415199",
+        "name": "Gucci Screener 570442 0YI20 9570"
+      }
+    ],
+    "HOLD": [
+      {
+        "pid": "536027265190424",
+        "name": "Gucci Screener 546551 99W20 4368",
+        "reason": {
+          "type": "duplicate_main_image",
+          "detail": "main image is byte-identical to product 536027265320726 (md5 7b4676c8f9f1); two distinct SKUs cannot share one main image",
+          "secondary": "the SKU resolves to a White/Blue colorway, but the photo shows grey suede with a green/orange Web"
+        }
+      },
+      {
+        "pid": "536027265239835",
+        "name": "Gucci Screener 576223 2KQ40 4467"
+      },
+      {
+        "pid": "536027265320726",
+        "name": "Gucci Screener 546551 2KU50 2197",
+        "reason": {
+          "type": "duplicate_main_image",
+          "detail": "main image is byte-identical to product 536027265190424 (md5 7b4676c8f9f1)"
+        }
+      },
+      {
+        "pid": "536027265496863",
+        "name": "Gucci Screener 546551 9PYQ0 9116",
+        "reason": {
+          "type": "duplicate_main_image",
+          "detail": "main image is byte-identical to product 536027265704983 (md5 81dd116bb3a4); the two sources also disagree on the colourway"
+        }
+      }
+    ],
+    "NEEDS_EVIDENCE": []
+  },
+  "results": {
+    "536027265239835": {
+      "evidence": {
+        "legacy_name": "Gucci Screener 576223 2KQ40 4467",
+        "sku": "576223-2KQ40-4467",
+        "model": "Screener Series GG",
+        "brand": "Gucci",
+        "product_type": "Sneakers",
+        "sources": [
+          {
+            "source_type": "established retailer (KicksCrew)",
+            "title": "Gucci GG Screener 'GG Canvas - Denim Ivory'",
+            "colorway": "Blue/Ivory",
+            "hex": "576223-2KQ40-4467",
+            "release_date": "2021-07-27"
+          }
+        ],
+        "observation": "Off-white / ivory leather upper, dark navy GG monogram canvas on the toe and side panels, a blue and orange Web stripe, gum rubber sole, small GG logo on the heel tab.",
+        "proposed_name": "Gucci Screener GG Canvas Denim Ivory",
+        "colorway": "Denim Ivory",
+        "key_sentence": "This Gucci Screener pairs an ivory leather upper with navy GG canvas panels, a blue and orange Web stripe and a gum rubber sole.",
+        "colorway_options": {
+          "Denim Ivory": "The retailer nickname for this colourway",
+          "Blue Ivory": "The retailer colourway field",
+          "Navy GG": "Describes only the canvas panel",
+          "Off White": "Describes only the leather"
+        }
+      },
+      "verdict": "HOLD",
+      "pdp": {
+        "pid": "536027265239835",
+        "product_name": "Gucci Screener GG Canvas Denim Ivory",
+        "h1": "Gucci Screener GG Canvas Denim Ivory",
+        "seo_title": "Gucci Screener GG Canvas Denim Ivory 576223-2KQ40-4467 Reps | Drip Sneakers",
+        "keywords": "Gucci Screener GG Canvas Denim Ivory, Gucci Screener GG Canvas Denim Ivory Sneakers, Gucci Denim Ivory Sneakers, 576223-2KQ40-4467, Gucci Screener Reps",
+        "meta_description": "Shop Gucci Screener GG Canvas Denim Ivory reps (576223-2KQ40-4467) at Drip Sneakers with QC photos, 30-day returns and 7–20 day shipping.",
+        "url_slug": "gucci-screener-gg-canvas-denim-ivory-576223-2kq40-4467",
+        "canonical": "https://www.dripsneakers.org/gucci-screener-gg-canvas-denim-ivory-576223-2kq40-4467",
+        "key_description": "<p>\nThis Gucci Screener pairs an ivory leather upper with navy GG canvas panels, a blue and orange Web stripe and a gum rubber sole.\n</p>\n\n<h2>Product Details</h2>\n\n<ul>\n<li><strong>Brand:</strong> <a href=\"https://www.dripsneakers.org/Gucci/\"><strong>Gucci</strong></a></li>\n<li><strong>Product Type:</strong> Sneakers</li>\n<li><strong>Model:</strong> Screener Series GG</li>\n<li><strong>Colorway:</strong> Denim Ivory</li>\n<li><strong>SKU:</strong> 576223-2KQ40-4467</li>\n</ul>",
+        "key_description_sentence": "This Gucci Screener pairs an ivory leather upper with navy GG canvas panels, a blue and orange Web stripe and a gum rubber sole.",
+        "description_rule": "product detail images only",
+        "description_html": "<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_576223_2kq40_4467_195FBEC9C761B.jpg\" alt=\"Gucci Screener GG Canvas Denim Ivory Side View\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_576223_2kq40_4467_195FBECBC7712.jpg\" alt=\"Gucci Screener GG Canvas Denim Ivory Front View\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_576223_2kq40_4467_195FBECA62D1B.jpg\" alt=\"Gucci Screener GG Canvas Denim Ivory Back View\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_576223_2kq40_4467_195FBECA86213.jpg\" alt=\"Gucci Screener GG Canvas Denim Ivory Top View\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_576223_2kq40_4467_195FBECAC3D1F.jpg\" alt=\"Gucci Screener GG Canvas Denim Ivory Sole Detail\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_576223_2kq40_4467_195FBECB0CA17.jpg\" alt=\"Gucci Screener GG Canvas Denim Ivory Graphic Detail\" />",
+        "image_alt": [
+          "Gucci Screener GG Canvas Denim Ivory Side View",
+          "Gucci Screener GG Canvas Denim Ivory Front View",
+          "Gucci Screener GG Canvas Denim Ivory Back View",
+          "Gucci Screener GG Canvas Denim Ivory Top View",
+          "Gucci Screener GG Canvas Denim Ivory Sole Detail",
+          "Gucci Screener GG Canvas Denim Ivory Graphic Detail"
+        ],
+        "photo_observation": "Off-white / ivory leather upper, dark navy GG monogram canvas on the toe and side panels, a blue and orange Web stripe, gum rubber sole, small GG logo on the heel tab.",
+        "schema": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Gucci Screener GG Canvas Denim Ivory",
+          "brand": {
+            "@type": "Brand",
+            "name": "Gucci"
+          },
+          "category": "Sneakers",
+          "color": "Denim Ivory",
+          "sku": "576223-2KQ40-4467"
+        }
+      },
+      "jev": {
+        "naming": {
+          "model": "jev-1.13.0",
+          "answers": {
+            "legacy_name_accurate": {
+              "type": "noul",
+              "noul": 0.32
+            },
+            "proposed_name_accurate": {
+              "type": "noul",
+              "noul": 0.4
+            }
+          },
+          "usage": {
+            "input_tokens": 502,
+            "output_tokens": 45
+          }
+        },
+        "colorway": {
+          "model": "jev-1.13.0",
+          "answers": {
+            "colorway_term": {
+              "type": "choice",
+              "choice": "Blue Ivory",
+              "confidence": 0.69,
+              "probabilities": {
+                "Navy GG": 0.02,
+                "Blue Ivory": 0.76,
+                "Denim Ivory": 0.21,
+                "Off White": 0.01
+              }
+            },
+            "most_identity_critical": {
+              "type": "choice",
+              "choice": "web_stripe",
+              "confidence": 0.35,
+              "probabilities": {
+                "web_stripe": 0.52,
+                "panel_artwork": 0.19,
+                "overall_base_colour": 0.29,
+                "sole_and_heel": 0.0
+              }
+            }
+          },
+          "usage": {
+            "input_tokens": 582,
+            "output_tokens": 111
+          }
+        },
+        "compliance": {
+          "model": "jev-1.13.0",
+          "answers": {
+            "meta_exact_entity": {
+              "type": "noul",
+              "noul": 0.95
+            },
+            "meta_reps_intent": {
+              "type": "noul",
+              "noul": 0.98
+            },
+            "meta_assurance_trio": {
+              "type": "noul",
+              "noul": 0.99
+            },
+            "meta_no_feature_stuffing": {
+              "type": "noul",
+              "noul": 0.77
+            },
+            "kd_not_repeating_entity": {
+              "type": "noul",
+              "noul": 0.96
+            },
+            "kd_sentence_matches_photo": {
+              "type": "noul",
+              "noul": 0.71
+            },
+            "details_five_high_value": {
+              "type": "noul",
+              "noul": 0.67
+            },
+            "title_carries_sku_once": {
+              "type": "noul",
+              "noul": 0.95
+            },
+            "keywords_not_cannibalising": {
+              "type": "noul",
+              "noul": 0.82
+            }
+          },
+          "usage": {
+            "input_tokens": 2242,
+            "output_tokens": 187
+          }
+        }
+      },
+      "gates": {
+        "gate2": [],
+        "gate3": []
+      }
+    },
+    "536027265415199": {
+      "evidence": {
+        "legacy_name": "Gucci Screener 570442 0YI20 9570",
+        "sku": "570442-0YI20-9570",
+        "model": "Screener Series GG",
+        "brand": "Gucci",
+        "product_type": "Sneakers",
+        "sources": [
+          {
+            "source_type": "established retailer (KicksCrew)",
+            "title": "(WMNS) Gucci Screener Leather 'Off White Pink'",
+            "colorway": "Off White/Pink/Red/Blue",
+            "hex": "570442-0YI20-9570",
+            "release_date": "2023-03-05"
+          }
+        ],
+        "observation": "Beige / off-white leather upper with pink accents at the toe, a red, blue and brown Web stripe, a navy heel tab, white midsole with a dark outsole.",
+        "proposed_name": "Gucci Screener Leather Off White Pink",
+        "colorway": "Off White Pink",
+        "key_sentence": "This Gucci Screener features a beige leather upper with pink accents at the toe, a red, blue and brown Web stripe and a white midsole over a dark outsole.",
+        "colorway_options": {
+          "Off White Pink": "The retailer nickname for this colourway",
+          "Off White": "Describes only the leather",
+          "Pink": "Names the product pink",
+          "Multi Color": "A generic colourway bucket"
+        }
+      },
+      "verdict": "PASS",
+      "pdp": {
+        "pid": "536027265415199",
+        "product_name": "Gucci Screener Leather Off White Pink",
+        "h1": "Gucci Screener Leather Off White Pink",
+        "seo_title": "Gucci Screener Leather Off White Pink 570442-0YI20-9570 Reps | Drip Sneakers",
+        "keywords": "Gucci Screener Leather Off White Pink, Gucci Screener Leather Off White Pink Sneakers, Gucci Off White Pink Sneakers, 570442-0YI20-9570, Gucci Screener Reps",
+        "meta_description": "Shop Gucci Screener Leather Off White Pink reps (570442-0YI20-9570) at Drip Sneakers with QC photos, 30-day returns and 7–20 day shipping.",
+        "url_slug": "gucci-screener-leather-off-white-pink-570442-0yi20-9570",
+        "canonical": "https://www.dripsneakers.org/gucci-screener-leather-off-white-pink-570442-0yi20-9570",
+        "key_description": "<p>\nThis Gucci Screener features a beige leather upper with pink accents at the toe, a red, blue and brown Web stripe and a white midsole over a dark outsole.\n</p>\n\n<h2>Product Details</h2>\n\n<ul>\n<li><strong>Brand:</strong> <a href=\"https://www.dripsneakers.org/Gucci/\"><strong>Gucci</strong></a></li>\n<li><strong>Product Type:</strong> Sneakers</li>\n<li><strong>Model:</strong> Screener Series GG</li>\n<li><strong>Colorway:</strong> Off White Pink</li>\n<li><strong>SKU:</strong> 570442-0YI20-9570</li>\n</ul>",
+        "key_description_sentence": "This Gucci Screener features a beige leather upper with pink accents at the toe, a red, blue and brown Web stripe and a white midsole over a dark outsole.",
+        "description_rule": "product detail images only",
+        "description_html": "<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570442_0yi20_9570_195FC09C1CE13.jpg\" alt=\"Gucci Screener Leather Off White Pink Side View\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570442_0yi20_9570_195FC09BBCE19.jpg\" alt=\"Gucci Screener Leather Off White Pink Front View\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570442_0yi20_9570_195FC09CE4418.jpg\" alt=\"Gucci Screener Leather Off White Pink Back View\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570442_0yi20_9570_195FC09B35414.jpg\" alt=\"Gucci Screener Leather Off White Pink Top View\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570442_0yi20_9570_195FC09C77E1D.jpg\" alt=\"Gucci Screener Leather Off White Pink Sole Detail\" />\n<img src=\"https://images.mrshopplus.com/418932770517528/DTB_proProduct/2023-10-14/gucci_screener_570442_0yi20_9570_195FC09C32819.jpg\" alt=\"Gucci Screener Leather Off White Pink Graphic Detail\" />",
+        "image_alt": [
+          "Gucci Screener Leather Off White Pink Side View",
+          "Gucci Screener Leather Off White Pink Front View",
+          "Gucci Screener Leather Off White Pink Back View",
+          "Gucci Screener Leather Off White Pink Top View",
+          "Gucci Screener Leather Off White Pink Sole Detail",
+          "Gucci Screener Leather Off White Pink Graphic Detail"
+        ],
+        "photo_observation": "Beige / off-white leather upper with pink accents at the toe, a red, blue and brown Web stripe, a navy heel tab, white midsole with a dark outsole.",
+        "schema": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Gucci Screener Leather Off White Pink",
+          "brand": {
+            "@type": "Brand",
+            "name": "Gucci"
+          },
+          "category": "Sneakers",
+          "color": "Off White Pink",
+          "sku": "570442-0YI20-9570"
+        }
+      },
+      "jev": {
+        "naming": {
+          "model": "jev-1.13.0",
+          "answers": {
+            "legacy_name_accurate": {
+              "type": "noul",
+              "noul": 0.28
+            },
+            "proposed_name_accurate": {
+              "type": "noul",
+              "noul": 0.76
+            }
+          },
+          "usage": {
+            "input_tokens": 499,
+            "output_tokens": 45
+          }
+        },
+        "colorway": {
+          "model": "jev-1.13.0",
+          "answers": {
+            "colorway_term": {
+              "type": "choice",
+              "choice": "Off White Pink",
+              "confidence": 0.92,
+              "probabilities": {
+                "Pink": 0.0,
+                "Off White Pink": 0.95,
+                "Multi Color": 0.04,
+                "Off White": 0.01
+              }
+            },
+            "most_identity_critical": {
+              "type": "choice",
+              "choice": "web_stripe",
+              "confidence": 0.56,
+              "probabilities": {
+                "web_stripe": 0.66,
+                "overall_base_colour": 0.31,
+                "sole_and_heel": 0.01,
+                "panel_artwork": 0.02
+              }
+            }
+          },
+          "usage": {
+            "input_tokens": 575,
+            "output_tokens": 110
+          }
+        },
+        "compliance": {
+          "model": "jev-1.13.0",
+          "answers": {
+            "meta_exact_entity": {
+              "type": "noul",
+              "noul": 0.95
+            },
+            "meta_reps_intent": {
+              "type": "noul",
+              "noul": 0.97
+            },
+            "meta_assurance_trio": {
+              "type": "noul",
+              "noul": 0.99
+            },
+            "meta_no_feature_stuffing": {
+              "type": "noul",
+              "noul": 0.79
+            },
+            "kd_not_repeating_entity": {
+              "type": "noul",
+              "noul": 0.96
+            },
+            "kd_sentence_matches_photo": {
+              "type": "noul",
+              "noul": 0.58
+            },
+            "details_five_high_value": {
+              "type": "noul",
+              "noul": 0.57
+            },
+            "title_carries_sku_once": {
+              "type": "noul",
+              "noul": 0.95
+            },
+            "keywords_not_cannibalising": {
+              "type": "noul",
+              "noul": 0.84
+            }
+          },
+          "usage": {
+            "input_tokens": 2229,
+            "output_tokens": 187
+          }
+        }
+      },
+      "gates": {
+        "gate2": [],
+        "gate3": []
+      }
+    }
+  }
+}

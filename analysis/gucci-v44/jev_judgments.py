@@ -151,23 +151,11 @@ def judge_v44_compliance(pdp: dict) -> dict:
             "instructions": "Does `pdp.meta_description` include all three purchase assurances: QC photos, 30-day returns, and 7-20 day shipping?",
             "criteria": {"true": "All three assurances appear", "false": "One or more of the three is missing"},
         },
-        "meta_no_unsupported_claim": {
-            "type": "noul",
-            "instructions": (
-                "Does `pdp.meta_description` contain any purchase or trust claim that goes "
-                "beyond the approved wording set? The approved set is exactly these three: "
-                "'QC photos', '30-day returns', '7-20 day shipping'. In addition, the word "
-                "'reps' is approved, because stating reps intent is required by the "
-                "standard. Anything stronger than the approved set is unsupported."
-            ),
-            "criteria": {
-                "true": "Every purchase claim in the text stays within the approved set",
-                "false": ("At least one claim goes beyond the approved set, for example "
-                          "'real QC photos', 'guaranteed QC photos', 'guaranteed delivery', "
-                          "'1:1 guaranteed', 'authentic quality', 'best quality', or wording "
-                          "that turns the 7-20 day shipping range into a delivery promise"),
-            },
-        },
+        # NOTE: the unsupported-claim check deliberately lives in Gate 3 as a
+        # deterministic blacklist regex, NOT here. Measured on identical text this
+        # question returned 0.15 / 0.75 / 0.17 across three phrasings, because it is
+        # a policy/wordlist rule rather than a semantic judgement. Known rules stay
+        # in code; Jev is used only where meaning must be interpreted.
         "meta_no_feature_stuffing": {
             "type": "noul",
             "instructions": (

@@ -1,0 +1,109 @@
+{
+  "_note": "Per-product entity evidence for the Gucci-Sneakers batch. `observation` comes from reading the actual product photo, never from the filename. `verdict` is set by code (Gate 1) from this evidence, not asserted here.",
+
+  "536027265190424": {
+    "legacy_name": "Gucci Screener 546551 99W20 4368",
+    "sku": "546551-99W20-4368",
+    "model": "Screener Series GG",
+    "brand": "Gucci",
+    "product_type": "Sneakers",
+    "sources": [
+      {"source_type": "established retailer (KicksCrew / genuineauthenticbrand)",
+       "title": "Gucci GG Screener 'White Blue'", "colorway": "White/Blue",
+       "hex": "546551-99W20-4368", "release_date": "2021-01-31"}
+    ],
+    "observation": "Grey suede upper, green and orange Web stripe, GG monogram canvas side panel, black heel tab, white midsole with dark outsole.",
+    "conflict": {
+      "type": "duplicate_main_image",
+      "detail": "main image is byte-identical to product 536027265320726 (md5 7b4676c8f9f1); two distinct SKUs cannot share one main image",
+      "secondary": "the SKU resolves to a White/Blue colorway, but the photo shows grey suede with a green/orange Web"
+    }
+  },
+
+  "536027265239835": {
+    "legacy_name": "Gucci Screener 576223 2KQ40 4467",
+    "sku": "576223-2KQ40-4467",
+    "model": "Screener Series GG",
+    "brand": "Gucci",
+    "product_type": "Sneakers",
+    "sources": [
+      {"source_type": "established retailer (KicksCrew)",
+       "title": "Gucci GG Screener 'GG Canvas - Denim Ivory'", "colorway": "Blue/Ivory",
+       "hex": "576223-2KQ40-4467", "release_date": "2021-07-27"}
+    ],
+    "observation": "Off-white / ivory leather upper, dark navy GG monogram canvas on the toe and side panels, a blue and orange Web stripe, gum rubber sole, small GG logo on the heel tab.",
+    "proposed_name": "Gucci Screener GG Canvas Denim Ivory",
+    "colorway": "Denim Ivory",
+    "key_sentence": "This Gucci Screener pairs an ivory leather upper with navy GG canvas panels, a blue and orange Web stripe and a gum rubber sole.",
+    "colorway_options": {
+      "Denim Ivory": "The retailer nickname for this colourway",
+      "Blue Ivory": "The retailer colourway field",
+      "Navy GG": "Describes only the canvas panel",
+      "Off White": "Describes only the leather"
+    }
+  },
+
+  "536027265320726": {
+    "legacy_name": "Gucci Screener 546551 2KU50 2197",
+    "sku": "546551-2KU50-2197",
+    "model": "Screener Series GG",
+    "brand": "Gucci",
+    "product_type": "Sneakers",
+    "sources": [
+      {"source_type": "established retailer (KicksCrew)",
+       "title": "Gucci GG Screener 'GG Canvas - Brown'",
+       "colorway": "Brown/Dark Grey/Red/Green/Black",
+       "hex": "546551-2KU50-2197", "release_date": "2021-07-27"}
+    ],
+    "observation": "Grey suede upper, green and orange Web stripe, GG monogram canvas side panel, black heel tab, white midsole with dark outsole.",
+    "conflict": {
+      "type": "duplicate_main_image",
+      "detail": "main image is byte-identical to product 536027265190424 (md5 7b4676c8f9f1)"
+    }
+  },
+
+  "536027265415199": {
+    "legacy_name": "Gucci Screener 570442 0YI20 9570",
+    "sku": "570442-0YI20-9570",
+    "model": "Screener Series GG",
+    "brand": "Gucci",
+    "product_type": "Sneakers",
+    "sources": [
+      {"source_type": "established retailer (KicksCrew)",
+       "title": "(WMNS) Gucci Screener Leather 'Off White Pink'",
+       "colorway": "Off White/Pink/Red/Blue",
+       "hex": "570442-0YI20-9570", "release_date": "2023-03-05"}
+    ],
+    "observation": "Beige / off-white leather upper with pink accents at the toe, a red, blue and brown Web stripe, a navy heel tab, white midsole with a dark outsole.",
+    "proposed_name": "Gucci Screener Leather Off White Pink",
+    "colorway": "Off White Pink",
+    "key_sentence": "This Gucci Screener features a beige leather upper with pink accents at the toe, a red, blue and brown Web stripe and a white midsole over a dark outsole.",
+    "colorway_options": {
+      "Off White Pink": "The retailer nickname for this colourway",
+      "Off White": "Describes only the leather",
+      "Pink": "Names the product pink",
+      "Multi Color": "A generic colourway bucket"
+    }
+  },
+
+  "536027265496863": {
+    "legacy_name": "Gucci Screener 546551 9PYQ0 9116",
+    "sku": "546551-9PYQ0-9116",
+    "model": "Screener Series GG",
+    "brand": "Gucci",
+    "product_type": "Sneakers",
+    "sources": [
+      {"source_type": "established retailer (KicksCrew)",
+       "title": "Gucci GG Screener 'Multi-Color'", "colorway": "Multi-Color",
+       "hex": "546551-9PYQ0-9116", "release_date": "2023-06-14"},
+      {"source_type": "retail listing (bestpeek)",
+       "title": "Gucci Men's Screener Sneakers In Nubuck And Fabric",
+       "colorway": "off-white leather with white nylon, green and orange web detail"}
+    ],
+    "observation": null,
+    "conflict": {
+      "type": "duplicate_main_image",
+      "detail": "main image is byte-identical to product 536027265704983 (md5 81dd116bb3a4); the two sources also disagree on the colourway"
+    }
+  }
+}
