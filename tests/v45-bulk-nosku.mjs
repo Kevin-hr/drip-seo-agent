@@ -21,12 +21,11 @@ for (const dir of await fs.readdir(runDir)) {
 }
 console.log(`Already published: ${published.size}`);
 
-// Blocklist: products that consistently fail backend save (excluded from queue)
-const blocklistFile = path.join(runDir, 'blocklist.json');
+// Blocklist + failed: products that consistently fail backend save (excluded from queue)
 const blocklist = new Set();
-try {
-  for (const id of JSON.parse(await fs.readFile(blocklistFile, 'utf8'))) blocklist.add(String(id));
-} catch {}
+for (const f of ['blocklist.json', 'failed.json']) {
+  try { for (const id of JSON.parse(await fs.readFile(path.join(runDir, f), 'utf8'))) blocklist.add(String(id)); } catch {}
+}
 if (blocklist.size) console.log(`Blocklist: ${blocklist.size} excluded`);
 
 // Target: no-SKU VERIFY products not yet published and not blocklisted
