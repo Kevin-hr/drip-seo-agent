@@ -100,14 +100,24 @@ try {
       const publishSwitch = page.locator('main .el-form-item').filter({ hasText: '商品上架' }).locator('[role=switch], .el-switch').first();
       if (!await publishSwitch.count()) throw new Error('Publish switch not found');
       const checked = await publishSwitch.getAttribute('aria-checked');
-      if (checked === 'true' || await publishSwitch.evaluate((el) => el.classList.contains('is-checked'))) throw new Error('Publish switch already on');
-      await publishSwitch.click();
-      const saveResponsePromise = page.waitForResponse((r) => /DTB_proProduct\/saveModify/i.test(r.url()) && r.request().method() !== 'GET', { timeout: 60000 });
-      await page.getByRole('button', { name: '保存', exact: true }).click();
-      const saveResponse = await saveResponsePromise;
-      const receipt = await saveResponse.json();
-      const ids = Array.isArray(receipt?.result) ? receipt.result.map(String) : [];
-      if (saveResponse.status() !== 200 || ids.length !== 1 || ids[0] !== id) throw new Error(`Unsafe save receipt: ${JSON.stringify(ids)}`);
+      const alreadyOn = checked === 'true' || await publishSwitch.evaluate((el) => el.classList.contains('is-checked'));
+      if (!alreadyOn) {
+        await publishSwitch.click();
+      } else {
+        result.steps.push({ step: 'publish-switch-already-on', note: 'content filled, saving' });
+      }
+      let ids = [];
+      for (let attempt = 1; attempt <= 3; attempt++) {
+        const saveResponsePromise = page.waitForResponse((r) => /DTB_proProduct\/saveModify/i.test(r.url()) && r.request().method() !== 'GET', { timeout: 60000 });
+        await page.getByRole('button', { name: '保存', exact: true }).click();
+        const saveResponse = await saveResponsePromise;
+        const receipt = await saveResponse.json();
+        ids = Array.isArray(receipt?.result) ? receipt.result.map(String) : [];
+        if (saveResponse.status() === 200 && ids.length === 1 && ids[0] === id) break;
+        result.steps.push({ step: `save-retry-${attempt}`, ids });
+        await page.waitForTimeout(1500);
+      }
+      if (ids.length !== 1 || ids[0] !== id) throw new Error(`Unsafe save receipt: ${JSON.stringify(ids)}`);
       result.steps.push({ step: 'save-receipt', ids });
 
       await page.waitForTimeout(1000);
