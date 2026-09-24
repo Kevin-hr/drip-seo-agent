@@ -1,0 +1,47 @@
+﻿
+=== Vans Old Skool 36 LX Pearlized Black Navy ===
+  Editors set (5 fields, internal link, Description cleared)
+  -> OK
+
+=== Vans Classic Slip-On Checkerboard Black White ===
+  Editors set (5 fields, internal link, Description cleared)
+  -> OK
+
+=== Vans Sk8-Hi Navy ===
+  Editors set (5 fields, internal link, Description cleared)
+  -> OK
+
+=== Vans Sk8-Hi Black White ===
+  Editors set (5 fields, internal link, Description cleared)
+  -> OK
+
+=== Vans Authentic Black White ===
+  Editors set (5 fields, internal link, Description cleared)
+  -> OK
+
+=== Vans Old Skool 36 LX Souvenir Warm Brown ===
+  Editors set (5 fields, internal link, Description cleared)
+  -> OK
+
+=== Vans Old Skool 36 LX Souvenir Black ===
+  Editors set (5 fields, internal link, Description cleared)
+  -> OK
+
+=== Lanvin Curb Sneakers White ===
+  Editors set (5 fields, internal link, Description cleared)
+  -> OK
+
+=== Lanvin Curb Sneakers Speckled Effect Light Grey ===
+  Editors set (5 fields, internal link, Description cleared)
+  -> System error, please contact us.
+
+=== Lanvin Curb Sneakers White Anthracite ===
+  Editors set (5 fields, internal link, Description cleared)
+  -> OK
+
+=== Lanvin Curb Sneakers Beige White Tan ===
+  Editors set (5 fields, internal link, Description cleared)
+  -> OK
+
+=== Retry: Air Jordan 11 Retro 285 ===
+  -> OK

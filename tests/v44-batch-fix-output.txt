@@ -1,0 +1,40 @@
+﻿Clearing Description: Balenciaga Runner bundle
+  -> OK
+Clearing Description: BAPE ABC Camo Tee Black/Green
+  -> OK
+Clearing Description: Nike Kobe IX Elite Low EM Protro
+  -> OK
+Clearing Description: Air Jordan 6 x Awake NY
+  -> OK
+Clearing Description: Off-White Be Right Back
+  -> OK
+Clearing Description: adidas XLG Runner Deluxe
+  -> OK
+Clearing Description: Dior Aqua Sandal Black
+  -> OK
+Clearing Description: Dior Aqua Mule Beige Black
+  -> OK
+Clearing Description: Air Jordan 11 Animal Instinct
+  -> OK
+Clearing Description: Air Jordan 11 Inner Beast
+  -> OK
+Clearing Description: Air Jordan 11 H-Town
+  -> OK
+Clearing Description: Air Jordan 11 285
+  -> System error, please contact us.
+Clearing Description: Jordan 11 Low Mothers Day
+  -> OK
+Clearing Description: Jordan 11 Mojave Canyon Purple
+  -> OK
+Clearing Description: Nike Air Force 1 Triple Red
+  -> OK
+Clearing Description: Louis Vuitton LV Trainer White
+  -> OK
+Clearing Description: Air Jordan 5 Retro Medium Soft Pink
+  -> OK
+
+Unpublishing: 球衣测试
+  -> Saved (unpublished)
+
+=== Summary ===
+Success: 17/18

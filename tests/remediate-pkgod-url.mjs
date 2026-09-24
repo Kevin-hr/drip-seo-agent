@@ -133,13 +133,29 @@ for (const p of targets) {
       rowClone.OldUrlValue = row.UrlValue || p.urlValue;
     }
 
-    // 4. save
-    const resp = await page.evaluate(async (b) => {
+    // 4. save (retry once with id-suffix if Seo-path collision code=-3)
+    const saveBody = { args: [[{ name: 'dtb_proProduct', defaults, rows: [rowClone] }]] };
+    let resp = await page.evaluate(async (b) => {
       const r = await fetch('/biz/DTB_proProduct/saveModify', { method: 'POST', credentials: 'include',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(b) });
       return r.json();
-    }, { args: [[{ name: 'dtb_proProduct', defaults, rows: [rowClone] }]] });
+    }, saveBody);
+
+    if (resp.success !== true && JSON.stringify(resp).includes('code":-3') && hasPkgod) {
+      // Seo path collision against legacy/hidden records -> append id suffix, retry once
+      const suffixed = `${candidate}-${id.slice(-6)}`;
+      used.add(suffixed);
+      rowClone.UrlValue = suffixed;
+      rowClone.Url = `/${suffixed}${row.UrlSuffix || '.html'}`;
+      resp = await page.evaluate(async (b) => {
+        const r = await fetch('/biz/DTB_proProduct/saveModify', { method: 'POST', credentials: 'include',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(b) });
+        return r.json();
+      }, saveBody);
+      if (resp.success === true) candidate = suffixed;
+    }
 
     if (resp.success !== true) {
       rec.status = 'save-fail';
