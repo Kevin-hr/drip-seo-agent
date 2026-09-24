@@ -1,0 +1,8 @@
+﻿Found 7 Chanel product links on frontend:
+  https://www.dripsneakers.org/Chanel-Sneaker-Light-Pink-G45077-B16748-NY270 -> Chanel Sneaker Light Pink
+  https://www.dripsneakers.org/Chanel-G39792-Interlocking-CC-Logo-Sneakers-Black -> Chanel Interlocking CC Logo Sneakers Black
+  https://www.dripsneakers.org/Chanel-CC-Short-Sleeved-T-shirt -> Chanel CC Short-Sleeved T-shirt
+  https://www.dripsneakers.org/Chanel-CC-Logo-Sneaker-Black -> Chanel CC Logo Sneaker Black
+  https://www.dripsneakers.org/Chanel-Interlocking-CC-Logo-Sneaker-Light-Grey-G40184-Y56630-0T627 -> Chanel Interlocking CC Logo Sneaker Light Grey
+  https://www.dripsneakers.org/Chanel-Low-Top-Trainer-CC-Grey-G34360-X52117-94305 -> Chanel Low Top Trainer CC Grey
+  https://www.dripsneakers.org/Chanel-CC-Logo-Sneaker-White-Black -> Chanel Low Top Trainer Suede White Black

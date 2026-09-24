@@ -1,0 +1,21 @@
+﻿Page data: {
+  "allIds": [
+    "517863593625639",
+    "536017617219089",
+    "536027442773784",
+    "536027442758422",
+    "536017617252116",
+    "541217777969947",
+    "541217782556189",
+    "541217785801492",
+    "541217789243666",
+    "541217791352093"
+  ]
+}
+
+API requests: [
+  'https://assets.mrshopplus.com/themes/product-icon/517863593625639.css?t=1ECBA6A343215',
+  'https://assets.mrshopplus.com/517863593625639/Theme-Shoes/1/Asset/script/product_detail.js?t=1ECBA6A343215',
+  'https://assets.mrshopplus.com/517863593625639/Theme-Shoes/1/Asset/script/theme_product_detail.js?t=1ECBA6A343215',
+  'https://www.google-analytics.com/g/collect?v=2&tid=G-8YZ18LVXSR&gtm=45je69m1v9264057965za208zd9264057965xf1&_p=1790244660055&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1173020011.1790244661&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1400x900&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B153.0.8010.53%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.53&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=zh-cn&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121280971&sid=1790244660&sct=1&seg=0&dl=https%3A%2F%2Fwww.dripsneakers.org%2FChanel-CC-Logo-Sneaker-Black-White&dt=Chanel%20CC%20Logo%20Sneaker%20Black%20White%20%7C%20Drip%20Sneakers&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3494'
+]
