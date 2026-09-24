@@ -69,16 +69,18 @@ try {
       const summary = await setEditor(1, plan.key_description_html);
       result.steps.push({ step: 'content-filled', descOk: description.ok, summaryLi: (summary.content.match(/<li\b/gi) || []).length });
 
-      // Toggle publish switch - click the switch core
+      // Toggle publish switch - force it on (backend IsShow=false means we need it true)
       const publishSwitch = page.locator('main .el-form-item').filter({ hasText: '商品上架' }).locator('.el-switch').first();
       if (!await publishSwitch.count()) throw new Error('Publish switch not found');
-      const alreadyOn = await publishSwitch.evaluate((el) => el.classList.contains('is-checked'));
-      if (!alreadyOn) {
+      const uiOn = await publishSwitch.evaluate((el) => el.classList.contains('is-checked'));
+      if (uiOn) {
         await publishSwitch.locator('.el-switch__core').click({ force: true });
-        await page.waitForTimeout(500);
+        await page.waitForTimeout(300);
       }
+      await publishSwitch.locator('.el-switch__core').click({ force: true });
+      await page.waitForTimeout(500);
       const nowOn = await publishSwitch.evaluate((el) => el.classList.contains('is-checked'));
-      result.steps.push({ step: 'switch-set', alreadyOn, nowOn });
+      result.steps.push({ step: 'switch-set', uiOn, nowOn });
 
       // Save
       let ids = [];
