@@ -1,0 +1,50 @@
+﻿Page 1: 15 products
+  541668347821586: New Balance 9060 Triple Black Leather
+  541667950785052: New Balance 9060 Magnet
+  541667683776286: New Balance 9060 Moonrock Linen
+  541665560480535: New Balance 9060 DTLR Glow
+  541665286797340: New Balance 9060 Grey Lilac
+  541664992516377: New Balance 9060 Workwear
+  541664381604892: New Balance 9060 Natural Indigo
+  541648130634781: New Balance 9060 Bricks & Wood
+  541646303557145: New Balance 9060 Ivory Cream Pink Sand
+  541642489552657: New Balance 9060 Mushroom Brown
+  541580216648219: Represent Hermes Hoodie Jet Black
+  541579886672407: Represent Hermes Hoodie Purple
+  541579345303579: Represent Luggage Tag Hoodie Antique White
+  541579123484953: Represent Luggage Tag Hoodie Jet Black
+  541578922851864: Represent Keys To The Club Hood Black
+Page 2: 6 products
+  536027437743120: Chanel CC Logo Sneaker Silver
+  536027437695004: Chanel Sneaker Ivory Silver
+  536027437600016: Chanel G39792 Interlocking CC Logo Sneakers Black
+  536027437550618: Chanel Sneaker Light Pink
+  536027425560603: Chanel CC Logo Sneaker White Silver
+  536027337963542: Jordan 3 Retro SP Nina Chanel Abney Bicoastal FZ7974-300
+node : Fatal: locator.click: Timeout 20000ms exceeded.
+所在位置 行:1 字符: 63
++ ... -seo-agent; node tests/chanel-find.mjs > tests/chanel-find-output.txt ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Fatal: locator....000ms exceeded.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Call log:
+[2m  - waiting for locator('.btn-next:not(.disabled)')[22m
+[2m    - locator resolved to <button type="button" class="btn-next" disabled="disabled">…</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    38 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is not enabled[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+
+    at main (C:\Users\Administrator\Documents\drip-seo-agent\tests\chanel-find.mjs:47:21) {
+  name: 'TimeoutError'
+}

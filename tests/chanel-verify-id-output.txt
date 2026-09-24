@@ -1,0 +1,15 @@
+﻿node : Fatal: page.goto: net::ERR_CONNECTION_CLOSED at https://www.mrshopplus.com/#/product/form_DTB_proProduct/0?actio
+n=3&pkValues=%5B536027442773784%5D
+所在位置 行:1 字符: 63
++ ... -seo-agent; node tests/chanel-verify-id.mjs > tests/chanel-verify-id- ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Fatal: page.got...027442773784%5D:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Call log:
+[2m  - navigating to "https://www.mrshopplus.com/#/product/form_DTB_proProduct/0?action=3&pkValues=%5B536027442773784%
+5D", waiting until "domcontentloaded"[22m
+
+    at main (C:\Users\Administrator\Documents\drip-seo-agent\tests\chanel-verify-id.mjs:17:16) {
+  name: 'Error'
+}
