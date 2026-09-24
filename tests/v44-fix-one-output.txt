@@ -1,0 +1,44 @@
+﻿Updated SEO title
+Updated meta description
+Updated tinyMCE content
+Save buttons found: 1
+node : Fatal: locator.click: Timeout 20000ms exceeded.
+所在位置 行:1 字符: 63
++ ... -seo-agent; node tests/v44-fix-one.mjs > tests/v44-fix-one-output.txt ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Fatal: locator....000ms exceeded.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /保存|提交|确定/i }).last()[22m
+[2m    - locator resolved to <button type="button" class="el-button el-button--primary el-button--small">…</button>[2
+2m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" role="document" class="el-drawer__container el-drawer__open">…</div> from <div data-v-01
+821782="" data-v-cdcafa8a="">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" role="document" class="el-drawer__container el-drawer__open">…</div> from <div data-v-01
+821782="" data-v-cdcafa8a="">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    38 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div tabindex="-1" role="document" class="el-drawer__container el-drawer__open">…</div> from <div data-v-0
+1821782="" data-v-cdcafa8a="">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+
+    at main (C:\Users\Administrator\Documents\drip-seo-agent\tests\v44-fix-one.mjs:67:19) {
+  name: 'TimeoutError'
+}

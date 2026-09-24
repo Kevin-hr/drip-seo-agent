@@ -1,0 +1,12 @@
+﻿node : Fatal: page.evaluate: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': 'input:visible, textarea:
+visible' is not a valid selector.
+所在位置 行:1 字符: 63
++ ... -seo-agent; node tests/v44-seo-dialog2.mjs > tests/v44-seo-dialog-out ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Fatal: page.eva...valid selector.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    at eval (eval at evaluate (:302:30), <anonymous>:4:14)
+    at UtilityScript.evaluate (<anonymous>:304:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    at main (C:\Users\Administrator\Documents\drip-seo-agent\tests\v44-seo-dialog2.mjs:23:29)

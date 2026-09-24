@@ -1,0 +1,210 @@
+﻿start
+loaded
+body length: 1636
+Context around 编辑SEO:
+
+计量单位
+计量单位
+按件卖 
+打包销售
+不计库存
+价格区间
+新增
+价格区间首行的商品数量为最小购买数量，若不限制最小购买数量，请设置为1或删除所有价格区间
+商品数量	
+ 	操作
+暂无数据
+基本属性
+商品上架
+优惠券折扣 
+物流模板
+新增模板
+类别 
+NEW CLOTHINGNew Balance Shoes
+品牌
+标签
+New Balance 9060 Grey Lilac 
+主题模板
+SEO
+编辑SEO
+New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers
+https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM
+关键描述
+14px
+Verdana
+ 
+ 
+33 字
+上传图片
+备注
+0/500
+商品包装信息
+包装后重量
+Kg
+重量值不能超过10000,小数点后面保留两位小数
+包装长度
+Cm
+包装宽度
+Cm
+包装高度
+Cm
+商品规格 多规格：
+编辑规格
+序号	规格	图片	
+售价   设置
+	
+原价   设置
+	
+库存   设置
+	SKU	状态
+1
+	
+Size: US4/UK3.5/EUR36/CM22
+	
+	
+119
+	
+179
+	
+14222
+	
+	
+
+
+2
+	
+Size: US4.5/UK4/EUR37/22.5CM
+	
+	
+119
+	
+179
+	
+14222
+	
+	
+
+
+3
+	
+Size: US5/UK4.5/EUR37.5/CM23
+	
+	
+119
+	
+179
+	
+14222
+	
+	
+
+
+4
+	
+Size: US5.5/UK5/EUR3
+
+Context around 关键描述:
+Lilac U9060GM Reps | Drip Sneakers
+https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM
+关键描述
+14px
+Verdana
+ 
+ 
+33 字
+上传图片
+备注
+0/500
+商品包装信息
+包装后重量
+Kg
+重量值不能超过10000,小数点后面保留两位小数
+包装长度
+Cm
+包装宽度
+Cm
+包装高度
+Cm
+商品规格 多规格：
+编辑规格
+序号	规格	图片	
+售价   设置
+	
+原价   设置
+	
+库存   设置
+	SKU	状态
+1
+	
+Size: US4/UK3.5/EUR36/CM22
+	
+	
+119
+	
+179
+	
+14222
+	
+	
+
+
+2
+	
+Size: US4.5/UK4/EUR37/22.5CM
+	
+	
+119
+	
+179
+	
+14222
+	
+	
+
+
+3
+	
+Size: US5/UK4.5/EUR37.5/CM23
+	
+	
+119
+	
+179
+	
+14222
+	
+	
+
+
+4
+	
+Size: US5.5/UK5/EUR38/CM23.5
+	
+	
+119
+	
+179
+	
+14222
+	
+	
+
+
+5
+	
+Size: US6/UK5.5/EUR38.5/CM24
+	
+	
+119
+	
+179
+	
+14222
+	
+	
+
+
+6
+	
+Size: US6.5/UK6/EUR39.5/CM
+done

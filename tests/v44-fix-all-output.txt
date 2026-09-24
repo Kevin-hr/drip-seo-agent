@@ -1,0 +1,134 @@
+﻿
+=== Fixing P0-03: Represent Luggage Tag Hoodie Antique White ===
+  Name updated
+  SEO fields updated
+  Key description updated
+  Drawer confirmed
+  RESULT: FATAL - locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /^保存$/ }).last()[22m
+
+
+=== Fixing P0-07: Represent Owners Club Script Hoodie Black ===
+  Name updated
+  SEO fields updated
+  Key description updated
+  Drawer confirmed
+  RESULT: FATAL - locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /^保存$/ }).last()[22m
+
+
+=== Fixing P0-08: Represent Owners Club Hoodie Ash Grey/Black ===
+  Name updated
+  SEO fields updated
+  Key description updated
+  Drawer confirmed
+  RESULT: FATAL - locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /^保存$/ }).last()[22m
+
+
+=== Fixing P0-09: Represent Owner's Club Hoodie Brown/White ===
+  Name updated
+  SEO fields updated
+  Key description updated
+  Drawer confirmed
+  RESULT: FATAL - locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /^保存$/ }).last()[22m
+
+
+=== Fixing P0-10: Represent Patron of The Club Hoodie Black ===
+  Name updated
+  SEO fields updated
+  Key description updated
+  Drawer confirmed
+  RESULT: FATAL - locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /^保存$/ }).last()[22m
+
+
+=== Fixing P0-11: Represent Owners Club Hoodie Black ===
+  Name updated
+  SEO fields updated
+  Key description updated
+  Drawer confirmed
+  RESULT: FATAL - locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /^保存$/ }).last()[22m
+
+
+=== Fixing P0-12: Vale Forever Classico Zip Up Hoodie Sapphire ===
+  Name updated
+  SEO fields updated
+  Key description updated
+  Drawer confirmed
+  RESULT: FATAL - locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /^保存$/ }).last()[22m
+
+
+=== Fixing P0-13: Vale Forever Classico Zip Up Hoodie White ===
+  Name updated
+  SEO fields updated
+  Key description updated
+  Drawer confirmed
+  RESULT: FATAL - locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /^保存$/ }).last()[22m
+
+
+=== Fixing P0-14: Vale Forever Classico Zip Up Hoodie Black ===
+  Name updated
+  SEO fields updated
+  Key description updated
+  Drawer confirmed
+  RESULT: FATAL - locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /^保存$/ }).last()[22m
+
+
+=== Fixing P1-01: New Balance 9060 Bricks & Wood ===
+  Name updated
+  SEO fields updated
+  Key description updated
+  Drawer confirmed
+  RESULT: FATAL - locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /^保存$/ }).last()[22m
+
+
+=== Fixing P1-02: New Balance 9060 Ivory Cream Pink Sand ===
+  Name updated
+  SEO fields updated
+  Key description updated
+  Drawer confirmed
+  RESULT: FATAL - locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /^保存$/ }).last()[22m
+
+
+=== Fixing P1-03: Represent Hermes Hoodie Purple ===
+  Name updated
+  SEO fields updated
+  Key description updated
+  Drawer confirmed
+  RESULT: FATAL - locator.click: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('button:visible').filter({ hasText: /^保存$/ }).last()[22m
+
+
+=== Summary ===
+  P0-03: FATAL
+  P0-07: FATAL
+  P0-08: FATAL
+  P0-09: FATAL
+  P0-10: FATAL
+  P0-11: FATAL
+  P0-12: FATAL
+  P0-13: FATAL
+  P0-14: FATAL
+  P1-01: FATAL
+  P1-02: FATAL
+  P1-03: FATAL

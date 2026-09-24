@@ -1,0 +1,9 @@
+﻿Updated SEO title
+Updated meta description
+Updated tinyMCE
+Drawer buttons: 2
+  Drawer btn 0: ""
+  Drawer btn 1: "确定"
+Clicked drawer confirm: 确定
+Main save clicked
+RESULT: 保存成功

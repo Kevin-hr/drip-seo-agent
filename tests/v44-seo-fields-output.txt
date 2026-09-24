@@ -1,0 +1,21 @@
+﻿=== Visible inputs ===
+label="商品名称" ph="请输入商品名称" val="Represent Owners Club Script Hoodie Pink"
+label="商品副标题" ph="请输入商品副标题" val="QC Photos · 30-Day Returns "
+label="显示位置" ph="" val="1"
+label="计量单位" ph="请选择计量单位" val="双"
+label="按件卖" ph="" val="0"
+label="按件卖" ph="" val="1"
+label="" ph="请选择" val="单件折扣(%)"
+label="" ph="请选择物流模板" val="Clothing"
+label="" ph="请选择品牌" val=""
+label="" ph="" val="默认模板"
+label="包装后重量" ph="请输入包装后重量" val="2"
+label="包装长度" ph="请输入包装长度" val=""
+label="包装宽度" ph="请输入包装宽度" val=""
+label="包装高度" ph="请输入包装高度" val=""
+
+=== Visible textareas ===
+label="" ph="请输入商品备注" val=""
+label="" ph="" val="Represent Owners Club Script Hoodie Pink Reps | Drip Sneakers"
+label="" ph="" val="Represent Owners Club Script Hoodie Pink Reps with QC photos, 30-day returns and 7-20 day delivery at Drip Sneakers. View details. Check product optio"
+label="" ph="仅支持中文、英文字母、数字、下划线、.和-" val="Represent-Owners-Club-Script-Hoodie-Pink"

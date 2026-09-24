@@ -1,0 +1,50 @@
+﻿
+=== P0-03: Represent Luggage Tag Hoodie Antique White ===
+  -> SUCCESS
+
+=== P0-07: Represent Owners Club Script Hoodie Black ===
+  -> SUCCESS
+
+=== P0-08: Represent Owners Club Hoodie Ash Grey/Black ===
+  -> SUCCESS
+
+=== P0-09: Represent Owner's Club Hoodie Brown/White ===
+  -> SUCCESS
+
+=== P0-10: Represent Patron of The Club Hoodie Black ===
+  -> SUCCESS
+
+=== P0-11: Represent Owners Club Hoodie Black ===
+  -> SUCCESS
+
+=== P0-12: Vale Forever Classico Zip Up Hoodie Sapphire ===
+  -> SUCCESS
+
+=== P0-13: Vale Forever Classico Zip Up Hoodie White ===
+  -> SUCCESS
+
+=== P0-14: Vale Forever Classico Zip Up Hoodie Black ===
+  -> SUCCESS
+
+=== P1-01: New Balance 9060 Bricks & Wood ===
+  -> SUCCESS
+
+=== P1-02: New Balance 9060 Ivory Cream Pink Sand ===
+  -> SUCCESS
+
+=== P1-03: Represent Hermes Hoodie Purple ===
+  -> SUCCESS
+
+=== Summary ===
+  P0-03: SUCCESS
+  P0-07: SUCCESS
+  P0-08: SUCCESS
+  P0-09: SUCCESS
+  P0-10: SUCCESS
+  P0-11: SUCCESS
+  P0-12: SUCCESS
+  P0-13: SUCCESS
+  P0-14: SUCCESS
+  P1-01: SUCCESS
+  P1-02: SUCCESS
+  P1-03: SUCCESS

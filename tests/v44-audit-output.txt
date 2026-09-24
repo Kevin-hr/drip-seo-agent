@@ -1,0 +1,19 @@
+﻿P0-01: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-02: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-03: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-04: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-05: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-06: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-07: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-08: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-09: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-10: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-11: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-12: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-13: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P0-14: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P1-01: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P1-02: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+P1-03: name="New Balance 9060 Grey Lilac" | SEO="New Balance 9060 Grey Lilac U9060GM Reps | Drip Sneakers" | URL="https://www.dripsneakers.org/New-Balance-9060-Grey-Lilac-U9060GM" | li=5
+
+Audit saved to v44-audit.json
