@@ -50,8 +50,11 @@ try {
     const formUrl = `https://www.mrshopplus.com/#/product/form_DTB_proProduct/0?action=3&pkValues=%5B${id}%5D`;
     try {
       await page.goto(formUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
+      await page.waitForTimeout(2000);
+      await page.reload({ waitUntil: 'domcontentloaded', timeout: 60000 });
       const nameInput = page.locator('input[placeholder="请输入商品名称"]').first();
       await nameInput.waitFor({ state: 'visible' });
+      await page.waitForTimeout(1500);
       const beforeApi = await readApi(id);
       const before = rowOf(beforeApi);
       if (String(before?.Id) !== id) throw new Error('Fresh state is not the allowlisted product');
@@ -96,7 +99,7 @@ try {
         result.steps.push({ step: `save-retry-${attempt}`, body: JSON.stringify(receipt).slice(0, 200) });
         await page.waitForTimeout(2000);
       }
-      if (ids.length !== 1) throw new Error(`Save failed: ${JSON.stringify(lastBody).slice(0,200)}`);
+      if (ids.length !== 1 || ids[0] !== id) throw new Error(`Save returned wrong ID: ${JSON.stringify(ids)} expected ${id}`);
       result.steps.push({ step: 'saved', ids });
 
       // Verify
