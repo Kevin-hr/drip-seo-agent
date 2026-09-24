@@ -1,0 +1,3558 @@
+{
+  "summary": {
+    "framework": "HKRR",
+    "targets": 235,
+    "ok": 204,
+    "fail": 1,
+    "generated": "2026-09-24T17:54:22.378Z"
+  },
+  "results": [
+    {
+      "id": "536027438739997",
+      "name": "Jordan 12 Retro French Blue CT8013-114",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-French-Blue-CT8013-114",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-French-Blue-CT8013-114",
+      "newUrl": "/Jordan-12-Retro-French-Blue-CT8013-114",
+      "isShow": true
+    },
+    {
+      "id": "536027435411999",
+      "name": "Jordan 12 Retro Melo CT8013-112",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Melo-CT8013-112",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-Melo-CT8013-112",
+      "newUrl": "/Jordan-12-Retro-Melo-CT8013-112",
+      "isShow": true
+    },
+    {
+      "id": "536027433789203",
+      "name": "AMIRI MA-1 White Green",
+      "oldUrlValue": "Pkgod-AMIRI-MA-1-White-Green",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027429707795",
+      "name": "AMIRI MMY Bones x Maison MIHARA YASUHIRO Alabaster",
+      "oldUrlValue": "-Pkgod-AMIRI-MMY-Bones-x-Maison-MIHARA-YASUHIRO-Alabaster",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027428983317",
+      "name": "Air Jordan 4 Retro Forget Me Not  HV0823-100",
+      "oldUrlValue": "-Pkgod-Air-Jordan-4-Retro-Forget-Me-Not-HV0823-100",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027409440022",
+      "name": "Jordan 12 Retro Gym Red 130690-600",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Gym-Red-130690-600",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027409392657",
+      "name": "Jordan 12 Retro SP SoleFly Cafecito FZ5026-100",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-SP-SoleFly-Cafecito-FZ5026-100",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-SP-SoleFly-Cafecito-FZ5026-100",
+      "newUrl": "/Jordan-12-Retro-SP-SoleFly-Cafecito-FZ5026-100",
+      "isShow": true
+    },
+    {
+      "id": "536027390072597",
+      "name": "Adidas Yeezy Boost 700 V2 Vanta FU6684",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Vanta-FU6684",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027383211804",
+      "name": "Jordan 12 Retro Taxi Flip CT8013-162",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Taxi-Flip-CT8013-162",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-Taxi-Flip-CT8013-162",
+      "newUrl": "/Jordan-12-Retro-Taxi-Flip-CT8013-162",
+      "isShow": true
+    },
+    {
+      "id": "536027376494103",
+      "name": "Air Jordan 12 Retro Black Green",
+      "oldUrlValue": "-Pkgod-Air-Jordan-12-Retro-Black-Green",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027367268117",
+      "name": "adidas Yeezy Slide Coffee",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Coffee",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027351257623",
+      "name": "Yeezy Slide Slate Grey",
+      "oldUrlValue": "-Pkgod-Yeezy-Slide-Slate-Grey",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027349778196",
+      "name": "Adidas Yeezy 500 Enflame",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Enflame",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027349712926",
+      "name": "Adidas Yeezy 500 Ash Grey",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Ash-Grey",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027349650200",
+      "name": "Adidas Yeezy 500 Green-Gray",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Green-Gray",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027347592979",
+      "name": "Jordan 12 Blueberry CT8013-140",
+      "oldUrlValue": "Pkgod-Jordan-12-Blueberry-CT8013-140",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027347494929",
+      "name": "Jordan 12 Retro Flu Game 130890-002",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Flu-Game-130890-002",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027337851160",
+      "name": "AMIRI Skel Top Low White Black",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Top-Low-White-Black",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027337803538",
+      "name": "AMIRI Skel Top Low Whtie Brown",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Top-Low-Whtie-Brown",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027337755414",
+      "name": "AMIRI Skel Top Low Whtie Blue",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Top-Low-Whtie-Blue",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027337706779",
+      "name": "AMIRI Skel Panelled Top Low Green",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Panelled-Top-Low-Green",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027302040337",
+      "name": "Jordan 1 Low Fierce Pink 69.9",
+      "oldUrlValue": "-Pkgod-Jordan-1-Low-Fierce-Pink-69.9",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027301926942",
+      "name": "Air Jordan 1 Mid Fierce Pink",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Mid-Fierce-Pink",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027301541144",
+      "name": "Jordan 1 High Mystery Box - One Pair Random",
+      "oldUrlValue": "Pkgod-Jordan-1-High-Mystery-Box---One-Pair-Random",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027301476377",
+      "name": "Jordan 1 Low Mystery Box - One Pair Random",
+      "oldUrlValue": "Pkgod-Jordan-1-Low-Mystery-Box---One-Pair-Random",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027259323922",
+      "name": "Air Jordan 1 Low OG Neutral Grey (2021) Low OG Neutral Grey (2021) CZ0790-100",
+      "oldUrlValue": "-Pkgod-Jordan-1-Low-OG-Neutral-Grey-2021",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Low-OG-Neutral-Grey-2021-Low-OG-Neutral-Grey-2021-CZ0790-100",
+      "newUrl": "/Air-Jordan-1-Low-OG-Neutral-Grey-2021-Low-OG-Neutral-Grey-2021-CZ0790-100",
+      "isShow": true
+    },
+    {
+      "id": "536027258295580",
+      "name": "Air Jordan 1 Retro Low Golf Travis Scott Neutral Olive Retro Low Golf Travis Scott Neutral Olive FZ3124-200",
+      "oldUrlValue": "-Pkgod-Jordan-1-Retro-Low-Golf-Travis-Scott-Neutral-Olive",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027258245395",
+      "name": "Air Jordan 1 Low White Grey Low Gang Low White Grey Low Gang DM7866-010",
+      "oldUrlValue": "-Pkgod-Travis-Scott-x-Air-Jordan-1-Low-White-Grey-Low-Gang",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027258132763",
+      "name": "adidas Yeezy Foam Runner Grey Camouflage",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-Runner-Grey-Camouflage",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027250354713",
+      "name": "adidas Yeezy Boost 350 V2 Carbon Beluga",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Carbon-Beluga",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027247635986",
+      "name": "Air Jordan 1 Retro High OG SP Union LA Bephie's Beauty Supply Woven 1 Retro High OG SP Union LA Bephie's Beauty Supply Woven FD2565-100",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Retro-High-OG-SP-Union-LA-Bephies-Beauty-Supply-Woven",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Retro-High-OG-SP-Union-LA-Bephies-Beauty-Supply-Woven-1-Retro-High-OG-SP-Union-LA-Bephies-Beauty-Supply-Woven-FD2565-100",
+      "newUrl": "/Air-Jordan-1-Retro-High-OG-SP-Union-LA-Bephies-Beauty-Supply-Woven-1-Retro-High-OG-SP-Union-LA-Bephies-Beauty-Supply-Woven-FD2565-100",
+      "isShow": true
+    },
+    {
+      "id": "536027246462740",
+      "name": "Air Jordan 1 Retro High OG Palomino Retro High OG Palomino DZ5485-020",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Retro-High-OG-Palomino",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027237219349",
+      "name": "adidas Yeezy Foam RNR MX Cinder",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNR-MX-Cinder",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027221706263",
+      "name": "Jordan 12 Retro Field Purple CT8013-057",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Field-Purple-CT8013-057",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-Field-Purple-CT8013-057",
+      "newUrl": "/Jordan-12-Retro-Field-Purple-CT8013-057",
+      "isShow": true
+    },
+    {
+      "id": "536027221656336",
+      "name": "Jordan 12 Cherry CT8013-116",
+      "oldUrlValue": "Pkgod-Jordan-12-Cherry-CT8013-116",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027158258461",
+      "name": "Air Jordan 1 High OG Spider-Man Across the Spider-Verse 1 High OG Spider-Man Across the Spider-Verse DV1748-601",
+      "oldUrlValue": "Pkgod-Jordan-1-High-OG-Spider-Man-Across-the-Spider-Verse-DV1748-601",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-High-OG-Spider-Man-Across-the-Spider-Verse-1-High-OG-Spider-Man-Across-the-Spider-Verse-DV1748-601",
+      "newUrl": "/Air-Jordan-1-High-OG-Spider-Man-Across-the-Spider-Verse-1-High-OG-Spider-Man-Across-the-Spider-Verse-DV1748-601",
+      "isShow": true
+    },
+    {
+      "id": "536027157890581",
+      "name": "{Hot Sale Combination}  Yeezy Slide& Yeezy Foam RNNR - 2 Pairs-DC2",
+      "oldUrlValue": "-Hot-Sale-Combination-Pkgod-Yeezy-Slide-Yeezy-Foam-RNNR---2-Pairs-DC2",
+      "status": "ok",
+      "newUrlValue": "Hot-Sale-Combination-Yeezy-Slideand-Yeezy-Foam-RNNR-2-Pairs-DC2-890581",
+      "newUrl": "/Hot-Sale-Combination-Yeezy-Slideand-Yeezy-Foam-RNNR-2-Pairs-DC2-890581",
+      "isShow": true
+    },
+    {
+      "id": "536027156683286",
+      "name": "{Hot Sale Combination}  Yeezy Slide& Yeezy Foam RNNR - 2 Pairs",
+      "oldUrlValue": "-Hot-Sale-Combination-Pkgod-Yeezy-Slide-Yeezy-Foam-RNNR---2-Pairs",
+      "status": "ok",
+      "newUrlValue": "Hot-Sale-Combination-Yeezy-Slideand-Yeezy-Foam-RNNR-2-Pairs-683286",
+      "newUrl": "/Hot-Sale-Combination-Yeezy-Slideand-Yeezy-Foam-RNNR-2-Pairs-683286",
+      "isShow": true
+    },
+    {
+      "id": "536027146605589",
+      "name": "Air Jordan 1 High OG \"White Cement High OG \"White Cement\" DZ5485-052",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-High-OG-White-Cement",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027146558740",
+      "name": "adidas Yeezy Slide Enflame Oil Painting White Yellow",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Enflame-Oil-Painting-White-Yellow",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027146495772",
+      "name": "adidas Yeezy Slide Enflame Oil Painting Ink Yellow",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Enflame-Oil-Painting-Ink-Yellow",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027145834777",
+      "name": "Special Sale & Air Jordan 3 Retro Wizards",
+      "oldUrlValue": "Pkgod-Air-Jordan-3-Retro-Wizards",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027145770518",
+      "name": "Air Jordan 1 Retro High OG True Blue Retro High OG True Blue DZ5485-410",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Retro-High-OG-True-Blue",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027145707289",
+      "name": "adidas Yeezy Cool Grey",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Cool-Grey",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027145626649",
+      "name": "Air Jordan 1 Retro High OG Washed Pink Retro High OG Washed Pink FD2596-600",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Retro-High-OG-Washed-Pink-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027144179230",
+      "name": "Air Jordan 1 Low Black Dark Beetroot Low Black Dark Beetroot DC0774-006",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Low-Black-Dark-Beetroot",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027144081425",
+      "name": "Air Jordan 1 Low New Emerald Low New Emerald DC0774-132",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Low-New-Emerald",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027144001815",
+      "name": "Air Jordan 1 Low Sail White Oil Green Low Sail White Oil Green FD9906-131",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Low-Sail-White-Oil-Green",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027143872785",
+      "name": "Air Jordan 1 Low SE All-Star 1 Low SE All-Star DD1650-001",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Low-SE-All-Star",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027139771672",
+      "name": "Air Jordan 1 Retro Low OG Black Toe Retro Low OG Black Toe CZ0790-106",
+      "oldUrlValue": "-Pkgod-Jordan-1-Retro-Low-OG-Black-Toe",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027137345817",
+      "name": "Air Jordan Zion Williamson x Air Jordan 1 Low OG “Voodoo” Zion Williamson x Air Jordan 1 Low OG “Voodoo” DZ7292-200",
+      "oldUrlValue": "-Pkgod-Zion-Williamson-x-Air-Jordan-1-Low-OG-Voodoo",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027137120792",
+      "name": "adidas Yeezy Slide Azure",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Azure",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027137007900",
+      "name": "Air Jordan 1 Retro High OG Washed Black Retro High OG Washed Black DZ5485-051",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Retro-High-OG-Washed-Black",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027136720661",
+      "name": "Air Jordan 11 Retro Low Cement Grey Sneaker White University Blue Cement Grey",
+      "oldUrlValue": "-Pkgod-Air-Jordan-11-Retro-Low-Cement-Grey",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027136348947",
+      "name": "Air Jordan 12 Retro Flu Game",
+      "oldUrlValue": "Pkgod-Air-Jordan-12-Retro-Flu-Game",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027135383061",
+      "name": "adidas Yeezy Boost 350 V2 Sky Blue",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Sky-Blue",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027134337044",
+      "name": "Jordan 4 Retro SB Pine Green DR5415-103",
+      "oldUrlValue": "Pkgod-Jordan-4-Retro-SB-Pine-Green-DR5415-103",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027133776158",
+      "name": "Jordan 12 Retro Stealth CT8013-015",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Stealth-CT8013-015",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027133710875",
+      "name": "Jordan 12 Retro Black Taxi CT8013-117",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Black-Taxi-CT8013-117",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027132957979",
+      "name": "Jordan 12 Retro SP A Ma Maniére Black FB2686-001",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-SP-A-Ma-Manire-Black-FB2686-001",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-SP-A-Ma-Mani-re-Black-FB2686-001",
+      "newUrl": "/Jordan-12-Retro-SP-A-Ma-Mani-re-Black-FB2686-001",
+      "isShow": true
+    },
+    {
+      "id": "536027128055323",
+      "name": "adidas Yeezy Boost 350 V2 Mono Cinder​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Cinder",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027127944468",
+      "name": "adidas Yeezy Boost 350 V2 MX Oat",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-MX-Oat",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027127814162",
+      "name": "adidas Yeezy Boost 350 V2 Moncla",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Moncla",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027127252758",
+      "name": "Adidas Yeezy Boost 700 V2 Static",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Static-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027121517590",
+      "name": "adidas Yeezy Slide Flax",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Flax",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027121149211",
+      "name": "adidas Yeezy Foam RNR MX Carbon",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNR-MX-Carbon",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027120297491",
+      "name": "adidas Yeezy Foam RNNR Mist",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Mist",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNNR-Mist",
+      "newUrl": "/adidas-Yeezy-Foam-RNNR-Mist",
+      "isShow": true
+    },
+    {
+      "id": "536027120198933",
+      "name": "adidas Yeezy Foam RNR Desert Sand",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNR-Desert-Sand",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027115858202",
+      "name": "adidas Yeezy Slide Resin-DC2",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Resin-DC2",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027115812378",
+      "name": "adidas Yeezy Slide Glow Green (2022)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Glow-Green-2022",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027114477855",
+      "name": "adidas Yeezy 500 Granite",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-500-Granite",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027113176350",
+      "name": "adidas Yeezy Foam Runner Stone Sage",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-Runner-Stone-Sage",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027113079058",
+      "name": "adidas Yeezy 700 “Hi-Res Blue”",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-700-Hi-Res-Blue",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027112613406",
+      "name": "adidas Yeezy Slide Black",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Black",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027112580634",
+      "name": "adidas Yeezy Foam Runner Sulfur",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-Runner-Sulfur",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-Runner-Sulfur-580634",
+      "newUrl": "/adidas-Yeezy-Foam-Runner-Sulfur-580634",
+      "isShow": true
+    },
+    {
+      "id": "536027107406612",
+      "name": "adidas Yeezy 450 Resin",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-450-Resin",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027106763544",
+      "name": "adidas Yeezy Boost 350 Pirate Black",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-Pirate-Black",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027106666520",
+      "name": "adidas Yeezy Boost 350 Oxford Tan",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-Oxford-Tan",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027106586642",
+      "name": "adidas Yeezy Boost 350 Moonrock",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-Moonrock",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027106524946",
+      "name": "adidas Yeezy Boost 350 Turtledove",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-Turtledove",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027105013265",
+      "name": "Adidas Yeezy Boost 350 V2 “Beige/Black”",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-BeigeBlack",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027104129555",
+      "name": "Adidas Yeezy Boost 350 V2 Bone",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Bone",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027103069203",
+      "name": "adidas Yeezy Slide Onyx HQ6448",
+      "oldUrlValue": "Pkgod-adidas-Yeezy-Slide-Onyx-HQ6448",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027103020316",
+      "name": "adidas Yeezy Slide Ochre",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Ochre",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027102970898",
+      "name": "adidas Yeezy Slide Pure (Restock Pair)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Pure-Restock-Pair",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027102924060",
+      "name": "adidas Yeezy Foam RNNR MX Sand Grey",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-MX-Sand-Grey",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027102873882",
+      "name": "adidas Yeezy Foam RNNR Vermillion",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Vermillion",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027102827034",
+      "name": "adidas Yeezy Foam RNNR Ochre",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Ochre",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027102618135",
+      "name": "Adidas Yeezy Boost 350 V2 Core Black White",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Core-Black-White",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Core-Black-White-618135",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Core-Black-White-618135",
+      "isShow": true
+    },
+    {
+      "id": "536027102330128",
+      "name": "adidas Yeezy Foam RNNR Onyx",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Onyx",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027101942807",
+      "name": "Jordan 12 Retro Playoffs (2022) CT8013-006",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Playoffs-2022-CT8013-006",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027101026590",
+      "name": "AMIRI Skel Panelled Top Low Whtie Grey",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Panelled-Top-Low-Whtie-Grey",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027100931858",
+      "name": "AMIRI Skel Panelled Top Low White",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Panelled-Top-Low-White-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027100303388",
+      "name": "AMIRI Skel Top High Black White",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Top-High-Black-White",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027100142109",
+      "name": "AMIRI Skel Panelled Top Low Black White MFS003-124",
+      "oldUrlValue": "Pkgod-AMIRI-Skel-Panelled-Top-Low-Black-White-MFS003-124",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027100061724",
+      "name": "AMIRI Skel Panelled Top Low White Red MFS003-124",
+      "oldUrlValue": "Pkgod-AMIRI-Skel-Panelled-Top-Low-White-Red-MFS003-124",
+      "status": "ok",
+      "newUrlValue": "AMIRI-Skel-Panelled-Top-Low-White-Red-MFS003-124-061724",
+      "newUrl": "/AMIRI-Skel-Panelled-Top-Low-White-Red-MFS003-124-061724",
+      "isShow": true
+    },
+    {
+      "id": "536027099708190",
+      "name": "Adidas Yeezy Boost 350 V2 Dazzling Blue",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Dazzling-Blue",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027099629077",
+      "name": "adidas Yeezy Slide Glow Green",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Glow-Green",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Glow-Green",
+      "newUrl": "/adidas-Yeezy-Slide-Glow-Green",
+      "isShow": true
+    },
+    {
+      "id": "536027099193368",
+      "name": "Adidas Yeezy Boost 350 V2 Beluga Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Beluga-Reflective",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027099130388",
+      "name": "Adidas Yeezy Boost 350 V2 Beluga 2.0",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Beluga-2.0",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027097217308",
+      "name": "Nike Air Yeezy 2 Red October",
+      "oldUrlValue": "-Pkgod-Nike-Air-Yeezy-2-Red-October",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027097168920",
+      "name": "Nike Air Yeezy 2 Solar Red",
+      "oldUrlValue": "-Pkgod-Nike-Air-Yeezy-2-Solar-Red",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027097122078",
+      "name": "Nike Air Yeezy 2 Pure Platinum",
+      "oldUrlValue": "-Pkgod-Nike-Air-Yeezy-2-Pure-Platinum",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027096283160",
+      "name": "Adidas Yeezy Boost 350 V2 Light",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Light",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027092733726",
+      "name": "adidas Yeezy Boost 700 Analog​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-700-Analog",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027091703312",
+      "name": "adidas Yeezy Boost 350 V2 Mono Ice",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Ice",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027089774108",
+      "name": "adidas Yeezy Foam RNNR MX Cream Clay​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-MX-Cream-Clay",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027089659930",
+      "name": "adidas Yeezy Boost 350 V2 MX Rock",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-MX-Rock",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027089614097",
+      "name": "adidas Yeezy Boost 700 V2 Enflame Amber Mauve",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-700-V2-Enflame-Amber-Mauve",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027087973137",
+      "name": "Adidas Yeezy 500 Taupe Light",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Taupe-Light",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027087071252",
+      "name": "adidas Yeezy Boost 350 V2 Mono Mist (Kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Mist-Kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027087022620",
+      "name": "adidas Yeezy Boost 350 V2 Black (Kids)​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Black-Kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027086959120",
+      "name": "adidas Yeezy Boost 350 V2 Israfil​ (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Israfil-kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027086926864",
+      "name": "adidas Yeezy Boost 350 V2 Desert Sage (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Desert-Sage-kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027086878743",
+      "name": "adidas Yeezy Boost 350 V2 Cinder (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Cinder-kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027086829598",
+      "name": "adidas Yeezy Boost 350 V2 Yecheil Reflective (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Yecheil-Reflective-kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Yecheil-Reflective-kids-829598",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Yecheil-Reflective-kids-829598",
+      "isShow": true
+    },
+    {
+      "id": "536027086783771",
+      "name": "adidas Yeezy Boost 350 V2 Synth Reflective (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Synth-Reflective-kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027086719507",
+      "name": "adidas Yeezy Boost 350 V2 Tail Light​ (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Tail-Light-kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027086670363",
+      "name": "adidas Yeezy Boost 350 V2 Static Black (kids)​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Static-Black-kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027086621724",
+      "name": "adidas Yeezy Boost 350 V2 Static Reflective​ (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Static-Reflective-kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Static-Reflective-kids-621724",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Static-Reflective-kids-621724",
+      "isShow": true
+    },
+    {
+      "id": "536027086574872",
+      "name": "adidas Yeezy Boost 350 V2 Cloud White (kids)​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Cloud-White-kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027086525203",
+      "name": "adidas Yeezy Boost 350 V2 Carbon (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Carbon-kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027086479133",
+      "name": "adidas Yeezy Boost 350 V2 Static​ (Kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Static-Kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027086413585",
+      "name": "adidas Yeezy Boost 350 V2 Mono Clay (Kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Clay-Kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027086332178",
+      "name": "adidas Yeezy Boost 350 V2 Mono Ice (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Ice-kids",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027086235669",
+      "name": "adidas Yeezy Boost 350 V2 Mono Clay",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Clay",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027085947923",
+      "name": "adidas Yeezy Slide Pure",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Pure",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027085899034",
+      "name": "adidas Yeezy Slide Enflame Orange​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Enflame-Orange",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027084982807",
+      "name": "adidas Yeezy Foam RNNR Ararat G55486",
+      "oldUrlValue": "Pkgod-adidas-Yeezy-Foam-RNNR-Ararat-G55486",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027084935188",
+      "name": "adidas Yeezy Foam RNNR Mineral Blue​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Mineral-Blue",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027083987739",
+      "name": "Air Jordan 1 High Zoom CMFT Sea Glass 1 High Zoom CMFT Sea Glass CT0979-002",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-High-Zoom-CMFT-Sea-Glass",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-High-Zoom-CMFT-Sea-Glass-1-High-Zoom-CMFT-Sea-Glass-CT0979-002-987739",
+      "newUrl": "/Air-Jordan-1-High-Zoom-CMFT-Sea-Glass-1-High-Zoom-CMFT-Sea-Glass-CT0979-002-987739",
+      "isShow": true
+    },
+    {
+      "id": "536027083536671",
+      "name": "adidas Yeezy Boost 350 V2 Mono Mist",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Mist",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027083377690",
+      "name": "adidas Yeezy 450 Dark Slate",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-450-Dark-Slate",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027083102480",
+      "name": "adidas Yeezy Foam RNNR Sand MXT Moon Gray",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Sand-MXT-Moon-Gray",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027083069470",
+      "name": "adidas Yeezy Foam RNNR Sand",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Sand",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027082813981",
+      "name": "adidas Yeezy Slide BONE",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-BONE",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027082749471",
+      "name": "adidas Yeezy Slide CORE-DC2",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-CORE-DC2",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027079198227",
+      "name": "adidas Yeezy 450 Cloud White",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-450-Cloud-White",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027078890014",
+      "name": "adidas Yeezy Boost 350 V2 Ash Pearl",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Ash-Pearl",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027069342230",
+      "name": "adidas Yeezy Boost 700 Bright Blue",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-700-Bright-Blue",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027068668701",
+      "name": "adidas Yeezy Boost 350 V2 Ash Blue",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Ash-Blue",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027068587038",
+      "name": "adidas Yeezy Boost 350 V2 Ash Stone",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Ash-Stone",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027068018204",
+      "name": "adidas Yeezy Slide Resin",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Resin",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027067927835",
+      "name": "adidas Yeezy Slide Core",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Core",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027067880473",
+      "name": "adidas Yeezy Slide Soot",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Soot",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027067766047",
+      "name": "adidas Yeezy Slide Desert Sand",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Desert-Sand",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027067686166",
+      "name": "adidas Yeezy Boost 700 Sun",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-700-Sun",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027067588631",
+      "name": "adidas Yeezy Boost 700 V2 Cream",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-700-V2-Cream",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027066095120",
+      "name": "Jordan 12 Retro OVO White 873864-102",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-OVO-White-873864-102",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027065997840",
+      "name": "Jordan 12 Retro Reverse Flu Game CT8013-602",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Reverse-Flu-Game-CT8013-602",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-Reverse-Flu-Game-CT8013-602",
+      "newUrl": "/Jordan-12-Retro-Reverse-Flu-Game-CT8013-602",
+      "isShow": true
+    },
+    {
+      "id": "536027065869841",
+      "name": "Jordan 12 Retro Black Dark Concord CT8013-005",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Black-Dark-Concord-CT8013-005",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027063090453",
+      "name": "Adidas Yeezy Boost 700  Inertia",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Inertia",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027062688540",
+      "name": "Adidas Yeezy Boost 750 OG Light Brown",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-750-OG-Light-Brown",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027062544153",
+      "name": "Adidas Yeezy QNTM Quantum",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-QNTM-Quantum",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027062497052",
+      "name": "Adidas Yeezy QNTM Teal Blue",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-QNTM-Teal-Blue",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027062366994",
+      "name": "Adidas Yeezy QNTM Barium",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-QNTM-Barium",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027061402395",
+      "name": "Adidas Yeezy Boost 700 V3 Safflower",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V3-Safflower",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027061339413",
+      "name": "Adidas Yeezy Boost 700 V3 Kyanite",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V3-Kyanite",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027061274136",
+      "name": "Adidas Yeezy Boost 700 V3 Clay Brown",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V3-Clay-Brown",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027058299931",
+      "name": "Adidas Yeezy Boost 350 V2 YECHER",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-YECHER",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027057945373",
+      "name": "Adidas Yeezy Boost 750 Brown Gum (Chocolate)",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-750-Brown-Gum-Chocolate",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027057898271",
+      "name": "Adidas Yeezy Boost 750 Black",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-750-Black",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027057818654",
+      "name": "Adidas Yeezy Boost 750 Grey Gum",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-750-Grey-Gum",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-750-Grey-Gum-818654",
+      "newUrl": "/Adidas-Yeezy-Boost-750-Grey-Gum-818654",
+      "isShow": true
+    },
+    {
+      "id": "536027055665694",
+      "name": "Adidas Yeezy 500 Bone White",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Bone-White",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027055570459",
+      "name": "Adidas Yeezy 500 Utility Black",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Utility-Black",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027055472146",
+      "name": "Adidas Yeezy 500 Stone",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Stone",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027055408919",
+      "name": "Adidas Yeezy 500 Soft Vision",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Soft-Vision",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027055343902",
+      "name": "Adidas Yeezy 500 High Slate",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-High-Slate",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027055295250",
+      "name": "Adidas Yeezy 500 Blush",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Blush",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027054813980",
+      "name": "Adidas Yeezy Boost 380 Calcite Glow",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Calcite-Glow",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027054717463",
+      "name": "Adidas Yeezy Boost 380 Alien",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Alien",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027054669074",
+      "name": "Adidas Yeezy Boost 380 Mist",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Mist",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027054605334",
+      "name": "Adidas Yeezy Boost 380 Mist Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Mist-Reflective",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027054524954",
+      "name": "Adidas Yeezy Boost 380 Blue Oat Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Blue-Oat-Reflective-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-380-Blue-Oat-Reflective",
+      "newUrl": "/Adidas-Yeezy-Boost-380-Blue-Oat-Reflective",
+      "isShow": true
+    },
+    {
+      "id": "536027054459672",
+      "name": "Adidas Yeezy Boost 380 Blue Oat",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Blue-Oat-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027054362906",
+      "name": "Adidas Yeezy Boost 380 Pepper",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Pepper",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027054299675",
+      "name": "Adidas Yeezy Boost 380 Black Purple",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Black-Purple",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027047370777",
+      "name": "Adidas Yeezy Boost 700 V3 Azael",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V3-Azael",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027047274526",
+      "name": "Adidas Yeezy Boost 700 V3 Alvah",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V3-Alvah",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027047225373",
+      "name": "Adidas Yeezy Boost 700 V3 Azareth",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V3-Azareth",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027047146000",
+      "name": "Adidas Yeezy Boost 700 V2 Tephra",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Tephra",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027047097371",
+      "name": "Adidas Yeezy Boost 700 Salt",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Salt",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046986000",
+      "name": "Adidas Yeezy Boost 700 MNVN Orange",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-MNVN-Orange",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046921497",
+      "name": "Adidas Yeezy Boost 700 MNVN Bone",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-MNVN-Bone",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046825748",
+      "name": "Adidas Yeezy Boost 700 MNVN Triple Black",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-MNVN-Triple-Black",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046776854",
+      "name": "Adidas Yeezy Boost 700 MNVN Phosphor",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-MNVN-Phosphor",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046711830",
+      "name": "Adidas Yeezy Boost 700 Teal Blue",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Teal-Blue",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046662165",
+      "name": "Adidas Yeezy Boost 700 Wave Runner Solid Grey",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Wave-Runner-Solid-Grey",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046600474",
+      "name": "Adidas Yeezy Boost 700 Carbon Blue",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Carbon-Blue",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046519825",
+      "name": "Adidas Yeezy Boost 700 V2 Inertia",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Inertia",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046470170",
+      "name": "Adidas Yeezy Boost 700 V2 Hospital Blue",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Hospital-Blue",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046422805",
+      "name": "Adidas Yeezy Boost 700 Mauve",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Mauve",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046357787",
+      "name": "Adidas Yeezy Boost 700 V2 Geode",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Geode",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046311198",
+      "name": "Adidas Yeezy Boost 700 V2 Vanta",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Vanta",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027046212880",
+      "name": "Adidas Yeezy Boost 700 Utility Black",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Utility-Black",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-Utility-Black",
+      "newUrl": "/Adidas-Yeezy-Boost-700-Utility-Black",
+      "isShow": true
+    },
+    {
+      "id": "536027046166299",
+      "name": "Adidas Yeezy Boost 700 Magnet",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Magnet",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027044671005",
+      "name": "Adidas Yeezy Boost 350 V2 Synth",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Synth-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027044604176",
+      "name": "Adidas Yeezy Boost 350 V2 Abez",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Abez",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027044557851",
+      "name": "Adidas Yeezy Boost 350 V2 Marsh",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Marsh",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027044494866",
+      "name": "Adidas Yeezy Boost 350 V2 Tail Light",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Tail-Light",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027044444699",
+      "name": "Adidas Yeezy Boost 350 V2 Eliada",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Eliada",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027044381200",
+      "name": "Adidas Yeezy Boost 350 V2 Earth",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Earth",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027044315410",
+      "name": "Adidas Yeezy Boost 350 V2 Citrin",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Citrin-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027044268061",
+      "name": "Adidas Yeezy Boost 350 V2 Zyon",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Zyon-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027044220695",
+      "name": "Adidas Yeezy Boost 350 V2  Linen",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Linen",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027044156441",
+      "name": "Adidas Yeezy Boost 350 V2 Yeezreel Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Yeezreel-Reflective",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027044089874",
+      "name": "Adidas Yeezy Boost 350 V2 Yeezreel",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Yeezreel-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027044044315",
+      "name": "Adidas Yeezy Boost 350 V2 Cinder",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Cinder",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043979032",
+      "name": "Adidas Yeezy Boost 350 V2 Citrin Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Citrin-Reflective",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043914002",
+      "name": "Adidas Yeezy Boost 350 V2 Cloud White",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Cloud-White",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Cloud-White-914002",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Cloud-White-914002",
+      "isShow": true
+    },
+    {
+      "id": "536027043818264",
+      "name": "Adidas Yeezy Boost 350 V2 Static",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Static-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043722779",
+      "name": "Adidas Yeezy Boost 350 V2 Static Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Static-Reflective",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043655711",
+      "name": "Adidas Yeezy Boost 350 V2 Yecheil",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Yecheil-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043609624",
+      "name": "Adidas Yeezy Boost 350 V2 Yecheil Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Yecheil-Reflective",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043543314",
+      "name": "Adidas Yeezy Boost 350 V2 Glow In Dark",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Glow-In-Dark",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043479832",
+      "name": "Adidas Yeezy Boost 350 V2 Cinder Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Cinder-Reflective",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043416593",
+      "name": "Adidas Yeezy Boost 350 V2 Static Black Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Static-Black-Reflective",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043368479",
+      "name": "Adidas Yeezy Boost 350 V2 Desert Sage",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Desert-Sage",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043304976",
+      "name": "Adidas Yeezy Boost 350 V2 Core Black Red",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Core-Black-Red",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043240213",
+      "name": "Adidas Yeezy Boost 350 V2 Zebra",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Zebra-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043143189",
+      "name": "Adidas Yeezy Boost 350 V2 Hyperspace",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Hyperspace-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027043078935",
+      "name": "Adidas Yeezy Boost 350 V2 Cream White",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Cream-White",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027042966037",
+      "name": "Adidas Yeezy Boost 350 V2 Cloud White Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Cloud-White-Reflective-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Cloud-White-Reflective",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Cloud-White-Reflective",
+      "isShow": true
+    },
+    {
+      "id": "536027042869531",
+      "name": "Adidas Yeezy Boost 350 V2 True From",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-True-From-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027042771740",
+      "name": "Adidas Yeezy Boost 350 V2 Yeshaya",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Yeshaya-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027042677783",
+      "name": "Adidas Yeezy Boost 350 V2 Yeshaya Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Yeshaya-Reflective",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Yeshaya-Reflective-677783",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Yeshaya-Reflective-677783",
+      "isShow": true
+    },
+    {
+      "id": "536027042613522",
+      "name": "Adidas Yeezy Boost 350 V2 Synth Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Synth-Reflective-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Synth-Reflective-613522",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Synth-Reflective-613522",
+      "isShow": true
+    },
+    {
+      "id": "536027042532631",
+      "name": "Adidas Yeezy Boost 350 V2 Black Bred",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Black-Bred",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027042469392",
+      "name": "Adidas Yeezy Boost 350 V2 Clay",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Clay-",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027042372371",
+      "name": "Adidas Yeezy Boost 350 V2 Black",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Black",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Black-372371",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Black-372371",
+      "isShow": true
+    },
+    {
+      "id": "536027042275347",
+      "name": "Adidas Yeezy Boost 350 V2 Asriel",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Asriel",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027042180884",
+      "name": "Adidas Yeezy Boost 350 V2  Israfil",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Israfil",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027038981140",
+      "name": "Air Jordan 1 Retro High OG Satin Black Toe Retro High OG Satin Black Toe CD0461-016",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Retro-High-OG-Satin-Black-Toe",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Retro-High-OG-Satin-Black-Toe-Retro-High-OG-Satin-Black-Toe-CD0461-016-981140",
+      "newUrl": "/Air-Jordan-1-Retro-High-OG-Satin-Black-Toe-Retro-High-OG-Satin-Black-Toe-CD0461-016-981140",
+      "isShow": true
+    },
+    {
+      "id": "536027038754838",
+      "name": "Adidas Yeezy Boost 350 V2 Sulfur",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Sulfur",
+      "status": "save-fail",
+      "error": "{\"success\":false,\"result\":{\"code\":-3,\"data\":\"System error, please contact us.\"}}"
+    },
+    {
+      "id": "536027038660376",
+      "name": "Adidas Yeezy Boost 350 V2  Flax",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Flax",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Flax-660376",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Flax-660376",
+      "isShow": true
+    },
+    {
+      "id": "536027433789203",
+      "name": "AMIRI MA-1 White Green",
+      "oldUrlValue": "Pkgod-AMIRI-MA-1-White-Green",
+      "status": "skip-clean"
+    },
+    {
+      "id": "536027429707795",
+      "name": "AMIRI MMY Bones x Maison MIHARA YASUHIRO Alabaster",
+      "oldUrlValue": "-Pkgod-AMIRI-MMY-Bones-x-Maison-MIHARA-YASUHIRO-Alabaster",
+      "status": "ok",
+      "newUrlValue": "AMIRI-MMY-Bones-x-Maison-MIHARA-YASUHIRO-Alabaster",
+      "newUrl": "/AMIRI-MMY-Bones-x-Maison-MIHARA-YASUHIRO-Alabaster",
+      "isShow": true
+    },
+    {
+      "id": "536027428983317",
+      "name": "Air Jordan 4 Retro Forget Me Not  HV0823-100",
+      "oldUrlValue": "-Pkgod-Air-Jordan-4-Retro-Forget-Me-Not-HV0823-100",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-4-Retro-Forget-Me-Not-HV0823-100",
+      "newUrl": "/Air-Jordan-4-Retro-Forget-Me-Not-HV0823-100",
+      "isShow": true
+    },
+    {
+      "id": "536027409440022",
+      "name": "Jordan 12 Retro Gym Red 130690-600",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Gym-Red-130690-600",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-Gym-Red-130690-600",
+      "newUrl": "/Jordan-12-Retro-Gym-Red-130690-600",
+      "isShow": true
+    },
+    {
+      "id": "536027390072597",
+      "name": "Adidas Yeezy Boost 700 V2 Vanta FU6684",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Vanta-FU6684",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V2-Vanta-FU6684",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V2-Vanta-FU6684",
+      "isShow": true
+    },
+    {
+      "id": "536027376494103",
+      "name": "Air Jordan 12 Retro Black Green",
+      "oldUrlValue": "-Pkgod-Air-Jordan-12-Retro-Black-Green",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-12-Retro-Black-Green",
+      "newUrl": "/Air-Jordan-12-Retro-Black-Green",
+      "isShow": true
+    },
+    {
+      "id": "536027367268117",
+      "name": "adidas Yeezy Slide Coffee",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Coffee",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Coffee",
+      "newUrl": "/adidas-Yeezy-Slide-Coffee",
+      "isShow": true
+    },
+    {
+      "id": "536027351257623",
+      "name": "Yeezy Slide Slate Grey",
+      "oldUrlValue": "-Pkgod-Yeezy-Slide-Slate-Grey",
+      "status": "ok",
+      "newUrlValue": "Yeezy-Slide-Slate-Grey",
+      "newUrl": "/Yeezy-Slide-Slate-Grey",
+      "isShow": true
+    },
+    {
+      "id": "536027349778196",
+      "name": "Adidas Yeezy 500 Enflame",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Enflame",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-500-Enflame",
+      "newUrl": "/Adidas-Yeezy-500-Enflame",
+      "isShow": true
+    },
+    {
+      "id": "536027349712926",
+      "name": "Adidas Yeezy 500 Ash Grey",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Ash-Grey",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-500-Ash-Grey",
+      "newUrl": "/Adidas-Yeezy-500-Ash-Grey",
+      "isShow": true
+    },
+    {
+      "id": "536027349650200",
+      "name": "Adidas Yeezy 500 Green-Gray",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Green-Gray",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-500-Green-Gray",
+      "newUrl": "/Adidas-Yeezy-500-Green-Gray",
+      "isShow": true
+    },
+    {
+      "id": "536027347592979",
+      "name": "Jordan 12 Blueberry CT8013-140",
+      "oldUrlValue": "Pkgod-Jordan-12-Blueberry-CT8013-140",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Blueberry-CT8013-140",
+      "newUrl": "/Jordan-12-Blueberry-CT8013-140",
+      "isShow": true
+    },
+    {
+      "id": "536027347494929",
+      "name": "Jordan 12 Retro Flu Game 130890-002",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Flu-Game-130890-002",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-Flu-Game-130890-002",
+      "newUrl": "/Jordan-12-Retro-Flu-Game-130890-002",
+      "isShow": true
+    },
+    {
+      "id": "536027337851160",
+      "name": "AMIRI Skel Top Low White Black",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Top-Low-White-Black",
+      "status": "ok",
+      "newUrlValue": "AMIRI-Skel-Top-Low-White-Black",
+      "newUrl": "/AMIRI-Skel-Top-Low-White-Black",
+      "isShow": true
+    },
+    {
+      "id": "536027337803538",
+      "name": "AMIRI Skel Top Low Whtie Brown",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Top-Low-Whtie-Brown",
+      "status": "ok",
+      "newUrlValue": "AMIRI-Skel-Top-Low-Whtie-Brown",
+      "newUrl": "/AMIRI-Skel-Top-Low-Whtie-Brown",
+      "isShow": true
+    },
+    {
+      "id": "536027337755414",
+      "name": "AMIRI Skel Top Low Whtie Blue",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Top-Low-Whtie-Blue",
+      "status": "ok",
+      "newUrlValue": "AMIRI-Skel-Top-Low-Whtie-Blue",
+      "newUrl": "/AMIRI-Skel-Top-Low-Whtie-Blue",
+      "isShow": true
+    },
+    {
+      "id": "536027337706779",
+      "name": "AMIRI Skel Panelled Top Low Green",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Panelled-Top-Low-Green",
+      "status": "ok",
+      "newUrlValue": "AMIRI-Skel-Panelled-Top-Low-Green",
+      "newUrl": "/AMIRI-Skel-Panelled-Top-Low-Green",
+      "isShow": true
+    },
+    {
+      "id": "536027302040337",
+      "name": "Jordan 1 Low Fierce Pink 69.9",
+      "oldUrlValue": "-Pkgod-Jordan-1-Low-Fierce-Pink-69.9",
+      "status": "ok",
+      "newUrlValue": "Jordan-1-Low-Fierce-Pink-69-9",
+      "newUrl": "/Jordan-1-Low-Fierce-Pink-69-9",
+      "isShow": true
+    },
+    {
+      "id": "536027301926942",
+      "name": "Air Jordan 1 Mid Fierce Pink",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Mid-Fierce-Pink",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Mid-Fierce-Pink",
+      "newUrl": "/Air-Jordan-1-Mid-Fierce-Pink",
+      "isShow": true
+    },
+    {
+      "id": "536027301541144",
+      "name": "Jordan 1 High Mystery Box - One Pair Random",
+      "oldUrlValue": "Pkgod-Jordan-1-High-Mystery-Box---One-Pair-Random",
+      "status": "ok",
+      "newUrlValue": "Jordan-1-High-Mystery-Box-One-Pair-Random",
+      "newUrl": "/Jordan-1-High-Mystery-Box-One-Pair-Random",
+      "isShow": true
+    },
+    {
+      "id": "536027301476377",
+      "name": "Jordan 1 Low Mystery Box - One Pair Random",
+      "oldUrlValue": "Pkgod-Jordan-1-Low-Mystery-Box---One-Pair-Random",
+      "status": "ok",
+      "newUrlValue": "Jordan-1-Low-Mystery-Box-One-Pair-Random",
+      "newUrl": "/Jordan-1-Low-Mystery-Box-One-Pair-Random",
+      "isShow": true
+    },
+    {
+      "id": "536027258295580",
+      "name": "Air Jordan 1 Retro Low Golf Travis Scott Neutral Olive Retro Low Golf Travis Scott Neutral Olive FZ3124-200",
+      "oldUrlValue": "-Pkgod-Jordan-1-Retro-Low-Golf-Travis-Scott-Neutral-Olive",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Retro-Low-Golf-Travis-Scott-Neutral-Olive-Retro-Low-Golf-Travis-Scott-Neutral-Olive-FZ3124-200",
+      "newUrl": "/Air-Jordan-1-Retro-Low-Golf-Travis-Scott-Neutral-Olive-Retro-Low-Golf-Travis-Scott-Neutral-Olive-FZ3124-200",
+      "isShow": true
+    },
+    {
+      "id": "536027258245395",
+      "name": "Air Jordan 1 Low White Grey Low Gang Low White Grey Low Gang DM7866-010",
+      "oldUrlValue": "-Pkgod-Travis-Scott-x-Air-Jordan-1-Low-White-Grey-Low-Gang",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Low-White-Grey-Low-Gang-Low-White-Grey-Low-Gang-DM7866-010",
+      "newUrl": "/Air-Jordan-1-Low-White-Grey-Low-Gang-Low-White-Grey-Low-Gang-DM7866-010",
+      "isShow": true
+    },
+    {
+      "id": "536027258132763",
+      "name": "adidas Yeezy Foam Runner Grey Camouflage",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-Runner-Grey-Camouflage",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-Runner-Grey-Camouflage",
+      "newUrl": "/adidas-Yeezy-Foam-Runner-Grey-Camouflage",
+      "isShow": true
+    },
+    {
+      "id": "536027250354713",
+      "name": "adidas Yeezy Boost 350 V2 Carbon Beluga",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Carbon-Beluga",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Carbon-Beluga",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Carbon-Beluga",
+      "isShow": true
+    },
+    {
+      "id": "536027246462740",
+      "name": "Air Jordan 1 Retro High OG Palomino Retro High OG Palomino DZ5485-020",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Retro-High-OG-Palomino",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Retro-High-OG-Palomino-Retro-High-OG-Palomino-DZ5485-020",
+      "newUrl": "/Air-Jordan-1-Retro-High-OG-Palomino-Retro-High-OG-Palomino-DZ5485-020",
+      "isShow": true
+    },
+    {
+      "id": "536027237219349",
+      "name": "adidas Yeezy Foam RNR MX Cinder",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNR-MX-Cinder",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNR-MX-Cinder",
+      "newUrl": "/adidas-Yeezy-Foam-RNR-MX-Cinder",
+      "isShow": true
+    },
+    {
+      "id": "536027221656336",
+      "name": "Jordan 12 Cherry CT8013-116",
+      "oldUrlValue": "Pkgod-Jordan-12-Cherry-CT8013-116",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Cherry-CT8013-116",
+      "newUrl": "/Jordan-12-Cherry-CT8013-116",
+      "isShow": true
+    },
+    {
+      "id": "536027146605589",
+      "name": "Air Jordan 1 High OG \"White Cement High OG \"White Cement\" DZ5485-052",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-High-OG-White-Cement",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-High-OG-White-Cement-High-OG-White-Cement-DZ5485-052",
+      "newUrl": "/Air-Jordan-1-High-OG-White-Cement-High-OG-White-Cement-DZ5485-052",
+      "isShow": true
+    },
+    {
+      "id": "536027146558740",
+      "name": "adidas Yeezy Slide Enflame Oil Painting White Yellow",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Enflame-Oil-Painting-White-Yellow",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Enflame-Oil-Painting-White-Yellow",
+      "newUrl": "/adidas-Yeezy-Slide-Enflame-Oil-Painting-White-Yellow",
+      "isShow": true
+    },
+    {
+      "id": "536027146495772",
+      "name": "adidas Yeezy Slide Enflame Oil Painting Ink Yellow",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Enflame-Oil-Painting-Ink-Yellow",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Enflame-Oil-Painting-Ink-Yellow",
+      "newUrl": "/adidas-Yeezy-Slide-Enflame-Oil-Painting-Ink-Yellow",
+      "isShow": true
+    },
+    {
+      "id": "536027145834777",
+      "name": "Special Sale & Air Jordan 3 Retro Wizards",
+      "oldUrlValue": "Pkgod-Air-Jordan-3-Retro-Wizards",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-3-Retro-Wizards-834777",
+      "newUrl": "/Air-Jordan-3-Retro-Wizards-834777",
+      "isShow": true
+    },
+    {
+      "id": "536027145770518",
+      "name": "Air Jordan 1 Retro High OG True Blue Retro High OG True Blue DZ5485-410",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Retro-High-OG-True-Blue",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Retro-High-OG-True-Blue-Retro-High-OG-True-Blue-DZ5485-410",
+      "newUrl": "/Air-Jordan-1-Retro-High-OG-True-Blue-Retro-High-OG-True-Blue-DZ5485-410",
+      "isShow": true
+    },
+    {
+      "id": "536027145707289",
+      "name": "adidas Yeezy Cool Grey",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Cool-Grey",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Cool-Grey",
+      "newUrl": "/adidas-Yeezy-Cool-Grey",
+      "isShow": true
+    },
+    {
+      "id": "536027145626649",
+      "name": "Air Jordan 1 Retro High OG Washed Pink Retro High OG Washed Pink FD2596-600",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Retro-High-OG-Washed-Pink-",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Retro-High-OG-Washed-Pink-Retro-High-OG-Washed-Pink-FD2596-600",
+      "newUrl": "/Air-Jordan-1-Retro-High-OG-Washed-Pink-Retro-High-OG-Washed-Pink-FD2596-600",
+      "isShow": true
+    },
+    {
+      "id": "536027144179230",
+      "name": "Air Jordan 1 Low Black Dark Beetroot Low Black Dark Beetroot DC0774-006",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Low-Black-Dark-Beetroot",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Low-Black-Dark-Beetroot-Low-Black-Dark-Beetroot-DC0774-006",
+      "newUrl": "/Air-Jordan-1-Low-Black-Dark-Beetroot-Low-Black-Dark-Beetroot-DC0774-006",
+      "isShow": true
+    },
+    {
+      "id": "536027144081425",
+      "name": "Air Jordan 1 Low New Emerald Low New Emerald DC0774-132",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Low-New-Emerald",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Low-New-Emerald-Low-New-Emerald-DC0774-132",
+      "newUrl": "/Air-Jordan-1-Low-New-Emerald-Low-New-Emerald-DC0774-132",
+      "isShow": true
+    },
+    {
+      "id": "536027144001815",
+      "name": "Air Jordan 1 Low Sail White Oil Green Low Sail White Oil Green FD9906-131",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Low-Sail-White-Oil-Green",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Low-Sail-White-Oil-Green-Low-Sail-White-Oil-Green-FD9906-131",
+      "newUrl": "/Air-Jordan-1-Low-Sail-White-Oil-Green-Low-Sail-White-Oil-Green-FD9906-131",
+      "isShow": true
+    },
+    {
+      "id": "536027143872785",
+      "name": "Air Jordan 1 Low SE All-Star 1 Low SE All-Star DD1650-001",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Low-SE-All-Star",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Low-SE-All-Star-1-Low-SE-All-Star-DD1650-001",
+      "newUrl": "/Air-Jordan-1-Low-SE-All-Star-1-Low-SE-All-Star-DD1650-001",
+      "isShow": true
+    },
+    {
+      "id": "536027139771672",
+      "name": "Air Jordan 1 Retro Low OG Black Toe Retro Low OG Black Toe CZ0790-106",
+      "oldUrlValue": "-Pkgod-Jordan-1-Retro-Low-OG-Black-Toe",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Retro-Low-OG-Black-Toe-Retro-Low-OG-Black-Toe-CZ0790-106",
+      "newUrl": "/Air-Jordan-1-Retro-Low-OG-Black-Toe-Retro-Low-OG-Black-Toe-CZ0790-106",
+      "isShow": true
+    },
+    {
+      "id": "536027137345817",
+      "name": "Air Jordan Zion Williamson x Air Jordan 1 Low OG “Voodoo” Zion Williamson x Air Jordan 1 Low OG “Voodoo” DZ7292-200",
+      "oldUrlValue": "-Pkgod-Zion-Williamson-x-Air-Jordan-1-Low-OG-Voodoo",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-Zion-Williamson-x-Air-Jordan-1-Low-OG-Voodoo-Zion-Williamson-x-Air-Jordan-1-Low-OG-Voodoo-DZ7292-200",
+      "newUrl": "/Air-Jordan-Zion-Williamson-x-Air-Jordan-1-Low-OG-Voodoo-Zion-Williamson-x-Air-Jordan-1-Low-OG-Voodoo-DZ7292-200",
+      "isShow": true
+    },
+    {
+      "id": "536027137120792",
+      "name": "adidas Yeezy Slide Azure",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Azure",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Azure",
+      "newUrl": "/adidas-Yeezy-Slide-Azure",
+      "isShow": true
+    },
+    {
+      "id": "536027137007900",
+      "name": "Air Jordan 1 Retro High OG Washed Black Retro High OG Washed Black DZ5485-051",
+      "oldUrlValue": "-Pkgod-Air-Jordan-1-Retro-High-OG-Washed-Black",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-1-Retro-High-OG-Washed-Black-Retro-High-OG-Washed-Black-DZ5485-051",
+      "newUrl": "/Air-Jordan-1-Retro-High-OG-Washed-Black-Retro-High-OG-Washed-Black-DZ5485-051",
+      "isShow": true
+    },
+    {
+      "id": "536027136720661",
+      "name": "Air Jordan 11 Retro Low Cement Grey Sneaker White University Blue Cement Grey",
+      "oldUrlValue": "-Pkgod-Air-Jordan-11-Retro-Low-Cement-Grey",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-11-Retro-Low-Cement-Grey-Sneaker-White-University-Blue-Cement-Grey",
+      "newUrl": "/Air-Jordan-11-Retro-Low-Cement-Grey-Sneaker-White-University-Blue-Cement-Grey",
+      "isShow": true
+    },
+    {
+      "id": "536027136348947",
+      "name": "Air Jordan 12 Retro Flu Game",
+      "oldUrlValue": "Pkgod-Air-Jordan-12-Retro-Flu-Game",
+      "status": "ok",
+      "newUrlValue": "Air-Jordan-12-Retro-Flu-Game",
+      "newUrl": "/Air-Jordan-12-Retro-Flu-Game",
+      "isShow": true
+    },
+    {
+      "id": "536027135383061",
+      "name": "adidas Yeezy Boost 350 V2 Sky Blue",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Sky-Blue",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Sky-Blue",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Sky-Blue",
+      "isShow": true
+    },
+    {
+      "id": "536027134337044",
+      "name": "Jordan 4 Retro SB Pine Green DR5415-103",
+      "oldUrlValue": "Pkgod-Jordan-4-Retro-SB-Pine-Green-DR5415-103",
+      "status": "ok",
+      "newUrlValue": "Jordan-4-Retro-SB-Pine-Green-DR5415-103",
+      "newUrl": "/Jordan-4-Retro-SB-Pine-Green-DR5415-103",
+      "isShow": true
+    },
+    {
+      "id": "536027133776158",
+      "name": "Jordan 12 Retro Stealth CT8013-015",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Stealth-CT8013-015",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-Stealth-CT8013-015",
+      "newUrl": "/Jordan-12-Retro-Stealth-CT8013-015",
+      "isShow": true
+    },
+    {
+      "id": "536027133710875",
+      "name": "Jordan 12 Retro Black Taxi CT8013-117",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Black-Taxi-CT8013-117",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-Black-Taxi-CT8013-117",
+      "newUrl": "/Jordan-12-Retro-Black-Taxi-CT8013-117",
+      "isShow": true
+    },
+    {
+      "id": "536027128055323",
+      "name": "adidas Yeezy Boost 350 V2 Mono Cinder​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Cinder",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Mono-Cinder",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Mono-Cinder",
+      "isShow": true
+    },
+    {
+      "id": "536027127944468",
+      "name": "adidas Yeezy Boost 350 V2 MX Oat",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-MX-Oat",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-MX-Oat",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-MX-Oat",
+      "isShow": true
+    },
+    {
+      "id": "536027127814162",
+      "name": "adidas Yeezy Boost 350 V2 Moncla",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Moncla",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Moncla",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Moncla",
+      "isShow": true
+    },
+    {
+      "id": "536027127252758",
+      "name": "Adidas Yeezy Boost 700 V2 Static",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Static-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V2-Static",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V2-Static",
+      "isShow": true
+    },
+    {
+      "id": "536027121517590",
+      "name": "adidas Yeezy Slide Flax",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Flax",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Flax",
+      "newUrl": "/adidas-Yeezy-Slide-Flax",
+      "isShow": true
+    },
+    {
+      "id": "536027121149211",
+      "name": "adidas Yeezy Foam RNR MX Carbon",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNR-MX-Carbon",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNR-MX-Carbon",
+      "newUrl": "/adidas-Yeezy-Foam-RNR-MX-Carbon",
+      "isShow": true
+    },
+    {
+      "id": "536027120198933",
+      "name": "adidas Yeezy Foam RNR Desert Sand",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNR-Desert-Sand",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNR-Desert-Sand",
+      "newUrl": "/adidas-Yeezy-Foam-RNR-Desert-Sand",
+      "isShow": true
+    },
+    {
+      "id": "536027115858202",
+      "name": "adidas Yeezy Slide Resin-DC2",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Resin-DC2",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Resin-DC2",
+      "newUrl": "/adidas-Yeezy-Slide-Resin-DC2",
+      "isShow": true
+    },
+    {
+      "id": "536027115812378",
+      "name": "adidas Yeezy Slide Glow Green (2022)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Glow-Green-2022",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Glow-Green-2022",
+      "newUrl": "/adidas-Yeezy-Slide-Glow-Green-2022",
+      "isShow": true
+    },
+    {
+      "id": "536027114477855",
+      "name": "adidas Yeezy 500 Granite",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-500-Granite",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-500-Granite",
+      "newUrl": "/adidas-Yeezy-500-Granite",
+      "isShow": true
+    },
+    {
+      "id": "536027113176350",
+      "name": "adidas Yeezy Foam Runner Stone Sage",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-Runner-Stone-Sage",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-Runner-Stone-Sage",
+      "newUrl": "/adidas-Yeezy-Foam-Runner-Stone-Sage",
+      "isShow": true
+    },
+    {
+      "id": "536027113079058",
+      "name": "adidas Yeezy 700 “Hi-Res Blue”",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-700-Hi-Res-Blue",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-700-Hi-Res-Blue",
+      "newUrl": "/adidas-Yeezy-700-Hi-Res-Blue",
+      "isShow": true
+    },
+    {
+      "id": "536027112613406",
+      "name": "adidas Yeezy Slide Black",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Black",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Black",
+      "newUrl": "/adidas-Yeezy-Slide-Black",
+      "isShow": true
+    },
+    {
+      "id": "536027107406612",
+      "name": "adidas Yeezy 450 Resin",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-450-Resin",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-450-Resin",
+      "newUrl": "/adidas-Yeezy-450-Resin",
+      "isShow": true
+    },
+    {
+      "id": "536027106763544",
+      "name": "adidas Yeezy Boost 350 Pirate Black",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-Pirate-Black",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-Pirate-Black",
+      "newUrl": "/adidas-Yeezy-Boost-350-Pirate-Black",
+      "isShow": true
+    },
+    {
+      "id": "536027106666520",
+      "name": "adidas Yeezy Boost 350 Oxford Tan",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-Oxford-Tan",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-Oxford-Tan",
+      "newUrl": "/adidas-Yeezy-Boost-350-Oxford-Tan",
+      "isShow": true
+    },
+    {
+      "id": "536027106586642",
+      "name": "adidas Yeezy Boost 350 Moonrock",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-Moonrock",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-Moonrock",
+      "newUrl": "/adidas-Yeezy-Boost-350-Moonrock",
+      "isShow": true
+    },
+    {
+      "id": "536027106524946",
+      "name": "adidas Yeezy Boost 350 Turtledove",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-Turtledove",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-Turtledove",
+      "newUrl": "/adidas-Yeezy-Boost-350-Turtledove",
+      "isShow": true
+    },
+    {
+      "id": "536027105013265",
+      "name": "Adidas Yeezy Boost 350 V2 “Beige/Black”",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-BeigeBlack",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Beige-Black",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Beige-Black",
+      "isShow": true
+    },
+    {
+      "id": "536027104129555",
+      "name": "Adidas Yeezy Boost 350 V2 Bone",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Bone",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Bone",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Bone",
+      "isShow": true
+    },
+    {
+      "id": "536027103069203",
+      "name": "adidas Yeezy Slide Onyx HQ6448",
+      "oldUrlValue": "Pkgod-adidas-Yeezy-Slide-Onyx-HQ6448",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Onyx-HQ6448",
+      "newUrl": "/adidas-Yeezy-Slide-Onyx-HQ6448",
+      "isShow": true
+    },
+    {
+      "id": "536027103020316",
+      "name": "adidas Yeezy Slide Ochre",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Ochre",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Ochre",
+      "newUrl": "/adidas-Yeezy-Slide-Ochre",
+      "isShow": true
+    },
+    {
+      "id": "536027102970898",
+      "name": "adidas Yeezy Slide Pure (Restock Pair)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Pure-Restock-Pair",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Pure-Restock-Pair",
+      "newUrl": "/adidas-Yeezy-Slide-Pure-Restock-Pair",
+      "isShow": true
+    },
+    {
+      "id": "536027102924060",
+      "name": "adidas Yeezy Foam RNNR MX Sand Grey",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-MX-Sand-Grey",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNNR-MX-Sand-Grey",
+      "newUrl": "/adidas-Yeezy-Foam-RNNR-MX-Sand-Grey",
+      "isShow": true
+    },
+    {
+      "id": "536027102873882",
+      "name": "adidas Yeezy Foam RNNR Vermillion",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Vermillion",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNNR-Vermillion",
+      "newUrl": "/adidas-Yeezy-Foam-RNNR-Vermillion",
+      "isShow": true
+    },
+    {
+      "id": "536027102827034",
+      "name": "adidas Yeezy Foam RNNR Ochre",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Ochre",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNNR-Ochre",
+      "newUrl": "/adidas-Yeezy-Foam-RNNR-Ochre",
+      "isShow": true
+    },
+    {
+      "id": "536027102330128",
+      "name": "adidas Yeezy Foam RNNR Onyx",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Onyx",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNNR-Onyx",
+      "newUrl": "/adidas-Yeezy-Foam-RNNR-Onyx",
+      "isShow": true
+    },
+    {
+      "id": "536027101942807",
+      "name": "Jordan 12 Retro Playoffs (2022) CT8013-006",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Playoffs-2022-CT8013-006",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-Playoffs-2022-CT8013-006",
+      "newUrl": "/Jordan-12-Retro-Playoffs-2022-CT8013-006",
+      "isShow": true
+    },
+    {
+      "id": "536027101026590",
+      "name": "AMIRI Skel Panelled Top Low Whtie Grey",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Panelled-Top-Low-Whtie-Grey",
+      "status": "ok",
+      "newUrlValue": "AMIRI-Skel-Panelled-Top-Low-Whtie-Grey",
+      "newUrl": "/AMIRI-Skel-Panelled-Top-Low-Whtie-Grey",
+      "isShow": true
+    },
+    {
+      "id": "536027100931858",
+      "name": "AMIRI Skel Panelled Top Low White",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Panelled-Top-Low-White-",
+      "status": "ok",
+      "newUrlValue": "AMIRI-Skel-Panelled-Top-Low-White",
+      "newUrl": "/AMIRI-Skel-Panelled-Top-Low-White",
+      "isShow": true
+    },
+    {
+      "id": "536027100303388",
+      "name": "AMIRI Skel Top High Black White",
+      "oldUrlValue": "-Pkgod-AMIRI-Skel-Top-High-Black-White",
+      "status": "ok",
+      "newUrlValue": "AMIRI-Skel-Top-High-Black-White",
+      "newUrl": "/AMIRI-Skel-Top-High-Black-White",
+      "isShow": true
+    },
+    {
+      "id": "536027100142109",
+      "name": "AMIRI Skel Panelled Top Low Black White MFS003-124",
+      "oldUrlValue": "Pkgod-AMIRI-Skel-Panelled-Top-Low-Black-White-MFS003-124",
+      "status": "ok",
+      "newUrlValue": "AMIRI-Skel-Panelled-Top-Low-Black-White-MFS003-124",
+      "newUrl": "/AMIRI-Skel-Panelled-Top-Low-Black-White-MFS003-124",
+      "isShow": true
+    },
+    {
+      "id": "536027099708190",
+      "name": "Adidas Yeezy Boost 350 V2 Dazzling Blue",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Dazzling-Blue",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Dazzling-Blue",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Dazzling-Blue",
+      "isShow": true
+    },
+    {
+      "id": "536027099193368",
+      "name": "Adidas Yeezy Boost 350 V2 Beluga Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Beluga-Reflective",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Beluga-Reflective",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Beluga-Reflective",
+      "isShow": true
+    },
+    {
+      "id": "536027099130388",
+      "name": "Adidas Yeezy Boost 350 V2 Beluga 2.0",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Beluga-2.0",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Beluga-2-0",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Beluga-2-0",
+      "isShow": true
+    },
+    {
+      "id": "536027097217308",
+      "name": "Nike Air Yeezy 2 Red October",
+      "oldUrlValue": "-Pkgod-Nike-Air-Yeezy-2-Red-October",
+      "status": "ok",
+      "newUrlValue": "Nike-Air-Yeezy-2-Red-October",
+      "newUrl": "/Nike-Air-Yeezy-2-Red-October",
+      "isShow": true
+    },
+    {
+      "id": "536027097168920",
+      "name": "Nike Air Yeezy 2 Solar Red",
+      "oldUrlValue": "-Pkgod-Nike-Air-Yeezy-2-Solar-Red",
+      "status": "ok",
+      "newUrlValue": "Nike-Air-Yeezy-2-Solar-Red",
+      "newUrl": "/Nike-Air-Yeezy-2-Solar-Red",
+      "isShow": true
+    },
+    {
+      "id": "536027097122078",
+      "name": "Nike Air Yeezy 2 Pure Platinum",
+      "oldUrlValue": "-Pkgod-Nike-Air-Yeezy-2-Pure-Platinum",
+      "status": "ok",
+      "newUrlValue": "Nike-Air-Yeezy-2-Pure-Platinum",
+      "newUrl": "/Nike-Air-Yeezy-2-Pure-Platinum",
+      "isShow": true
+    },
+    {
+      "id": "536027096283160",
+      "name": "Adidas Yeezy Boost 350 V2 Light",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Light",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Light",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Light",
+      "isShow": true
+    },
+    {
+      "id": "536027092733726",
+      "name": "adidas Yeezy Boost 700 Analog​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-700-Analog",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-700-Analog",
+      "newUrl": "/adidas-Yeezy-Boost-700-Analog",
+      "isShow": true
+    },
+    {
+      "id": "536027091703312",
+      "name": "adidas Yeezy Boost 350 V2 Mono Ice",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Ice",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Mono-Ice",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Mono-Ice",
+      "isShow": true
+    },
+    {
+      "id": "536027089774108",
+      "name": "adidas Yeezy Foam RNNR MX Cream Clay​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-MX-Cream-Clay",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNNR-MX-Cream-Clay",
+      "newUrl": "/adidas-Yeezy-Foam-RNNR-MX-Cream-Clay",
+      "isShow": true
+    },
+    {
+      "id": "536027089659930",
+      "name": "adidas Yeezy Boost 350 V2 MX Rock",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-MX-Rock",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-MX-Rock",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-MX-Rock",
+      "isShow": true
+    },
+    {
+      "id": "536027089614097",
+      "name": "adidas Yeezy Boost 700 V2 Enflame Amber Mauve",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-700-V2-Enflame-Amber-Mauve",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-700-V2-Enflame-Amber-Mauve",
+      "newUrl": "/adidas-Yeezy-Boost-700-V2-Enflame-Amber-Mauve",
+      "isShow": true
+    },
+    {
+      "id": "536027087973137",
+      "name": "Adidas Yeezy 500 Taupe Light",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Taupe-Light",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-500-Taupe-Light",
+      "newUrl": "/Adidas-Yeezy-500-Taupe-Light",
+      "isShow": true
+    },
+    {
+      "id": "536027087071252",
+      "name": "adidas Yeezy Boost 350 V2 Mono Mist (Kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Mist-Kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Mono-Mist-Kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Mono-Mist-Kids",
+      "isShow": true
+    },
+    {
+      "id": "536027087022620",
+      "name": "adidas Yeezy Boost 350 V2 Black (Kids)​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Black-Kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Black-Kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Black-Kids",
+      "isShow": true
+    },
+    {
+      "id": "536027086959120",
+      "name": "adidas Yeezy Boost 350 V2 Israfil​ (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Israfil-kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Israfil-kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Israfil-kids",
+      "isShow": true
+    },
+    {
+      "id": "536027086926864",
+      "name": "adidas Yeezy Boost 350 V2 Desert Sage (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Desert-Sage-kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Desert-Sage-kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Desert-Sage-kids",
+      "isShow": true
+    },
+    {
+      "id": "536027086878743",
+      "name": "adidas Yeezy Boost 350 V2 Cinder (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Cinder-kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Cinder-kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Cinder-kids",
+      "isShow": true
+    },
+    {
+      "id": "536027086783771",
+      "name": "adidas Yeezy Boost 350 V2 Synth Reflective (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Synth-Reflective-kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Synth-Reflective-kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Synth-Reflective-kids",
+      "isShow": true
+    },
+    {
+      "id": "536027086719507",
+      "name": "adidas Yeezy Boost 350 V2 Tail Light​ (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Tail-Light-kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Tail-Light-kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Tail-Light-kids",
+      "isShow": true
+    },
+    {
+      "id": "536027086670363",
+      "name": "adidas Yeezy Boost 350 V2 Static Black (kids)​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Static-Black-kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Static-Black-kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Static-Black-kids",
+      "isShow": true
+    },
+    {
+      "id": "536027086574872",
+      "name": "adidas Yeezy Boost 350 V2 Cloud White (kids)​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Cloud-White-kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Cloud-White-kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Cloud-White-kids",
+      "isShow": true
+    },
+    {
+      "id": "536027086525203",
+      "name": "adidas Yeezy Boost 350 V2 Carbon (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Carbon-kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Carbon-kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Carbon-kids",
+      "isShow": true
+    },
+    {
+      "id": "536027086479133",
+      "name": "adidas Yeezy Boost 350 V2 Static​ (Kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Static-Kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Static-Kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Static-Kids",
+      "isShow": true
+    },
+    {
+      "id": "536027086413585",
+      "name": "adidas Yeezy Boost 350 V2 Mono Clay (Kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Clay-Kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Mono-Clay-Kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Mono-Clay-Kids",
+      "isShow": true
+    },
+    {
+      "id": "536027086332178",
+      "name": "adidas Yeezy Boost 350 V2 Mono Ice (kids)",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Ice-kids",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Mono-Ice-kids",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Mono-Ice-kids",
+      "isShow": true
+    },
+    {
+      "id": "536027086235669",
+      "name": "adidas Yeezy Boost 350 V2 Mono Clay",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Clay",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Mono-Clay",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Mono-Clay",
+      "isShow": true
+    },
+    {
+      "id": "536027085947923",
+      "name": "adidas Yeezy Slide Pure",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Pure",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Pure",
+      "newUrl": "/adidas-Yeezy-Slide-Pure",
+      "isShow": true
+    },
+    {
+      "id": "536027085899034",
+      "name": "adidas Yeezy Slide Enflame Orange​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Enflame-Orange",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Enflame-Orange",
+      "newUrl": "/adidas-Yeezy-Slide-Enflame-Orange",
+      "isShow": true
+    },
+    {
+      "id": "536027084982807",
+      "name": "adidas Yeezy Foam RNNR Ararat G55486",
+      "oldUrlValue": "Pkgod-adidas-Yeezy-Foam-RNNR-Ararat-G55486",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNNR-Ararat-G55486",
+      "newUrl": "/adidas-Yeezy-Foam-RNNR-Ararat-G55486",
+      "isShow": true
+    },
+    {
+      "id": "536027084935188",
+      "name": "adidas Yeezy Foam RNNR Mineral Blue​",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Mineral-Blue",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNNR-Mineral-Blue",
+      "newUrl": "/adidas-Yeezy-Foam-RNNR-Mineral-Blue",
+      "isShow": true
+    },
+    {
+      "id": "536027083536671",
+      "name": "adidas Yeezy Boost 350 V2 Mono Mist",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Mono-Mist",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Mono-Mist",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Mono-Mist",
+      "isShow": true
+    },
+    {
+      "id": "536027083377690",
+      "name": "adidas Yeezy 450 Dark Slate",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-450-Dark-Slate",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-450-Dark-Slate",
+      "newUrl": "/adidas-Yeezy-450-Dark-Slate",
+      "isShow": true
+    },
+    {
+      "id": "536027083102480",
+      "name": "adidas Yeezy Foam RNNR Sand MXT Moon Gray",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Sand-MXT-Moon-Gray",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNNR-Sand-MXT-Moon-Gray",
+      "newUrl": "/adidas-Yeezy-Foam-RNNR-Sand-MXT-Moon-Gray",
+      "isShow": true
+    },
+    {
+      "id": "536027083069470",
+      "name": "adidas Yeezy Foam RNNR Sand",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Foam-RNNR-Sand",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Foam-RNNR-Sand",
+      "newUrl": "/adidas-Yeezy-Foam-RNNR-Sand",
+      "isShow": true
+    },
+    {
+      "id": "536027082813981",
+      "name": "adidas Yeezy Slide BONE",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-BONE",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-BONE",
+      "newUrl": "/adidas-Yeezy-Slide-BONE",
+      "isShow": true
+    },
+    {
+      "id": "536027082749471",
+      "name": "adidas Yeezy Slide CORE-DC2",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-CORE-DC2",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-CORE-DC2",
+      "newUrl": "/adidas-Yeezy-Slide-CORE-DC2",
+      "isShow": true
+    },
+    {
+      "id": "536027079198227",
+      "name": "adidas Yeezy 450 Cloud White",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-450-Cloud-White",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-450-Cloud-White",
+      "newUrl": "/adidas-Yeezy-450-Cloud-White",
+      "isShow": true
+    },
+    {
+      "id": "536027078890014",
+      "name": "adidas Yeezy Boost 350 V2 Ash Pearl",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Ash-Pearl",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Ash-Pearl",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Ash-Pearl",
+      "isShow": true
+    },
+    {
+      "id": "536027069342230",
+      "name": "adidas Yeezy Boost 700 Bright Blue",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-700-Bright-Blue",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-700-Bright-Blue",
+      "newUrl": "/adidas-Yeezy-Boost-700-Bright-Blue",
+      "isShow": true
+    },
+    {
+      "id": "536027068668701",
+      "name": "adidas Yeezy Boost 350 V2 Ash Blue",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Ash-Blue",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Ash-Blue",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Ash-Blue",
+      "isShow": true
+    },
+    {
+      "id": "536027068587038",
+      "name": "adidas Yeezy Boost 350 V2 Ash Stone",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-350-V2-Ash-Stone",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-350-V2-Ash-Stone",
+      "newUrl": "/adidas-Yeezy-Boost-350-V2-Ash-Stone",
+      "isShow": true
+    },
+    {
+      "id": "536027068018204",
+      "name": "adidas Yeezy Slide Resin",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Resin",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Resin",
+      "newUrl": "/adidas-Yeezy-Slide-Resin",
+      "isShow": true
+    },
+    {
+      "id": "536027067927835",
+      "name": "adidas Yeezy Slide Core",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Core",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Core",
+      "newUrl": "/adidas-Yeezy-Slide-Core",
+      "isShow": true
+    },
+    {
+      "id": "536027067880473",
+      "name": "adidas Yeezy Slide Soot",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Soot",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Soot",
+      "newUrl": "/adidas-Yeezy-Slide-Soot",
+      "isShow": true
+    },
+    {
+      "id": "536027067766047",
+      "name": "adidas Yeezy Slide Desert Sand",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Slide-Desert-Sand",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Slide-Desert-Sand",
+      "newUrl": "/adidas-Yeezy-Slide-Desert-Sand",
+      "isShow": true
+    },
+    {
+      "id": "536027067686166",
+      "name": "adidas Yeezy Boost 700 Sun",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-700-Sun",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-700-Sun",
+      "newUrl": "/adidas-Yeezy-Boost-700-Sun",
+      "isShow": true
+    },
+    {
+      "id": "536027067588631",
+      "name": "adidas Yeezy Boost 700 V2 Cream",
+      "oldUrlValue": "-Pkgod-adidas-Yeezy-Boost-700-V2-Cream",
+      "status": "ok",
+      "newUrlValue": "adidas-Yeezy-Boost-700-V2-Cream",
+      "newUrl": "/adidas-Yeezy-Boost-700-V2-Cream",
+      "isShow": true
+    },
+    {
+      "id": "536027066095120",
+      "name": "Jordan 12 Retro OVO White 873864-102",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-OVO-White-873864-102",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-OVO-White-873864-102",
+      "newUrl": "/Jordan-12-Retro-OVO-White-873864-102",
+      "isShow": true
+    },
+    {
+      "id": "536027065869841",
+      "name": "Jordan 12 Retro Black Dark Concord CT8013-005",
+      "oldUrlValue": "Pkgod-Jordan-12-Retro-Black-Dark-Concord-CT8013-005",
+      "status": "ok",
+      "newUrlValue": "Jordan-12-Retro-Black-Dark-Concord-CT8013-005",
+      "newUrl": "/Jordan-12-Retro-Black-Dark-Concord-CT8013-005",
+      "isShow": true
+    },
+    {
+      "id": "536027063090453",
+      "name": "Adidas Yeezy Boost 700  Inertia",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Inertia",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-Inertia",
+      "newUrl": "/Adidas-Yeezy-Boost-700-Inertia",
+      "isShow": true
+    },
+    {
+      "id": "536027062688540",
+      "name": "Adidas Yeezy Boost 750 OG Light Brown",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-750-OG-Light-Brown",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-750-OG-Light-Brown",
+      "newUrl": "/Adidas-Yeezy-Boost-750-OG-Light-Brown",
+      "isShow": true
+    },
+    {
+      "id": "536027062544153",
+      "name": "Adidas Yeezy QNTM Quantum",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-QNTM-Quantum",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-QNTM-Quantum",
+      "newUrl": "/Adidas-Yeezy-QNTM-Quantum",
+      "isShow": true
+    },
+    {
+      "id": "536027062497052",
+      "name": "Adidas Yeezy QNTM Teal Blue",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-QNTM-Teal-Blue",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-QNTM-Teal-Blue",
+      "newUrl": "/Adidas-Yeezy-QNTM-Teal-Blue",
+      "isShow": true
+    },
+    {
+      "id": "536027062366994",
+      "name": "Adidas Yeezy QNTM Barium",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-QNTM-Barium",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-QNTM-Barium",
+      "newUrl": "/Adidas-Yeezy-QNTM-Barium",
+      "isShow": true
+    },
+    {
+      "id": "536027061402395",
+      "name": "Adidas Yeezy Boost 700 V3 Safflower",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V3-Safflower",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V3-Safflower",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V3-Safflower",
+      "isShow": true
+    },
+    {
+      "id": "536027061339413",
+      "name": "Adidas Yeezy Boost 700 V3 Kyanite",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V3-Kyanite",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V3-Kyanite",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V3-Kyanite",
+      "isShow": true
+    },
+    {
+      "id": "536027061274136",
+      "name": "Adidas Yeezy Boost 700 V3 Clay Brown",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V3-Clay-Brown",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V3-Clay-Brown",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V3-Clay-Brown",
+      "isShow": true
+    },
+    {
+      "id": "536027058299931",
+      "name": "Adidas Yeezy Boost 350 V2 YECHER",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-YECHER",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-YECHER",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-YECHER",
+      "isShow": true
+    },
+    {
+      "id": "536027057945373",
+      "name": "Adidas Yeezy Boost 750 Brown Gum (Chocolate)",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-750-Brown-Gum-Chocolate",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-750-Brown-Gum-Chocolate",
+      "newUrl": "/Adidas-Yeezy-Boost-750-Brown-Gum-Chocolate",
+      "isShow": true
+    },
+    {
+      "id": "536027057898271",
+      "name": "Adidas Yeezy Boost 750 Black",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-750-Black",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-750-Black",
+      "newUrl": "/Adidas-Yeezy-Boost-750-Black",
+      "isShow": true
+    },
+    {
+      "id": "536027055665694",
+      "name": "Adidas Yeezy 500 Bone White",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Bone-White",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-500-Bone-White",
+      "newUrl": "/Adidas-Yeezy-500-Bone-White",
+      "isShow": true
+    },
+    {
+      "id": "536027055570459",
+      "name": "Adidas Yeezy 500 Utility Black",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Utility-Black",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-500-Utility-Black",
+      "newUrl": "/Adidas-Yeezy-500-Utility-Black",
+      "isShow": true
+    },
+    {
+      "id": "536027055472146",
+      "name": "Adidas Yeezy 500 Stone",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Stone",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-500-Stone",
+      "newUrl": "/Adidas-Yeezy-500-Stone",
+      "isShow": true
+    },
+    {
+      "id": "536027055408919",
+      "name": "Adidas Yeezy 500 Soft Vision",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Soft-Vision",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-500-Soft-Vision",
+      "newUrl": "/Adidas-Yeezy-500-Soft-Vision",
+      "isShow": true
+    },
+    {
+      "id": "536027055343902",
+      "name": "Adidas Yeezy 500 High Slate",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-High-Slate",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-500-High-Slate",
+      "newUrl": "/Adidas-Yeezy-500-High-Slate",
+      "isShow": true
+    },
+    {
+      "id": "536027055295250",
+      "name": "Adidas Yeezy 500 Blush",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-500-Blush",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-500-Blush",
+      "newUrl": "/Adidas-Yeezy-500-Blush",
+      "isShow": true
+    },
+    {
+      "id": "536027054813980",
+      "name": "Adidas Yeezy Boost 380 Calcite Glow",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Calcite-Glow",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-380-Calcite-Glow",
+      "newUrl": "/Adidas-Yeezy-Boost-380-Calcite-Glow",
+      "isShow": true
+    },
+    {
+      "id": "536027054717463",
+      "name": "Adidas Yeezy Boost 380 Alien",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Alien",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-380-Alien",
+      "newUrl": "/Adidas-Yeezy-Boost-380-Alien",
+      "isShow": true
+    },
+    {
+      "id": "536027054669074",
+      "name": "Adidas Yeezy Boost 380 Mist",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Mist",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-380-Mist",
+      "newUrl": "/Adidas-Yeezy-Boost-380-Mist",
+      "isShow": true
+    },
+    {
+      "id": "536027054605334",
+      "name": "Adidas Yeezy Boost 380 Mist Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Mist-Reflective",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-380-Mist-Reflective",
+      "newUrl": "/Adidas-Yeezy-Boost-380-Mist-Reflective",
+      "isShow": true
+    },
+    {
+      "id": "536027054459672",
+      "name": "Adidas Yeezy Boost 380 Blue Oat",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Blue-Oat-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-380-Blue-Oat",
+      "newUrl": "/Adidas-Yeezy-Boost-380-Blue-Oat",
+      "isShow": true
+    },
+    {
+      "id": "536027054362906",
+      "name": "Adidas Yeezy Boost 380 Pepper",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Pepper",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-380-Pepper",
+      "newUrl": "/Adidas-Yeezy-Boost-380-Pepper",
+      "isShow": true
+    },
+    {
+      "id": "536027054299675",
+      "name": "Adidas Yeezy Boost 380 Black Purple",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-380-Black-Purple",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-380-Black-Purple",
+      "newUrl": "/Adidas-Yeezy-Boost-380-Black-Purple",
+      "isShow": true
+    },
+    {
+      "id": "536027047370777",
+      "name": "Adidas Yeezy Boost 700 V3 Azael",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V3-Azael",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V3-Azael",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V3-Azael",
+      "isShow": true
+    },
+    {
+      "id": "536027047274526",
+      "name": "Adidas Yeezy Boost 700 V3 Alvah",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V3-Alvah",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V3-Alvah",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V3-Alvah",
+      "isShow": true
+    },
+    {
+      "id": "536027047225373",
+      "name": "Adidas Yeezy Boost 700 V3 Azareth",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V3-Azareth",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V3-Azareth",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V3-Azareth",
+      "isShow": true
+    },
+    {
+      "id": "536027047146000",
+      "name": "Adidas Yeezy Boost 700 V2 Tephra",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Tephra",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V2-Tephra",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V2-Tephra",
+      "isShow": true
+    },
+    {
+      "id": "536027047097371",
+      "name": "Adidas Yeezy Boost 700 Salt",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Salt",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-Salt",
+      "newUrl": "/Adidas-Yeezy-Boost-700-Salt",
+      "isShow": true
+    },
+    {
+      "id": "536027046986000",
+      "name": "Adidas Yeezy Boost 700 MNVN Orange",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-MNVN-Orange",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-MNVN-Orange",
+      "newUrl": "/Adidas-Yeezy-Boost-700-MNVN-Orange",
+      "isShow": true
+    },
+    {
+      "id": "536027046921497",
+      "name": "Adidas Yeezy Boost 700 MNVN Bone",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-MNVN-Bone",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-MNVN-Bone",
+      "newUrl": "/Adidas-Yeezy-Boost-700-MNVN-Bone",
+      "isShow": true
+    },
+    {
+      "id": "536027046825748",
+      "name": "Adidas Yeezy Boost 700 MNVN Triple Black",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-MNVN-Triple-Black",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-MNVN-Triple-Black",
+      "newUrl": "/Adidas-Yeezy-Boost-700-MNVN-Triple-Black",
+      "isShow": true
+    },
+    {
+      "id": "536027046776854",
+      "name": "Adidas Yeezy Boost 700 MNVN Phosphor",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-MNVN-Phosphor",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-MNVN-Phosphor",
+      "newUrl": "/Adidas-Yeezy-Boost-700-MNVN-Phosphor",
+      "isShow": true
+    },
+    {
+      "id": "536027046711830",
+      "name": "Adidas Yeezy Boost 700 Teal Blue",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Teal-Blue",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-Teal-Blue",
+      "newUrl": "/Adidas-Yeezy-Boost-700-Teal-Blue",
+      "isShow": true
+    },
+    {
+      "id": "536027046662165",
+      "name": "Adidas Yeezy Boost 700 Wave Runner Solid Grey",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Wave-Runner-Solid-Grey",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-Wave-Runner-Solid-Grey",
+      "newUrl": "/Adidas-Yeezy-Boost-700-Wave-Runner-Solid-Grey",
+      "isShow": true
+    },
+    {
+      "id": "536027046600474",
+      "name": "Adidas Yeezy Boost 700 Carbon Blue",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Carbon-Blue",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-Carbon-Blue",
+      "newUrl": "/Adidas-Yeezy-Boost-700-Carbon-Blue",
+      "isShow": true
+    },
+    {
+      "id": "536027046519825",
+      "name": "Adidas Yeezy Boost 700 V2 Inertia",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Inertia",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V2-Inertia",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V2-Inertia",
+      "isShow": true
+    },
+    {
+      "id": "536027046470170",
+      "name": "Adidas Yeezy Boost 700 V2 Hospital Blue",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Hospital-Blue",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V2-Hospital-Blue",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V2-Hospital-Blue",
+      "isShow": true
+    },
+    {
+      "id": "536027046422805",
+      "name": "Adidas Yeezy Boost 700 Mauve",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Mauve",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-Mauve",
+      "newUrl": "/Adidas-Yeezy-Boost-700-Mauve",
+      "isShow": true
+    },
+    {
+      "id": "536027046357787",
+      "name": "Adidas Yeezy Boost 700 V2 Geode",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Geode",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V2-Geode",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V2-Geode",
+      "isShow": true
+    },
+    {
+      "id": "536027046311198",
+      "name": "Adidas Yeezy Boost 700 V2 Vanta",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-V2-Vanta",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-V2-Vanta",
+      "newUrl": "/Adidas-Yeezy-Boost-700-V2-Vanta",
+      "isShow": true
+    },
+    {
+      "id": "536027046166299",
+      "name": "Adidas Yeezy Boost 700 Magnet",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-700-Magnet",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-700-Magnet",
+      "newUrl": "/Adidas-Yeezy-Boost-700-Magnet",
+      "isShow": true
+    },
+    {
+      "id": "536027044671005",
+      "name": "Adidas Yeezy Boost 350 V2 Synth",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Synth-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Synth",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Synth",
+      "isShow": true
+    },
+    {
+      "id": "536027044604176",
+      "name": "Adidas Yeezy Boost 350 V2 Abez",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Abez",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Abez",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Abez",
+      "isShow": true
+    },
+    {
+      "id": "536027044557851",
+      "name": "Adidas Yeezy Boost 350 V2 Marsh",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Marsh",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Marsh",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Marsh",
+      "isShow": true
+    },
+    {
+      "id": "536027044494866",
+      "name": "Adidas Yeezy Boost 350 V2 Tail Light",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Tail-Light",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Tail-Light",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Tail-Light",
+      "isShow": true
+    },
+    {
+      "id": "536027044444699",
+      "name": "Adidas Yeezy Boost 350 V2 Eliada",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Eliada",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Eliada",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Eliada",
+      "isShow": true
+    },
+    {
+      "id": "536027044381200",
+      "name": "Adidas Yeezy Boost 350 V2 Earth",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Earth",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Earth",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Earth",
+      "isShow": true
+    },
+    {
+      "id": "536027044315410",
+      "name": "Adidas Yeezy Boost 350 V2 Citrin",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Citrin-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Citrin",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Citrin",
+      "isShow": true
+    },
+    {
+      "id": "536027044268061",
+      "name": "Adidas Yeezy Boost 350 V2 Zyon",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Zyon-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Zyon",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Zyon",
+      "isShow": true
+    },
+    {
+      "id": "536027044220695",
+      "name": "Adidas Yeezy Boost 350 V2  Linen",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Linen",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Linen",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Linen",
+      "isShow": true
+    },
+    {
+      "id": "536027044156441",
+      "name": "Adidas Yeezy Boost 350 V2 Yeezreel Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Yeezreel-Reflective",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Yeezreel-Reflective",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Yeezreel-Reflective",
+      "isShow": true
+    },
+    {
+      "id": "536027044089874",
+      "name": "Adidas Yeezy Boost 350 V2 Yeezreel",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Yeezreel-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Yeezreel",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Yeezreel",
+      "isShow": true
+    },
+    {
+      "id": "536027044044315",
+      "name": "Adidas Yeezy Boost 350 V2 Cinder",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Cinder",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Cinder",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Cinder",
+      "isShow": true
+    },
+    {
+      "id": "536027043979032",
+      "name": "Adidas Yeezy Boost 350 V2 Citrin Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Citrin-Reflective",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Citrin-Reflective",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Citrin-Reflective",
+      "isShow": true
+    },
+    {
+      "id": "536027043818264",
+      "name": "Adidas Yeezy Boost 350 V2 Static",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Static-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Static",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Static",
+      "isShow": true
+    },
+    {
+      "id": "536027043722779",
+      "name": "Adidas Yeezy Boost 350 V2 Static Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Static-Reflective",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Static-Reflective",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Static-Reflective",
+      "isShow": true
+    },
+    {
+      "id": "536027043655711",
+      "name": "Adidas Yeezy Boost 350 V2 Yecheil",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Yecheil-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Yecheil",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Yecheil",
+      "isShow": true
+    },
+    {
+      "id": "536027043609624",
+      "name": "Adidas Yeezy Boost 350 V2 Yecheil Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Yecheil-Reflective",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Yecheil-Reflective",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Yecheil-Reflective",
+      "isShow": true
+    },
+    {
+      "id": "536027043543314",
+      "name": "Adidas Yeezy Boost 350 V2 Glow In Dark",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Glow-In-Dark",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Glow-In-Dark",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Glow-In-Dark",
+      "isShow": true
+    },
+    {
+      "id": "536027043479832",
+      "name": "Adidas Yeezy Boost 350 V2 Cinder Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Cinder-Reflective",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Cinder-Reflective",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Cinder-Reflective",
+      "isShow": true
+    },
+    {
+      "id": "536027043416593",
+      "name": "Adidas Yeezy Boost 350 V2 Static Black Reflective",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Static-Black-Reflective",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Static-Black-Reflective",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Static-Black-Reflective",
+      "isShow": true
+    },
+    {
+      "id": "536027043368479",
+      "name": "Adidas Yeezy Boost 350 V2 Desert Sage",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Desert-Sage",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Desert-Sage",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Desert-Sage",
+      "isShow": true
+    },
+    {
+      "id": "536027043304976",
+      "name": "Adidas Yeezy Boost 350 V2 Core Black Red",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Core-Black-Red",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Core-Black-Red",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Core-Black-Red",
+      "isShow": true
+    },
+    {
+      "id": "536027043240213",
+      "name": "Adidas Yeezy Boost 350 V2 Zebra",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Zebra-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Zebra",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Zebra",
+      "isShow": true
+    },
+    {
+      "id": "536027043143189",
+      "name": "Adidas Yeezy Boost 350 V2 Hyperspace",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Hyperspace-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Hyperspace",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Hyperspace",
+      "isShow": true
+    },
+    {
+      "id": "536027043078935",
+      "name": "Adidas Yeezy Boost 350 V2 Cream White",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Cream-White",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Cream-White",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Cream-White",
+      "isShow": true
+    },
+    {
+      "id": "536027042869531",
+      "name": "Adidas Yeezy Boost 350 V2 True From",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-True-From-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-True-From",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-True-From",
+      "isShow": true
+    },
+    {
+      "id": "536027042771740",
+      "name": "Adidas Yeezy Boost 350 V2 Yeshaya",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Yeshaya-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Yeshaya",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Yeshaya",
+      "isShow": true
+    },
+    {
+      "id": "536027042532631",
+      "name": "Adidas Yeezy Boost 350 V2 Black Bred",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Black-Bred",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Black-Bred",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Black-Bred",
+      "isShow": true
+    },
+    {
+      "id": "536027042469392",
+      "name": "Adidas Yeezy Boost 350 V2 Clay",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Clay-",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Clay",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Clay",
+      "isShow": true
+    },
+    {
+      "id": "536027042275347",
+      "name": "Adidas Yeezy Boost 350 V2 Asriel",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Asriel",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Asriel",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Asriel",
+      "isShow": true
+    },
+    {
+      "id": "536027042180884",
+      "name": "Adidas Yeezy Boost 350 V2  Israfil",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Israfil",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Israfil",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Israfil",
+      "isShow": true
+    },
+    {
+      "id": "536027038754838",
+      "name": "Adidas Yeezy Boost 350 V2 Sulfur",
+      "oldUrlValue": "-Pkgod-Adidas-Yeezy-Boost-350-V2-Sulfur",
+      "status": "ok",
+      "newUrlValue": "Adidas-Yeezy-Boost-350-V2-Sulfur",
+      "newUrl": "/Adidas-Yeezy-Boost-350-V2-Sulfur",
+      "isShow": true
+    }
+  ]
+}
