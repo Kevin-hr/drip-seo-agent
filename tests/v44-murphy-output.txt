@@ -1,0 +1,61 @@
+﻿
+========== P0-06 ==========
+1. Product Name: "Represent Owners Club Script Hoodie Pink" ✓
+2. Visible textareas after clicking 编辑SEO: 4
+   TA0: ""
+   TA1: "Represent Owners Club Script Hoodie Pink OCM41200-518 Reps | Drip Sneakers"
+   TA2: "Shop Represent Owners Club Script Hoodie Pink reps (OCM41200-518) at Drip Sneakers with QC photos, 30-day returns and 7–"
+   TA3: "Represent-Owners-Club-Script-Hoodie-Pink"
+3. URL Slug: "NOT FOUND"
+4. TinyMCE editors: 2
+   Editor 0: li=5 link=true h2=true p=true
+   Content: <p>This Represent Owners Club Script Hoodie uses a Pink colorway with the Owners Club script identity across the heavyweight cotton hoodie silhouette.</p>
+<h2>Product Details</h2>
+<ul>
+<li><strong>Brand:</strong> <a href="https://www.dripsneakers.org/Hoodies/"><strong>Represent</strong></a></li>
+<li
+   Editor 1: li=3 link=true h2=false p=true
+   Content: <h1 class="text-xl-2 md:text-2xl-1 font-medium hypebae:capitalize" itemprop="name">Represent Owners Club Script Hoodie Pink</h1>
+<p><span>The <a href="https://www.dripsneakers.org/" rel="noopener" target="_blank">Represent</a> Owners Club Hoodie Black is a premium garment designed to exude sophistic
+
+========== P0-12 ==========
+1. Product Name: "Vale Forever Classico Zip Up Hoodie Sapphire" ✓
+2. Visible textareas after clicking 编辑SEO: 4
+   TA0: ""
+   TA1: "Vale Forever Classico Zip Up Hoodie Sapphire Reps | Drip Sneakers"
+   TA2: "Shop Vale Forever Classico Zip Up Hoodie Sapphire reps at Drip Sneakers with QC photos, 30-day returns and 7–20 day ship"
+   TA3: "Vale-Forever-Classico-Zip-Up-Hoodie-Sapphire"
+3. URL Slug: "NOT FOUND"
+4. TinyMCE editors: 2
+   Editor 0: li=5 link=true h2=true p=true
+   Content: <p>This Vale Forever Classico hoodie uses a Sapphire colorway with a full-zip front in the Classico zip-up silhouette.</p>
+<h2>Product Details</h2>
+<ul>
+<li><strong>Brand:</strong> <a href="https://www.dripsneakers.org/Hoodies/"><strong>Vale Forever</strong></a></li>
+<li><strong>Product Type:</stron
+   Editor 1: li=3 link=true h2=false p=true
+   Content: <h1 class="chakra-heading css-k15mlv" data-component="primary-product-title">Vale Forever Classico Zip Up Hoodie<span class="chakra-heading css-k15mlv" data-component="secondary-product-title">Orange</span></h1>
+<p>The <a href="https://www.dripsneakers.org/" rel="noopener" target="_blank">Vale Forev
+
+========== P1-01 ==========
+1. Product Name: "New Balance 9060 Bricks & Wood" ✓
+2. Visible textareas after clicking 编辑SEO: 4
+   TA0: ""
+   TA1: "New Balance 9060 Bricks & Wood U9060BW1 Reps | Drip Sneakers"
+   TA2: "Shop New Balance 9060 Bricks & Wood reps (U9060BW1) at Drip Sneakers with QC photos, 30-day returns and 7–20 day shippin"
+   TA3: "New-Balance-9060-Bricks--Wood-U9060BW1"
+3. URL Slug: "NOT FOUND"
+4. TinyMCE editors: 2
+   Editor 0: li=5 link=true h2=true p=true
+   Content: <p>This New Balance 9060 Bricks &amp; Wood collaboration combines Beige, Grey and Green tones across the layered 9060 construction.</p>
+<h2>Product Details</h2>
+<ul>
+<li><strong>Brand:</strong> <a href="https://www.dripsneakers.org/SNEAKERS"><strong>New Balance</strong></a></li>
+<li><strong>Product 
+   Editor 1: li=5 link=true h2=true p=true
+   Content: <p>The <a href="https://www.dripsneakers.org/sneakers/"><strong>New Balance</strong></a> 9060 Bricks &amp; Wood features a beige, grey and green color palette under SKU U9060BW1.</p>
+<h2>Product Details</h2>
+<ul>
+<li><strong>Brand:</strong> New Balance</li>
+<li><strong>Model:</strong> 9060</li>
+<li>

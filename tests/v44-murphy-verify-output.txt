@@ -1,0 +1,43 @@
+﻿
+=== P0-06 ===
+  Keywords (TA0): "Represent Owners Club Script Hoodie Pink, Represent Script Hoodie Pink, OCM41200"
+  SEO Title (TA1): "Represent Owners Club Script Hoodie Pink OCM41200-518 Reps | Drip Sneakers"
+  Meta Desc (TA2): "Shop Represent Owners Club Script Hoodie Pink reps (OCM41200-518) at Drip Sneake"
+  URL Slug (TA3): "Represent-Owners-Club-Script-Hoodie-Pink"
+  Editor 0: li=5 | <p>This Represent Owners Club Script Hoodie uses a Pink colorway with the Owners Club script identity across the heavyweight cotton hoodie silhouette.
+  Editor 1: li=5 | <p>This Represent Owners Club Script Hoodie uses a Pink colorway with the Owners Club script identity across the heavyweight cotton hoodie silhouette.
+  Must NOT contain "Black": ✓ PASS
+
+=== P0-12 ===
+  Keywords (TA0): "Vale Forever Classico Zip Up Hoodie Sapphire, Vale Forever Hoodie, Classico Zip "
+  SEO Title (TA1): "Vale Forever Classico Zip Up Hoodie Sapphire Reps | Drip Sneakers"
+  Meta Desc (TA2): "Shop Vale Forever Classico Zip Up Hoodie Sapphire reps at Drip Sneakers with QC "
+  URL Slug (TA3): "Vale-Forever-Classico-Zip-Up-Hoodie-Sapphire"
+  Editor 0: li=5 | <p>This Vale Forever Classico hoodie uses a Sapphire colorway with a full-zip front in the Classico zip-up silhouette.</p>
+<h2>Product Details</h2>
+<u
+  Editor 1: li=5 | <p>This Vale Forever Classico hoodie uses a Sapphire colorway with a full-zip front in the Classico zip-up silhouette.</p>
+<h2>Product Details</h2>
+<u
+  Must NOT contain "Orange": ✓ PASS
+
+=== P0-10 ===
+  Keywords (TA0): "Represent Patron of The Club Hoodie Black, Represent Patron Hoodie, MLM4270-001,"
+  SEO Title (TA1): "Represent Patron of The Club Hoodie Black MLM4270-001 Reps | Drip Sneakers"
+  Meta Desc (TA2): "Shop Represent Patron of The Club Hoodie Black reps (MLM4270-001) at Drip Sneake"
+  URL Slug (TA3): "Represent-Patron-of-The-Club-Cotton-Hoodie-Black"
+  Editor 0: li=5 | <p>This Represent Patron of The Club Hoodie comes in Black with Patron of The Club graphic branding across the cotton hoodie construction.</p>
+<h2>Pro
+  Editor 1: li=5 | <p>This Represent Patron of The Club Hoodie comes in Black with Patron of The Club graphic branding across the cotton hoodie construction.</p>
+<h2>Pro
+  Must NOT contain "Owner's Club": ✓ PASS
+
+=== P1-01 ===
+  Keywords (TA0): "New Balance 9060 Bricks & Wood, Bricks & Wood 9060, U9060BW1, New Balance 9060 R"
+  SEO Title (TA1): "New Balance 9060 Bricks & Wood U9060BW1 Reps | Drip Sneakers"
+  Meta Desc (TA2): "Shop New Balance 9060 Bricks & Wood reps (U9060BW1) at Drip Sneakers with QC pho"
+  URL Slug (TA3): "New-Balance-9060-Bricks--Wood-U9060BW1"
+  Editor 0: li=5 | <p>This New Balance 9060 Bricks &amp; Wood collaboration combines Beige, Grey and Green tones across the layered 9060 construction.</p>
+<h2>Product De
+  Editor 1: li=5 | <p>This New Balance 9060 Bricks &amp; Wood collaboration combines Beige, Grey and Green tones across the layered 9060 construction.</p>
+<h2>Product De
