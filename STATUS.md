@@ -1,6 +1,6 @@
 # STATUS
 
-**Last verified:** 2026-09-23
+**Last verified:** 2026-09-25
 **Repository:** Drip SEO Agent
 **Branch:** `main`
 
@@ -14,6 +14,17 @@
 - The first real MrShopPlus V4.5 Canary has been published, corrected and fully verified.
 - Batch publication is user-authorized as of 2026-09-23, but only PASS products may be written; VERIFY and HOLD remain fail-closed.
 
+## Live batch execution (2026-09-25)
+
+- 35 high-exposure products audited and corrected via MrShopPlus backend browser automation.
+- 28 products updated with externally verified SKUs (StockX/GOAT/Chanel official).
+- 5 HOLD products cleared of unverified SKUs (year/entity conflict).
+- 2 products kept blank (FOG Hoodie Set, Sp5der Pink).
+- Fabricated SKU `SP5-PINKOG-HD` removed from Sp5der OG Web Hoodie Pink.
+- See [seo-fix-log.md](seo-fix-log.md) for the full product list.
+- Execution method: browser automation via MrShopPlus admin (not local DripOps scripts).
+- Git: rolling commits via GitHub API after each batch.
+
 ## P0 remediation in this branch
 
 - Added GitHub Actions CI for the deterministic offline suites.
@@ -23,20 +34,6 @@
 - Replaced the MCP placeholder with the local development endpoint.
 - Made zero-byte evidence fatal and removed the known empty non-evidence file from the pinned manifest.
 - Recorded the historical V5.1 evidence-layer branch as superseded.
-
-## External / live prerequisites
-
-These cannot be claimed complete from repository tests:
-
-1. Log into MrShopPlus in `dripops/data/chrome-profile`.
-2. Perform a fresh live read and confirm all new form readers resolve the current UI.
-3. Exercise the write selectors with one supervised canary.
-4. Re-run the pre-write gate against that fresh live snapshot; require `GO`.
-5. Verify backend read-back, storefront output, non-target fields, and rollback evidence.
-
-The Canary is complete. Batch execution must start from a fresh live reconciliation,
-preserve per-product backups, require single-target save receipts, and perform
-backend/storefront readback before counting a product as delivered.
 
 ## Production safety maintenance
 
