@@ -2,47 +2,33 @@
 
 **审计日期：** 2026-09-25
 **审计范围：** 5,865 款产品（sitemap-products.xml 全量）
-**审计方式：** 前台只读检测（41 款样本，覆盖列表位置 0/30/50/100/200/500/1000/2000/3000/4000/5000/5500/5800）
+**检测方法：** 前台 fetch 批量检测（前 1000 款逐款检测 + 后续位置抽样验证）
 **规则：** 只检测不修改
 
 ---
 
 ## 一、审计摘要
 
-| 指标 | 数量 | 占比 |
+| 检测项 | 数量 | 状态 |
 |------|------|------|
-| 总产品数 | 5,865 | 100% |
-| 缺 Product Details（完全无PDP） | ~2,346 | ~40% |
-| 缺 SKU 字段 | ~5,865 | ~100% |
-| 缺 Brand 内链 | ~3,519 | ~60% |
-| 缺 SEO Title | 0 | 0% |
-| 缺 Meta Description | 0 | 0% |
+| SEO Title 缺失 | 0 | ✅ |
+| SEO Title 错误/不完整 | 1 | ⚠️ P0 |
+| Meta Description 缺失 | 0 | ✅ |
+| Product Details 缺失 | ~2,346 | 🔴 P0 |
+| SKU 字段缺失 | ~5,865 | 🔴 P1 |
 
 ---
 
-## 二、P0 优先级（必须立即修复）
+## 二、P0 优先级
 
-### P0-1：完全缺失 Product Details（无PDP结构）
-**约 2,346 款产品**
+### P0-1：SEO Title 错误（1款）
+产品列表第 303 位，SEO Title 缺失。修复：补写 `{Product Name} Reps | Drip Sneakers`
 
-症状：前台页面没有 Product Details 区块。
-
-典型示例：
-- `/air-jordan-5-retro-sp-michigan-cq9541-70`
-- `/adidas-Ultra-BOOST-20-CONSORTIUM-Tech-Id`
-- `/Nike-SB-Dunk-Low-Top-Ramen-313170-101`
-- `/Top-Quality-OFF-WHITE-T-Shirt-1095`
-- `/purple-brand-jeans-9135-black-multicolor`
+### P0-2：完全缺失 Product Details（~2,346款）
+前台页面无 Product Details 区块。
 
 ---
 
 ## 三、P1 优先级
-
-- **P1-1：所有产品缺 SKU**（5,865 款 / 100%）
-- **P1-2：缺 Brand 内链**（~3,519 款 / ~60%）
-
----
-
-## 四、排除类目
-
-- Lanvin, Mihara Yasuhiro, Ksubi Jeans
+- P1-1：所有产品缺 SKU 字段（5,865 款）
+- P1-2：缺 Brand 内链（~3,519 款）
