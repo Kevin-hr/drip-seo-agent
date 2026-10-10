@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://stockxshoesvip.net/schemas/influencer-creator.schema.json",
+  "title": "Normalized influencer creator snapshot",
+  "type": "object",
+  "required": ["platform", "handle", "followers", "fetched_at", "posts"],
+  "properties": {
+    "platform": { "enum": ["tiktok", "instagram", "youtube"] },
+    "handle": { "type": "string", "minLength": 1 },
+    "display_name": { "type": "string" },
+    "profile_url": { "type": "string" },
+    "followers": { "type": "number", "minimum": 0 },
+    "fetched_at": { "type": "string", "format": "date-time" },
+    "source_queries": { "type": "array", "items": { "type": "string" } },
+    "risk_signals": { "type": "array", "items": { "type": "string" } },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "source": { "type": "string" },
+        "captured_at": { "type": "string", "format": "date-time" },
+        "verified": { "type": "boolean" }
+      }
+    },
+    "posts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "published_at", "views"],
+        "properties": {
+          "id": { "type": "string" },
+          "url": { "type": "string" },
+          "published_at": { "type": "string", "format": "date-time" },
+          "caption": { "type": "string" },
+          "hashtags": { "type": "array", "items": { "type": "string" } },
+          "mentions": { "type": "array", "items": { "type": "string" } },
+          "views": { "type": "number", "minimum": 0 },
+          "likes": { "type": "number", "minimum": 0 },
+          "comments": { "type": "number", "minimum": 0 },
+          "shares": { "type": "number", "minimum": 0 },
+          "paid_partnership": { "type": "boolean" },
+          "risk_signals": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

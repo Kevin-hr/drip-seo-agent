@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evaluate Influencers"
+  short_description: "Audit recent content and issue collaboration decisions"
+  default_prompt: "Use $evaluate-influencers to audit a creator and recommend whether to collaborate."

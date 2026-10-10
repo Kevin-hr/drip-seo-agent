@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "evidence": {
+    "hard_veto_min_confidence": 0.7,
+    "green_min_confidence": 0.65
+  },
+  "thresholds": {
+    "green_score": 75,
+    "yellow_score": 50
+  },
+  "weights": {
+    "offer_relevance": 0.24,
+    "audience_fit": 0.2,
+    "content_quality": 0.16,
+    "engagement_authenticity": 0.16,
+    "brand_safety": 0.14,
+    "commercial_reliability": 0.1
+  },
+  "default_score": 50,
+  "hard_veto_rules": {
+    "R1": "Direct conflict with creator stance or product beliefs",
+    "R2": "Severe brand-safety risk",
+    "R3": "Unacceptable legal, platform, or advertising compliance risk",
+    "R4": "Material data-authenticity risk",
+    "R5": "Fundamental audience mismatch that cannot be corrected",
+    "R6": "Unacceptable commercial-delivery risk"
+  },
+  "signal_rule_map": {
+    "core_stance_conflict": "R1",
+    "hate_or_harassment": "R2",
+    "threats_or_incitement": "R2",
+    "scam_or_extortion": "R2",
+    "hard_drug_content": "R2",
+    "major_brand_safety": "R2",
+    "illegal_claims": "R3",
+    "disclosure_refusal": "R3",
+    "ip_risk_unremediable": "R3",
+    "deceptive_linking": "R3",
+    "fabricated_metrics": "R4",
+    "fundamental_audience_mismatch": "R5",
+    "delivery_fraud": "R6"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "outcomes": [
+    {
+      "platform": "tiktok",
+      "handle": "example_creator",
+      "campaign_date": "2026-10-10",
+      "spend": 100,
+      "revenue": 320,
+      "orders": 8,
+      "clicks": 210
+    }
+  ]
+}

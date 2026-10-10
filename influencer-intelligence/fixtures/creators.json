@@ -1,0 +1,74 @@
+{
+  "competitors": [
+    { "name": "RivalKicks", "aliases": ["rival kicks", "rivalkicks"], "handle": "rivalkicks" },
+    { "name": "StreetVault", "aliases": ["street vault", "streetvault"] }
+  ],
+  "creators": [
+    {
+      "platform": "tiktok",
+      "handle": "FreshFinds",
+      "follower_count": 20000,
+      "follower_growth_30d": 0.28,
+      "observed_at": "2026-10-09T00:00:00Z",
+      "posts": [
+        { "id": "ff-1", "views": 120000, "caption": "This week's rotation", "published_at": "2026-10-09T00:00:00Z" },
+        { "id": "ff-2", "views": 90000, "caption": "One pair, three fits", "published_at": "2026-10-08T00:00:00Z" },
+        { "id": "ff-3", "views": 50000, "caption": "Rate the details", "published_at": "2026-10-07T00:00:00Z" },
+        { "id": "ff-4", "views": 30000, "caption": "Daily look", "published_at": "2026-10-06T00:00:00Z" }
+      ]
+    },
+    {
+      "platform": "TikTok",
+      "username": "@freshfinds",
+      "followerCount": 22000,
+      "followerGrowth30d": 0.31,
+      "observedAt": "2026-10-10T00:00:00Z",
+      "posts": [
+        { "id": "ff-5", "viewCount": 160000, "caption": "A new pickup", "publishedAt": "2026-10-10T00:00:00Z" },
+        { "id": "ff-1", "viewCount": 121000, "caption": "This week's rotation", "publishedAt": "2026-10-09T00:00:00Z" }
+      ]
+    },
+    {
+      "platform": "instagram",
+      "handle": "collabcloset",
+      "followerCount": 74000,
+      "followerGrowth30d": 0.03,
+      "posts": [
+        {
+          "id": "cc-1",
+          "views": 35000,
+          "caption": "Paid partnership with @RivalKicks #ad",
+          "mentions": ["@rivalkicks"],
+          "paidPartnership": true,
+          "paidPartnershipWith": "RivalKicks",
+          "publishedAt": "2026-10-09T12:00:00Z"
+        },
+        { "id": "cc-2", "views": 31000, "caption": "Weekend rotation", "publishedAt": "2026-10-06T12:00:00Z" }
+      ]
+    },
+    {
+      "platform": "youtube",
+      "handle": "sneakerobserver",
+      "followerCount": 180000,
+      "posts": [
+        {
+          "id": "so-1",
+          "views": 22000,
+          "caption": "RivalKicks opened a new store",
+          "publishedAt": "2026-10-08T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "platform": "tiktok",
+      "handle": "bothlanes",
+      "followerCount": 10000,
+      "followerGrowth30d": 0.2,
+      "posts": [
+        { "id": "bl-1", "views": 70000, "caption": "Partnered with @StreetVault #ad", "mentions": ["StreetVault"], "hashtags": ["ad", "streetvault"], "publishedAt": "2026-10-10T04:00:00Z" },
+        { "id": "bl-2", "views": 45000, "caption": "StreetVault pickup", "hashtags": ["streetvault"], "publishedAt": "2026-10-09T04:00:00Z" },
+        { "id": "bl-3", "views": 40000, "caption": "Styling test", "publishedAt": "2026-10-08T04:00:00Z" }
+      ]
+    }
+  ]
+}

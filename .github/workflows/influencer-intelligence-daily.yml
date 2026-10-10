@@ -1,0 +1,55 @@
+name: Influencer intelligence daily
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 08:15 Asia/Shanghai. GitHub Actions cron is UTC.
+    - cron: "15 0 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: influencer-intelligence
+    env:
+      TIKTOK_FEED_URL: ${{ secrets.TIKTOK_FEED_URL }}
+      TIKTOK_FEED_TOKEN: ${{ secrets.TIKTOK_FEED_TOKEN }}
+      INSTAGRAM_FEED_URL: ${{ secrets.INSTAGRAM_FEED_URL }}
+      INSTAGRAM_FEED_TOKEN: ${{ secrets.INSTAGRAM_FEED_TOKEN }}
+      YOUTUBE_FEED_URL: ${{ secrets.YOUTUBE_FEED_URL }}
+      YOUTUBE_FEED_TOKEN: ${{ secrets.YOUTUBE_FEED_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Restore rolling history
+        uses: actions/cache/restore@v4
+        with:
+          path: influencer-intelligence/data/state
+          key: influencer-state-${{ github.run_id }}
+          restore-keys: influencer-state-
+      - name: Verify engine
+        run: npm test
+      - name: Collect authorized platform feeds
+        run: npm run collect
+      - name: Discover, evaluate, and recommend
+        run: npm run daily
+      - name: Save rolling history
+        if: success()
+        uses: actions/cache/save@v4
+        with:
+          path: influencer-intelligence/data/state
+          key: influencer-state-${{ github.run_id }}
+      - name: Upload daily intelligence report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: influencer-intelligence-${{ github.run_id }}
+          path: influencer-intelligence/output
+          if-no-files-found: error
+          retention-days: 90

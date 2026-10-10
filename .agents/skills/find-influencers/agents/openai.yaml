@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Influencers"
+  short_description: "Discover emerging and competitor-linked influencers daily"
+  default_prompt: "Use $find-influencers to discover and rank today's influencer candidates."

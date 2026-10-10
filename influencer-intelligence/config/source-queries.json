@@ -1,0 +1,31 @@
+{
+  "emerging": {
+    "tiktok_hashtags": [
+      "streetwear",
+      "sneakerunboxing",
+      "sneakerreview",
+      "outfitinspo",
+      "schooloutfit",
+      "shoetok"
+    ],
+    "instagram_hashtags": [
+      "streetwearreels",
+      "sneakerreels",
+      "outfitreels",
+      "sneakerreview"
+    ],
+    "youtube_queries": [
+      "sneaker unboxing shorts",
+      "streetwear haul shorts",
+      "outfit review shorts"
+    ]
+  },
+  "competitor": {
+    "strategy": "For every name in config/default.json competitors, monitor the brand name, @handle, hashtag, domain, discount-code pattern, paid-partnership label, and affiliate-link cue.",
+    "lookback_days": 14
+  },
+  "enrichment": {
+    "recent_posts_per_creator": 10,
+    "only_enrich_shortlisted_creators": true
+  }
+}

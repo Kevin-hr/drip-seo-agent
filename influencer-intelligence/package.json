@@ -1,0 +1,16 @@
+{
+  "name": "drip-influencer-intelligence",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "collect": "node src/fetch-feeds.mjs",
+    "daily": "node src/cli.mjs daily",
+    "discover": "node src/cli.mjs discover",
+    "evaluate": "node src/cli.mjs evaluate",
+    "test": "node --test test/*.test.mjs"
+  }
+}
