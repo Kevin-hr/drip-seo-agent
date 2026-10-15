@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evaluate Reddit Blue-Ocean Posts"
+  short_description: "Verify and qualify Reddit opportunities with live evidence"
+  default_prompt: "Use $evaluate-reddit-blue-ocean-posts to verify these Reddit candidates and classify each as confirmed, provisional, or rejected."

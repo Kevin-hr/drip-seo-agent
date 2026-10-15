@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Reddit Blue-Ocean Posts"
+  short_description: "Discover auditable low-competition Reddit opportunities"
+  default_prompt: "Use $find-reddit-blue-ocean-posts to build a source-backed Reddit opportunity candidate list for my business."

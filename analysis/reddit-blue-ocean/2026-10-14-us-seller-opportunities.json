@@ -1,0 +1,557 @@
+{
+  "run_date": "2026-10-14",
+  "target_market": "United States",
+  "freshness_days": 30,
+  "scope": {
+    "business": "Drip Sneakers",
+    "product_categories": [
+      "designer sneakers",
+      "Louis Vuitton trainers",
+      "Balenciaga runners and Track sneakers",
+      "Maison Margiela GATs",
+      "large-size sneakers (US 13-14 / EU 47.5-48.5)",
+      "direct-purchase sneaker service with QC"
+    ],
+    "commercial_queries": [
+      "site:reddit.com/r/RepsneakersDogs best designer sneaker seller",
+      "site:reddit.com/r/RepsneakersDogs where to buy Louis Vuitton Trainer",
+      "site:reddit.com/r/RepsneakersDogs size 48 Balenciaga Rick Owens LV",
+      "site:reddit.com/r/RepsneakersDogs direct purchase seller",
+      "site:reddit.com/r/RepsneakersDogs Maison Margiela GATS batch"
+    ],
+    "competitors": [
+      "RepsMaster",
+      "Panda Vault",
+      "TMF",
+      "Repsun",
+      "Jelly",
+      "Lady Mia",
+      "WWTOP",
+      "HYL"
+    ],
+    "observed_at": "2026-10-14T00:00:00+08:00",
+    "inferences": [
+      "Business scope was inferred from the Drip Sneakers catalog and workspace context.",
+      "The United States was explicit in the user request; US shipping and US sizing were treated as commercially relevant."
+    ]
+  },
+  "source_availability": {
+    "public_business_serp": "available",
+    "public_reddit_pages": "available",
+    "competitor_footprint_search": "available",
+    "authorized_url_level_seo_provider": "unavailable",
+    "authorized_geo_monitor": "unavailable",
+    "reddit_json_api": "available through canonical post .json endpoints with raw_json=1; all seven candidates verified on 2026-10-14"
+  },
+  "discovery_routes": [
+    {
+      "route": "business_serp",
+      "market": "US",
+      "observed_at": "2026-10-14T00:00:00+08:00",
+      "method": "Public web search constrained to Reddit and commercial/problem-solving phrases",
+      "queries": [
+        "site:reddit.com/r/RepsneakersDogs \"Tyler, the Creator LV Trainer Blue\"",
+        "site:reddit.com/r/RepsneakersDogs \"size 48\" Balenciaga Rick Owens LV",
+        "site:reddit.com/r/RepsneakersDogs \"Balenciaga Track Signature\" pink",
+        "site:reddit.com/r/RepsneakersDogs \"direct purchase\" seller USA",
+        "site:reddit.com/r/RepsneakersDogs \"what Maison Margiela GATS to go with\""
+      ],
+      "limitations": "Search results were public snapshots; only the LV Tyler query was rerun alone and observed at visible result position 1. Other positions are unknown rather than inferred."
+    },
+    {
+      "route": "competitor_footprints",
+      "market": "US",
+      "observed_at": "2026-10-14T00:00:00+08:00",
+      "method": "Public site-restricted searches for competitor names and product categories",
+      "queries": [
+        "site:reddit.com \"RepMaster\" designer sneakers",
+        "site:reddit.com \"Repsun\" \"Louis Vuitton Trainer\"",
+        "site:reddit.com \"ShareSneakers\" Balenciaga Track",
+        "site:reddit.com/r/RepsneakersDogs WWTOP GATS"
+      ],
+      "limitations": "Mentions and reviews do not establish that a competitor authored, sponsored, or controlled a post."
+    },
+    {
+      "route": "recent_discussion_momentum",
+      "market": "US",
+      "observed_at": "2026-10-14T00:00:00+08:00",
+      "method": "Recent Reddit publication dates and continued replies visible in public search/page snapshots",
+      "limitations": "No historical URL-level keyword or traffic series was available, so SEO momentum remains unverified."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1wmshhr",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1wmshhr/which_out_of_trusted_seller_to_get_lv_shoe/",
+      "title": "Which out of trusted seller to get LV SHOE",
+      "subreddit": "r/RepsneakersDogs",
+      "post_date": "2026-09-21",
+      "classification": "provisional",
+      "priority": 1,
+      "opportunity_theme": "Louis Vuitton by Tyler, the Creator LV Trainer Blue; batch, value and US sizing guidance",
+      "discovery": {
+        "routes": ["business_serp", "recent_discussion_momentum"],
+        "queries": ["site:reddit.com/r/RepsneakersDogs \"Tyler, the Creator LV Trainer Blue\""],
+        "observed_serp_position": 1,
+        "source_urls": [
+          "https://www.google.com/search?q=site%3Areddit.com%2Fr%2FRepsneakersDogs+%22Tyler%2C+the+Creator+LV+Trainer+Blue%22",
+          "https://www.reddit.com/r/DesignerReps/comments/1hysb96/"
+        ]
+      },
+      "signals": {
+        "reddit_activity": {
+          "status": "verified",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1wmshhr.json?raw_json=1",
+          "method": "Reddit canonical JSON post endpoint",
+          "values": {"votes": 0, "comments": 12, "locked": false, "removed": false},
+          "note": "The same JSON snapshot reports archived=false and removed_by_category=null."
+        },
+        "external_demand": {
+          "status": "pending",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.google.com/search?q=site%3Areddit.com%2Fr%2FRepsneakersDogs+%22Tyler%2C+the+Creator+LV+Trainer+Blue%22",
+          "market": "US",
+          "method": "Public exact-topic SERP observation",
+          "values": {"us_monthly_organic_traffic": null, "organic_keyword_count": null, "observed_serp_position": 1, "geo_citations": null},
+          "note": "An exact-topic query surfaced this URL first, but rank alone is not a traffic estimate."
+        },
+        "competition": {
+          "status": "verified",
+          "rationale": "The target thread is recent and product-specific with a low visible vote snapshot, while older same-model posts in broader replica communities show materially more visible engagement. This creates a narrower entry window, though full comment density remains unknown.",
+          "comparator_urls": [
+            "https://www.reddit.com/r/DesignerReps/comments/1hysb96/",
+            "https://www.reddit.com/r/FashionReps/comments/1hzk8xl/"
+          ]
+        },
+        "business_fit": {
+          "status": "verified",
+          "level": "strong",
+          "rationale": "The buyer explicitly wants an LV Trainer, a good batch, good price, included extras, and US size conversion, all directly matching Drip Sneakers' designer-sneaker catalog and QC proposition."
+        },
+        "commercial_intent": {
+          "status": "verified",
+          "level": "high",
+          "rationale": "The poster is selecting a seller and size for a named product, indicating late-stage purchase intent."
+        },
+        "entry_feasibility": {
+          "status": "verified",
+          "level": "constrained",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1u3r8bd/important_information_about_trusted_sellers_and/",
+          "rationale": "The community requires correct flair and detailed W2C information and may require moderator approval. A compliant contribution must disclose commercial affiliation and provide useful sizing/QC evidence rather than an unsupported sales pitch."
+        }
+      },
+      "missing_data": [
+        "US URL-level monthly organic traffic and keyword count",
+        "relevant ranking queries beyond the exact-topic snapshot",
+        "current GEO citations"
+      ],
+      "confidence": "medium-high",
+      "recheck_on": "2026-10-21"
+    },
+    {
+      "id": "1uyisco",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1uyisco/is_reps_master_good_on_replicas_for_designers/",
+      "title": "Is reps master good on replicas for designers shoes",
+      "subreddit": "r/RepsneakersDogs",
+      "post_date": "2026-07-16",
+      "classification": "provisional",
+      "priority": 2,
+      "opportunity_theme": "Independent batch expertise for Hermès, Louis Vuitton and Gucci designer sneakers",
+      "discovery": {
+        "routes": ["competitor_footprints", "business_serp"],
+        "queries": ["site:reddit.com \"RepMaster\" designer sneakers"],
+        "observed_serp_position": null,
+        "source_urls": [
+          "https://www.google.com/search?q=site%3Areddit.com+%22RepMaster%22+designer+sneakers",
+          "https://www.reddit.com/r/RepsneakersDogs/comments/1pqrhg6/review_1010_exceptional_quality_from_repsmaster/"
+        ]
+      },
+      "signals": {
+        "reddit_activity": {
+          "status": "verified",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1uyisco.json?raw_json=1",
+          "method": "Reddit canonical JSON post endpoint",
+          "values": {"votes": 3, "comments": 13, "locked": false, "removed": false},
+          "note": "Several replies were removed by moderators and at least one visible reply alleges a bait-and-switch, so sentiment and moderation state need a fresh manual check."
+        },
+        "external_demand": {
+          "status": "pending",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.google.com/search?q=site%3Areddit.com+%22RepMaster%22+designer+sneakers",
+          "market": "US",
+          "method": "Competitor-footprint SERP discovery",
+          "values": {"us_monthly_organic_traffic": null, "organic_keyword_count": null, "observed_serp_position": null, "geo_citations": null}
+        },
+        "competition": {
+          "status": "conflicting",
+          "rationale": "The thread is specific enough for differentiation, but multiple removed replies, an existing seller-centric discussion, and competing recommendations make the usable reply position uncertain.",
+          "comparator_urls": [
+            "https://www.reddit.com/r/RepsneakersDogs/comments/1pqrhg6/review_1010_exceptional_quality_from_repsmaster/",
+            "https://www.reddit.com/r/RepsneakersDogs/comments/1o7emyy/good_rep_websites/"
+          ]
+        },
+        "business_fit": {
+          "status": "verified",
+          "level": "strong",
+          "rationale": "The post asks specifically about luxury designer sneaker sourcing and batch knowledge across Hermès, Louis Vuitton and Gucci, central categories for Drip Sneakers."
+        },
+        "commercial_intent": {
+          "status": "verified",
+          "level": "high",
+          "rationale": "The poster has already contacted a seller and is deciding whether to purchase from that seller or an alternative."
+        },
+        "entry_feasibility": {
+          "status": "verified",
+          "level": "constrained",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1u3r8bd/important_information_about_trusted_sellers_and/",
+          "rationale": "Commercial participation is moderation-sensitive. A useful path is transparent, model-specific batch/QC education with affiliation disclosure, not attacking the named competitor or claiming unsupported 1:1 quality."
+        }
+      },
+      "missing_data": [
+        "US URL-level organic traffic and keyword count",
+        "whether removed comments indicate a de facto promotion restriction",
+        "GEO citation evidence"
+      ],
+      "confidence": "medium",
+      "recheck_on": "2026-10-21"
+    },
+    {
+      "id": "1vfmbh4",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1vfmbh4/shoe_in_big_size/",
+      "title": "shoe in big size",
+      "subreddit": "r/RepsneakersDogs",
+      "post_date": "2026-08-04",
+      "classification": "provisional",
+      "priority": 3,
+      "opportunity_theme": "EU 48 / US 13-14 designer sneakers, especially Balenciaga, Rick Owens, Margiela and LV",
+      "discovery": {
+        "routes": ["business_serp", "recent_discussion_momentum"],
+        "queries": ["site:reddit.com/r/RepsneakersDogs \"size 48\" Balenciaga Rick Owens LV"],
+        "observed_serp_position": null,
+        "source_urls": [
+          "https://www.google.com/search?q=site%3Areddit.com%2Fr%2FRepsneakersDogs+%22size+48%22+Balenciaga+Rick+Owens+LV",
+          "https://www.reddit.com/r/RepsneakersDogs/comments/1uhw45x/shoe_size/"
+        ]
+      },
+      "signals": {
+        "reddit_activity": {
+          "status": "verified",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1vfmbh4.json?raw_json=1",
+          "method": "Reddit canonical JSON post endpoint",
+          "values": {"votes": 1, "comments": 8, "locked": false, "removed": false}
+        },
+        "external_demand": {
+          "status": "pending",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.google.com/search?q=site%3Areddit.com%2Fr%2FRepsneakersDogs+%22size+48%22+Balenciaga+Rick+Owens+LV",
+          "market": "US",
+          "method": "Problem-led SERP discovery with repeated same-topic Reddit threads",
+          "values": {"us_monthly_organic_traffic": null, "organic_keyword_count": null, "observed_serp_position": null, "geo_citations": null}
+        },
+        "competition": {
+          "status": "verified",
+          "rationale": "The thread has a low visible vote snapshot and few useful visible replies. A separate June thread asks the same size-48 question and remained only partially answered, indicating repeated unmet demand rather than a one-off request.",
+          "comparator_urls": [
+            "https://www.reddit.com/r/RepsneakersDogs/comments/1uhw45x/shoe_size/",
+            "https://www.reddit.com/r/RepsneakersDogs/comments/1sejc88/am_i_cooked/"
+          ]
+        },
+        "business_fit": {
+          "status": "verified",
+          "level": "strong",
+          "rationale": "The requested brands overlap Drip Sneakers' designer assortment, and large-size availability can be a defensible catalog and landing-page differentiator."
+        },
+        "commercial_intent": {
+          "status": "verified",
+          "level": "high",
+          "rationale": "The poster asks for a seller or direct link for named product families and a specific size."
+        },
+        "entry_feasibility": {
+          "status": "verified",
+          "level": "constrained",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1u3r8bd/important_information_about_trusted_sellers_and/",
+          "rationale": "A compliant contribution would need verified insole measurements, actual size inventory, price and link details, plus affiliation disclosure. A generic catalog link would not resolve the user's sizing problem."
+        }
+      },
+      "missing_data": [
+        "US URL-level SEO traffic and keyword count",
+        "Drip Sneakers' verified EU 48-48.5 inventory and insole measurements",
+        "GEO citations"
+      ],
+      "confidence": "medium-high",
+      "recheck_on": "2026-10-21"
+    },
+    {
+      "id": "1v54768",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1v54768/balenciaga_track_signature/",
+      "title": "Balenciaga Track Signature",
+      "subreddit": "r/RepsneakersDogs",
+      "post_date": "2026-07-24",
+      "classification": "provisional",
+      "priority": 4,
+      "opportunity_theme": "Rare Balenciaga Track beige/pink colorway sourcing",
+      "discovery": {
+        "routes": ["business_serp", "recent_discussion_momentum"],
+        "queries": ["site:reddit.com/r/RepsneakersDogs \"Balenciaga Track Signature\" pink"],
+        "observed_serp_position": null,
+        "source_urls": [
+          "https://www.google.com/search?q=site%3Areddit.com%2Fr%2FRepsneakersDogs+%22Balenciaga+Track+Signature%22+pink",
+          "https://www.reddit.com/r/RepsneakersDogs/comments/1v2ol45/find_balenciaga_track_mcreps/"
+        ]
+      },
+      "signals": {
+        "reddit_activity": {
+          "status": "verified",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1v54768.json?raw_json=1",
+          "method": "Reddit canonical JSON post endpoint",
+          "values": {"votes": 3, "comments": 2, "locked": false, "removed": false},
+          "note": "One of the two comments is the moderator bot, leaving one visible human answer."
+        },
+        "external_demand": {
+          "status": "pending",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.google.com/search?q=site%3Areddit.com%2Fr%2FRepsneakersDogs+%22Balenciaga+Track+Signature%22+pink",
+          "market": "US",
+          "method": "Exact-model/colorway SERP discovery",
+          "values": {"us_monthly_organic_traffic": null, "organic_keyword_count": null, "observed_serp_position": null, "geo_citations": null}
+        },
+        "competition": {
+          "status": "verified",
+          "rationale": "The thread is narrowly scoped to an uncommon beige/pink colorway, carries a low visible vote snapshot, and had only one useful visible reply. Generic Balenciaga Track seller posts do not directly solve this colorway request.",
+          "comparator_urls": [
+            "https://www.reddit.com/r/RepsneakersDogs/comments/1v2ol45/find_balenciaga_track_mcreps/",
+            "https://www.reddit.com/r/RepsneakersDogs/comments/1uuy2zf/qc_balenciaga_track_led_tess_sblack_from/"
+          ]
+        },
+        "business_fit": {
+          "status": "verified",
+          "level": "strong",
+          "rationale": "Balenciaga sneakers are a core Drip Sneakers category, and rare colorway coverage can map directly to product sourcing and a specific PDP."
+        },
+        "commercial_intent": {
+          "status": "verified",
+          "level": "high",
+          "rationale": "The poster is actively looking for a source for an exact model and colorway."
+        },
+        "entry_feasibility": {
+          "status": "verified",
+          "level": "constrained",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1u3r8bd/important_information_about_trusted_sellers_and/",
+          "rationale": "Entry is useful only if Drip Sneakers can verify the exact beige/pink colorway with current QC photos, batch data and availability. Commercial affiliation should be disclosed."
+        }
+      },
+      "missing_data": [
+        "US URL-level SEO demand",
+        "verified exact-colorway inventory and QC evidence",
+        "GEO citations"
+      ],
+      "confidence": "medium-high",
+      "recheck_on": "2026-10-21"
+    },
+    {
+      "id": "1w90mi4",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1w90mi4/what_maison_margiela_gats_to_go_with/",
+      "title": "what Maison Margiela GATS to go with?",
+      "subreddit": "r/RepsneakersDogs",
+      "post_date": "2026-09-06",
+      "classification": "provisional",
+      "priority": 5,
+      "opportunity_theme": "Maison Margiela GAT batch comparison under US$100 for daily wear",
+      "discovery": {
+        "routes": ["business_serp", "competitor_footprints", "recent_discussion_momentum"],
+        "queries": ["site:reddit.com/r/RepsneakersDogs WWTOP GATS", "site:reddit.com/r/RepsneakersDogs \"Maison Margiela GATS\" batch"],
+        "observed_serp_position": null,
+        "source_urls": [
+          "https://www.google.com/search?q=site%3Areddit.com%2Fr%2FRepsneakersDogs+WWTOP+GATS",
+          "https://www.reddit.com/r/RepsneakersDogs/comments/1x59gnq/wwtop_new_gats/"
+        ]
+      },
+      "signals": {
+        "reddit_activity": {
+          "status": "verified",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1w90mi4.json?raw_json=1",
+          "method": "Reddit canonical JSON post endpoint",
+          "values": {"votes": 2, "comments": 2, "locked": false, "removed": false},
+          "note": "One of the two comments is the moderator bot."
+        },
+        "external_demand": {
+          "status": "pending",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.google.com/search?q=site%3Areddit.com%2Fr%2FRepsneakersDogs+WWTOP+GATS",
+          "market": "US",
+          "method": "Public SERP plus competitor-footprint search",
+          "values": {"us_monthly_organic_traffic": null, "organic_keyword_count": null, "observed_serp_position": null, "geo_citations": null}
+        },
+        "competition": {
+          "status": "conflicting",
+          "rationale": "The target thread has few visible replies, but adjacent WWTOP/MVT GAT discussions are active across several subreddits. The topic has demand but is becoming crowded and needs a distinct evidence angle such as materials, sizing and under-$100 value.",
+          "comparator_urls": [
+            "https://www.reddit.com/r/RepsneakersDogs/comments/1x59gnq/wwtop_new_gats/",
+            "https://www.reddit.com/r/stockholmreps/comments/1wn5blb/wwtop_new_batch_has_arrived_gat_thread/",
+            "https://www.reddit.com/r/RepsneakersDogs/comments/1ldri39/"
+          ]
+        },
+        "business_fit": {
+          "status": "verified",
+          "level": "strong",
+          "rationale": "GATs are designer sneakers, and the buyer's focus on materials, daily wear, batch differences and a sub-$100 ceiling fits a comparison-led product offering."
+        },
+        "commercial_intent": {
+          "status": "verified",
+          "level": "high",
+          "rationale": "The poster is selecting between named batches/sellers with a stated budget and use case."
+        },
+        "entry_feasibility": {
+          "status": "verified",
+          "level": "constrained",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1u3r8bd/important_information_about_trusted_sellers_and/",
+          "rationale": "A compliant response needs verifiable batch identity, price, sizing and QC comparison. Unsupported claims about being the best batch would be weak and promotion-sensitive."
+        }
+      },
+      "missing_data": [
+        "US URL-level traffic and keywords",
+        "Drip Sneakers' verified GAT batch identity and landed US price",
+        "GEO citations"
+      ],
+      "confidence": "medium",
+      "recheck_on": "2026-10-21"
+    },
+    {
+      "id": "1vcokp1",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1vcokp1/sites_for_direct_purchase/",
+      "title": "Sites for direct purchase?",
+      "subreddit": "r/RepsneakersDogs",
+      "post_date": "2026-08-01",
+      "classification": "provisional",
+      "priority": 6,
+      "opportunity_theme": "Direct-purchase website trust, QC transparency and US shipping",
+      "discovery": {
+        "routes": ["business_serp", "competitor_footprints"],
+        "queries": ["site:reddit.com/r/RepsneakersDogs \"direct purchase\" seller USA", "site:reddit.com/r/RepsneakersDogs \"Good rep websites\""],
+        "observed_serp_position": null,
+        "source_urls": [
+          "https://www.google.com/search?q=site%3Areddit.com%2Fr%2FRepsneakersDogs+%22direct+purchase%22+seller+USA",
+          "https://www.reddit.com/r/RepsneakersDogs/comments/1o7emyy/good_rep_websites/"
+        ]
+      },
+      "signals": {
+        "reddit_activity": {
+          "status": "verified",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1vcokp1.json?raw_json=1",
+          "method": "Reddit canonical JSON post endpoint",
+          "values": {"votes": 1, "comments": 4, "locked": false, "removed": false}
+        },
+        "external_demand": {
+          "status": "pending",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.google.com/search?q=site%3Areddit.com%2Fr%2FRepsneakersDogs+%22direct+purchase%22+seller+USA",
+          "market": "US",
+          "method": "Commercial/problem-solving SERP discovery corroborated by a larger general seller thread",
+          "values": {"us_monthly_organic_traffic": null, "organic_keyword_count": null, "observed_serp_position": null, "geo_citations": null}
+        },
+        "competition": {
+          "status": "verified",
+          "rationale": "This specific thread has a low visible vote snapshot and no useful human reply in the captured excerpt, while the broader 'Good rep websites' thread is heavily discussed. The narrow direct-purchase question is less crowded but may also have low external demand.",
+          "comparator_urls": [
+            "https://www.reddit.com/r/RepsneakersDogs/comments/1o7emyy/good_rep_websites/"
+          ]
+        },
+        "business_fit": {
+          "status": "verified",
+          "level": "strong",
+          "rationale": "Drip Sneakers is itself a direct-purchase storefront and can differentiate through transparent QC, payment, shipping, returns and batch disclosure."
+        },
+        "commercial_intent": {
+          "status": "verified",
+          "level": "high",
+          "rationale": "The poster is explicitly searching for a site to purchase directly from a seller."
+        },
+        "entry_feasibility": {
+          "status": "verified",
+          "level": "constrained",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1u3r8bd/important_information_about_trusted_sellers_and/",
+          "rationale": "The community already promotes trusted-seller resources. Any brand participation must disclose affiliation and offer concrete buyer-protection/QC facts; an undisclosed link drop would be unsuitable."
+        }
+      },
+      "missing_data": [
+        "US URL-level organic traffic and keywords",
+        "subreddit moderator acceptance of a disclosed direct-seller response",
+        "GEO citations"
+      ],
+      "confidence": "medium",
+      "recheck_on": "2026-10-21"
+    },
+    {
+      "id": "1o7emyy",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1o7emyy/good_rep_websites/",
+      "title": "Good rep websites",
+      "subreddit": "r/RepsneakersDogs",
+      "post_date": "2025-10-15",
+      "classification": "rejected",
+      "priority": 99,
+      "opportunity_theme": "General best replica website and first-time buyer guidance",
+      "discovery": {
+        "routes": ["business_serp", "competitor_footprints", "recent_discussion_momentum"],
+        "queries": ["site:reddit.com/r/RepsneakersDogs \"Good rep websites\""],
+        "observed_serp_position": null,
+        "source_urls": [
+          "https://www.google.com/search?q=site%3Areddit.com%2Fr%2FRepsneakersDogs+%22Good+rep+websites%22"
+        ]
+      },
+      "signals": {
+        "reddit_activity": {
+          "status": "verified",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1o7emyy.json?raw_json=1",
+          "method": "Reddit canonical JSON post endpoint",
+          "values": {"votes": 79, "comments": 178, "locked": false, "removed": false},
+          "note": "The same JSON snapshot reports archived=false and removed_by_category=null."
+        },
+        "external_demand": {
+          "status": "pending",
+          "observed_at": "2026-10-14T00:00:00+08:00",
+          "source_url": "https://www.google.com/search?q=site%3Areddit.com%2Fr%2FRepsneakersDogs+%22Good+rep+websites%22",
+          "market": "US",
+          "method": "Public SERP discovery",
+          "values": {"us_monthly_organic_traffic": null, "organic_keyword_count": null, "observed_serp_position": null, "geo_citations": null}
+        },
+        "competition": {
+          "status": "failed",
+          "rationale": "The visible snapshot already shows 75 votes and a very long multi-month comment stream with many seller recommendations. A new commercial reply would likely be buried and face heavy trust competition.",
+          "comparator_urls": [
+            "https://www.reddit.com/r/RepsneakersDogs/comments/1vcokp1/sites_for_direct_purchase/",
+            "https://www.reddit.com/r/RepsneakersDogs/comments/1wmshhr/which_out_of_trusted_seller_to_get_lv_shoe/"
+          ]
+        },
+        "business_fit": {
+          "status": "verified",
+          "level": "strong",
+          "rationale": "The broad seller-selection topic is relevant to Drip Sneakers, but relevance does not overcome the failed competition gate."
+        },
+        "commercial_intent": {
+          "status": "verified",
+          "level": "high",
+          "rationale": "The original post and continuing replies contain purchase-oriented seller and product questions."
+        },
+        "entry_feasibility": {
+          "status": "verified",
+          "level": "constrained",
+          "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1u3r8bd/important_information_about_trusted_sellers_and/",
+          "rationale": "Posting is technically possible under community rules, but a late commercial reply has poor visibility and high moderation/trust risk. Use this thread only as demand research, not as a target entry page."
+        }
+      },
+      "missing_data": [
+        "US URL-level organic traffic and keyword count",
+        "GEO citations"
+      ],
+      "confidence": "high for rejection",
+      "recheck_on": "2026-11-13"
+    }
+  ]
+}

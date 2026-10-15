@@ -1,0 +1,332 @@
+{
+  "run_date": "2026-10-14",
+  "target_market": "US",
+  "freshness_days": 30,
+  "business_scope": "DripSneakers replica sneakers and streetwear; seller selection, QC, sizing, shipping and product education",
+  "method_note": "Public business SERP plus Reddit search/page verification. No authorized Ahrefs or GEO dataset was available, so URL-level US traffic, keyword counts and GEO citations remain pending.",
+  "candidates": [
+    {
+      "id": "O01-1ptlqr1",
+      "input_group": "I'm in the market for reps",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1ptlqr1/best_rep_shoe_seller/",
+      "title": "Best Rep Shoe Seller",
+      "post_date": "2025-12-23",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1ptlqr1/best_rep_shoe_seller/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Page and discussion are publicly readable, but Reddit did not expose reliable current totals or lock state to the available reader."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.google.com/search?q=site%3Areddit.com+%22best+rep+shoe+seller%22", "market": "US", "method": "public SERP; no authorized URL-level SEO source", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "The visible thread has multiple seller answers and later follow-up questions; total comment density and comparable URL traffic are unavailable.", "comparator_urls": ["https://www.reddit.com/r/RepsneakersDogs/comments/1o7emyy/good_rep_websites/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "The buyer is choosing a replica sneaker seller and specifically wants a new Jordan 4 Black Cat, a product carried by DripSneakers."},
+        "commercial_intent": {"status": "verified", "level": "high", "rationale": "The user is actively selecting a seller and resolving payment limitations before purchase."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1ptlqr1/best_rep_shoe_seller/", "rationale": "Automoderator exposes posting-format and conduct rules, but seller self-promotion and late-reply visibility were not fully verified."}
+      },
+      "missing_data": ["current votes/comments/locked state", "US URL-level traffic and keyword count", "current seller self-promotion rule", "likely reply position"],
+      "confidence": "medium",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O02-1wigt5c",
+      "input_group": "Balenciaga Runner 7.0 LED",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1wigt5c/find_480_rmb_xa_batch_balenciaga_runner_70_led/",
+      "title": "[FIND] 480 RMB | XA Batch | Balenciaga Runner 7.0 LED Black | TMF",
+      "post_date": "2026-09-17",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1wigt5c/find_480_rmb_xa_batch_balenciaga_runner_70_led/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Page is readable and has recent comments, but complete current totals and lock state are not exposed."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/search/?q=%22Balenciaga%20Runner%20LED%22&type=posts", "market": "US", "method": "public SERP and Reddit search; no authorized URL-level SEO source", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "Several near-identical Runner LED reviews and finds exist, creating content crowding; URL-level demand is unknown.", "comparator_urls": ["https://www.reddit.com/r/TheWorldOfRepsneakers/comments/1syxb04/balenciaga_runner_led_review/", "https://www.reddit.com/r/RepsneakersDogs/comments/1t78nyp/review_balenciaga_runner_led_from_luna/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "Exact Balenciaga Runner LED product type is present on DripSneakers."},
+        "commercial_intent": {"status": "verified", "level": "high", "rationale": "The post supplies batch, price, sizes, W2C and QC checks for a purchase decision."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1wigt5c/find_480_rmb_xa_batch_balenciaga_runner_70_led/", "rationale": "Rules and seller disclosure appear on-page, but commercial participation and late-reply visibility need moderator-rule confirmation."}
+      },
+      "missing_data": ["current totals and lock state", "US URL-level traffic and keywords", "current promotion rule", "DripSneakers batch identity and live stock"],
+      "confidence": "medium",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O03-1syxb04",
+      "input_group": "Balenciaga Runner LED Review",
+      "url": "https://www.reddit.com/r/TheWorldOfRepsneakers/comments/1syxb04/balenciaga_runner_led_review/",
+      "title": "Balenciaga Runner LED review",
+      "post_date": "2026-04-29",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/TheWorldOfRepsneakers/comments/1syxb04/balenciaga_runner_led_review/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Readable page includes October sizing follow-ups; totals and lock state remain unavailable."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/search/?q=%22Balenciaga%20Runner%20LED%22&type=posts", "market": "US", "method": "public SERP and Reddit search", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "The same review was cross-posted to at least five communities; unique demand and relative reply visibility are unknown.", "comparator_urls": ["https://www.reddit.com/r/RepsneakersDogs/comments/1syx9vc/balenciaga_runner_led_review/", "https://www.reddit.com/r/weidianwarriors/comments/1t1raxi/balenciaga_runner_led_review/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "Review covers LED operation, VG versus XA batch, accessories and sizing for an exact product type sold by DripSneakers."},
+        "commercial_intent": {"status": "verified", "level": "medium", "rationale": "Readers ask about buying, batch selection, malfunction recovery and sizing."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/TheWorldOfRepsneakers/comments/1syxb04/balenciaga_runner_led_review/", "rationale": "Current subreddit commercial rules were not independently captured."}
+      },
+      "missing_data": ["current totals and lock state", "US URL-level SEO metrics", "current subreddit promotion rules", "DripSneakers batch equivalence"],
+      "confidence": "medium",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O03-1syx9vc",
+      "input_group": "Balenciaga Runner LED Review",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1syx9vc/balenciaga_runner_led_review/",
+      "title": "Balenciaga Runner LED review",
+      "post_date": "2026-04-29",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1syx9vc/balenciaga_runner_led_review/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Public result shows the post and later price/batch questions; totals and lock state are unavailable."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/search/?q=%22Balenciaga%20Runner%20LED%22&type=posts", "market": "US", "method": "public SERP and Reddit search", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "This is one of several identical cross-posts; relative search value is not known.", "comparator_urls": ["https://www.reddit.com/r/TheWorldOfRepsneakers/comments/1syxb04/balenciaga_runner_led_review/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "Exact product theme matches the Runner LED listing and its customer questions."},
+        "commercial_intent": {"status": "verified", "level": "medium", "rationale": "Comments ask about total cost and batch pricing."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1syx9vc/balenciaga_runner_led_review/", "rationale": "Automoderator rules are visible, but seller participation and reply visibility are not fully verified."}
+      },
+      "missing_data": ["current totals/lock state", "US URL-level SEO metrics", "promotion rule", "reply position"],
+      "confidence": "medium-low",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O03-1t1raxi",
+      "input_group": "Balenciaga Runner LED Review",
+      "url": "https://www.reddit.com/r/weidianwarriors/comments/1t1raxi/balenciaga_runner_led_review/",
+      "title": "Balenciaga Runner LED review",
+      "post_date": "2026-05-02",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/weidianwarriors/comments/1t1raxi/balenciaga_runner_led_review/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Page was indexed, but current totals and moderation state were not reliably exposed."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/search/?q=%22Balenciaga%20Runner%20LED%22&type=posts", "market": "US", "method": "public SERP and Reddit search", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "Identical content exists in several communities; no URL-level demand comparison is available.", "comparator_urls": ["https://www.reddit.com/r/TheWorldOfRepsneakers/comments/1syxb04/balenciaga_runner_led_review/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "The review covers the exact product family, batch and sizing issues relevant to the store."},
+        "commercial_intent": {"status": "verified", "level": "medium", "rationale": "The content supports batch selection and purchase evaluation."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/weidianwarriors/comments/1t1raxi/balenciaga_runner_led_review/", "rationale": "The page says submission was under moderator review; current participation rules are incomplete."}
+      },
+      "missing_data": ["current totals/lock state", "US URL-level SEO metrics", "current approval and promotion rules"],
+      "confidence": "low",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O03-1t1kmdy",
+      "input_group": "Balenciaga Runner LED Review",
+      "url": "https://www.reddit.com/r/Repsneakers/comments/1t1kmdy/balenciaga_runner_led/",
+      "title": "Balenciaga Runner LED",
+      "post_date": "2026-05-02",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/Repsneakers/comments/1t1kmdy/balenciaga_runner_led/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Public page exists; full live totals and lock state were not available."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/search/?q=%22Balenciaga%20Runner%20LED%22&type=posts", "market": "US", "method": "public SERP and Reddit search", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "Same content is cross-posted, and comparative page traffic is absent.", "comparator_urls": ["https://www.reddit.com/r/TheWorldOfRepsneakers/comments/1syxb04/balenciaga_runner_led_review/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "Exact product type and batch/LED discussion match a current store product."},
+        "commercial_intent": {"status": "verified", "level": "medium", "rationale": "The review informs product and batch choice."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/Repsneakers/comments/1t1kmdy/balenciaga_runner_led/", "rationale": "Current subreddit seller-promotion rules were not captured in full."}
+      },
+      "missing_data": ["current totals/lock state", "US URL-level SEO metrics", "current promotion rules"],
+      "confidence": "medium-low",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O03-1syx5ol",
+      "input_group": "Balenciaga Runner LED Review",
+      "url": "https://www.reddit.com/r/BBDBuyOfficial/comments/1syx5ol/balanciaga_runner_led_from_yolo/",
+      "title": "Balanciaga runner led from yolo",
+      "post_date": "2026-04-29",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/BBDBuyOfficial/comments/1syx5ol/balanciaga_runner_led_from_yolo/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Page exists with a later link request, but totals and lock state are unavailable."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/search/?q=%22Balenciaga%20Runner%20LED%22&type=posts", "market": "US", "method": "public Reddit search", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "This agent-branded community hosts a duplicate of a review posted elsewhere; search opportunity is unmeasured.", "comparator_urls": ["https://www.reddit.com/r/TheWorldOfRepsneakers/comments/1syxb04/balenciaga_runner_led_review/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "Exact product and buyer request for a link align with product-detail content."},
+        "commercial_intent": {"status": "verified", "level": "medium", "rationale": "Readers seek the product link after seeing the review."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/BBDBuyOfficial/comments/1syx5ol/balanciaga_runner_led_from_yolo/", "rationale": "Community is tied to a competing agent and rules for outside sellers were not verified."}
+      },
+      "missing_data": ["current totals/lock state", "US URL-level SEO metrics", "outside-seller participation rule"],
+      "confidence": "low",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O03-1t78nyp",
+      "input_group": "Balenciaga Runner LED Review",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1t78nyp/review_balenciaga_runner_led_from_luna/",
+      "title": "[REVIEW] Balenciaga Runner LED from Luna",
+      "post_date": null,
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1t78nyp/review_balenciaga_runner_led_from_luna/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Current page is readable with active review comments, but exact post date, totals and lock state were not exposed."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/search/?q=%22Balenciaga%20Runner%20LED%22&type=posts", "market": "US", "method": "Reddit search; no authorized URL-level SEO source", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "Many Runner LED reviews appear in Reddit search, so the niche is not visibly empty; comparative traffic is unknown.", "comparator_urls": ["https://www.reddit.com/r/TheWorldOfRepsneakers/comments/1syxb04/balenciaga_runner_led_review/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "The review directly covers LED, comfort, QC and insole measurement for a product type sold by DripSneakers."},
+        "commercial_intent": {"status": "verified", "level": "medium", "rationale": "Review includes seller contact, price and pre-shipment QC process."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1t78nyp/review_balenciaga_runner_led_from_luna/", "rationale": "Rules are visible but do not establish permission for a late commercial reply."}
+      },
+      "missing_data": ["exact post date", "current totals/lock state", "US URL-level SEO metrics", "seller reply permission"],
+      "confidence": "medium-low",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O04-1thmovv",
+      "input_group": "Best Jordan 4 Batch",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1thmovv/batch_wiki_for_new_the_2026_ultimate_putian_batch/",
+      "title": "Batch Wiki for new! The 2026 Ultimate Putian Batch Bible (LJR, M, PK, GX explained)",
+      "post_date": "2026-05-19",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1thmovv/batch_wiki_for_new_the_2026_ultimate_putian_batch/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "The 2026 guide is readable, but live totals and lock state are unavailable."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.google.com/search?q=site%3Areddit.com+%22Best+Jordan+4+Batch%22+2026", "market": "US", "method": "public SERP; exact supplied title not found", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "Numerous older AJ4 batch threads and this broad guide compete; no current URL-level comparison is available.", "comparator_urls": ["https://www.reddit.com/r/repweidiansneakers/comments/xazden/", "https://www.reddit.com/r/repbudgetsneakers/comments/u155s9/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "Jordan 4 batch choice maps directly to the store's AJ4 inventory and QC education."},
+        "commercial_intent": {"status": "verified", "level": "medium", "rationale": "The guide supports factory/batch selection, but it is broader than a single purchase request."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1thmovv/batch_wiki_for_new_the_2026_ultimate_putian_batch/", "rationale": "An established guide is difficult to enter late; commercial reply rules remain unverified."}
+      },
+      "missing_data": ["exact supplied URL/title", "current totals/lock state", "US URL-level SEO metrics", "reply visibility"],
+      "confidence": "low",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O05-1k2qpwz",
+      "input_group": "Jordan 4 Black Cat QC",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1k2qpwz/",
+      "title": "Jordan 4 black cat (GX batch) qc - from TMF",
+      "post_date": "2025-04-19",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1k2qpwz/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Page is readable with QC discussion, but current totals and lock state are unavailable."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.google.com/search?q=site%3Areddit.com+%22Jordan+4+Black+Cat%22+QC", "market": "US", "method": "public SERP; no URL-level SEO provider", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "A near-duplicate QC from the same seller appeared three days earlier, so the topic is duplicated.", "comparator_urls": ["https://www.reddit.com/r/RepsneakersDogs/comments/1k0avwz/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "Exact Air Jordan 4 Black Cat model is sold by DripSneakers and users discuss visible QC criteria."},
+        "commercial_intent": {"status": "verified", "level": "high", "rationale": "The buyer requests GL/RL quality approval before purchase/shipping."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1k2qpwz/", "rationale": "Format rules are visible, but a seller reply and late visibility are not authorized by the captured evidence."}
+      },
+      "missing_data": ["current totals/lock state", "US URL-level SEO metrics", "current promotion rule", "exact 2026 candidate claimed in the source brief"],
+      "confidence": "medium-low",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O05-1k0avwz",
+      "input_group": "Jordan 4 Black Cat QC",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1k0avwz/",
+      "title": "Jordan 4 Black cat (GX batch) qc - from TMF",
+      "post_date": "2025-04-16",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1k0avwz/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Page and comments are readable; current totals and lock state are unavailable."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.google.com/search?q=site%3Areddit.com+%22Jordan+4+Black+Cat%22+QC", "market": "US", "method": "public SERP", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "Near-identical same-seller QC content exists, and URL-level demand is unknown.", "comparator_urls": ["https://www.reddit.com/r/RepsneakersDogs/comments/1k2qpwz/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "Exact model and QC concern match an active DripSneakers product page."},
+        "commercial_intent": {"status": "verified", "level": "high", "rationale": "User is evaluating a specific pair before accepting it."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1k0avwz/", "rationale": "Posting rules are visible; seller participation and late reply visibility remain uncertain."}
+      },
+      "missing_data": ["current totals/lock state", "US URL-level SEO metrics", "current promotion rule"],
+      "confidence": "medium-low",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O06-1sfwxgo",
+      "input_group": "Balenciaga Runner + Prada Cup Review",
+      "url": "https://www.reddit.com/r/DesignerReps/comments/1sfwxgo/balanciaga_runner_margiela_futur_prada_cup_review/",
+      "title": "Balanciaga Runner + margiela futur + prada cup review",
+      "post_date": "2026-04-08",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/DesignerReps/comments/1sfwxgo/balanciaga_runner_margiela_futur_prada_cup_review/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Page and sizing comment are readable, but current totals and lock state are unavailable."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.google.com/search?q=site%3Areddit.com+Balenciaga+Runner+Prada+Cup+review", "market": "US", "method": "public SERP", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "The review is cross-posted once; same-topic URL demand and age-adjusted competition are unknown.", "comparator_urls": ["https://www.reddit.com/r/1to1reps/comments/1sfwv08/runner_margiela_futur_prada_cup_review/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "DripSneakers carries Balenciaga Runner and Prada America's Cup product families."},
+        "commercial_intent": {"status": "verified", "level": "medium", "rationale": "The review compares batch quality and supports designer-sneaker selection."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/DesignerReps/comments/1sfwxgo/balanciaga_runner_margiela_futur_prada_cup_review/", "rationale": "Current external-link and seller-reply rules were not captured."}
+      },
+      "missing_data": ["current totals/lock state", "US URL-level SEO metrics", "current subreddit rules", "store batch equivalence"],
+      "confidence": "medium-low",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O06-1sfwv08",
+      "input_group": "Balenciaga Runner + Prada Cup Review",
+      "url": "https://www.reddit.com/r/1to1reps/comments/1sfwv08/runner_margiela_futur_prada_cup_review/",
+      "title": "Runner + margiela futur + prada cup review",
+      "post_date": "2026-04-08",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/1to1reps/comments/1sfwv08/runner_margiela_futur_prada_cup_review/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Cross-post is readable, but current totals and lock state are unavailable."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.google.com/search?q=site%3Areddit.com+Balenciaga+Runner+Prada+Cup+review", "market": "US", "method": "public SERP", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "Duplicate content exists in DesignerReps; no URL-level comparison is available.", "comparator_urls": ["https://www.reddit.com/r/DesignerReps/comments/1sfwxgo/balanciaga_runner_margiela_futur_prada_cup_review/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "Both main designer sneaker families map to current DripSneakers categories."},
+        "commercial_intent": {"status": "verified", "level": "medium", "rationale": "Quality and sizing comparison aids purchase selection."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/1to1reps/comments/1sfwv08/runner_margiela_futur_prada_cup_review/", "rationale": "The page links trusted sellers/agents, but outside commercial participation rules are not fully verified."}
+      },
+      "missing_data": ["current totals/lock state", "US URL-level SEO metrics", "outside-seller rule"],
+      "confidence": "low",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O07-1urddc8",
+      "input_group": "Sp5der x Adidas Superstar",
+      "url": "https://www.reddit.com/r/rep/comments/1urddc8/anyone_know_reps_of_these/",
+      "title": "Anyone know reps of these?",
+      "post_date": "2026-07-09",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/rep/comments/1urddc8/anyone_know_reps_of_these/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Page has continuing requests through September, but current totals and lock state are unavailable."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.google.com/search?q=site%3Areddit.com+%22Sp5der+x+Adidas+Superstar%22", "market": "US", "method": "public SERP", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "The thread shows repeated W2C and QC demand, but comparable purchase threads and URL traffic were not established.", "comparator_urls": ["https://www.reddit.com/r/Atlantology/comments/1oaa6bi/"]},
+        "business_fit": {"status": "verified", "level": "medium", "rationale": "DripSneakers carries Sp5der apparel and Adidas sneakers, but the exact collaboration was not found on the site."},
+        "commercial_intent": {"status": "verified", "level": "high", "rationale": "The user explicitly asks for a seller/link, price alternative and QC evidence."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/rep/comments/1urddc8/anyone_know_reps_of_these/", "rationale": "The page shows karma restrictions for links; current seller participation rules remain incomplete."}
+      },
+      "missing_data": ["current totals/lock state", "US URL-level SEO metrics", "exact store inventory", "seller/link rules"],
+      "confidence": "medium",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O08-1wfk2mf",
+      "input_group": "Nike NOCTA Tech Fleece Set",
+      "url": "https://www.reddit.com/r/RepsOnBudget/comments/1wfk2mf/22_nike_nocta_tech_fleece_set_what_do_you_guys/",
+      "title": "€22 Nike NOCTA Tech Fleece Set – What do you guys think?",
+      "post_date": "2026-09-13",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/RepsOnBudget/comments/1wfk2mf/22_nike_nocta_tech_fleece_set_what_do_you_guys/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Page contains October follow-ups and a dead-link update, but current totals and lock state are unavailable."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.google.com/search?q=site%3Areddit.com+%22Nike+NOCTA+Tech+Fleece+Set%22", "market": "US", "method": "public SERP", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "Multiple recent budget NOCTA set posts exist; this thread is active but the exact search value is unknown.", "comparator_urls": ["https://www.reddit.com/r/DiamondFinds/comments/1vkjfe1/63_nike_nocta_tech_fleece_set_basically_11/", "https://www.reddit.com/r/RepsOnBudget/comments/1x05g1w/22_nike_nocta_tracksuit_this_price_is_actually/"]},
+        "business_fit": {"status": "verified", "level": "medium", "rationale": "DripSneakers carries Nike Tech Fleece sets, but the verified site result is not confirmed as this exact NOCTA set or colorway."},
+        "commercial_intent": {"status": "verified", "level": "high", "rationale": "Users evaluate price, QC, colorway authenticity, material, size and live purchase links."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/RepsOnBudget/comments/1wfk2mf/22_nike_nocta_tech_fleece_set_what_do_you_guys/", "rationale": "Community is link-heavy and agent-affiliated; rules for an outside store reply were not verified."}
+      },
+      "missing_data": ["current totals/lock state", "US URL-level SEO metrics", "exact DripSneakers product identity", "outside-store participation rule"],
+      "confidence": "medium",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O09-1v17j4y",
+      "input_group": "Balenciaga Runner Sizing",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1v17j4y/bcg_runner_sizing/",
+      "title": "BCG RUNNER SIZING",
+      "post_date": "2026-07-20",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1v17j4y/bcg_runner_sizing/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Question is readable; current totals, answers and lock state are not fully exposed."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.google.com/search?q=site%3Areddit.com+2026+Balenciaga+Runner+Sizing", "market": "US", "method": "public SERP", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "Several 2026 Runner reviews give conflicting size-down versus TTS advice; no URL-level demand comparison is available.", "comparator_urls": ["https://www.reddit.com/r/FashionReps/comments/1q94gar/balenciaga_runner_airmax95_cdg/", "https://www.reddit.com/r/RepsFashionDogs/comments/1vavcv8/review_balenciaga_runner_sneaker_from_luna/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "DripSneakers sells Runner sizes EU35–46 while the post asks for EU47–48, exposing an availability and fit gap."},
+        "commercial_intent": {"status": "verified", "level": "high", "rationale": "The user needs an available size before buying."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1v17j4y/bcg_runner_sizing/", "rationale": "Rules are visible, but commercial replies and large-size sourcing claims require verification."}
+      },
+      "missing_data": ["current totals/lock state", "US URL-level SEO metrics", "current rules", "verified EU47–48 inventory"],
+      "confidence": "medium",
+      "recheck_on": "2026-11-13"
+    },
+    {
+      "id": "O10-1u2ta51",
+      "input_group": "How to Buy Reps in 2026",
+      "url": "https://www.reddit.com/r/Repsneakers/comments/1u2ta51/repsneakers_2026_allinone_guide_established/",
+      "title": "RepSneakers 2026 All-In-One Guide | Established Seller List | Agent Guide | Customs Help | FAQ's | & More!",
+      "post_date": "2026-06-11",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.reddit.com/r/Repsneakers/comments/1u2ta51/repsneakers_2026_allinone_guide_established/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}, "rationale": "Guide is readable and current-year, but current totals and lock state are unavailable."},
+        "external_demand": {"status": "pending", "observed_at": "2026-10-14T17:48:41+08:00", "source_url": "https://www.google.com/search?q=site%3Areddit.com+2026+rep+sneakers+buying+guide+QC+shipping", "market": "US", "method": "public SERP", "values": {"monthly_organic_traffic": null, "organic_keywords": null, "ranking_queries": null, "geo_citations": null}},
+        "competition": {"status": "pending", "rationale": "This is an established all-in-one guide in a major community; late replies are likely crowded, but current density and traffic are unavailable.", "comparator_urls": ["https://www.reddit.com/r/OMGReviewReal/comments/1rmgbve/newbie_guide_2026_rep_starter_guide_best_buying/"]},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "DripSneakers has FAQ, How to Order, QC, shipping, payment, privacy and returns content covering the same buyer journey."},
+        "commercial_intent": {"status": "verified", "level": "medium", "rationale": "Guide readers are learning purchase paths and risk controls; intent spans research through checkout."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": "https://www.reddit.com/r/Repsneakers/comments/1u2ta51/repsneakers_2026_allinone_guide_established/", "rationale": "It is a community-owned guide with an established seller list; inclusion or commercial participation cannot be assumed."}
+      },
+      "missing_data": ["current totals/lock state", "US URL-level SEO metrics", "current guide participation rules", "authorized seller-list status"],
+      "confidence": "medium",
+      "recheck_on": "2026-11-13"
+    }
+  ]
+}

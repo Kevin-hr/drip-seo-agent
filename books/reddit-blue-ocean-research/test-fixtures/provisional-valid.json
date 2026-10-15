@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-14",
+  "target_market": "US",
+  "freshness_days": 30,
+  "candidates": [
+    {
+      "id": "best-rep-shoe-seller",
+      "url": "https://www.reddit.com/r/RepsneakersDogs/comments/1ptlqr1/best_rep_shoe_seller/",
+      "title": "Best Rep Shoe Seller",
+      "classification": "provisional",
+      "signals": {
+        "reddit_activity": {"status": "pending", "observed_at": null, "source_url": "https://www.reddit.com/r/RepsneakersDogs/comments/1ptlqr1/best_rep_shoe_seller/", "values": {"votes": null, "comments": null, "locked": null, "removed": null}},
+        "external_demand": {"status": "pending", "observed_at": null, "source_url": null, "method": "URL-level US organic traffic not yet available", "values": {"monthly_traffic": null, "organic_keywords": null}},
+        "competition": {"status": "pending", "rationale": "Archived counts exist, but current count and same-topic benchmarks require refresh.", "benchmark_urls": []},
+        "business_fit": {"status": "verified", "level": "strong", "rationale": "The poster is selecting a replica sneaker seller and names Jordan 4 Black Cat."},
+        "commercial_intent": {"status": "verified", "level": "high", "rationale": "Seller-selection query close to purchase."},
+        "entry_feasibility": {"status": "pending", "level": "constrained", "source_url": null, "rationale": "Subreddit rules and thread state require a current check."}
+      },
+      "missing_data": ["current Reddit vote/comment count", "US URL-level monthly organic traffic and keyword count", "current subreddit rules"],
+      "confidence": "medium",
+      "recheck_on": "2026-10-15"
+    }
+  ]
+}

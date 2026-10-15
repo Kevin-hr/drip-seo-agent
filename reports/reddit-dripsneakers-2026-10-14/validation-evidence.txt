@@ -1,0 +1,23 @@
+Task 0 green fixture
+COMMAND: python .agents/skills/evaluate-reddit-blue-ocean-posts/scripts/validate_report.py books/reddit-blue-ocean-research/test-fixtures/provisional-valid.json
+OUTPUT: OK: validated 1 candidate(s)
+EXIT: 0
+
+Task 0 deliberate red fixture
+COMMAND: python .agents/skills/evaluate-reddit-blue-ocean-posts/scripts/validate_report.py books/reddit-blue-ocean-research/test-fixtures/false-confirmed-invalid.json
+OUTPUT:
+ERROR: false-confirmed.business_fit: verified signal missing rationale
+ERROR: false-confirmed.commercial_intent: verified signal missing rationale
+ERROR: false-confirmed: classification 'confirmed' violates hard gates; expected 'provisional'
+ERROR: false-confirmed: confirmed candidate must not list missing_data
+EXIT: 1
+
+Formal report green validation
+COMMAND: python .agents/skills/evaluate-reddit-blue-ocean-posts/scripts/validate_report.py reports/reddit-dripsneakers-2026-10-14/opportunity-audit.json
+OUTPUT: OK: validated 17 candidate(s)
+EXIT: 0
+
+Coverage check
+OUTPUT: LEDGER_ROWS=27 GROUPS=14 H01,H02,H03,H04,O01,O02,O03,O04,O05,O06,O07,O08,O09,O10
+OUTPUT: CANDIDATES=17 CONFIRMED=0 PROVISIONAL=17 REJECTED=0
+

@@ -1,0 +1,115 @@
+{
+  "summary": {
+    "startedAt": "2026-10-09T01:37:20.828Z",
+    "completedAt": "2026-10-09T01:37:49.526Z",
+    "manifest": "reports/audit-2026-10-09/retry/unknown-manifest.json",
+    "total": 9,
+    "pass": 0,
+    "fail": 0,
+    "unknown": 9,
+    "schemaSkuIsPid": 0,
+    "multipleH1": 0,
+    "onlineWrites": 0
+  },
+  "results": [
+    {
+      "product_id": "536027310782224",
+      "product_name": "$29 For 2nd Pair & A Bathing Ape Bape Sta Low White Grey",
+      "url": "https://www.dripsneakers.org/29-for-2nd-pair-a-bathing-ape-bape-sta-low-white-grey",
+      "state": "unknown",
+      "attempts": 3,
+      "http_status": null,
+      "checks": null,
+      "pass": false,
+      "error": "HTTP 404"
+    },
+    {
+      "product_id": "536027310717727",
+      "product_name": "$29 For 2nd Pair &  A Bathing Ape Bape Sta Low White Orange",
+      "url": "https://www.dripsneakers.org/29-for-2nd-pair-a-bathing-ape-bape-sta-low-white-orange",
+      "state": "unknown",
+      "attempts": 3,
+      "http_status": null,
+      "checks": null,
+      "pass": false,
+      "error": "HTTP 404"
+    },
+    {
+      "product_id": "536027310651676",
+      "product_name": "$29 For 2nd Pair & A Bathing Ape Bape Sta Low White",
+      "url": "https://www.dripsneakers.org/29-for-2nd-pair-a-bathing-ape-bape-sta-low-white",
+      "state": "unknown",
+      "attempts": 3,
+      "http_status": null,
+      "checks": null,
+      "pass": false,
+      "error": "HTTP 404"
+    },
+    {
+      "product_id": "536027310538770",
+      "product_name": "$29 For 2nd Pair & A Bathing Ape Bape Sta Low Black",
+      "url": "https://www.dripsneakers.org/29-for-2nd-pair-a-bathing-ape-bape-sta-low-black",
+      "state": "unknown",
+      "attempts": 3,
+      "http_status": null,
+      "checks": null,
+      "pass": false,
+      "error": "HTTP 404"
+    },
+    {
+      "product_id": "536027310490650",
+      "product_name": "$29 For 2nd Pair & A Bathing Ape Bape Sta Patent Leather White Blue",
+      "url": "https://www.dripsneakers.org/29-for-2nd-pair-a-bathing-ape-bape-sta-patent-leather-white-blue",
+      "state": "unknown",
+      "attempts": 3,
+      "http_status": null,
+      "checks": null,
+      "pass": false,
+      "error": "HTTP 404"
+    },
+    {
+      "product_id": "536027310409752",
+      "product_name": "$29 For 2nd Pair & A Bathing Ape Bape Sta Low Grey Black",
+      "url": "https://www.dripsneakers.org/29-for-2nd-pair-a-bathing-ape-bape-sta-low-grey-black",
+      "state": "unknown",
+      "attempts": 3,
+      "http_status": null,
+      "checks": null,
+      "pass": false,
+      "error": "HTTP 404"
+    },
+    {
+      "product_id": "536027310364177",
+      "product_name": "$29 For 2nd Pair & A Bathing Ape Bape Sta White Black",
+      "url": "https://www.dripsneakers.org/29-for-2nd-pair-a-bathing-ape-bape-sta-white-black",
+      "state": "unknown",
+      "attempts": 3,
+      "http_status": null,
+      "checks": null,
+      "pass": false,
+      "error": "HTTP 404"
+    },
+    {
+      "product_id": "536027060726042",
+      "product_name": "Nike Air Force 1 Mid Flax",
+      "url": "https://www.dripsneakers.org/nike-air-force-1-mid-flax",
+      "state": "unknown",
+      "attempts": 3,
+      "http_status": null,
+      "checks": null,
+      "pass": false,
+      "error": "page.goto: net::ERR_TOO_MANY_REDIRECTS at https://www.dripsneakers.org/nike-air-force-1-mid-flax\nCall log:\n\u001b[2m  - navigating to \"https://www.dripsneakers.org/nike-air-force-1-mid-flax\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    },
+    {
+      "product_id": "536027047677461",
+      "product_name": "Nike Air Force 1 Low Fragment Clot white",
+      "url": "https://www.dripsneakers.org/nike-air-force-1-low-fragment-clot-white",
+      "state": "unknown",
+      "attempts": 3,
+      "http_status": null,
+      "checks": null,
+      "pass": false,
+      "error": "page.goto: net::ERR_TOO_MANY_REDIRECTS at https://www.dripsneakers.org/nike-air-force-1-low-fragment-clot-white\nCall log:\n\u001b[2m  - navigating to \"https://www.dripsneakers.org/nike-air-force-1-low-fragment-clot-white\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-10-14",
+  "target_market": "US",
+  "freshness_days": 30,
+  "candidates": [
+    {
+      "id": "false-confirmed",
+      "url": "https://www.reddit.com/example",
+      "title": "Unverified candidate",
+      "classification": "confirmed",
+      "signals": {
+        "reddit_activity": {"status": "pending"},
+        "external_demand": {"status": "pending"},
+        "competition": {"status": "pending"},
+        "business_fit": {"status": "verified", "level": "strong"},
+        "commercial_intent": {"status": "verified", "level": "high"},
+        "entry_feasibility": {"status": "pending", "level": "constrained"}
+      },
+      "missing_data": ["all live evidence"],
+      "confidence": "low",
+      "recheck_on": "2026-10-15"
+    }
+  ]
+}
