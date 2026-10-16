@@ -1,0 +1,39 @@
+{
+  "verifiedAt": "2026-10-16",
+  "mode": "read-only",
+  "writeRequests": 0,
+  "category": {
+    "backendReportedTotal": 224,
+    "backendPublished": 188,
+    "backendPublishedWithUrl": 188,
+    "sitemapHttpStatus": 200,
+    "sitemapEntries": 188,
+    "sitemapUniqueUrls": 188,
+    "missingPublishedUrls": 0,
+    "extraSitemapUrls": 0
+  },
+  "product": {
+    "backendReportedTotal": 5823,
+    "backendPublished": 5802,
+    "backendPublishedWithUrl": 5802,
+    "backendPublishedUniqueUrls": 5801,
+    "sitemapHttpStatus": 200,
+    "sitemapEntries": 5802,
+    "sitemapUniqueUrls": 5801,
+    "missingPublishedUrls": 0,
+    "extraSitemapUrls": 0,
+    "duplicatePublishedUrlGroups": 1,
+    "duplicate": {
+      "url": "https://www.dripsneakers.org/Top-Quality-Brunello-Cucinelli-Henley-collar-T-shirt-White",
+      "productIds": [536027467169560, 536027467120409]
+    }
+  },
+  "gscSitemapSnapshot": {
+    "queriedAt": "2026-10-16",
+    "sitemapCount": 9,
+    "submittedRowsAcrossChildSitemaps": 6168,
+    "productRowsReported": 5798,
+    "categoryRowsReported": 188,
+    "interpretation": "Submission and processing status only; not proof of indexing or current live row count."
+  }
+}

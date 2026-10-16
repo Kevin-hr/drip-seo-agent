@@ -1,0 +1,24 @@
+name: GSC indexing ledger integrity
+
+on:
+  pull_request:
+    paths:
+      - "reports/gsc-indexing-2026-10-16/**"
+      - "docs/operations/GSC_INDEXING_895_ACCEPTANCE.md"
+      - "scripts/validate-gsc-indexing-ledger.mjs"
+      - ".github/workflows/gsc-indexing-ledger.yml"
+  push:
+    paths:
+      - "reports/gsc-indexing-2026-10-16/**"
+      - "docs/operations/GSC_INDEXING_895_ACCEPTANCE.md"
+      - "scripts/validate-gsc-indexing-ledger.mjs"
+
+jobs:
+  preserve-baseline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/validate-gsc-indexing-ledger.mjs --mode baseline
