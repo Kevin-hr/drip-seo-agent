@@ -1,0 +1,2542 @@
+{
+  "summary": {
+    "checkedAt": "2026-10-19T00:59:46.459Z",
+    "sourcesRequested": 190,
+    "sourcesSucceeded": 190,
+    "sourcesFailed": 0,
+    "categoryTargets": 188,
+    "targetsWithAnyInlink": 188,
+    "targetsWithNoInlink": 0,
+    "targetsLinkedFromHome": 57,
+    "directoryUrl": "https://www.dripsneakers.org/shop-by-category",
+    "targetsLinkedFromDirectory": 188
+  },
+  "sourceErrors": [],
+  "records": [
+    {
+      "sitemapOrder": 1,
+      "originalUrl": "https://www.dripsneakers.org/air-jordan-4/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Mid/"
+      ]
+    },
+    {
+      "sitemapOrder": 2,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-5/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Mid/"
+      ]
+    },
+    {
+      "sitemapOrder": 3,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-2/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 4,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-3/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 5,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-1/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Mid/"
+      ]
+    },
+    {
+      "sitemapOrder": 6,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Mid/"
+      ]
+    },
+    {
+      "sitemapOrder": 7,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-1-High/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 8,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-1-Low/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 9,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-1-Mid/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 10,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-10/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 11,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-11/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 12,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-12/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 13,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-13/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 14,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-14/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 15,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-6/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 16,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-7/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 17,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-8/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 18,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-9/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 19,
+      "originalUrl": "https://www.dripsneakers.org/Air-Jordan-Legacy-312/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 20,
+      "originalUrl": "https://www.dripsneakers.org/Jordan-Jumpman/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 21,
+      "originalUrl": "https://www.dripsneakers.org/Nike/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 22,
+      "originalUrl": "https://www.dripsneakers.org/Nike-Dunk-Low/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 23,
+      "originalUrl": "https://www.dripsneakers.org/Nike-Dunk-High/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 24,
+      "originalUrl": "https://www.dripsneakers.org/Nike-SB-Dunk/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 25,
+      "originalUrl": "https://www.dripsneakers.org/Nike-Vomero-5/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 26,
+      "originalUrl": "https://www.dripsneakers.org/Nike-P-6000/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 27,
+      "originalUrl": "https://www.dripsneakers.org/Nike-Blazer/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 28,
+      "originalUrl": "https://www.dripsneakers.org/Nike-Presto/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 29,
+      "originalUrl": "https://www.dripsneakers.org/Nike-VaporMax/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 30,
+      "originalUrl": "https://www.dripsneakers.org/Nike-Sabrina/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 31,
+      "originalUrl": "https://www.dripsneakers.org/Adidas/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 32,
+      "originalUrl": "https://www.dripsneakers.org/Adidas-Samba/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 33,
+      "originalUrl": "https://www.dripsneakers.org/Adidas-Gazelle/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 34,
+      "originalUrl": "https://www.dripsneakers.org/Adidas-Campus/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 35,
+      "originalUrl": "https://www.dripsneakers.org/Adidas-Superstar/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 36,
+      "originalUrl": "https://www.dripsneakers.org/Adidas-Forum/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 37,
+      "originalUrl": "https://www.dripsneakers.org/Adidas-Handball/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 38,
+      "originalUrl": "https://www.dripsneakers.org/Yeezy/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 39,
+      "originalUrl": "https://www.dripsneakers.org/Yeezy-350-V2/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 40,
+      "originalUrl": "https://www.dripsneakers.org/Yeezy-500/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 41,
+      "originalUrl": "https://www.dripsneakers.org/Yeezy-700/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 42,
+      "originalUrl": "https://www.dripsneakers.org/Yeezy-Slide/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 43,
+      "originalUrl": "https://www.dripsneakers.org/Yeezy-Foam-Runner/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 44,
+      "originalUrl": "https://www.dripsneakers.org/Yeezy-380/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 45,
+      "originalUrl": "https://www.dripsneakers.org/Yeezy-450/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 46,
+      "originalUrl": "https://www.dripsneakers.org/New-Balance/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 47,
+      "originalUrl": "https://www.dripsneakers.org/New-Balance-550/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 48,
+      "originalUrl": "https://www.dripsneakers.org/New-Balance-2002R/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 49,
+      "originalUrl": "https://www.dripsneakers.org/New-Balance-1906R/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 50,
+      "originalUrl": "https://www.dripsneakers.org/New-Balance-9060/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 51,
+      "originalUrl": "https://www.dripsneakers.org/New-Balance-530/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 52,
+      "originalUrl": "https://www.dripsneakers.org/New-Balance-327/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 53,
+      "originalUrl": "https://www.dripsneakers.org/Balenciaga/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 54,
+      "originalUrl": "https://www.dripsneakers.org/Balenciaga-Track/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 55,
+      "originalUrl": "https://www.dripsneakers.org/Balenciaga-Triple-S/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 56,
+      "originalUrl": "https://www.dripsneakers.org/Balenciaga-Runner/",
+      "inlinkSourceCount": 2,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 57,
+      "originalUrl": "https://www.dripsneakers.org/Balenciaga-x-Crocs/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 58,
+      "originalUrl": "https://www.dripsneakers.org/Balenciaga-Defender/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 59,
+      "originalUrl": "https://www.dripsneakers.org/Designer-Sneakers/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 60,
+      "originalUrl": "https://www.dripsneakers.org/Dior/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 61,
+      "originalUrl": "https://www.dripsneakers.org/Louis-Vuitton/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 62,
+      "originalUrl": "https://www.dripsneakers.org/Gucci/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 63,
+      "originalUrl": "https://www.dripsneakers.org/Amiri/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 64,
+      "originalUrl": "https://www.dripsneakers.org/Versace/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 65,
+      "originalUrl": "https://www.dripsneakers.org/Common-Projects/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 66,
+      "originalUrl": "https://www.dripsneakers.org/Roger-Vivier/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 67,
+      "originalUrl": "https://www.dripsneakers.org/Loewe/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 68,
+      "originalUrl": "https://www.dripsneakers.org/Fendi/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 69,
+      "originalUrl": "https://www.dripsneakers.org/Trending/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 70,
+      "originalUrl": "https://www.dripsneakers.org/Travis-Scott/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 71,
+      "originalUrl": "https://www.dripsneakers.org/Kobe/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 72,
+      "originalUrl": "https://www.dripsneakers.org/Asics/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 73,
+      "originalUrl": "https://www.dripsneakers.org/MIHARA-YASUHIRO/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 74,
+      "originalUrl": "https://www.dripsneakers.org/Onitsuka-Tiger/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 75,
+      "originalUrl": "https://www.dripsneakers.org/Zegna/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 76,
+      "originalUrl": "https://www.dripsneakers.org/T-Shirts/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 77,
+      "originalUrl": "https://www.dripsneakers.org/Chrome-Hearts-T-Shirts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 78,
+      "originalUrl": "https://www.dripsneakers.org/Hellstar-T-Shirts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 79,
+      "originalUrl": "https://www.dripsneakers.org/Sp5der-T-Shirts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 80,
+      "originalUrl": "https://www.dripsneakers.org/BAPE-T-Shirts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 81,
+      "originalUrl": "https://www.dripsneakers.org/Supreme-T-Shirts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 82,
+      "originalUrl": "https://www.dripsneakers.org/Gucci-T-Shirts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 83,
+      "originalUrl": "https://www.dripsneakers.org/Rhude-T-Shirts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 84,
+      "originalUrl": "https://www.dripsneakers.org/Hoodies/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 85,
+      "originalUrl": "https://www.dripsneakers.org/Chrome-Hearts-Hoodies/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 86,
+      "originalUrl": "https://www.dripsneakers.org/Sp5der-Hoodies/",
+      "inlinkSourceCount": 2,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 87,
+      "originalUrl": "https://www.dripsneakers.org/Hellstar-Hoodies/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 88,
+      "originalUrl": "https://www.dripsneakers.org/BAPE-Hoodies/",
+      "inlinkSourceCount": 2,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 89,
+      "originalUrl": "https://www.dripsneakers.org/Supreme-Hoodies/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 90,
+      "originalUrl": "https://www.dripsneakers.org/Denim-Tears-Hoodies/",
+      "inlinkSourceCount": 2,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 91,
+      "originalUrl": "https://www.dripsneakers.org/Godspeed-Hoodies/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 92,
+      "originalUrl": "https://www.dripsneakers.org/OFF-White-Hoodies/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 93,
+      "originalUrl": "https://www.dripsneakers.org/Jackets/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 94,
+      "originalUrl": "https://www.dripsneakers.org/Louis-Vuitton-Jackets/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 95,
+      "originalUrl": "https://www.dripsneakers.org/Moose-Knuckles-Jackets/",
+      "inlinkSourceCount": 2,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 96,
+      "originalUrl": "https://www.dripsneakers.org/The-North-Face-Jackets/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 97,
+      "originalUrl": "https://www.dripsneakers.org/Jeans/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 98,
+      "originalUrl": "https://www.dripsneakers.org/Ksubi-Jeans/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 99,
+      "originalUrl": "https://www.dripsneakers.org/Purple-Brand-Jeans/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 100,
+      "originalUrl": "https://www.dripsneakers.org/Shorts/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 101,
+      "originalUrl": "https://www.dripsneakers.org/Chrome-Hearts-Shorts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 102,
+      "originalUrl": "https://www.dripsneakers.org/Hellstar-Shorts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 103,
+      "originalUrl": "https://www.dripsneakers.org/Louis-Vuitton-Shorts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 104,
+      "originalUrl": "https://www.dripsneakers.org/Denim-Tears-Shorts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 105,
+      "originalUrl": "https://www.dripsneakers.org/Pants/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 106,
+      "originalUrl": "https://www.dripsneakers.org/Sp5der-Pants/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 107,
+      "originalUrl": "https://www.dripsneakers.org/Denim-Tears-Pants/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 108,
+      "originalUrl": "https://www.dripsneakers.org/Polo-Shirts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 109,
+      "originalUrl": "https://www.dripsneakers.org/Gucci-Polo/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 110,
+      "originalUrl": "https://www.dripsneakers.org/Louis-Vuitton-Polo/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 111,
+      "originalUrl": "https://www.dripsneakers.org/Chrome-Hearts-Polo/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 112,
+      "originalUrl": "https://www.dripsneakers.org/Sets/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 113,
+      "originalUrl": "https://www.dripsneakers.org/Accessories/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 114,
+      "originalUrl": "https://www.dripsneakers.org/Bags/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 115,
+      "originalUrl": "https://www.dripsneakers.org/New-Arrivals/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 116,
+      "originalUrl": "https://www.dripsneakers.org/Bottega-Veneta/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 117,
+      "originalUrl": "https://www.dripsneakers.org/Burberry/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 118,
+      "originalUrl": "https://www.dripsneakers.org/Sweatshirts--Hoodies/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 119,
+      "originalUrl": "https://www.dripsneakers.org/drip-outfit/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 120,
+      "originalUrl": "https://www.dripsneakers.org/Bottega-Veneta-Orbit/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 121,
+      "originalUrl": "https://www.dripsneakers.org/dior-b30/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 122,
+      "originalUrl": "https://www.dripsneakers.org/Dior-B22/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 123,
+      "originalUrl": "https://www.dripsneakers.org/Dior-B25/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 124,
+      "originalUrl": "https://www.dripsneakers.org/Stussy/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 125,
+      "originalUrl": "https://www.dripsneakers.org/Chrome-Hearts-Hats/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 126,
+      "originalUrl": "https://www.dripsneakers.org/Fear-of-God/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 127,
+      "originalUrl": "https://www.dripsneakers.org/Represent/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 128,
+      "originalUrl": "https://www.dripsneakers.org/Stone-Island/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 129,
+      "originalUrl": "https://www.dripsneakers.org/Stone-Island-Hoodies/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 130,
+      "originalUrl": "https://www.dripsneakers.org/Prada/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 131,
+      "originalUrl": "https://www.dripsneakers.org/Prada-T-shirts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 132,
+      "originalUrl": "https://www.dripsneakers.org/Birkenstock/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 133,
+      "originalUrl": "https://www.dripsneakers.org/Lanvin/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 134,
+      "originalUrl": "https://www.dripsneakers.org/Louis-Vuitton-Trainer/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 135,
+      "originalUrl": "https://www.dripsneakers.org/Louis-Vuitton-Skate/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 136,
+      "originalUrl": "https://www.dripsneakers.org/Chrome-Hearts/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 137,
+      "originalUrl": "https://www.dripsneakers.org/Sp5der/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 138,
+      "originalUrl": "https://www.dripsneakers.org/Godspeed/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 139,
+      "originalUrl": "https://www.dripsneakers.org/Dunk/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 140,
+      "originalUrl": "https://www.dripsneakers.org/Air-Force-1/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 141,
+      "originalUrl": "https://www.dripsneakers.org/Joggers/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 142,
+      "originalUrl": "https://www.dripsneakers.org/Denim-Tears/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 143,
+      "originalUrl": "https://www.dripsneakers.org/Hellstar/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 144,
+      "originalUrl": "https://www.dripsneakers.org/Margiela/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 145,
+      "originalUrl": "https://www.dripsneakers.org/Godspeed-T-Shirts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 146,
+      "originalUrl": "https://www.dripsneakers.org/Balenciaga-Sneakers/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 147,
+      "originalUrl": "https://www.dripsneakers.org/Balenciaga-3XL/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 148,
+      "originalUrl": "https://www.dripsneakers.org/Balenciaga-Speed/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 149,
+      "originalUrl": "https://www.dripsneakers.org/Balenciaga-Slides/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 150,
+      "originalUrl": "https://www.dripsneakers.org/Balenciaga-Clothing/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 151,
+      "originalUrl": "https://www.dripsneakers.org/Dior-Sneakers/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 152,
+      "originalUrl": "https://www.dripsneakers.org/Dior-Clothing/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 153,
+      "originalUrl": "https://www.dripsneakers.org/Dior-T-Shirts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 154,
+      "originalUrl": "https://www.dripsneakers.org/DSQUARED2/",
+      "inlinkSourceCount": 2,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 155,
+      "originalUrl": "https://www.dripsneakers.org/Converse/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 156,
+      "originalUrl": "https://www.dripsneakers.org/Apparel/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 157,
+      "originalUrl": "https://www.dripsneakers.org/sneakers/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 158,
+      "originalUrl": "https://www.dripsneakers.org/Vans/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 159,
+      "originalUrl": "https://www.dripsneakers.org/BEST-SELLERS/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 160,
+      "originalUrl": "https://www.dripsneakers.org/Vests/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 161,
+      "originalUrl": "https://www.dripsneakers.org/Gucci-Sneakers/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 162,
+      "originalUrl": "https://www.dripsneakers.org/Sneakers-Under-100/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 163,
+      "originalUrl": "https://www.dripsneakers.org/NEW-CLOTHING/",
+      "inlinkSourceCount": 2,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 164,
+      "originalUrl": "https://www.dripsneakers.org/Prada-Collapse/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 165,
+      "originalUrl": "https://www.dripsneakers.org/Maison-Margiela-Replica/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 166,
+      "originalUrl": "https://www.dripsneakers.org/Nike-Tech-Fleece/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 167,
+      "originalUrl": "https://www.dripsneakers.org/Nike-Shorts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 168,
+      "originalUrl": "https://www.dripsneakers.org/Prada-Americas-Cup-Sneakers/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 169,
+      "originalUrl": "https://www.dripsneakers.org/Denim-Tears-Sweatsuits/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 170,
+      "originalUrl": "https://www.dripsneakers.org/Burberry-Polos--T-shirts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 171,
+      "originalUrl": "https://www.dripsneakers.org/Burberry-Jackets/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 172,
+      "originalUrl": "https://www.dripsneakers.org/Burberry-Shorts/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 173,
+      "originalUrl": "https://www.dripsneakers.org/Moncler-Jackets/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 174,
+      "originalUrl": "https://www.dripsneakers.org/Chanel/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 175,
+      "originalUrl": "https://www.dripsneakers.org/Dior-B33/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 176,
+      "originalUrl": "https://www.dripsneakers.org/New-Balance-Shoes/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 177,
+      "originalUrl": "https://www.dripsneakers.org/LV-Footprint-Soccer/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 178,
+      "originalUrl": "https://www.dripsneakers.org/Thom-Browne/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 179,
+      "originalUrl": "https://www.dripsneakers.org/Brunello-Cucinelli/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 180,
+      "originalUrl": "https://www.dripsneakers.org/STYLE-PICKS/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 181,
+      "originalUrl": "https://www.dripsneakers.org/BAPE/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 182,
+      "originalUrl": "https://www.dripsneakers.org/Supreme/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 183,
+      "originalUrl": "https://www.dripsneakers.org/Trapstar/",
+      "inlinkSourceCount": 189,
+      "linkedFromHome": true,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 188,
+      "sampleSources": [
+        "https://www.dripsneakers.org/",
+        "https://www.dripsneakers.org/shop-by-category",
+        "https://www.dripsneakers.org/air-jordan-4/",
+        "https://www.dripsneakers.org/Air-Jordan-5/",
+        "https://www.dripsneakers.org/Air-Jordan-2/",
+        "https://www.dripsneakers.org/Air-Jordan-3/",
+        "https://www.dripsneakers.org/Air-Jordan-1/",
+        "https://www.dripsneakers.org/Air-Jordan/",
+        "https://www.dripsneakers.org/Air-Jordan-1-High/",
+        "https://www.dripsneakers.org/Air-Jordan-1-Low/"
+      ]
+    },
+    {
+      "sitemapOrder": 184,
+      "originalUrl": "https://www.dripsneakers.org/Gallery-Dept/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 185,
+      "originalUrl": "https://www.dripsneakers.org/Vale-Forever/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 186,
+      "originalUrl": "https://www.dripsneakers.org/Represent-Hoodie/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 187,
+      "originalUrl": "https://www.dripsneakers.org/BAPE-STA/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    },
+    {
+      "sitemapOrder": 188,
+      "originalUrl": "https://www.dripsneakers.org/Scarf/",
+      "inlinkSourceCount": 1,
+      "linkedFromHome": false,
+      "linkedFromDirectory": true,
+      "linkedFromCategoryCount": 1,
+      "sampleSources": [
+        "https://www.dripsneakers.org/shop-by-category"
+      ]
+    }
+  ]
+}

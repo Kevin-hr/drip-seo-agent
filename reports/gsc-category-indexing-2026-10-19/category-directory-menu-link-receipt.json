@@ -1,0 +1,33 @@
+{
+  "observedAt": "2026-10-19T00:58:00Z",
+  "mode": "verified-existing-after-immediate-dialog-save",
+  "menu": {
+    "id": 537836567666708,
+    "name": "SHOP"
+  },
+  "item": {
+    "id": 543939228200733,
+    "name": "Shop by Category",
+    "link": "/shop-by-category",
+    "attr": 1,
+    "sort": 7,
+    "enabled": true,
+    "target": "_self"
+  },
+  "note": "The navigation dialog Save action persisted immediately. No outer form Save was required or executed.",
+  "frontend": {
+    "page": "https://www.dripsneakers.org/",
+    "matchingLinks": 1,
+    "text": "Shop by Category",
+    "href": "https://www.dripsneakers.org/shop-by-category"
+  },
+  "postChangeInlinkAudit": {
+    "sourcesRequested": 190,
+    "sourcesSucceeded": 190,
+    "categoryTargets": 188,
+    "targetsWithAnyInlink": 188,
+    "targetsWithNoInlink": 0,
+    "targetsLinkedFromDirectory": 188
+  }
+}
+

@@ -1,0 +1,81 @@
+{
+  "startedAt": "2026-10-19T00:51:19.386Z",
+  "mode": "commit-update",
+  "name": "Shop by Category",
+  "slug": "shop-by-category",
+  "publicUrl": "https://www.dripsneakers.org/shop-by-category",
+  "categoryLinks": 188,
+  "uniqueCategoryLinks": 188,
+  "htmlLength": 17894,
+  "steps": [
+    {
+      "step": "precreate-backup",
+      "pageCount": 17,
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\drip-seo-agent-main-sync-review-2026-10-15\\reports\\gsc-category-indexing-2026-10-19\\category-directory-precreate-backup.json"
+    },
+    {
+      "step": "preupdate-backup",
+      "id": 543938775751699,
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\drip-seo-agent-main-sync-review-2026-10-15\\reports\\gsc-category-indexing-2026-10-19\\category-directory-preupdate-backup.json"
+    },
+    {
+      "step": "form-prepared",
+      "editorState": {
+        "ok": true,
+        "editorCount": 1,
+        "contentLength": 17889
+      },
+      "seoTitle": "Shop by Category | Sneakers & Streetwear | Drip Sneakers",
+      "seoDesc": "Browse every Drip Sneakers category in one place, including sneakers, hoodies, T-shirts, jeans, jackets, bags and accessories.",
+      "slug": "shop-by-category"
+    },
+    {
+      "step": "saved",
+      "endpoint": "https://www.mrshopplus.com/biz/DTB_CustomPage/saveModify",
+      "status": 200,
+      "response": {
+        "success": true,
+        "result": [
+          543938775751699
+        ]
+      }
+    },
+    {
+      "step": "backend-verified",
+      "created": {
+        "Id": 543938775751699,
+        "Name": "Shop by Category",
+        "Url": "/shop-by-category",
+        "ModifyTime": "2026-10-19 08:51:26"
+      }
+    },
+    {
+      "step": "public-verified",
+      "check": {
+        "httpStatus": 200,
+        "title": "Shop by Category | Sneakers & Streetwear | Drip Sneakers",
+        "canonical": "https://www.dripsneakers.org/shop-by-category",
+        "h1": [
+          "Shop by Category"
+        ],
+        "categoryLinkCount": 192
+      }
+    }
+  ],
+  "created": {
+    "Id": 543938775751699,
+    "Name": "Shop by Category",
+    "Url": "/shop-by-category",
+    "ModifyTime": "2026-10-19 08:51:26"
+  },
+  "publicCheck": {
+    "httpStatus": 200,
+    "title": "Shop by Category | Sneakers & Streetwear | Drip Sneakers",
+    "canonical": "https://www.dripsneakers.org/shop-by-category",
+    "h1": [
+      "Shop by Category"
+    ],
+    "categoryLinkCount": 192
+  },
+  "completedAt": "2026-10-19T00:51:28.842Z"
+}
