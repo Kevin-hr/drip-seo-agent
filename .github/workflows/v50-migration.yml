@@ -1,0 +1,56 @@
+name: V5.0 migration preview
+
+on:
+  pull_request:
+    paths:
+      - 'standards/V5.0/**'
+      - 'mcp-plugin/src/v50-*.ts'
+      - 'mcp-plugin/tests/v50-*.test.ts'
+      - 'mcp-plugin/rules/Drip_Sneakers_SEO-PDP_V5.0_STANDARD_FINAL.md'
+      - 'mcp-plugin/skills/drip-seo-v50-preview/**'
+      - 'dripops/src/DripOps/Rules/V50/**'
+      - 'dripops/standards/SEO-PDP-V5.0.json'
+      - 'dripops/tests/V50AcceptanceTests/**'
+      - '.github/workflows/v50-migration.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: mcp-plugin/package-lock.json
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Verify V5 standard content matches bundled copies
+        shell: bash
+        run: |
+          set -euo pipefail
+          sha256sum standards/V5.0/Drip_Sneakers_SEO-PDP_V5.0_STANDARD_FINAL.md \
+            mcp-plugin/rules/Drip_Sneakers_SEO-PDP_V5.0_STANDARD_FINAL.md \
+            mcp-plugin/skills/drip-seo-v50-preview/references/Drip_Sneakers_SEO-PDP_V5.0_STANDARD_FINAL.md
+          test "$(sha256sum standards/V5.0/*.md | cut -d' ' -f1)" = '72263e2cefb63e50de74be1bc0e40aa6a3ed06a3e7b55bc72eb9f4b662d6a172'
+      - name: MCP V4.4 regression plus V5.0 preview
+        working-directory: mcp-plugin
+        run: npm ci && npm run typecheck && npm test && npm run check-package
+      - name: DripOps V4.4 regression and V5.0 class compile
+        working-directory: dripops
+        run: |
+          dotnet build src/DripOps/DripOps.csproj --configuration Release
+          dotnet run --project src/DripOps/DripOps.csproj --configuration Release -- self-test
+          dotnet run --project tests/V50AcceptanceTests/V50AcceptanceTests.csproj --configuration Release
+      - name: Assert production loader remains V4.4
+        shell: bash
+        run: |
+          grep -q 'standard_version !== "4.4"' mcp-plugin/src/standard.ts
+          grep -q 'V44Standard' dripops/src/DripOps/Bridge/BridgeServer.cs
+          test ! -f mcp-plugin/src/v50-production-enabled.txt
