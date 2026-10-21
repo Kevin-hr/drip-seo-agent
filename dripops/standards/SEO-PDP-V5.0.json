@@ -1,0 +1,19 @@
+{
+  "version": "5.0",
+  "status": "FINAL",
+  "executionMode": "PREVIEW_READ_ONLY",
+  "standardDocument": "Drip_Sneakers_SEO-PDP_V5.0_STANDARD_FINAL.md",
+  "standardDocumentSha256": "72263e2cefb63e50de74be1bc0e40aa6a3ed06a3e7b55bc72eb9f4b662d6a172",
+  "storeOrigin": "https://www.dripsneakers.org",
+  "metaTemplateWithSku": "Shop {productName} reps ({sku}) at Drip Sneakers with QC photos, 30-day returns and 7–20 day shipping.",
+  "metaTemplateWithoutSku": "Shop {productName} reps at Drip Sneakers with QC photos, 30-day returns and 7–20 day shipping.",
+  "slugPattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+  "canonicalTemplate": "{origin}/{slug}",
+  "productDetailsFieldCount": 5,
+  "chanelInternalLink": "/Chanel/",
+  "requiresLiveInternalLinkVerification": true,
+  "requiresVisualEntityVerification": true,
+  "requiresPurchaseVariantVerification": true,
+  "requiresMobile360And768": true,
+  "writesEnabled": false
+}
