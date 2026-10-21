@@ -45,14 +45,14 @@ V4.4 production bridge accepts `product_id` + immutable `plan_id` and pins stand
 - Local DripOps validation passed on .NET 8: Release build with 0 warnings/0 errors, existing self-test, and 14 V5 acceptance assertions.
 - All three bundled V5 standard copies match SHA-256 `72263e2cefb63e50de74be1bc0e40aa6a3ed06a3e7b55bc72eb9f4b662d6a172`; the appended V4.6 source matches its recorded SHA-256.
 - `.gitattributes` pins all three V5 Markdown copies to LF so their SHA-256 identity is stable on Windows and Linux checkouts.
-- Repository API authorization now reports branch push and pull-request write access; remote CI still must pass on the Draft PR.
+- Repository API authorization reports branch push and pull-request write access. Draft PR #4 was created successfully, and its two existing `CI / verify` checks plus the new `V5.0 migration preview / preview` check passed on 2026-10-21.
 
 ## Expected PR title
 
 `draft: stage SEO-PDP V5.0 migration (V4.6 compatible; production V4.4 pinned)`
 
-## PR blockers
+## Remaining promotion blockers
 
-1. GitHub Actions checks must pass on the Draft PR; local validation is not a substitute for remote CI.
-2. V5 immutable plan, write-path and storefront verifier migration require a separate reviewed follow-up PR.
-3. Simulation, a single-product canary, storefront verification, and explicit owner approval are still required before any production activation.
+1. V5 immutable plan, write-path and storefront verifier migration require a separate reviewed follow-up PR.
+2. Simulation and a single-product canary with backend readback plus storefront verification have not been run.
+3. Explicit owner approval is required before merging this Draft PR or activating any V5 production path.
