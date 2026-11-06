@@ -4,3 +4,8 @@ dripops/standards/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md text eol=lf
 mcp-plugin/rules/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md text eol=lf
 mcp-plugin/skills/drip-seo-executor/references/Drip_Sneakers_SEO-PDP_V4.4_STANDARD_FINAL.md text eol=lf
 standards/_superseded/Drip_Sneakers_SEO-PDP_V4.4_CLEAN_CONSOLIDATED_2026-09-17.md text eol=lf
+
+# V5.0 preview standard copies are independently SHA-256 pinned.
+standards/V5.0/Drip_Sneakers_SEO-PDP_V5.0_STANDARD_FINAL.md text eol=lf
+mcp-plugin/rules/Drip_Sneakers_SEO-PDP_V5.0_STANDARD_FINAL.md text eol=lf
+mcp-plugin/skills/drip-seo-v50-preview/references/Drip_Sneakers_SEO-PDP_V5.0_STANDARD_FINAL.md text eol=lf
