@@ -1,0 +1,150 @@
+{
+  "site": "https://www.dripsneakers.org",
+  "verifiedDate": "2026-11-07",
+  "pages": {
+    "hoodies": {
+      "path": "/streetwear-hoodies",
+      "mobileColumns": 4,
+      "brandLinks": [
+        {
+          "label": "Sp5der",
+          "path": "/Sp5der-Hoodies/"
+        },
+        {
+          "label": "Chrome Hearts",
+          "path": "/Chrome-Hearts-Hoodies/"
+        },
+        {
+          "label": "Denim Tears",
+          "path": "/Denim-Tears-Hoodies/"
+        },
+        {
+          "label": "BAPE",
+          "path": "/BAPE-Hoodies/"
+        },
+        {
+          "label": "Hellstar",
+          "path": "/Hellstar-Hoodies/"
+        },
+        {
+          "label": "Fear of God",
+          "path": "/Fear-of-God-Hoodies/"
+        },
+        {
+          "label": "Stussy",
+          "path": "/Stussy-Hoodies/"
+        },
+        {
+          "label": "Off-White",
+          "path": "/OFF-White-Hoodies/"
+        },
+        {
+          "label": "Supreme",
+          "path": "/Supreme-Hoodies/"
+        },
+        {
+          "label": "Balenciaga",
+          "path": "/Balenciaga-Hoodies/"
+        },
+        {
+          "label": "Stone Island",
+          "path": "/Stone-Island-Hoodies/"
+        },
+        {
+          "label": "Alo",
+          "path": "/Alo-Hoodies/"
+        }
+      ],
+      "exploreLinks": [
+        {
+          "label": "Explore jeans",
+          "path": "/streetwear-jeans"
+        },
+        {
+          "label": "Explore jackets",
+          "path": "/streetwear-jackets"
+        }
+      ]
+    },
+    "jeans": {
+      "path": "/streetwear-jeans",
+      "mobileColumns": 3,
+      "brandLinks": [
+        {
+          "label": "Purple Brand",
+          "path": "/Purple-Brand-Jeans/"
+        },
+        {
+          "label": "Ksubi",
+          "path": "/Ksubi-Jeans/"
+        },
+        {
+          "label": "Amiri",
+          "path": "/Amiri-Jeans/"
+        },
+        {
+          "label": "Chrome Hearts",
+          "path": "/Chrome-Hearts-Jeans/"
+        },
+        {
+          "label": "Dsquared2",
+          "path": "/DSQUARED2/"
+        }
+      ],
+      "exploreLinks": [
+        {
+          "label": "Explore hoodies",
+          "path": "/streetwear-hoodies"
+        },
+        {
+          "label": "Explore jackets",
+          "path": "/streetwear-jackets"
+        }
+      ]
+    },
+    "jackets": {
+      "path": "/streetwear-jackets",
+      "mobileColumns": 4,
+      "brandLinks": [
+        {
+          "label": "Moncler",
+          "path": "/Moncler-Jackets/"
+        },
+        {
+          "label": "The North Face",
+          "path": "/The-North-Face-Jackets/"
+        },
+        {
+          "label": "Moose Knuckles",
+          "path": "/Moose-Knuckles-Jackets/"
+        },
+        {
+          "label": "Stussy",
+          "path": "/Stussy-Jackets/"
+        },
+        {
+          "label": "Burberry",
+          "path": "/Burberry-Jackets/"
+        },
+        {
+          "label": "Louis Vuitton",
+          "path": "/Louis-Vuitton-Jackets/"
+        },
+        {
+          "label": "Ralph Lauren",
+          "path": "/Ralph-Lauren-Jackets/"
+        }
+      ],
+      "exploreLinks": [
+        {
+          "label": "Explore hoodies",
+          "path": "/streetwear-hoodies"
+        },
+        {
+          "label": "Explore jeans",
+          "path": "/streetwear-jeans"
+        }
+      ]
+    }
+  }
+}
